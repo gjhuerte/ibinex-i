@@ -4009,7 +4009,6 @@
         }
     ],
     "aliases": [],
-    "minimum-stability": "dev",
     "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
