@@ -4,7 +4,7 @@
 
 
 @push('stylesheets')
-<link href="{{ asset("css/about-us.css") }}" rel="stylesheet" />
+<link href="{{ asset("./css/about-us.css") }}" rel="stylesheet" />
 @endpush
 
 @section('header-content')
