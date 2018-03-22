@@ -1,0 +1,269 @@
+
+.row.ib-get-started,
+.row.ib-contact-support h2 {
+    color: #333333;
+}
+.row.ib-get-started-a {
+    margin: 0 16% 0;
+    text-align: center;
+    font-size: 1em;
+}
+.row.ib-get-started-a a {
+    color: #045d76;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.row.ib-get-started-b .col-sm .label {
+    color: #2770f6;
+    font-weight: bold;
+}
+.row.ib-contact-support {
+    width: 100%;
+    margin-left: 0px;
+}
+.ib-contact {
+    /*height: 90vh;*/
+    margin: 15% 0 0 0;
+    color: #5F605F;
+}
+.col-sm-7.ib-contact-bg {
+    background: url(../img/formbg.png) no-repeat top left/cover;
+    /*height: 90vh;*/
+    position: relative;
+}
+.ib-contact-form {
+    width: 28vw;
+    min-width: 300px;
+    background: #f2f1f1;
+    padding: 5%;
+    /*position: absolute;*/
+    /*margin: -12% 0 0 7%;*/
+    margin: -12% 0 5% 7%;
+}
+.ib-contact-form input, .ib-contact-form textarea {
+    border: none;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(218, 218, 218,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(218, 218, 218,1);
+    box-shadow: 0px 0px 10px 0px rgba(218, 218, 218,1);
+}
+.ib-contact-form textarea {
+    resize: none;
+}
+.ib-contact-form button.btn.btn-primary {
+    background-color: #12d5b8;
+    border: none;
+    /*width: 120px;*/
+    /*width: 45%;*/
+    width: 181px;
+    height: 54px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ib-circle {
+    background-color: #fd0000;
+    color: white;
+    /*height: 19px;*/
+    /*width: 19px;*/
+    height: 38px;
+    width: 40px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+}
+.core {
+    background-color: rgb(48,217,196);
+    color: white;
+    font-size: 12px;
+    padding: 14px 15px;
+    border-radius: 50%;
+}
+.ib-get-started {
+    padding-top: 16%;
+}
+.ib-contact-support .ib-support-text {
+    width: 73%;
+    float: right;
+    padding-top: 12%;
+}
+.ib-contact-form textarea {
+    height: 11em;
+}
+.ib-get-started-b .label {
+    font-size: 1.4rem;
+}
+@media only screen and (min-height: 900px) {
+    .ib-contact-form textarea {
+        height: 23em;
+    }
+}
+@media only screen and (max-height: 480px) {
+    body #fullscreen-hero #hero-content {
+        padding: 5vh 0 80px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .col-sm-7.ib-contact-bg {
+        background: #f2f1f1;
+        height: 100%;
+        position: relative;
+    }
+    .ib-contact-form .form-group label{
+        font-size: 0.9rem;
+    }
+    .ib-contact-form {
+        margin: 0;
+        padding: 7% 0;
+    }
+    .ib-contact-form button.btn.btn-primary {
+        width: 70%;
+    }
+}
+@media only screen and (min-height: 551px) {
+    .ib-contact-form {
+        width: 28vw;
+    }
+    .col-sm-7.ib-contact-bg {
+        height: 90vh;
+    }
+}
+@media only screen and (max-width: 650px), screen and (max-height: 621px) {
+    .row.ib-get-started-a {
+        margin: 0 0 0;
+    }
+    .ib-text-center {
+        text-align: left !important;
+    }
+    .row.ib-get-started-b .col-sm .label {
+        /*font-size: 1.5em;*/
+        font-size: 22px;
+    }
+    .ib-get-started-b .label.pt-3.ib-pt-3 {
+        margin-top: 3px;
+    }
+    .ib-contact-form label{
+        /*margin-top: 0.7rem;*/
+    }
+    .ib-contact-form {
+        width: auto;
+        background: #f2f1f1;
+        position: relative;
+        min-width: 0;
+    }
+    .col-sm-7.ib-contact-bg {
+        height: 100%;
+        position: relative;
+         margin-top: 48px;
+    }
+    .ib-contact-form button.btn.btn-primary {
+        /*width: 70%;*/
+        /*padding: 3%;*/
+        width: 63%;
+        margin: 23px 5px;
+    }
+    .ib-circle-c, #live-demo-btn {
+        display: none;
+    }
+    .ib-get-started {
+        padding-top: 13%;
+    }
+    .ib-contact .ib-contact-support .col-sm-3 {
+        padding: 0 7%;
+    }
+    .label.ib-pb-1 {
+        padding-bottom: 1.5rem!important;
+    }
+    img.ib-pb-2.pt-4.pb-5 {
+        padding-bottom: 0.3rem!important;
+    }
+    .ib-contact-support .ib-support-text {
+        width: auto;
+        float: none;
+        padding-top: 0;
+    }
+    .ib-contact {
+        height: 100%;
+    }
+    .ib-contact-form textarea {
+        height: 18em;
+    }
+    /** PIXEL PERFECT **/
+    .label.pt-2.ib-pb-1.ib-pb-2,
+    .label.pt-4.ib-pb-1 {
+        padding-top: 22px !important;
+    }
+    .ib-note.text-center.mt-3 {
+        margin-top: 0 !important;
+    }
+    p.p2,p.p3 {
+        padding-top: 13px;
+    }
+    /*.ib-get-started-b .col-sm img,*/
+    .img-1.ib-pb-2.pt-4.pb-5
+    {
+        margin-top: 8px;
+        margin-left: 2px;
+    }
+    .ib-get-started-b .label.pt-3.ib-pt-1 {
+        padding-top: 1.2rem !important
+    }
+    .ib-contact-form .c-g-1 {
+        padding-top: 9px;
+    }
+    .ib-contact-form .form-group input{
+        height: 40px;
+    }
+    .ib-get-started .ib-mb-1 {
+        margin-top: 22px;
+        margin-right: 5px;
+    }
+    .ib-get-started .ib-mb-2 {
+        margin-top: 28px;
+        margin-left: -4px;
+    }
+    .ib-note.text-center.mt-5 {
+        margin-top: 19px !important;
+        margin-right: 3px;
+    }
+    .ib-contact p.p1 {
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 1920px) {
+    /*#fullscreen-hero{*/
+        /*background: url(../img/contact-bg-old.png) no-repeat center top/contain*/
+    /*}*/
+    .ib-contact-support .ib-support-text {
+        width: 58%;
+    }
+    .container .ib-get-started .col-sm.p-0 {
+        margin: 0 5%;
+    }
+    .container .ib-get-started {
+        padding-top: 4.5%;
+    }
+    /*.ib-get-started-b .label {*/
+        /*font-size: 1.4rem;*/
+    /*}*/
+}
+@media only screen and (max-width: 1224px) and (min-width: 576px) {
+    .ib-contact-form {
+        width: 40vw;
+    }
+}
+@media all and (max-width: 1024px) {
+    .ib-contact-support .ib-support-text {
+        width: 85%;
+        float: right;
+    }
+}
+@media all and (max-width: 768px) and (max-height: 1024px) {
+    .ib-contact-support .ib-support-text {
+        width: 100%;
+    }
+}
+
+/** PIXEL PERFECT **/

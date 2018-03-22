@@ -1,0 +1,912 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+body .gradient-wrapper{
+    background: linear-gradient(to right, rgba(57,28,255, 0.6) , rgba(255,59,48,0.6)) !important;
+}
+
+/*Below are updates using perfectpixel plugin from chrome*/
+body #fullscreen-hero #hero-content p.description {
+    line-height: 1.4em;
+}
+body #fullscreen-hero #hero-content p
+{
+    margin-top: 0;
+}
+body p
+{
+    margin: 15px 0;
+}
+.navbar {
+    padding: .5rem 0;
+}
+
+
+#inner-nav *{
+    transition: none;
+}
+
+/*.sticky-top {*/
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    /*top: 68px !important;*/
+    /*z-index: 1020;*/
+/*}*/
+
+.inner-nav-pb{
+    padding-bottom: 3rem;
+}
+
+.no-overflow{
+    overflow: hidden;
+}
+
+.no-overflow-x{
+    overflow-x: hidden;
+}
+
+.shrink {
+    max-height: 35px;
+    font-size: 12px;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.inner-nav-link{
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+
+.navbar-nav > li {
+    float: left;
+    position: relative;
+}
+.navbar-white .navbar-nav .active{
+    border-bottom: 3px solid rgb(39,112,246);
+    color: rgb(39,112,246);
+    /*bottom: -10px;*/
+    /*left: 0;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+}
+.navbar-white .navbar-nav a {
+    color: #6c757d;
+}
+
+.navbar-white .navbar-nav a:hover:after{
+    border-bottom: 3px solid rgb(39,112,246);
+    bottom: 0px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+}
+.navbar-white .navbar-nav a:hover{
+    color: rgb(39,112,246);
+}
+
+.navbar-white .navbar-nav .active a {
+    color: rgb(39,112,246);
+}
+
+/* Mobile Development */
+
+section #hero-content h1{
+    margin-top: -98px;
+}
+
+#hero-first-p{
+    padding-top: 23px;
+}
+
+#hero-first-p{
+    padding-top: 17px;
+}
+
+
+#platform-section{
+    margin-top: -95px;
+}
+
+#platform-text-container{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.platform-text p {
+    line-height: 1.8;
+}
+
+.platform-text div:first-child p:first-child{
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.platform-text div:first-child p:first-child + p{
+    margin-top: 0;
+}
+
+div.crm p {
+    line-height: 1.9;
+}
+
+div.lorem .l2 img{
+    /*   zoom: 53%; */
+    /*   margin-right: -40px; */
+}
+
+.row{
+    max-width: 1920px !important;
+}
+
+.red-ellipse{
+    z-index: 999;
+    position: absolute;
+    top: 41%;
+    height: 24%;
+}
+
+.cb1{
+    /*padding-top: 50px*/
+}
+
+.red-ellipse-2{
+    z-index: 999;
+    position: absolute;
+    top: 42%;
+    height: 25%;
+}
+
+#laptop-container{
+    margin-top: 55px;
+}
+
+#platform-img-container{
+    background-image: url(../img/l1.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 186px;
+    padding-right: 0 !important;
+}
+
+.platform-text{
+    padding-top: 36px;
+}
+
+.lh-18{
+    line-height: 1.8;
+}
+
+.platform-text-inner{
+    padding-bottom: 36px;
+}
+
+.inner-lorem{
+    padding: 60px 20px 20px;
+    font-size: 16px;
+}
+
+.cb-logo{
+    background-image: url(../img/cb.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 420px;
+}
+
+.fone-img{
+    background-image: url(../img/fone.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 816px;
+}
+
+.cb1{
+    background-image: url(../img/cb1.png);
+    background-repeat: no-repeat;
+    background-position: center 110%;
+    background-size: 180px;
+    height: 234px;
+    z-index: 0;
+}
+
+
+.cb2{
+    background-image: url(../img/cb2_nobg.png);
+    background-repeat: no-repeat;
+    background-position: 52% 236%;
+    background-size: 600px;
+    zoom: 2;
+    z-index: 100;
+    height: 242px;
+    position: absolute;
+    top: 17%;
+}
+
+.cb-text{
+    padding-top: 385px;
+}
+
+
+.macbook-img{
+    background-image: url(../img/services_1.png);
+    background-repeat: no-repeat;
+    background-position: 85% center;
+    background-size: cover;
+    height: 330px;
+    /*zoom: 0.5;*/
+}
+
+.qtt-image-container{
+    height: 330px;
+    /*background-color: rgb(61, 178, 161);*/
+}
+
+.qtt{
+    background-image: url(../img/services_2.png);
+    background-repeat: no-repeat;
+    background-position: 20% center;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+    /*zoom: 0.3;*/
+    /*overflow: hidden;*/
+}
+
+.lorem-ipsum p, .lorem-ipsum-lower p{
+    line-height: 1.5;
+}
+
+.lorem-ipsum-lower{
+    padding-top: 70px;
+    padding-bottom: 10px;
+}
+
+.lorem-ipsum{
+    width: 85%;
+    right: 0;
+    margin-left: 0 !important;
+}
+
+.lorem-ipsum, .lorem-ipsum-lower{
+    background-color: rgb(39, 112, 246);
+}
+
+.inner-quote{
+    font-family: "Playfair Display";
+    font-style: italic;
+    font-size: 21px;
+}
+
+.custodian{
+    background-color: rgb(242, 241, 241);
+}
+
+.cb{
+    background-color: rgb(250,250,250);
+}
+
+.cb{
+    z-index: -1;
+}
+
+.normal-p{
+    color: #595959;
+    /*font-size: 17px;*/
+    font-weight: 500;
+    line-height: 2;
+}
+
+#fourthSection{
+    /*padding-top: 45px;*/
+    /*padding-bottom: 37px;*/
+    padding: 45px 0 37px;
+}
+
+.credit-card p, .cb p {
+    color: #595959;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.custodian-p{
+    color: rgb(39, 112, 246);
+}
+
+.huffpost-bottom{
+    margin: 10px 0 20px;
+}
+
+.font-35{
+    font-size: 35px;
+}
+
+.font-34{
+    font-size: 34px !important;
+}
+
+#fourthSection p:first-child, #third-section-container p:first-child{
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+
+p.heading-margin-sm{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+p.heading-margin-sm + p{
+    margin-top: 5px;
+}
+
+
+.m-top-28{
+    margin-top: 28px;
+}
+
+.m-top-40{
+    margin-top: 40px;
+}
+
+.m-bot-20{
+    margin-bottom: 20px;
+}
+
+.m-top-25{
+    margin-top: 25px;
+}
+
+.m-bot-28{
+    margin-bottom: 28px;
+}
+
+.m-bot-30{
+    margin-bottom: 26px;
+}
+
+.p-bot-30{
+    padding-bottom: 30px;
+}
+
+#crm-left-container{
+    padding-top: 63px;
+}
+
+
+.navbar-white .navbar-nav a {
+    color: #595959;
+}
+
+/* Tablets to Desktop */
+
+
+
+@media only screen and (min-width: 360px) {
+
+    #laptop-container{
+        /*height: 215px;*/
+    }
+
+    #platform-img-container{
+        height: 215px;
+    }
+
+    .red-ellipse {
+        top: 45%;
+    }
+
+    .red-ellipse-2{
+        top: 44%;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+
+
+    #platform-img-container{
+        height: 222px;
+    }
+}
+
+@media only screen and (min-width: 414px){
+    #platform-img-container {
+        min-height: 255px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+
+
+}
+
+@media only screen and (min-width: 576px){
+    .macbook-img{
+        background-position: center center;
+        background-size: cover;
+        width: 100%;
+        height: 303px;
+    }
+}
+
+@media only screen and (min-width: 767px){
+
+    .inner-lorem{
+        padding-top: 90px;
+    }
+
+    .lorem-ipsum-lower{
+        padding-top: 45px;
+    }
+
+
+    #platform-img-container{
+        height: 480px;
+    }
+
+
+    .macbook-img{
+        background-position: 87% center;
+        height: 700px;
+    }
+
+    .red-ellipse {
+        top: 65%;
+        left: 5%;
+        height: 22%;
+    }
+
+    .cb1{
+        background-position: 52% center;
+        zoom: 1.5;
+    }
+
+    .cb2{
+        background-position: 52% 252%;
+        zoom: 3.5;
+    }
+
+    .cb-text{
+        padding-top: 490px;
+    }
+
+
+    .lorem-ipsum{
+        top: 62.5%;
+    }
+
+    #fourthSection{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .fone-img{
+        background-position: 74% center;
+    }
+
+    .fifth-section p:first-child{
+        /*margin-bottom: 70px;*/
+    }
+
+    .qtt-container{
+        /*top: -15%;*/
+        padding-top: 30px;
+    }
+
+    .qtt{
+        height: 600px;
+    }
+
+    .red-ellipse-2{
+        top: 66%;
+        left: 5%;
+        height: 25%;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+
+    .macbook-img{
+        height: 411px;
+    }
+
+    .platform-text-inner p{
+        /*padding-top: 5px !important;*/
+        margin-bottom: 2px !important;
+    }
+
+
+    #platform-img-container{
+        background-position: 92% 62%;
+        background-size: 95%;
+        height: 450px;
+    }
+
+    .lorem{
+        padding-top: 50px;
+    }
+
+    .lorem-ipsum{
+        z-index: 5;
+        position: absolute;
+        top: 83%;
+    }
+
+    .lorem-ipsum{
+        margin-left: 5rem;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 5rem;
+    }
+
+    .red-ellipse{
+        top: 71%;
+        left: 20%;
+        height: 30%;
+    }
+
+    #crm-left-container {
+        padding-top: 110px;
+    }
+
+    .red-ellipse-2{
+        top: 65%;
+        left: 20%;
+        height: 17%;
+    }
+
+
+
+    .cb-text{
+        padding-top: 110px;
+        padding-right: 4rem;
+    }
+
+    .inner-crm{
+        padding-left: 100px;
+    }
+
+    .crm-container{
+        padding-bottom: 240px !important;
+    }
+
+    .qtt-container{
+        position: absolute;
+        top: -25%;
+    }
+
+    .custodian{
+        padding-bottom: 550px;
+    }
+
+    .custodian-left{
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .lorem-ipsum {
+        margin-left: 105px;
+    }
+
+    .lorem-ipsum-lower {
+        margin-left: 105px;
+    }
+
+    .red-ellipse-2{
+        top: 67%;
+        left: 20%;
+        height: 17%;
+    }
+
+    .custodian {
+        padding-bottom: 390px;
+    }
+}
+
+@media only screen and (min-width: 1366px){
+
+    .m-bot-30{
+        margin: 20px 0;
+    }
+
+    #platform-img-container {
+        background-position: 70% 31%;
+        background-size: 100% 100%;
+        width: 97%;
+        height: 425px;
+        float: right;
+    }
+
+    #laptop-container{
+        padding-right: 20px;
+        margin-top: 35px;
+    }
+
+    .lorem {
+        padding-top: 50px;
+    }
+
+    .lorem-ipsum{
+        margin-left: 7rem;
+        top: 461px;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 7rem;
+    }
+
+    .crm-container{
+        padding-bottom: 220px !important;
+    }
+
+    .fone-img{
+        background-position: 74% -20%;
+        background-size: 85%;
+        height: 785px;
+    }
+
+    .red-ellipse{
+        top: 82%;
+        left: 19%;
+        height: 30%;
+    }
+
+    #crm-left-container {
+        padding-top: 110px;
+    }
+
+    #fourthSection {
+        padding-top: 87px;
+    }
+
+    .red-ellipse-2{
+        top: 58%;
+        left: 19%;
+        height: 20%;
+    }
+
+    .custodian{
+        padding-bottom: 200px;
+    }
+
+    .custodian-left{
+        padding-left: 74px;
+        padding-top: 50px;
+    }
+
+    .qtt{
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1440px){
+
+    #platform-img-container{
+        background-position: 86% 25%;
+        background-size: 83%;
+        height: 500px;
+    }
+
+    .lorem {
+        padding-top: 50px;
+    }
+
+    .lorem-ipsum{
+        top: 91%;
+    }
+
+    .red-ellipse{
+        top: 76%;
+        height: 37%;
+    }
+
+    .crm-container {
+        padding-bottom: 225px !important;
+    }
+
+    .fone-img{
+        background-position: 85% 10%;
+        background-size: 70%;
+        height: 683px;
+    }
+
+    .lorem-ipsum{
+        margin-left: 119px;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 119px;
+    }
+
+    .red-ellipse-2{
+        top: 66%;
+        left: 19%;
+        height: 22%;
+    }
+
+    .qtt {
+        height: 650px;
+    }
+
+    .custodian {
+        padding-bottom: 450px;
+    }
+}
+
+
+@media only screen and (min-width: 1920px){
+
+    #platform-text-container{
+        padding-right: 360px;
+        padding-top: 75px;
+    }
+
+    #platform-text-container div:first-child{
+        margin-bottom: 30px;
+    }
+
+    .platform-text-inner p{
+        margin-bottom: 32px !important;
+    }
+
+    .lorem-ipsum{
+        margin-left: 10rem !important;
+        top: 505px;
+    }
+
+    .red-ellipse{
+        top: 420px;
+        height: 35%;
+        left: 18%;
+    }
+
+    #laptop-container{
+        padding-top: 40px;
+        clear: both;
+        margin-top: 0;
+        padding-right: 20px;
+    }
+
+    #platform-img-container{
+        background-image: url(../img/l1.png);
+        background-repeat: no-repeat;
+        background-position: 91% 61%;
+        background-size: 100% 100%;
+        width: 85%;
+        height: 535px;
+        float: right;
+    }
+
+    .platform-text-inner {
+        padding-bottom: 20px;
+    }
+
+    #crm-left-container{
+        padding-top: 100px;
+    }
+
+    .inner-crm{
+        /*padding-top: 100px;*/
+        padding-left: 375px;
+    }
+
+    .macbook-img{
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 455px;
+        zoom: 1;
+    }
+
+    .inner-lorem{
+        padding-top: 75px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 40px;
+    }
+
+    .crm-container{
+        padding-bottom: 180px !important;
+    }
+
+    .cb-logo{
+        height: 440px;
+    }
+
+    .cb-text{
+        padding-right: 350px;
+        padding-top: 155px;
+    }
+
+    .cb p{
+        line-height: 1.7;
+    }
+
+    #credit-card-section{
+        padding-top: 110px;
+    }
+
+    #credit-card-container{
+        padding-top: 100px !important;
+    }
+
+    .fone-img{
+        background-position: 92% 95%;
+        background-size: cover;
+        width: 67%;
+        height: 846px;
+        float: right;
+    }
+
+    #fourthSection{
+        padding-top: 65px;
+    }
+
+    .qtt-container{
+        top: -35%;
+    }
+
+    .qtt{
+        background-position: 40% center;
+        background-size: 100% 100%;
+        height: 640px;
+    }
+
+    .red-ellipse-2{
+        top: 65%;
+        height: 22%;
+    }
+
+    .custodian{
+        padding-bottom: 360px;
+    }
+
+    .custodian-left{
+        padding-left: 320px;
+        padding-top: 60px;
+        padding-right: 30px !important;
+    }
+
+
+    .m-bot-30{
+        margin-bottom: 30px;
+    }
+
+    .lorem-ipsum-lower{
+        margin-left: 10rem !important;
+        padding-left: 70px !important;
+        padding-right: 80px !important;
+        padding-bottom: 45px !important;
+        padding-top: 60px;
+    }
+
+    #huffpost-bottom{
+        margin-top: 5px !important;
+    }
+
+    .lorem{
+        padding-top: 50px;
+    }
+
+    .inner-nav-link {
+        /*padding: 10px 90px;*/
+        margin: auto 30px;
+    }
+}
+
+
+
+

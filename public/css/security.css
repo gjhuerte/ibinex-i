@@ -1,0 +1,134 @@
+
+/* style */
+
+section#hero-content {
+    margin: 0 auto;
+}
+#security-page {
+    font-family: 'Proxima Nova';
+}
+p {
+    text-align: justify;
+}
+section {
+    /*padding-top: 1em;*/
+    min-height: 300px;
+    position: relative;
+}
+article {
+    padding: 0;
+}
+.second-section {
+    background-color: rgb(231,251,248);
+}
+.security-width {
+    max-width: 1020px;
+    margin: auto;
+}
+.security-section {
+    display: none; /*default smaller devices*/
+}
+#infor-security {
+    padding-bottom: 0;
+}
+.subtitle {
+    display: block;
+    padding-top: 0.5em;
+}
+
+/*** Media Queries as per chrome dev tool ***/
+@media (min-width: 1200px) {
+    body #fullscreen-hero {
+        background-position: center top;
+    }
+}
+@media all and (max-width: 767px) {
+    body #fullscreen-hero {
+        background-position: -120px;
+    }
+    h1.title {
+        margin-bottom: 0.6em;
+    }
+    p.description {
+        padding-top: 0.1em;
+    }
+    .security-width div {
+        padding: 1.4em 0 0;
+    }
+    body p {
+         margin: 0;
+    }
+    div#para_1, div#para_2 {
+        padding-top: 0;
+    }
+    div#para_1 p,  div#para_2 p {
+        padding-bottom: 1.79em;
+    }
+    #subtitle_2 {
+        padding-top: 0!important;
+    }
+    #infor-security h1 {
+        padding-top: 0.21em;
+    }
+    #infor-security p {
+        padding: .8em 0;
+    }
+    #privacy {
+        padding-top: 0.5em!important;
+    }
+
+}
+
+/* iPad specific */
+@media only screen and (min-device-width: 768px) and (max-device-width: 768px) {
+    .security-section {
+        display: block;
+        position:absolute;
+        height:130%;
+        width:50%;
+        top:-27%;
+        right:0;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+    #infor-security {
+        padding-bottom: 0;
+    }
+    article {
+        padding: 8px;
+    }
+    .first-section {
+        padding: 10% 0;
+    }
+    section {
+        padding: 4em 0;
+    }
+}
+
+/* Larger than iPad */
+@media only screen and (min-width: 769px) {
+    .security-section {
+        display: block;
+        position:absolute;
+        height:120%;
+        width:50%;
+        top:-25%;
+        right:0;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+    #infor-security {
+        padding-bottom:200px;
+    }
+    .first-section {
+        padding: 11em 0;
+        margin: 0 auto;
+    }
+    .first-section article {
+        margin-bottom: 30px;
+    }
+    section {
+        padding: 4em 0;
+    }
+}
+

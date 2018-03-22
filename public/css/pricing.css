@@ -1,0 +1,209 @@
+/* Fonts and Typography */
+
+#pricing-content {
+    font-family: 'Proxima Nova', sans-serif;
+}
+
+#pricing-content h2 {
+    font-size: 34px;
+}
+
+#pricing-content h2,
+#pricing-content article > h5 {
+    color: #fff;
+}
+
+#pricing-content article > h5 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#pricing-content article {
+    color: #dcdcdc;
+}
+
+#pricing-content article > div.text-blue {
+    color: #2770f6;
+}
+
+#pricing-content article > div.text-green {
+    color: #12d5b8;
+}
+
+#pricing-content article > div.text-small {
+    font-size: 14px;
+}
+
+
+/* Backgrounds and Borders */
+
+body #fullscreen-hero .gradient-wrapper {
+    background: linear-gradient(to right, rgba(57, 28, 255, 0.6), rgba(255, 59, 48, 0.6)) !important;
+}
+
+#pricing-content {
+    background-color: #212a5f;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.35);
+}
+
+#pricing-content > hr {
+    border-color: #2770f6;
+}
+
+
+/* Distance and Spacing */
+
+#pricing-content > #pricing-intro {
+    max-width: 675px;
+    padding-top: 46px;
+    padding-bottom: 74px;
+    margin: auto;
+}
+
+#pricing-content h2 {
+    line-height: 1.35;
+}
+
+#pricing-content article {
+    padding-bottom: 20px;
+}
+
+#pricing-content article > h5 {
+    padding-bottom: 10px;
+}
+
+#pricing-content article p {
+    text-align: justify;
+    line-height: 1.8;
+    padding-bottom: 8px;
+}
+
+#pricing-content #our-pricing {
+    padding-left: 18px;
+}
+
+#pricing-content #setup {
+    padding-left: 18px;
+}
+
+#pricing-content #our-fees {
+    padding-bottom: 0;
+}
+
+#pricing-content > hr:first-of-type {
+    padding-bottom: 14px;
+    margin-top: 0;
+}
+
+#pricing-content #what-you-receive {
+    padding-bottom: 18px;
+}
+
+#pricing-content #what-you-receive > h5 {
+    padding-bottom: 1px;
+}
+
+#pricing-content #what-you-receive > div > div:first-of-type {
+    margin-bottom: -17px;
+}
+
+#pricing-content #what-you-receive p {
+    padding-bottom: 0;
+}
+
+#pricing-content > hr:last-of-type {
+    padding-bottom: 43px;
+}
+
+#pricing-content #onboarding-time {
+    padding-bottom: 37px;
+}
+
+
+/* Media Queries: Non-Mobile */
+
+@media all and (min-width: 576px) {
+    #pricing-content {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+}
+
+@media all and (min-width: 992px) {
+    body #fullscreen-hero,
+    body #fullscreen-hero .gradient-wrapper {
+        min-height: 857px;
+    }
+
+    body #fullscreen-hero .gradient-wrapper #hero-content {
+        margin-top: -365px;
+    }
+
+    #pricing-content {
+        max-width: 969px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        position: relative;
+        top: -328px;
+
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: -393px;
+    }
+
+    #pricing-content > #pricing-intro {
+        padding-top: 67px;
+        padding-bottom: 64px;
+    }
+
+    #pricing-content > hr:first-of-type {
+        margin-top: 10px;
+        margin-bottom: 22px;
+    }
+
+    #pricing-content #what-you-receive {
+        padding-bottom: 51px;
+    }
+
+    #pricing-content #what-you-receive > h5 {
+        padding-bottom: 8px;
+    }
+
+    #pricing-content #what-you-receive > div.text-small {
+        font-size: 13.8px;
+    }
+
+    #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(1) {
+        padding-bottom: 27px;
+    }
+
+    #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(2) {
+        padding-bottom: 38px;
+    }
+
+    #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
+        padding-bottom: 3px;
+    }
+
+    #pricing-content > hr:last-of-type {
+        padding-bottom: 33px;
+    }
+
+    #pricing-content #onboarding-time {
+        padding-bottom: 149px;
+    }
+
+    div.footer-buffer {
+        height: 65px;
+        background-color: #f2f1f1;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #pricing-content > hr {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
