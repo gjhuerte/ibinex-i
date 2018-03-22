@@ -202,7 +202,7 @@ body #fullscreen-hero #hero-content {
 }
 body #fullscreen-hero #hero-content h1.title {
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 600;
 }
 body #fullscreen-hero #hero-content p {
     margin-top: 23px;

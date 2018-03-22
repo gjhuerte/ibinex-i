@@ -4,7 +4,7 @@
 
 
 @push('stylesheets')
-<link href="{{ asset("css/about-us.css") }}" rel="stylesheet" />
+<link href="{{ asset("./css/about-us.css") }}" rel="stylesheet" />
 @endpush
 
 @section('header-content')
@@ -43,23 +43,23 @@
 <div class="col-lg-6 pl-lg-4">
     <div class="row mb-5">
         <div class="col-5" style="flex:0 auto; width:auto; padding-right:0">
-            <img src="/img/about-us/r1.png" class="img-fluid">
+            <img src="./img/about-us/r1.png" class="img-fluid">
             <div class="mt-lg-4 mt-2 row">
                 <div class="col-7 py-0 pr-2">
-                    <img src="/img/about-us/r2.png" class="img-fluid">
+                    <img src="./img/about-us/r2.png" class="img-fluid">
                 </div>
                 <div class="col-5 pl-0">
-                    <img src="/img/about-us/r3.png" class="img-fluid">
+                    <img src="./img/about-us/r3.png" class="img-fluid">
                 </div>
             </div>
         </div>
         <div class="col pr-0 pt-lg-5 pt-0">
-            <img id="transparency-right-floater" src="/img/about-us/r5.png" class="img-fluid">
+            <img id="transparency-right-floater" src="./img/about-us/r5.png" class="img-fluid">
         </div>
     </div>
     <div class="row  hide-on-lg">
         <div class="col-lg-auto">
-            <img src="/img/about-us/r4.png" class="img-fluid">
+            <img src="./img/about-us/r4.png" class="img-fluid">
         </div>
         <div class="col-lg-5 m-4">
             <p id="transparency-quote" class="quotes">
@@ -95,14 +95,14 @@
     </p>
     <p class="py-2">
         <button class="btn blue-ibinex-bg btn-primary round-btn px-4 py-2 linked-in-btn">
-            <img src="/img/about-us/linked_in.png" /> Linkedin profile
+            <img src="./img/about-us/linked_in.png" /> Linkedin profile
         </button>
     </p>
 </div>
 <div class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
 
-    <img src="/img/about-us/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
-    <div><img src="/img/about-us/circ.png" class="img-fluid" id="circ" /></div>
+    <img src="./img/about-us/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
+    <div><img src="./img/about-us/circ.png" class="img-fluid" id="circ" /></div>
 </div>
 <div class="col-lg-2 order-4">
     <!--spacer-->
@@ -131,7 +131,7 @@
     <h2 style="font-size:34px;color:#333">
         Ibinex media coverage
     </h2>
-    <img class="my-5 img-fluid" src="/img/about-us/companies.png" />
+    <img class="my-5 img-fluid" src="./img/about-us/companies.png" />
 </div>
 <div class="col-xl-2">
     <!--spacer-->
@@ -152,25 +152,25 @@
         <li class="col-lg-2"><!--spacer --></li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid w-s-100" src="/img/about-us/p1.png" />
+            <img class="advisory-board-members-list-item-image img-fluid w-s-100" src="./img/about-us/p1.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Jeremy Corbein</div>
             <div class="advisory-board-members-list-item-desc mb-5">Chief Operational Officer, Deiteriy</div>
         </li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid" src="/img/about-us/p2.png" />
+            <img class="advisory-board-members-list-item-image img-fluid" src="./img/about-us/p2.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Jimmy Fallon</div>
             <div class="advisory-board-members-list-item-desc mb-5">Head of Economics Department, Stockholm School of Economics in Riga</div>
         </li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid" src="/img/about-us/p3.png" />
+            <img class="advisory-board-members-list-item-image img-fluid" src="./img/about-us/p3.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Stephen Colbert</div>
             <div class="advisory-board-members-list-item-desc mb-5">Head of Products and Services Development Department, XB Software</div>
         </li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid" src="/img/about-us/p4.png" />
+            <img class="advisory-board-members-list-item-image img-fluid" src="./img/about-us/p4.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Artem Kushik</div>
             <div class="advisory-board-members-list-item-desc mb-5">Business Analyst, Credit Agricole CIB</div>
         </li>
@@ -179,25 +179,25 @@
         <li class="col-lg-2"><!--spacer --></li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid" src="/img/about-us/p1.png" />
+            <img class="advisory-board-members-list-item-image img-fluid" src="./img/about-us/p1.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Jeremy Corbein</div>
             <div class="advisory-board-members-list-item-desc mb-5">Chief Operational Officer, Deiteriy</div>
         </li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid" src="/img/about-us/p2.png" />
+            <img class="advisory-board-members-list-item-image img-fluid" src="./img/about-us/p2.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Jimmy Fallon</div>
             <div class="advisory-board-members-list-item-desc mb-5">Head of Economics Department, Stockholm School of Economics in Riga</div>
         </li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid" src="/img/about-us/p3.png" />
+            <img class="advisory-board-members-list-item-image img-fluid" src="./img/about-us/p3.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Stephen Colbert</div>
             <div class="advisory-board-members-list-item-desc mb-5">Head of Products and Services Development Department, XB Software</div>
         </li>
 
         <li class="advisory-board-members-list-item list-inline-item col-s-12 col-lg-2 align-top">
-            <img class="advisory-board-members-list-item-image img-fluid" src="/img/about-us/p4.png" />
+            <img class="advisory-board-members-list-item-image img-fluid" src="./img/about-us/p4.png" />
             <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Artem Kushik</div>
             <div class="advisory-board-members-list-item-desc mb-5">Business Analyst, Credit Agricole CIB</div>
         </li>
@@ -208,7 +208,7 @@
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="d-block w-100" src="/img/about-us/p1.png">
+                <img class="d-block w-100" src="./img/about-us/p1.png">
 
                 <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Jeremy Corbein</div>
                 <div class="advisory-board-members-list-item-desc mb-5">Chief Operational Officer, Deiteriy</div>
@@ -216,7 +216,7 @@
             </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100" src="/img/about-us/p2.png">
+                <img class="d-block w-100" src="./img/about-us/p2.png">
                 <div class="carousel-item-caption align-middle">
                     <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Jimmy Fallon</div>
                     <div class="advisory-board-members-list-item-desc mb-5">Head of Economics Department, Stockholm School of Economics in Riga</div>
@@ -224,7 +224,7 @@
             </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100" src="/img/about-us/p3.png">
+                <img class="d-block w-100" src="./img/about-us/p3.png">
                 <div class="carousel-item-caption align-middle">
                     <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Stephen Colbert</div>
                     <div class="advisory-board-members-list-item-desc mb-5">Head of Products and Services Development Department, XB Software</div>
@@ -232,7 +232,7 @@
             </div>
 
             <div class="carousel-item">
-                <img class="d-block w-100" src="/img/about-us/p4.png">
+                <img class="d-block w-100" src="./img/about-us/p4.png">
 
                 <div class="advisory-board-members-list-item-name font-weight-bold mt-5">Artem Kushik</div>
                 <div class="advisory-board-members-list-item-desc mb-5">Business Analyst, Credit Agricole CIB</div>

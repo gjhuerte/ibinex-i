@@ -10,14 +10,14 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12">
         <h1 class="title text-left">Introducing CryptoBridge™</h1>
-        <p class="description text-justify">Our patent-pending proprieta&shy;ry software, CrpytoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
-        <p class="description text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
+        <p class="description1 text-justify">Our patent-pending proprieta&shy;ry software, CrpytoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
+        <p class="description2 text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
         <button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>
     </section>
 @endsection
 
 @section('body-class','home')
-@section('header-height','full-height')
+{{--@section('header-height','full-height')--}}
 @section('bg-img','home-cover.png')
 
 @push('custom-scripts')
@@ -64,11 +64,12 @@
         <section class="row no-gutters pt-md-5 position-relative fixed-height">
             <!--Will remove fixed-height -->
             <aside class="col-xl-8 order-xl-2 d-none  d-xl-block position-absolute stick-right">
-                <img class="" src="{{asset("img/qHjq1P1.png")}}" height="520" alt="bootstrap">
+                <img class="lap-right" src="{{asset("img/qHjq1P1.png")}}" height="590" alt="bootstrap">
             </aside>
-            <div class="col-xl-6 order-xl-1">
-                <h2 class="title text-left text-center-sm">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
-                <p class="text-justify pt-2 ws-5">With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Iniex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with
+            <div class="col-xl-7 order-xl-1">
+                <h2 class="title text-left text-center-sm lap-text1">Ibinex - The Gateway to your Own</h2>
+                <h2 class="title text-left text-center-sm lap-text2">Customised Cryptocurrency Ecosystem</h2>
+                <p class="text-justify pt-2 ws-5 lap-p1">With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with
                     your own web-based platform, Ibinex, will show you definitely how to build a cryptocurrency exchange, your way.</p>
             </div>
         </section>
