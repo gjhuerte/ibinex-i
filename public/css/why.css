@@ -1,3 +1,6 @@
+/*1.333 = 2560
+   1.001 = 1920
+*/
 * {
     margin: 0;
     padding: 0;
@@ -342,3 +345,28 @@ h2.blocktext-2{
 
     }
 }
+
+@media only screen and (min-width: 2560px) and (max-width : 3839px){
+    body #fullscreen-hero #hero-content {
+        padding: 160px 0px 143px 0px;
+        max-width: 77.333333%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 57px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 26px;
+        line-height: 1.6em;
+        margin-top: 33px;
+    }
+    h2.first-fold-title {
+        font-size: 45px !important;
+        margin-top: 132px;
+    }
+    p.first-fold-p {
+        margin-top: 47px;
+        margin-bottom: 102px;
+        font-size: 21.5px;
+    }
+}
+
