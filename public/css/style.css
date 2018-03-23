@@ -124,7 +124,6 @@ body .playButton{
 body .semi-circle {
     padding: 10px 25px;
     border: 0;
-    border-right: 10px solid rgb(184, 22, 31);
     animation: all 0.5s;
 }
 body .semi-circle.green-brochure {
