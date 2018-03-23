@@ -9,8 +9,8 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto" style="margin-top: 8.5%; margin-bottom: 0.7%;">
         <h1 class="title text-left text-sm-center">Services</h1>
-        <p id="hero-first-p" class="description text-left text-sm-center" style="margin-top: -5%; margin-bottom: 4.5%;">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
-        <p id="hero-second-p" class="description text-left text-sm-center">Our ecosystem of services comprises of the following units.</p>
+        <p id="hero-first-p" class="description text-left text-sm-center" style="margin-top: -7%; margin-bottom: 3.5%;">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
+        <p id="hero-second-p" class="description text-left text-sm-center" style="margin-bottom: 3%;">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
     </section>
 @endsection
@@ -47,7 +47,7 @@
 
     <div class="container-fluid">
         <div class="row max-width-none">
-            <div id="platform-section" class="col-12 bg-light max-width-none" style="margin-top: 0%;">
+            <div id="platform-section" class="col-12 max-width-none" style="margin-top: 0%; background-color: #F4F4F4!important;">
                 <div class="container-fluid max-width-none">
                     <div class="row platform-content">
                         <div class="col-12 col-lg-6 px-0">
@@ -61,7 +61,7 @@
                         <div id="platform-text-container" class="col-12 col-lg-6 inner-platform platform-text" style="margin-top: -1%;">
                             <div>
                                 <p class="text-dark font-34" style="line-height: 2;">Platform</p>
-                                <p class="text-secondary text-justify mb-sm-1 mt-sm-0 lh-18" style="max-width: 61%;">
+                                <p class="text-secondary text-justify mb-sm-1 mt-sm-0 lh-18 platform-p">
                                     Your exchange is your launchpad. Our suite elevates your exchange by equipping you with your own platform consisting of:
                                 </p>
                             </div>
@@ -178,7 +178,7 @@
                 <div class="container-fluid">
                     <div class="row max-width-none">
                         <div class="col-12 col-sm-6 col-md-12 col-lg-6 custodian-left fifth-section">
-                            <p class="font-34 heading-margin-sm text-dark">Custodian Accounts</p>
+                            <p class="font-34 heading-margin-sm text-dark custodian-title">Custodian Accounts</p>
                             <p class="normal-p text-justify mt-sm-0 m-bot-30">
                                 Another first sees Ibinex leading the way as the world's first cryptocurrency exchange with a finance transaction license.
                                 We are proud to be the first to offer you:
