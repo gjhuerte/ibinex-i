@@ -84,7 +84,7 @@
                         <div class="core-div">
                             <span class="core">02</span>
                         </div>
-                        <p class="core-text text-justify">
+                        <p class="core-text text-justify third-core">
                             <b>Trailblazing of complete and customisable white label platform solutions</b>
                         </p>
                     </div><!--col-->
