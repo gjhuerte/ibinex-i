@@ -10,37 +10,47 @@
 @section('header-content')
 <section id="hero-content" class="col-xl-7 col-lg-12 mx-auto">
 <h1 class="title text-center">About Ibinex</h1>
-<p class="description text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<p class="description text-center">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+</p>
 </section>
 @endsection
 
 @section('body-class','about')
 @section('bg-img','about-us/about-bg.png')
 @section('content')
-<div class="container-fluid px-lg-3">
+<div class="container-fluid">
 
-<div id="transparency">
+<div>
 
-<div class="row pt-lg-5">
-<div class="col-lg-2"><!-- spacer --></div>
-<div class="col-lg-4 mt-5 px-3 py-lg-5">
+<div id="transparency" class="row">
+<div id="transparency-left">
     <h2 class="mb-4" style="font-size:34px;">
         Transparency
     </h2>
     <p>
-        Ibinex is a collaboration of pioneers. With decades of combined experience within the finance, technology, cyber security and SaaS worlds, today we are proud to work with over 60 of the leading exchanges for hundreds of cryptocurrencies.
+        Ibinex is a collaboration of pioneers. With decades of combined experience
+        within the finance, technology, cyber security and SaaS worlds, today we are
+        proud to work with over 60 of the leading exchanges for hundreds of cryptocurrencies.
     </p>
     <p>
-        We channel our extensive industry knowledge and vision into the live and developing cryptocurrency arena, to provide you with premium solutions for you to create tailored exchange platforms with our seasoned experience as your competitive edge.
+        We channel our extensive industry knowledge and vision into the live and developing
+        cryptocurrency arena, to provide you with premium solutions for you to create tailored
+        exchange platforms with our seasoned experience as your competitive edge.
     </p>
     <p>
-        We are trusted by thousands of customers world-wide daily as their white-label exchange platform, and pride ourselves on exhibiting the very highest standards of transparency and professionalism.
+        We are trusted by thousands of customers world-wide daily as their white-label
+        exchange platform, and pride ourselves on exhibiting the very highest standards
+        of transparency and professionalism.
     </p>
     <p>
-        Ibinex is defined by our dedication to unifying trading standards in the cryptocurrency world, increasing accountability, integrity and excellence in service.
+        Ibinex is defined by our dedication to unifying trading standards in the
+        cryptocurrency world, increasing accountability, integrity and excellence in service.
     </p>
 </div>
-<div class="col-lg-6 pl-lg-4">
+<div id="transparency-right">
     <div class="row mb-5">
         <div class="col-5" style="flex:0 auto; width:auto; padding-right:0">
             <img src="./img/about-us/r1.png" class="img-fluid">
@@ -73,42 +83,47 @@
 </div>
 
 <div id="executive-team">
-<div class="row py-5 mb-lg-5" id="people-behind-bg">
-<div class="col-lg-12 pb-3 pb-xl-5 text-center">
-<h2>
-    The people behind Ibinex
-</h2>
-</div>
-<div class="row w-100">
-<div class="col-lg-3 order-1">
-    <!--spacer-->
-</div>
-<div class="col-lg-3 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
-    <p class="blue-ibinex my-0" style="font-size:32px;">
-        Michael Peers
-    </p>
-    <p class="blue-ibinex mt-0" style="font-weight:bold;">
-        Sales Consultant, EMEA
-    </p>
-    <p style="color:#5f5f5f;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </p>
-    <p class="py-2">
-        <button class="btn blue-ibinex-bg btn-primary round-btn px-4 py-2 linked-in-btn">
-            <img src="./img/about-us/linked_in.png" /> Linkedin profile
-        </button>
-    </p>
-</div>
-<div class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
+    <div class="row mb-lg-5" id="people-behind-bg">
+        <div class="col-lg-12 pb-3 pb-xl-5 text-center">
+        <h2>
+            The people behind Ibinex
+        </h2>
+        </div>
+        <div id="exec-inner" class="row w-100">
+            <div class="col-lg-2 order-1">
+                <!--spacer-->
+            </div>
+            <div id="exec-inner-left" class="col-lg-4 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
+                <p class="blue-ibinex my-0" style="font-size:32px;">
+                    Michael Peers
+                </p>
+                <p class="blue-ibinex mt-0" style="font-weight:bold;">
+                    Sales Consultant, EMEA
+                </p>
+                <p style="color:#5f5f5f;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                    mollit anim id est laborum.
+                </p>
+                <p class="py-2">
+                    <button class="btn blue-ibinex-bg btn-primary round-btn px-4 py-2 linked-in-btn">
+                        <img src="./img/about-us/linked_in.png" /> Linkedin profile
+                    </button>
+                </p>
+            </div>
+            <div id="exec-inner-right" class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
 
-    <img src="./img/about-us/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
-    <div><img src="./img/about-us/circ.png" class="img-fluid" id="circ" /></div>
-</div>
-<div class="col-lg-2 order-4">
-    <!--spacer-->
-</div>
-</div>
-</div>
+                <img src="./img/about-us/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
+                <div><img src="./img/about-us/circ.png" class="img-fluid" id="circ" /></div>
+            </div>
+            <div class="col-lg-2 order-4">
+                <!--spacer-->
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="my-0" id="press">
