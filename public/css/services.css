@@ -67,6 +67,8 @@ body p
 .navbar-nav > li {
     float: left;
     position: relative;
+    padding-top: 1%;
+    font-size: 100%;
 }
 .navbar-white .navbar-nav .active{
     border-bottom: 3px solid rgb(39,112,246);
@@ -225,10 +227,10 @@ div.lorem .l2 img{
     background-image: url(../img/cb2_nobg.png);
     background-repeat: no-repeat;
     background-position: 52% 236%;
-    background-size: 600px;
+    background-size: 317%;
     zoom: 2;
     z-index: 100;
-    height: 242px;
+    height: 45%;
     position: absolute;
     top: 17%;
 }
@@ -293,7 +295,7 @@ div.lorem .l2 img{
 }
 
 .cb{
-    background-color: rgb(250,250,250);
+    background-color: #F2F1F1;
 }
 
 .cb{
@@ -377,7 +379,7 @@ p.heading-margin-sm + p{
 }
 
 .p-bot-30{
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 #crm-left-container{
@@ -751,7 +753,9 @@ p.heading-margin-sm + p{
 
     #platform-text-container{
         padding-right: 360px;
-        padding-top: 75px;
+        padding-top: 85px;
+        margin-left: 0%;
+        left: 0.65%;
     }
 
     #platform-text-container div:first-child{
@@ -759,18 +763,20 @@ p.heading-margin-sm + p{
     }
 
     .platform-text-inner p{
-        margin-bottom: 32px !important;
+        margin-bottom: 28px !important;
     }
 
     .lorem-ipsum{
         margin-left: 10rem !important;
-        top: 505px;
+        top: 507px;
+        left: -2.5%;
+        padding-bottom: 5.6%
     }
 
     .red-ellipse{
-        top: 420px;
-        height: 35%;
-        left: 18%;
+        top: 426px;
+        height: 43%;
+        left: 18.5%;
     }
 
     #laptop-container{
@@ -785,8 +791,8 @@ p.heading-margin-sm + p{
         background-repeat: no-repeat;
         background-position: 91% 61%;
         background-size: 100% 100%;
-        width: 85%;
-        height: 535px;
+        width: 83%;
+        height: 491px;
         float: right;
     }
 
@@ -807,8 +813,9 @@ p.heading-margin-sm + p{
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        height: 455px;
+        height: 457px;
         zoom: 1;
+        margin-left: 1.5%;
     }
 
     .inner-lorem{
@@ -823,12 +830,12 @@ p.heading-margin-sm + p{
     }
 
     .cb-logo{
-        height: 440px;
+        height: 500px;
     }
 
     .cb-text{
         padding-right: 350px;
-        padding-top: 155px;
+        padding-top: 176px;
     }
 
     .cb p{
@@ -852,7 +859,7 @@ p.heading-margin-sm + p{
     }
 
     #fourthSection{
-        padding-top: 65px;
+        padding-top: 138px;
     }
 
     .qtt-container{
@@ -863,11 +870,14 @@ p.heading-margin-sm + p{
         background-position: 40% center;
         background-size: 100% 100%;
         height: 640px;
+        margin-left: 1.5%;
     }
 
     .red-ellipse-2{
-        top: 65%;
-        height: 22%;
+        top: 63.5%;
+        height: 25%;
+        left: 20%;
+
     }
 
     .custodian{
@@ -875,7 +885,7 @@ p.heading-margin-sm + p{
     }
 
     .custodian-left{
-        padding-left: 320px;
+        padding-left: 383px;
         padding-top: 60px;
         padding-right: 30px !important;
     }
@@ -890,7 +900,7 @@ p.heading-margin-sm + p{
         padding-left: 70px !important;
         padding-right: 80px !important;
         padding-bottom: 45px !important;
-        padding-top: 60px;
+        padding-top: 54px;
     }
 
     #huffpost-bottom{

@@ -7,8 +7,11 @@ section#hero-content {
 #security-page {
     font-family: 'Proxima Nova';
 }
+
 p {
     text-align: justify;
+    font-size: 12.5px;
+    font-weight: 400;
 }
 section {
     /*padding-top: 1em;*/
@@ -23,7 +26,6 @@ article {
 }
 .security-width {
     max-width: 1020px;
-    margin: auto;
 }
 .security-section {
     display: none; /*default smaller devices*/
@@ -84,7 +86,7 @@ article {
     .security-section {
         display: block;
         position:absolute;
-        height:130%;
+        height:120%;
         width:50%;
         top:-27%;
         right:0;

@@ -1,5 +1,19 @@
 
+#transparency {
+    margin: 1em 1em;
+}
 
+#transparency-quote{
+    color: #12d5b8;
+}
+
+#transparency-right-floater{
+    position: absolute;
+    padding-left:10px;
+    right:0;
+    padding-top:2rem;
+
+}
 
 .quotes {
     font-family: 'Playfair Display', serif;
@@ -16,51 +30,97 @@
     word-wrap: break-word;
 }
 
-#transparency-quote{
-    color: #12d5b8;
+
+
+#people-behind-bg{
+background-color: #e7fbf8;
 }
 
-#transparency-right-floater{
-    position: absolute;
-    padding-left:10px;
-    right:0;
-    padding-top:2rem;
+#circ{
+position: absolute;
+top: 50%;
+transform:translateY(-50%);
 }
 
+
+#circ {
+left:-5%;
+}
+
+#circ-pic{
+width:auto;
+}
+
+
+
+.blue-ibinex{
+color:#2770f6;
+}
+
+.blue-ibinex-bg{
+background-color:#2770f6;
+}
+
+#media-coverage-floater{
+position: relative;
+width: 100%;
+max-width: 100%;
+flex: none;
+}
+
+#media-coverage-images{
+width: 100%;
+}
+
+
+
+div.advisory-board{
+background-color: #f2f2f2;
+padding: 0;
+}
+
+ul.advisory-board-members-list{
+font-family: 'Montserrat';
+font-size: 18px;
+color: #1a1a1a;
+}
+
+div.advisory-board-members-list-item-name,
+div.advisory-board-members-list-item-desc{
+padding-left: 1em;
+padding-right: 1em;
+color: #1a1a1a;
+}
+.advisory-board-members-list li img{
+width:100%;
+}
+
+.advisory-board-members-list li{
+padding:0;
+}
+
+button.linked-in-btn {
+
+border-radius: 23px;
+-moz-border-radius: 23px;
+-webkit-border-radius: 23px;
+
+}
+
+button.linked-in-btn img {
+margin-right: 0.5em;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+transform: translateY(-350%);
+}
 
 @media (max-width:993px){
     .hide-on-lg {
         display:none;
     }
-}
 
-
-
-
-
-#people-behind-bg{
-    background-color: #e7fbf8;
-}
-
-#circ, #circ-pic {
-    position: absolute;
-    top: 50%;
-    transform:translateY(-50%);
-}
-
-
-#circ {
-    left:-5%;
-}
-
-#circ-pic{
-    width:auto;
-}
-
-
-@media (max-width:993px){
     #circ{
-
         position: relative;
         top: 0;
         width:25%;
@@ -74,31 +134,12 @@
         transform:initial;
         width:100%;
     }
+
     #exec-desc{
         left: 5%;
         padding-left: 10px;
         margin-left: 0px;
     }
-}
-
-
-.blue-ibinex{
-    color:#2770f6;
-}
-
-.blue-ibinex-bg{
-    background-color:#2770f6;
-}
-
-#media-coverage-floater{
-    position: relative;
-    width: 100%;
-    max-width: 100%;
-    flex: none;
-}
-
-#media-coverage-images{
-    width: 100%;
 }
 
 @media all and (max-width:1023px){
@@ -122,26 +163,9 @@
 
 }
 
-
-div.advisory-board{
-    background-color: #f2f2f2;
-    padding: 0;
-}
-
-ul.advisory-board-members-list{
-    font-family: 'Montserrat';
-    font-size: 18px;
-    color: #1a1a1a;
-}
-
-div.advisory-board-members-list-item-name,
-div.advisory-board-members-list-item-desc{
-    padding-left: 1em;
-    padding-right: 1em;
-    color: #1a1a1a;
-}
-
 @media only screen and (min-width: 1024px) {
+
+
     #media-coverage-floater {
         position: relative;
         transform: translateY(-18%);
@@ -161,6 +185,48 @@ div.advisory-board-members-list-item-desc{
     }
 }
 
+@media all and (min-width:1200px){
+    #transparency {
+        margin: 3.2em 0 0 19.5%
+    }
+
+    #transparency-left {
+        padding: 9em 0.5em 14.5em 0;
+        width: 37%;
+    }
+    #transparency-left p{
+        margin-bottom: 1.6em;
+    }
+    #transparency-right {
+        padding: 1em 0 0 1em;
+        width: 63%;
+    }
+
+    #exec-inner {
+        padding: 0 20%;
+    }
+    #exec-inner-left{
+        width: 50%;
+    }
+    #exec-inner-right{
+        width: 50%;
+    }
+
+    body #fullscreen-hero {
+        background-position: center top;
+    }
+
+    body #fullscreen-hero #hero-content {
+        padding: 7.5em 0 7.9em 0;
+    }
+
+    body #fullscreen-hero #hero-content p.description {
+        margin-top: 23px;
+        line-height: 1.4em;
+    }
+
+
+}
 @media only screen and (min-width: 1920px) {
 
     #media-coverage-floater {
@@ -184,27 +250,4 @@ div.advisory-board-members-list-item-desc{
         margin-left: 100px !important;
         margin-top: 100px !important;
     }
-}
-.advisory-board-members-list li img{
-    width:100%;
-}
-
-.advisory-board-members-list li{
-    padding:0;
-}
-
-button.linked-in-btn {
-
-    border-radius: 23px;
-    -moz-border-radius: 23px;
-    -webkit-border-radius: 23px;
-
-}
-
-button.linked-in-btn img {
-    margin-right: 0.5em;
-}
-
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    transform: translateY(-350%);
 }

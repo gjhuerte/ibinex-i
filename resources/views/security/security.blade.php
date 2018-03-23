@@ -10,7 +10,7 @@
 @section('header-content')
     <section id='hero-content' class='col-xl-7 col-sm-12'>
         <h1 class='title text-center' id='security_title'>Security</h1>
-        <p class='description text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p class='description text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br>ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br>aliquip ex ea commodo consequat.</p>
     </section>
 @endsection
 
@@ -30,7 +30,7 @@
                                 The protection of your crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
                             </p>
                             <p>
-                                As an indication of the high protective standards we hold, Ibinex has been granted the status of fully-licensed, fully compliant and as a regulated custodian and account processor.
+                                As an indication of the high protective standards we hold, Ibinex has been granted the status of fully-licensed, fully-compliant and as a regulated custodian and account processor.
                             </p>
                             <p>
                                 We are the first cryptocurrency exchange platform to hold this mantle and offer exclusive payment solutions. As such, we must demonstrate a consistent level of regulatory compliance

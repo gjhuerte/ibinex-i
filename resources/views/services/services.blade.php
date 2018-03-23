@@ -7,9 +7,9 @@
 @endpush
 
 @section('header-content')
-    <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">
+    <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto" style="margin-top: 8.5%; margin-bottom: 0.7%;">
         <h1 class="title text-left text-sm-center">Services</h1>
-        <p id="hero-first-p" class="description text-left text-sm-center">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
+        <p id="hero-first-p" class="description text-left text-sm-center" style="margin-top: -5%; margin-bottom: 4.5%;">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
         <p id="hero-second-p" class="description text-left text-sm-center">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
     </section>
@@ -21,7 +21,7 @@
     data-spy="scroll" data-target="#inner-nav" data-offset="150"
 @endsection
 @section('content')
-    <div class="d-none d-lg-block sticky-top">
+    <div class="d-none d-lg-block" style="position: sticky; top: -1%; z-index: 1020;">
         <nav id="inner-nav" class="navbar navbar-expand-md navbar-white bg-white p-bot-30">
             <div id="menu-center" class="container">
                 <ul class="nav navbar-nav mx-auto">
@@ -47,7 +47,7 @@
 
     <div class="container-fluid">
         <div class="row max-width-none">
-            <div id="platform-section" class="col-12 bg-light max-width-none">
+            <div id="platform-section" class="col-12 bg-light max-width-none" style="margin-top: 0%;">
                 <div class="container-fluid max-width-none">
                     <div class="row platform-content">
                         <div class="col-12 col-lg-6 px-0">
@@ -58,10 +58,10 @@
                             </div>
                         </div>
 
-                        <div id="platform-text-container" class="col-12 col-lg-6 inner-platform platform-text">
+                        <div id="platform-text-container" class="col-12 col-lg-6 inner-platform platform-text" style="margin-top: -1%;">
                             <div>
                                 <p class="text-dark font-34" style="line-height: 2;">Platform</p>
-                                <p class="text-secondary text-justify mb-sm-1 mt-sm-0 lh-18">
+                                <p class="text-secondary text-justify mb-sm-1 mt-sm-0 lh-18" style="max-width: 61%;">
                                     Your exchange is your launchpad. Our suite elevates your exchange by equipping you with your own platform consisting of:
                                 </p>
                             </div>
@@ -86,13 +86,13 @@
                 <div class="row max-width-none">
                     <div id="crm-left-container" class="col-12 col-lg-6 bg-white crm second-section">
                         <div class="inner-crm">
-                            <div class="text-left">
+                            <div class="text-left" style="margin-top: 2%; margin-left: -1%; ">
                                 <span class="text-dark font-34">CRM Back Office</span>
                             </div>
                             <div class="">
-                                <p class="text-secondary text-justify mt-sm-0 mb-sm-3 lh-18">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
+                                <p class="text-secondary text-justify mt-sm-0 mb-sm-3 lh-18" style="margin-left: -1.2%; padding-top: 2%;">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
                             </div>
-                            <div class="text-primary text-justify">
+                            <div class="text-primary text-justify" style="margin-left: -1%;">
                                 <strong>
                                     <p class="m-bot-30 m-top-25">KYC/AML doccumentation collection</p>
                                     <p class="m-bot-30 m-top-25">Documentation verification</p>
