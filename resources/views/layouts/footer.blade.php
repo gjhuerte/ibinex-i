@@ -47,7 +47,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class ="col-xs-12 col-sm-2 col-md-4 col-lg-3">
+                <div class ="col-xs-12 col-sm-2 col-md-4 col-lg-2">
                     <h6 class="text-uppercase heads fonts font-weight-custom blue py-4">Security</h6>
                     <ul class="list-unstyled">
                         <li>
