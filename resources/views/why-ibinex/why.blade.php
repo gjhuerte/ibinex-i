@@ -84,7 +84,7 @@
                         <div class="core-div">
                             <span class="core">02</span>
                         </div>
-                        <p class="core-text">
+                        <p class="core-text text-justify third-core">
                             <b>Trailblazing of complete and customisable white label platform solutions</b>
                         </p>
                     </div><!--col-->
@@ -98,7 +98,7 @@
                         <div class="core-div">
                             <span class="core">03</span>
                         </div>
-                        <p class="core-text">
+                        <p class="core-text second-core">
                             <b>Offering unprecedented custodian service with our industry's first finance transaction license</b>
                         </p>
                         <div class="core-div">
@@ -120,7 +120,7 @@
                 <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
                 <p class="blocktext blocktext-p1">
                     We seek to revolutionise the way that exchange owners create their platforms
-                    and raise the standard of marketplace excellence by incorporating our cutting-edge
+                    and raise the standard of marketplace excellence by incorporating our <nobr>cutting-edge</nobr>
                     technology, delivered with practicality and a host of unique benefits, only enjoyed
                     by merging with the Ibinex ecosystem.
                 </p>

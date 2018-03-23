@@ -198,20 +198,21 @@ body #fullscreen-hero .navbar a {
     color: #fff;
 }
 body #fullscreen-hero #hero-content {
-    padding: 11vh 0;
+    padding: 112px 0px;
 }
 body #fullscreen-hero #hero-content h1.title {
     font-size: 42px;
-    font-weight: bold;
+    font-weight: 600;
 }
 body #fullscreen-hero #hero-content p {
-    margin-top: 25px;
+    margin-top: 23px;
+    margin-bottom: 0px;
     /*margin-top: 0;*/
 }
 body #fullscreen-hero #hero-content p.description {
     font-size: 22px;
-    line-height: 1.9em;
-    hyphens: manual;
+    line-height: 1.4em;
+    hyphens: manual;;
 
 }
 body #fullscreen-hero .semi-circle {
@@ -714,6 +715,11 @@ body footer .column2 {
     font-size: 23px;
     color: #0b1b28;
 }
+
+section#contact-section.bg-color-grey.py-5.contact-height{
+    padding-bottom: 1.5rem !important;
+}
+
 h6.text-uppercase.heads.fonts{
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
@@ -742,12 +748,12 @@ input::value{
 
 footer{
     line-height: 1.5;
-    width: 1920px;
+    width: auto;
 }
 
 body{
     min-width: 320px;
-    max-width: 1920px;
+    /*max-width: 1920px;*/
     width: 100%;
 }
 
@@ -954,7 +960,7 @@ body{
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
-        width: 145%;
+        width: 100%;
     }
 
     body footer input::placeholder{
@@ -970,7 +976,7 @@ body{
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block{
-        width: 135%;
+        width: 100%;
     }
 
     body footer .semi-circle-dark-red{
@@ -986,7 +992,7 @@ body{
     }
 
     .footer{
-        height: 465px;
+        height: auto;
     }
     .property{
         padding-top: 2%;
@@ -994,18 +1000,18 @@ body{
 
     footer {
         width: 100%;
-        height: 473px;
+        height: auto;
     }
 
     .footer{
-        height: 439px;
+        height: auto;
         width: 100%;
     }
     .property{
         padding-top: 2%;
     }
     .contact-height{
-        height: 520px;
+        height: auto;
         width: 100%;
     }
 }
