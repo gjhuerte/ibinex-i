@@ -715,6 +715,11 @@ body footer .column2 {
     font-size: 23px;
     color: #0b1b28;
 }
+
+section#contact-section.bg-color-grey.py-5.contact-height{
+    padding-bottom: 1.5rem !important;
+}
+
 h6.text-uppercase.heads.fonts{
     font-family: "Proxima Nova", sans-serif;
     font-size: 13px;
