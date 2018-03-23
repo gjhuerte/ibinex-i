@@ -2,10 +2,18 @@
 body #fullscreen-hero #hero-content p.description {
     line-height: 1.4;
 }
-@media (max-width: 767px) {
-    body #fullscreen-hero #hero-content {
-        /*margin-top: 84px;*/
-    }
+
+body #fullscreen-hero #hero-content {
+    margin-top: 117px;
+    margin-bottom: 127px;
+}
+
+body #fullscreen-hero #hero-content h1.title {
+    margin-bottom: 32px;
+}
+body #fullscreen-hero {
+    background-position: 26% top;
+    background-size: 900%;
 }
 
 /* Fonts and Typography */
@@ -78,13 +86,13 @@ body #fullscreen-hero .gradient-wrapper {
 }
 
 #pricing-content article > h5 {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 #pricing-content article p {
     text-align: justify;
     line-height: 1.8;
-    padding-bottom: 15px;
+    padding-bottom: 13px;
 }
 
 #pricing-content #our-pricing {
@@ -105,11 +113,11 @@ body #fullscreen-hero .gradient-wrapper {
 }
 
 #pricing-content #what-you-receive {
-    padding-bottom: 18px;
+    padding-bottom: 17px;
 }
 
 #pricing-content #what-you-receive > h5 {
-    padding-bottom: 1px;
+    padding-bottom: 6px;
 }
 
 #pricing-content #what-you-receive > div > div:first-of-type {
@@ -117,7 +125,7 @@ body #fullscreen-hero .gradient-wrapper {
 }
 
 #pricing-content #what-you-receive p {
-    padding-bottom: 0;
+    padding-bottom: 6px;
 }
 
 #pricing-content > hr:last-of-type {
@@ -125,7 +133,7 @@ body #fullscreen-hero .gradient-wrapper {
 }
 
 #pricing-content #onboarding-time {
-    padding-bottom: 37px;
+    padding-bottom: 35px;
 }
 
 
@@ -141,15 +149,23 @@ body #fullscreen-hero .gradient-wrapper {
 @media all and (min-width: 992px) {
     body #fullscreen-hero,
     body #fullscreen-hero .gradient-wrapper {
-        min-height: 857px;
+    min-height: 857px;
+}
+    body #fullscreen-hero #hero-content h1.title {
+        margin-bottom: 8px;
     }
+
+    body #fullscreen-hero #hero-content {
+        margin-bottom: 110px;
+    }
+
     body #fullscreen-hero {
         background-position: center center;
         background-size: cover;
     }
 
     body #fullscreen-hero .gradient-wrapper #hero-content {
-        margin-top: -330px;
+        margin-top: -218px;
     }
 
     #pricing-content {
@@ -177,7 +193,7 @@ body #fullscreen-hero .gradient-wrapper {
     }
 
     #pricing-content #what-you-receive {
-        padding-bottom: 57px;
+        padding-bottom: 48px;
     }
 
     #pricing-content #what-you-receive > h5 {
