@@ -8,7 +8,7 @@
 
 @section('body-class', 'pricing')
 
-@section('header-height', 'full-height')
+{{--@section('header-height', 'full-height')--}}
 
 @section('bg-img','pricing-bg.png')
 

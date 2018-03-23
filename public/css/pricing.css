@@ -1,5 +1,14 @@
-/* Fonts and Typography */
+/* style.css overrides */
+body #fullscreen-hero #hero-content p.description {
+    line-height: 1.4;
+}
+@media (max-width: 767px) {
+    body #fullscreen-hero #hero-content {
+        /*margin-top: 84px;*/
+    }
+}
 
+/* Fonts and Typography */
 #pricing-content {
     font-family: 'Proxima Nova', sans-serif;
 }
@@ -75,7 +84,7 @@ body #fullscreen-hero .gradient-wrapper {
 #pricing-content article p {
     text-align: justify;
     line-height: 1.8;
-    padding-bottom: 8px;
+    padding-bottom: 15px;
 }
 
 #pricing-content #our-pricing {
@@ -134,9 +143,13 @@ body #fullscreen-hero .gradient-wrapper {
     body #fullscreen-hero .gradient-wrapper {
         min-height: 857px;
     }
+    body #fullscreen-hero {
+        background-position: center center;
+        background-size: cover;
+    }
 
     body #fullscreen-hero .gradient-wrapper #hero-content {
-        margin-top: -365px;
+        margin-top: -330px;
     }
 
     #pricing-content {
@@ -164,7 +177,7 @@ body #fullscreen-hero .gradient-wrapper {
     }
 
     #pricing-content #what-you-receive {
-        padding-bottom: 51px;
+        padding-bottom: 57px;
     }
 
     #pricing-content #what-you-receive > h5 {
@@ -176,15 +189,15 @@ body #fullscreen-hero .gradient-wrapper {
     }
 
     #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(1) {
-        padding-bottom: 27px;
+        padding-bottom: 34px;
     }
 
     #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(2) {
-        padding-bottom: 38px;
+        padding-bottom: 45px;
     }
 
     #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
-        padding-bottom: 3px;
+        padding-bottom: 12px;
     }
 
     #pricing-content > hr:last-of-type {
@@ -205,5 +218,16 @@ body #fullscreen-hero .gradient-wrapper {
     #pricing-content > hr {
         margin-left: 15px;
         margin-right: 15px;
+    }
+}
+
+@media all and (min-width: 1900px) {
+    body #fullscreen-hero {
+        background-position: 41% top;
+        background-size: 134%;
+    }
+
+    body #fullscreen-hero .gradient-wrapper {
+        min-height: 864px;
     }
 }
