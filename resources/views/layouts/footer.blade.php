@@ -129,7 +129,7 @@
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-xs-4 col-sm-3 col-md-4 col-lg-3">
+            <div class="col-xs-4 col-sm-3 col-md-4 col-lg-2">
                 <div class="position-absolute pt-lg-3 height-foot">
                     <h6 class="text-uppercase font-weight-light fonts grey" style="color: #646781">Ibinex Offices</h6>
                 </div>
@@ -158,7 +158,7 @@
             <!--/.Second column-->
 
             <!--Third column-->
-            <div class="col-xs-4 col-sm-3 col-md-4 col-lg-3 column2">
+            <div class="col-xs-4 col-sm-3 col-md-4 col-lg-2 column2">
 
                 <div>
                     <ul class="list-unstyled">
@@ -187,7 +187,7 @@
 
 
             <!--Fourth column-->
-            <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-3 ">
+            <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-5 ">
                 <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3 color-copy" style="color: #646781; padding-bottom: 5px;">sign up to our news letter</h6>
                 <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
                     <input type="email" class="semi-circle" style="width:100%; height: 45px; color: black" placeholder="Insert your email"/>

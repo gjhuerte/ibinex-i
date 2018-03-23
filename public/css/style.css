@@ -956,7 +956,7 @@ body{
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
-        width: 145%;
+        width: 100%;
     }
 
     body footer input::placeholder{
@@ -972,7 +972,7 @@ body{
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block{
-        width: 135%;
+        width: 100%;
     }
 
     body footer .semi-circle-dark-red{
