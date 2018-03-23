@@ -52,7 +52,7 @@ div.core-right{
 
 .block {
     background-color: rgb(242,241,241);
-    z-index: 999;
+    z-index: 98;
 
 }
 
@@ -100,6 +100,17 @@ h2.blocktext-2{
     /*background-position-x: -60px;*/
 }
 @media only screen and (max-width: 320px){
+    body #fullscreen-hero {
+        min-height: auto;
+    }
+    body #fullscreen-hero #hero-content {
+        padding-top: 13px;
+        padding-bottom: 7px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        line-height: 1.4em;
+        margin-top: 30px;
+    }
     h2.first-fold-title {
         margin-top: 49px;
     }
@@ -131,6 +142,22 @@ h2.blocktext-2{
     }
 }
 @media only screen and (max-width: 992px){
+
+    body #fullscreen-hero {
+        min-height: auto;
+    }
+    body #fullscreen-hero #hero-content {
+        padding-top: 120px;
+    }
+    body #fullscreen-hero #hero-content {
+        margin-bottom: 100px;
+    }
+    h2.first-fold-title {
+        margin-top: 49px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        margin-top: 30px;
+    }
 
     #our-vision {
         display: grid;
