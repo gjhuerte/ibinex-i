@@ -198,20 +198,21 @@ body #fullscreen-hero .navbar a {
     color: #fff;
 }
 body #fullscreen-hero #hero-content {
-    padding: 11vh 0;
+    padding: 112px 0px;
 }
 body #fullscreen-hero #hero-content h1.title {
     font-size: 42px;
     font-weight: 600;
 }
 body #fullscreen-hero #hero-content p {
-    margin-top: 25px;
+    margin-top: 23px;
+    margin-bottom: 0px;
     /*margin-top: 0;*/
 }
 body #fullscreen-hero #hero-content p.description {
     font-size: 22px;
-    line-height: 1.9em;
-    hyphens: manual;
+    line-height: 1.4em;
+    hyphens: manual;;
 
 }
 body #fullscreen-hero .semi-circle {
