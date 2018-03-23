@@ -83,17 +83,17 @@
 </div>
 
 <div id="executive-team">
-    <div class="row py-5 mb-lg-5" id="people-behind-bg">
+    <div class="row mb-lg-5" id="people-behind-bg">
         <div class="col-lg-12 pb-3 pb-xl-5 text-center">
         <h2>
             The people behind Ibinex
         </h2>
         </div>
-        <div class="row w-100">
-            <div class="col-lg-3 order-1">
+        <div id="exec-inner" class="row w-100">
+            <div class="col-lg-2 order-1">
                 <!--spacer-->
             </div>
-            <div class="col-lg-3 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
+            <div id="exec-inner-left" class="col-lg-4 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
                 <p class="blue-ibinex my-0" style="font-size:32px;">
                     Michael Peers
                 </p>
@@ -114,7 +114,7 @@
                     </button>
                 </p>
             </div>
-            <div class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
+            <div id="exec-inner-right" class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
 
                 <img src="./img/about-us/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
                 <div><img src="./img/about-us/circ.png" class="img-fluid" id="circ" /></div>

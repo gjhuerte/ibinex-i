@@ -101,7 +101,7 @@ body p
 /* Mobile Development */
 
 section #hero-content h1{
-    margin-top: -98px;
+    margin-top: -112px;
 }
 
 #hero-first-p{
@@ -765,6 +765,9 @@ p.heading-margin-sm + p{
     .platform-text-inner p{
         margin-bottom: 28px !important;
     }
+    .platform-p {
+        max-width: 61%;
+    }
 
     .lorem-ipsum{
         margin-left: 10rem !important;
@@ -916,6 +919,31 @@ p.heading-margin-sm + p{
         margin: auto 30px;
     }
 }
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 52% 236%;
+        background-size: 317%;
+        zoom: 2;
+        z-index: 100;
+        height: 52%;
+        position: absolute;
+        top: 19%;
+    }
+    .custodian-title {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
 
 
 
