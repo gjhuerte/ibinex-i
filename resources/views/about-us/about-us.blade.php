@@ -148,6 +148,18 @@
             </h2>
             <div id="media-album">
                 <img class="my-5 img-fluid" src="./img/companies.png" />
+                {{--<img class="media-img" src="./img/media1.png" alt="mashable"/>--}}
+                {{--<img class="media-img" src="./img/media2.png" alt="businsessinsider"/>--}}
+                {{--<img class="media-img" src="./img/media3.png" alt="huffpost"/>--}}
+                {{--<img class="media-img" src="./img/media4.png" alt="the wall street journal"/>--}}
+                {{--<img class="media-img" src="./img/media5.png" alt="usa today"/>--}}
+                {{--<img class="media-img" src="./img/media6.png" alt="the economist"/>--}}
+                {{--<img class="media-img" src="./img/media7.png" alt="yahoo finance"/>--}}
+                {{--<img class="media-img" src="./img/media8.png" alt="the guardian"/>--}}
+                {{--<img class="media-img" src="./img/media9.png" alt="tech crunch"/>--}}
+                {{--<img class="media-img" src="./img/media10.png" alt="the new york times"/>--}}
+                {{--<img class="media-img" src="./img/media11.png" alt="los angeles times"/>--}}
+                {{--<img class="media-img" src="./img/media12.png" alt="buzzfeed"/>--}}
             </div>
         </div>
         <div class="col-xl-2">

@@ -46,14 +46,14 @@ background-color: #e7fbf8;
 }
 
 #circ{
-position: absolute;
-top: 50%;
-transform:translateY(-75%);
+    position: absolute;
+    top: 50%;
+    transform:translateY(-75%);
 }
 
 
 #circ {
-left:-5%;
+    left:-5%;
 }
 
 .exec-helper {
@@ -63,9 +63,12 @@ left:-5%;
 
 #circ-pic{
     vertical-align: middle;
-width:auto;
+    width:auto;
 }
 
+.media-quotes {
+    width: 15%;
+}
 
 
 .blue-ibinex{
