@@ -1,6 +1,7 @@
 
 <section id="contact-section" class ="bg-color-grey py-5 contact-height">
-        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 text-sm-left text-md-left">
+
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-sm-left text-md-left">
             <header>
                 <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 4.5px; padding-left: 4.7%;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header text-center"style="padding-top: 10px;">1-800-972-3981</span></h2>
             </header>
@@ -118,7 +119,7 @@
 <!--Footer-->
 <footer class="footer page-footer font-small stylish-color-dark">
     <!--Footer Links-->
-    <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 text-left text-md-left">
+    <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-left text-md-left">
         <div class="row alignment">
             <!--First column-->
             <div class="col-xs-4 col-sm-6 col-md-6 col-lg-4 col-xl-3 align-self-center ">
