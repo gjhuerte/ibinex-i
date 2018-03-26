@@ -164,7 +164,7 @@ transform: translateY(-350%);
         order: 2;
     }
 
-    #media-coverage-images{
+    #media-coverage-companies{
         order: 1;
     }
 
@@ -178,11 +178,11 @@ transform: translateY(-350%);
 }
 
 @media all and (min-width:992px) and (max-width: 1023px){
-    #media-coverage-images{
+    #media-coverage-companies{
         margin: 0 auto !important;
     }
 
-    #media-coverage-images>h2{
+    #media-coverage-companies>h2{
         text-align: center;
     }
 
