@@ -85,7 +85,7 @@
 <div id="executive-team">
     <div class="row mb-lg-5" id="people-behind-bg">
         <div class="col-lg-12 pb-3 pb-xl-5 text-center">
-        <h2>
+        <h2 id="exec-title">
             The people behind Ibinex
         </h2>
         </div>
@@ -115,7 +115,7 @@
                 </p>
             </div>
             <div id="exec-inner-right" class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
-
+                <span class="exec-helper"></span>
                 <img src="./img/about-us/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
                 <div><img src="./img/about-us/circ.png" class="img-fluid" id="circ" /></div>
             </div>
@@ -127,31 +127,33 @@
 </div>
 
 <div class="my-0" id="press">
-<div class="row">
-
-<div id="media-coverage-floater" class="col-lg-6 col-md-12 blue-ibinex-bg">
     <div class="row">
-        {{--<div class="col-xl-6">--}}
-            {{--<!-- spacer-->--}}
-        {{--</div>--}}
-        {{--<div class="col-xl-6 my-5 p-5 pr-3">--}}
-            <div class="quotes text-white px-3 py-5 px-lg-0 py-lg-0 mr-lg-4 mr-0">
-                <p id="thirdfold-p1">This is the dawn of a new era. A great era, we believe. Because with every beat of the heart, a starting signal rings out.</p>
-                <p>With each tick of the clock we gain one second. With each new thought we change the way we think forever.</p>
+
+        <div id="media-coverage-floater" class="col-lg-6 col-md-12 blue-ibinex-bg">
+            <div class="row">
+                {{--<div class="col-xl-6">--}}
+                    {{--<!-- spacer-->--}}
+                {{--</div>--}}
+                {{--<div class="col-xl-6 my-5 p-5 pr-3">--}}
+                    <div class="media-quotes quotes text-white px-3 py-5 px-lg-0 py-lg-0 mr-lg-4 mr-0">
+                        <p id="thirdfold-p1">This is the dawn of a new era. A great era, we believe. Because with every beat of the heart, a starting signal rings out.</p>
+                        <p>With each tick of the clock we gain one second. With each new thought we change the way we think forever.</p>
+                    </div>
+                {{--</div>--}}
             </div>
-        {{--</div>--}}
+        </div>
+        <div id="media-coverage-companies" class="col-lg-6 py-5 mx-5 text-center text-lg-left">
+            <h2 style="font-size:34px;color:#333">
+                Ibinex media coverage
+            </h2>
+            <div id="media-album">
+                <img class="my-5 img-fluid" src="./img/about-us/companies.png" />
+            </div>
+        </div>
+        <div class="col-xl-2">
+            <!--spacer-->
+        </div>
     </div>
-</div>
-<div id="media-coverage-images" class="col-lg-4 py-5 mx-5 text-center text-lg-left">
-    <h2 style="font-size:34px;color:#333">
-        Ibinex media coverage
-    </h2>
-    <img class="my-5 img-fluid" src="./img/about-us/companies.png" />
-</div>
-<div class="col-xl-2">
-    <!--spacer-->
-</div>
-</div>
 </div>
 
 <div class="my-0" id="advisory-board">
