@@ -119,7 +119,7 @@
                 <img src="./img/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
                 <div><img src="./img/circ.png" class="img-fluid" id="circ" /></div>
             </div>
-            <div class="col-lg-2 order-4">
+            <div class="med-hide col-lg-2 order-4">
                 <!--spacer-->
             </div>
         </div>
