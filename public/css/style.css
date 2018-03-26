@@ -757,7 +757,7 @@ body{
     width: 100%;
 }
 
-@media all and (min-width: 320px) and (max-width: 330px){
+@media all and (max-width: 330px){
     .d-xs-block{
         display: block;
     }
@@ -771,11 +771,11 @@ body{
     }
     body footer .column2{
         padding-top: 5px;
-        padding-left: 14px;
+        padding-left: 16px;
     }
     body footer .height-foot{
         left: 0;
-        padding-left: 14px;
+        padding-left: 16px;
     }
     body footer .ibinex-footA{
         padding-left: 6px;
@@ -952,7 +952,6 @@ body{
 
     body footer .pad-top{
         padding-top: 70px;
-        padding-left: 4px;
     }
 
     body footer .column2{

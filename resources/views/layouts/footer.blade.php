@@ -3,7 +3,7 @@
     <header>
         <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 4.5px; padding-left: 4.7%;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header text-center"style="padding-top: 10px;">1-800-972-3981</span></h2>
     </header>
-        <div class="col-lg-8 offset-lg-2 text-sm-left text-md-left">
+        <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 text-sm-left text-md-left">
             <div class="row">
                 <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-2">
                     <h6 class="text-uppercase heads fonts font-weight-custom blue py-4">Why ibinex</h6>
@@ -118,16 +118,16 @@
 <!--Footer-->
 <footer class="footer page-footer font-small stylish-color-dark">
     <!--Footer Links-->
-    <div class="col-lg-8 offset-lg-2 text-left text-md-left">
+    <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-8 offset-lg-2 text-left text-md-left">
         <div class="row alignment">
             <!--First column-->
-            <div class="col-xs-4 col-sm-6 col-md-4 col-lg-4 col-xl-3 align-self-center ">
+            <div class="col-xs-4 col-sm-6 col-md-6 col-lg-4 col-xl-3 align-self-center ">
                 <img class= "padding img-size" src = "{{ asset('img/logo/logo-bottom.png') }}" alt="ibinex logo-bottom">
             </div>
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-xs-4 col-sm-3 col-md-4 col-lg-2 col-xl-2">
+            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2">
                 <div class="position-absolute pt-lg-3 height-foot">
                     <h6 class="text-uppercase font-weight-light fonts grey" style="color: #646781">Ibinex Offices</h6>
                 </div>
@@ -156,7 +156,7 @@
             <!--/.Second column-->
 
             <!--Third column-->
-            <div class="col-xs-4 col-sm-3 col-md-4 col-lg-2 col-xl-2 column2">
+            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 column2">
 
                 <div>
                     <ul class="list-unstyled">
@@ -185,7 +185,7 @@
 
 
             <!--Fourth column-->
-            <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-4col-xl-5 ">
+            <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-4 col-xl-5 ">
                 <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3 color-copy" style="color: #646781; padding-bottom: 5px;">sign up to our news letter</h6>
                 <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
                     <input type="email" class="semi-circle" style="width:99%; height: 53px; color: black" placeholder="Insert your email"/>
