@@ -594,7 +594,7 @@ body footer {
     position: relative;
 }
 body footer {
-    background: #1e2654;
+    background: #1D2552;
     color: #fff;
     margin: 0;
 }
@@ -671,7 +671,7 @@ body footer h6 {
     margin-top: 20px;
 }
 body footer div + span.property {
-    font-weight: light;
+    font-weight: normal;
     font-size: 0.1px;
 }
 body footer h6.heads {
@@ -755,6 +755,10 @@ body{
     min-width: 320px;
     /*max-width: 1920px;*/
     width: 100%;
+}
+
+.font-weight-custom{
+    font-weight: 600;
 }
 
 @media all and (max-width: 330px){
@@ -879,7 +883,6 @@ body{
         padding-left: 4px;
     }
     body footer .column2{
-        padding-top: 80px;
         padding-left: 3%;
     }
     body footer .padding{
@@ -907,7 +910,6 @@ body{
         padding-left: 4px;
     }
     body footer .column2{
-        padding-top: 80px;
         padding-left: 3%;
     }
     body footer .padding{
@@ -955,7 +957,7 @@ body{
     }
 
     body footer .column2{
-        padding-left: 4%;
+        padding-left: 5%;
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
