@@ -37,7 +37,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">1</span>
                                     </div>
-                                    <img class="img-1 ib-pb-2 pt-4 pb-5" src="{{ asset("img/p1.png") }}" />
+                                    <img class="img-1 ib-pb-2 pt-4 pb-5" src="{{ asset("board1.png") }}" />
                                     <div class="label pt-3 ib-pt-1">
                                         Local Escrow deposit
                                     </div>
@@ -49,7 +49,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">2</span>
                                     </div>
-                                    <img class="ib-p py-3" src="{{ asset("img/p2.png") }}" />
+                                    <img class="ib-p py-3" src="{{ asset("board2.png") }}" />
                                     <div class="label pt-2 ib-pb-1">
                                         Letter of Intent
                                     </div>
@@ -58,7 +58,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">3</span>
                                     </div>
-                                    <img class="ib-p py-2" src="{{ asset("img/p3.png") }}" />
+                                    <img class="ib-p py-2" src="{{ asset("board3.png") }}" />
                                     <div class="label pt-2 ib-pb-1 ib-pb-2">
                                         Proof of Escrow deposit
                                     </div>
