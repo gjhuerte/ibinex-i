@@ -18,8 +18,9 @@
     font-family: 'Playfair Display', serif;
     font-style: italic;
     text-align: center;
-    font-size: 30px;
+    font-size: 31px;
     font-weight: 700;
+    margin: 0;
     line-height: normal;
     word-wrap: break-word;
     -moz-hyphens: auto;
@@ -29,10 +30,19 @@
     word-wrap: break-word;
 }
 
+.media-quotes {
+    font-size: 30px;
+    line-height: 1.4em;
+}
 
 
 #people-behind-bg{
 background-color: #e7fbf8;
+}
+
+#exec-inner-right{
+    white-space: nowrap;
+    text-align: center;
 }
 
 #circ{
@@ -46,7 +56,14 @@ transform:translateY(-75%);
 left:-5%;
 }
 
+.exec-helper {
+    display: inline-block;
+    height: 90%;
+    vertical-align: middle;
+}
+
 #circ-pic{
+    vertical-align: middle;
 width:auto;
 }
 
@@ -147,7 +164,7 @@ transform: translateY(-350%);
         order: 2;
     }
 
-    #media-coverage-images{
+    #media-coverage-companies{
         order: 1;
     }
 
@@ -161,11 +178,11 @@ transform: translateY(-350%);
 }
 
 @media all and (min-width:992px) and (max-width: 1023px){
-    #media-coverage-images{
+    #media-coverage-companies{
         margin: 0 auto !important;
     }
 
-    #media-coverage-images>h2{
+    #media-coverage-companies>h2{
         text-align: center;
     }
 
@@ -198,11 +215,11 @@ transform: translateY(-350%);
 
 @media all and (min-width:1200px){
     #transparency {
-        margin: 3.2em 0 0 19.5%
+        margin: 3.2em 0 0 20%
     }
 
     #transparency-left {
-        padding: 9em 0.5em 14.5em 0;
+        padding: 9em 0.4em 14.5em 0;
         width: 37%;
     }
     #transparency-left p{
@@ -214,11 +231,15 @@ transform: translateY(-350%);
     }
 
     #people-behind-bg {
-        padding: 6.5em 0 9em 0
+        padding: 6.5em 0 10.5em 0;
     }
 
     #exec-inner-left{
-        padding: 2em 8.3em 0 4.5em;
+        padding: 1.7em 7% 0 3.7%;
+    }
+
+    #exec-title {
+        font-size: 2.1em;
     }
     /*#exec-inner-right{*/
         /*width: 50%;*/
@@ -229,7 +250,7 @@ transform: translateY(-350%);
     }
 
     body #fullscreen-hero #hero-content {
-        padding: 7.5em 0 7.9em 0;
+        padding: 7.5em 0 8.9em 0;
     }
 
     body #fullscreen-hero #hero-content p.description {
@@ -243,11 +264,11 @@ transform: translateY(-350%);
 
     #media-coverage-floater {
         height: 900px;
-        width: 857px;
+        width: 870px;
         max-width: 100%;
         flex: none;
-        transform: translateY(-18%);
-        padding: 200px 55px 210px 433px;
+        transform: translateY(-20%);
+        padding: 215px 55px 210px 455px;
     }
 
     /*#people-behind-bg {*/

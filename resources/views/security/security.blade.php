@@ -8,9 +8,9 @@
 @endpush
 
 @section('header-content')
-    <section id='hero-content' class='col-xl-7 col-sm-12'>
+    <section id='hero-content'>
         <h1 class='title text-center' id='security_title'>Security</h1>
-        <p class='description text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do <br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim <br>ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <br>aliquip ex ea commodo consequat.</p>
+        <p class='description text-center'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </section>
 @endsection
 
