@@ -94,7 +94,7 @@
                             </div>
                             <div class="text-primary text-justify" style="margin-left: -1%;">
                                 <strong>
-                                    <p class="m-bot-30 m-top-25">KYC/AML doccumentation collection</p>
+                                    <p class="m-bot-30 m-top-25">KYC/AML documentation collection</p>
                                     <p class="m-bot-30 m-top-25">Documentation verification</p>
                                     <p class="m-bot-30 m-top-25">Account and money management</p>
                                     <p class="m-bot-30 m-top-25">Optimised back-office administrative workflow</p>
@@ -141,7 +141,7 @@
                         <div class="d-block d-lg-none col-12 cb2 third-section-mobile">
 
                         </div>
-                        <div id="third-section-container" class="col-12 col-sm-6 col-md-12 col-lg-6 cb-text third-section">
+                        <div id="third-section-container" class="col-12  col-md-12 col-lg-6 cb-text third-section">
                                 <p class="text-dark font-34 heading-margin-sm">CryptoBridge<sup>&trade;</sup></p>
                                 <p class="text-justify text-sm-left mb-sm-5 pb-sm-5 mt-sm-0">Aggregate elite exchanges and indexes as the cryptocurrency market moves, with out patent-pending proprietary software suite,
                                     CryptoBridge<sup>&trade;</sup>. Gain access to 60 premier exchanges for maximum liquidity cryptocurrencies, all available only through
@@ -161,7 +161,7 @@
                             </div>
                         </div>
 
-                        <div id="fourthSection" class="col-12 col-sm-6 col-md-12 col-lg-4 credit-card fourth-section">
+                        <div id="fourthSection" class="col-12 col-md-12 col-lg-4 credit-card fourth-section">
                             <p class="text-dark font-34 heading-margin-sm">Credit Card Processing</p>
                             <p class="text-justify mt-sm-0">
                                 We offer full spectrum payment processing for cryptocurrencies, and a complete selection that is unavailable elsewhere.
