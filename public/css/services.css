@@ -146,7 +146,7 @@ div.lorem .l2 img{
 }
 
 .row{
-    max-width: 1920px !important;
+    max-width: 7680px !important;
 }
 
 .red-ellipse{
@@ -226,13 +226,13 @@ div.lorem .l2 img{
 .cb2{
     background-image: url(../img/cb2_nobg.png);
     background-repeat: no-repeat;
-    background-position: 52% 236%;
-    background-size: 317%;
+    background-position: 52% 240%;
+    background-size: 305%;
     zoom: 2;
     z-index: 100;
-    height: 45%;
+    height: 43%;
     position: absolute;
-    top: 17%;
+    top: 16%;
 }
 
 .cb-text{
@@ -393,7 +393,23 @@ p.heading-margin-sm + p{
 
 /* Tablets to Desktop */
 
-
+@media only screen and (min-width: 320px) {
+    body #fullscreen-hero #hero-content h1.title {
+        margin-bottom: 15%;
+        margin-top: -50%;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-bottom: 5%;
+    }
+    #platform-img-container {
+        background-image: url(../img/l1.png);
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        background-size: cover;
+        height: 190px;
+        padding-right: 0 !important;
+    }
+}
 
 @media only screen and (min-width: 360px) {
 
@@ -412,6 +428,27 @@ p.heading-margin-sm + p{
     .red-ellipse-2{
         top: 44%;
     }
+
+    body #fullscreen-hero #hero-content h1.title {
+        margin-top: -55%;
+        margin-bottom: 15%;
+    }
+
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-bottom: 3%;
+    }
+
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 52% 240%;
+        background-size: 305%;
+        zoom: 2;
+        z-index: 100;
+        height: 50%;
+        position: absolute;
+        top: 16%;
+    }
 }
 
 @media only screen and (min-width: 375px) {
@@ -420,30 +457,223 @@ p.heading-margin-sm + p{
     #platform-img-container{
         height: 222px;
     }
+
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 52% 240%;
+        background-size: 305%;
+        zoom: 2;
+        z-index: 100;
+        height: 52%;
+        position: absolute;
+        top: 16%;
+    }
+}
+
+@media only screen and (min-width: 411px){
+    #platform-img-container {
+        height: 248px;
+    }
+    .cb1 {
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 110%;
+        background-size: 195px;
+        height: 234px;
+        z-index: 0;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 52% 240%;
+        background-size: 305%;
+        zoom: 2;
+        z-index: 100;
+        height: 58%;
+        position: absolute;
+        top: 16%;
+    }
 }
 
 @media only screen and (min-width: 414px){
     #platform-img-container {
-        min-height: 255px;
+        height: 255px;
     }
 }
 
 @media only screen and (min-width: 425px) {
-
-
-}
-
-@media only screen and (min-width: 576px){
-    .macbook-img{
-        background-position: center center;
-        background-size: cover;
-        width: 100%;
-        height: 303px;
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 52% 240%;
+        background-size: 300%;
+        zoom: 2;
+        z-index: 100;
+        height: 59%;
+        position: absolute;
+        top: 16%;
     }
 }
 
-@media only screen and (min-width: 767px){
+@media only screen and (min-width: 480px) {
+    #platform-img-container {
+        height: 290px;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 53% 240%;
+        background-size: 277%;
+        zoom: 2;
+        z-index: 100;
+        height: 64%;
+        position: absolute;
+        top: 16%;
+    }
+}
 
+@media only screen and (min-width: 576px){
+    #platform-img-container {
+        height: 352px;
+    }
+    .cb1 {
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 110%;
+        background-size: 210px;
+        height: 234px;
+        z-index: 0;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 53% 240%;
+        background-size: 216%;
+        zoom: 2;
+        z-index: 100;
+        height: 57%;
+        position: absolute;
+        top: 16%;
+    }
+    .cb-text {
+
+    }
+    .col-sm-6 {
+
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #platform-img-container {
+        height: 368px;
+    }
+    .cb1 {
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 110%;
+        background-size: 214px;
+        height: 234px;
+        z-index: 0;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 53% 240%;
+        background-size: 218%;
+        zoom: 2;
+        z-index: 100;
+        height: 59%;
+        position: absolute;
+        top: 16%;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    #platform-img-container {
+        height: 393px;
+    }
+    .cb1 {
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 130%;
+        background-size: 218px;
+        height: 234px;
+        z-index: 0;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 240%;
+        background-size: 212%;
+        zoom: 2;
+        z-index: 100;
+        height: 61%;
+        position: absolute;
+        top: 16%;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #platform-img-container {
+        height: 445px;
+    }
+    .cb-text {
+        margin-top: 10%;
+    }
+    .cb1 {
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 700%;
+        background-size: 230px;
+        height: 234px;
+        z-index: 0;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 240%;
+        background-size: 212%;
+        zoom: 2;
+        z-index: 100;
+        height: 67%;
+        position: absolute;
+        top: 16%;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #platform-img-container {
+        height: 463px;
+    }
+    .cb-text {
+        margin-top: 15%;
+    }
+    .cb1 {
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 700%;
+        background-size: 230px;
+        height: 234px;
+        z-index: 0;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 240%;
+        background-size: 212%;
+        zoom: 2;
+        z-index: 100;
+        height: 66%;
+        position: absolute;
+        top: 16%;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    body #fullscreen-hero #hero-content h1.title {
+        margin-top: -15%;
+    }
     .inner-lorem{
         padding-top: 90px;
     }
@@ -452,9 +682,8 @@ p.heading-margin-sm + p{
         padding-top: 45px;
     }
 
-
     #platform-img-container{
-        height: 480px;
+        height: 476px;
     }
 
 
@@ -470,13 +699,25 @@ p.heading-margin-sm + p{
     }
 
     .cb1{
-        background-position: 52% center;
-        zoom: 1.5;
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 700%;
+        background-size: 233px;
+        zoom: 1.2;
+        height: 235px;
+        z-index: 0;
     }
 
     .cb2{
-        background-position: 52% 252%;
-        zoom: 3.5;
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 240%;
+        background-size: 212%;
+        zoom: 2;
+        z-index: 100;
+        height: 59%;
+        position: absolute;
+        top: 16%;
     }
 
     .cb-text{
@@ -517,6 +758,33 @@ p.heading-margin-sm + p{
     }
 }
 
+@media only screen and (min-width: 800px){
+    #platform-img-container {
+        height: 497px;
+    }
+    .cb1{
+        background-image: url(../img/cb1.png);
+        background-repeat: no-repeat;
+        background-position: center 700%;
+        background-size: 233px;
+        zoom: 1.23;
+        height: 235px;
+        z-index: 0;
+    }
+
+    .cb2{
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 240%;
+        background-size: 212%;
+        zoom: 2;
+        z-index: 100;
+        height: 61%;
+        position: absolute;
+        top: 16%;
+    }
+}
+
 @media only screen and (min-width: 1024px){
 
     .macbook-img{
@@ -531,8 +799,8 @@ p.heading-margin-sm + p{
 
     #platform-img-container{
         background-position: 92% 62%;
-        background-size: 95%;
-        height: 450px;
+        background-size: 100%;
+        height: 517px;
     }
 
     .lorem{
@@ -569,10 +837,8 @@ p.heading-margin-sm + p{
         height: 17%;
     }
 
-
-
     .cb-text{
-        padding-top: 110px;
+        padding-top: 0px;
         padding-right: 4rem;
     }
 
@@ -596,6 +862,17 @@ p.heading-margin-sm + p{
     .custodian-left{
         padding-left: 30px;
     }
+    .cb-text {
+        margin-top: 10%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #platform-img-container {
+        background-position: 92% 62%;
+        background-size: 100%;
+        height: 482px;
+    }
 }
 
 @media only screen and (min-width: 1280px){
@@ -615,6 +892,9 @@ p.heading-margin-sm + p{
 
     .custodian {
         padding-bottom: 390px;
+    }
+    #crypto-bridge-section {
+        margin-bottom: 5%;
     }
 }
 
@@ -918,33 +1198,31 @@ p.heading-margin-sm + p{
         /*padding: 10px 90px;*/
         margin: auto 30px;
     }
-}
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-/* Portrait and Landscape */
-@media only screen
-and (min-device-width: 375px)
-and (max-device-width: 667px)
-and (-webkit-min-device-pixel-ratio: 2) {
-    .cb2 {
-        background-image: url(../img/cb2_nobg.png);
-        background-repeat: no-repeat;
-        background-position: 52% 236%;
-        background-size: 317%;
-        zoom: 2;
-        z-index: 100;
-        height: 52%;
-        position: absolute;
-        top: 19%;
-    }
-    .custodian-title {
-        padding-top: 5%;
-        padding-bottom: 5%;
+    .cb-text {
+        margin-top: 3%;
     }
 }
 
+@media only screen and (min-width: 1920px) {
 
+}
 
+@media only screen and (min-width: 2048px) {
+
+}
+
+@media only screen and (min-width: 2560px) {
+    #credit-card-section {
+
+    }
+}
+
+@media only screen and (min-width: 3840px) {
+
+}
+
+@media only screen and (min-width: 7680px) {
+
+}
 
 
