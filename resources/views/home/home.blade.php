@@ -71,7 +71,7 @@
             <div class="col-xl-7 order-xl-1">
                 <h2 class="title text-left text-center-sm lap-text1">Ibinex - The Gateway to your Own</h2>
                 <h2 class="title text-left text-center-sm lap-text2">Customised Cryptocurrency Ecosystem</h2>
-                <h2 class="title text-left text-center-sm lap-text3">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
+                <h2 class="title text-left text-center-sm lap-text9">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
                 <p class="text-justify pt-2 ws-5 lap-p1">With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with
                     your own web-based platform, Ibinex, will show you definitely how to build a cryptocurrency exchange, your way.</p>
             </div>
@@ -173,7 +173,7 @@
             <aside class="col-xl-6 order-xl-1 embed-parent-wrap left ex-wrap">
                 <div class="embed-image halfed shadow ex-image2">
                     <div class="playButton faButton raise-half blue-button shadow d-flex justify-content-center ex-quote1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
+                        <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
                     </div>
                 </div>
             </aside>
@@ -312,7 +312,7 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
-                
+
             </div>
 
         </div>
