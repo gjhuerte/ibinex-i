@@ -1473,7 +1473,7 @@ p.heading-margin-sm + p{
     }
     .lorem-ipsum {
         margin-top: 27.8%;
-        width: 87%;
+        width: 86.8%;
         left: 9%;
     }
     .red-ellipse {
@@ -1532,7 +1532,7 @@ p.heading-margin-sm + p{
     .qtt {
         background-position: 40% center;
         background-size: 100% 100%;
-        height: 1800px;
+        height: 2100px;
         width: 98.5%;
         margin-left: 1.5%;
     }
@@ -1554,8 +1554,26 @@ p.heading-margin-sm + p{
         height: 40%;
         left: 15%;
     }
-
-
+    .navbar-expand-md>.container {
+        max-width: 50%;
+        font-size: 420%;
+    }
+    .p-bot-30 {
+        padding-bottom: 100px;
+    }
+    .navbar {
+        padding: 5.5rem 0;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 600%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 420%;
+    }
+    .custodian-title {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 }
 
 
