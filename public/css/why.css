@@ -146,7 +146,7 @@ h2.blocktext-2{
         margin-bottom: 40px;
     }
 }
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 991px){
 
     body #fullscreen-hero {
         min-height: auto;
@@ -205,7 +205,7 @@ h2.blocktext-2{
 
 /* 1024 px */
 
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width: 992px){
     .spacer{
         margin-bottom: 6.7%;
         /*margin-left: 20.001%;*/
@@ -239,6 +239,7 @@ h2.blocktext-2{
         width: 500px;
         height: 450px;
         margin-left: 140px;
+        margin-bottom: 4%;
     }
 
     h2.blocktext
