@@ -111,7 +111,7 @@
                     mollit anim id est laborum.
                 </p>
                 <p class="py-2">
-                    <button class="btn blue-ibinex-bg btn-primary round-btn px-4 py-2 linked-in-btn">
+                    <button class="btn blue-ibinex-bg btn-primary round-btn linked-in-btn">
                         <img src="./img/linked_in.png" /> Linkedin profile
                     </button>
                 </p>
