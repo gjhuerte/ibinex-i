@@ -10,7 +10,7 @@ section#hero-content {
 
 p {
     text-align: justify;
-    font-size: 12.5px;
+    font-size: 100%;
     word-spacing: 0.5px;
     line-height: 2;
 }
@@ -38,14 +38,19 @@ article {
     display: block;
     padding-top: 0.5em;
 }
-
 #hero-content{
     width:60%;
+}
+body p {
+    margin-top: 7px;
 }
 /*** Media Queries as per chrome dev tool ***/
 @media (min-width: 1200px) {
     body #fullscreen-hero {
         background-position: center top;
+    }
+    body p {
+        margin-top: 50px;
     }
 }
 @media all and (max-width: 767px) {
@@ -85,11 +90,12 @@ article {
     section{
         padding: 0 17px 0 17px;
     }
-
     #hero-content{
         width: 100%;
     }
-
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 22px;
+    }
 }
 
 /* iPad specific */
@@ -118,10 +124,16 @@ article {
         position: relative;
         padding: 4em 0;
     }
+    body #fullscreen-hero #hero-content p.description{
+        font-size: 34px;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        font-size: 50px;
+    }
 }
 
 /* Larger than iPad */
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
     .security-section {
         display: block;
         position:absolute;
@@ -136,7 +148,7 @@ article {
         padding-bottom:200px;
     }
     .first-section {
-        padding: 11em 0;
+        padding: 5em 0;
         margin: 0 auto;
     }
     .first-section article {
@@ -144,6 +156,27 @@ article {
     }
     section {
         padding: 4em 0;
+    }
+
+    #hero-content{
+        width: 80%;
+    }
+    #para_1{
+        margin-top:53px;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        font-size: 67px;
+    }
+    body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 20px;
+        padding-left: 120px;
+        padding: -20px;
+        border: 2px solid black;
+        padding-right: 120px;
+    }
+    body h1.black{
+        font-size: 40px;
     }
 }
 

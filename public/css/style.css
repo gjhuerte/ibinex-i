@@ -284,6 +284,10 @@ body .gradient-wrapper{
         top: calc(-50% / 2);
         left: 5em;
     }
+
+    /*#fullscreen-hero #hero-content h1.title{*/
+        /*font-size: 36px;*/
+    /*}*/
 }
 
 @media all and (max-width:991px){

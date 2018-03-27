@@ -4,13 +4,14 @@ body #fullscreen-hero #hero-content p.description {
 }
 
 body #fullscreen-hero #hero-content {
-    margin-top: 117px;
+    margin-top: calc(-50vh + 357px);
     margin-bottom: 127px;
 }
 
 body #fullscreen-hero #hero-content h1.title {
     margin-bottom: 32px;
 }
+
 body #fullscreen-hero {
     background-position: 26% top;
     background-size: 900%;
@@ -51,7 +52,6 @@ body #fullscreen-hero {
     font-size: 14px;
 }
 
-
 /* Backgrounds and Borders */
 
 body #fullscreen-hero .gradient-wrapper {
@@ -66,7 +66,6 @@ body #fullscreen-hero .gradient-wrapper {
 #pricing-content > hr {
     border-color: #2770f6;
 }
-
 
 /* Distance and Spacing */
 
@@ -136,21 +135,34 @@ body #fullscreen-hero .gradient-wrapper {
     padding-bottom: 35px;
 }
 
-
 /* Media Queries: Non-Mobile */
+@media (max-width: 800px) {
+    body #fullscreen-hero {
+        min-height: 573.6px;
+    }
+
+    body #fullscreen-hero #hero-content {
+        margin-top: calc(-25vh + 250px);
+        margin-bottom: 70px;
+    }
+}
 
 @media all and (min-width: 576px) {
     #pricing-content {
         padding-left: 27px;
         padding-right: 27px;
     }
+    #pricing-content > hr:nth-of-type(2) {
+        border-color: #4f5574;
+    }
 }
 
 @media all and (min-width: 992px) {
     body #fullscreen-hero,
     body #fullscreen-hero .gradient-wrapper {
-    min-height: 857px;
-}
+        min-height: 857px;
+    }
+
     body #fullscreen-hero #hero-content h1.title {
         margin-bottom: 8px;
     }
@@ -165,7 +177,7 @@ body #fullscreen-hero .gradient-wrapper {
     }
 
     body #fullscreen-hero .gradient-wrapper #hero-content {
-        margin-top: -218px;
+        margin-top: -230px;
     }
 
     #pricing-content {
@@ -245,5 +257,250 @@ body #fullscreen-hero .gradient-wrapper {
 
     body #fullscreen-hero .gradient-wrapper {
         min-height: 864px;
+    }
+}
+
+@media all and (min-width: 2250px) {
+    .gradient-wrapper > div,
+    .gradient-wrapper > div > section {
+        max-width: 77%;
+    }
+
+    body #fullscreen-hero .gradient-wrapper #hero-content {
+        margin-top: -20.5rem;
+    }
+
+    body #fullscreen-hero #hero-content h1.title {
+        margin-bottom: 1.125rem;
+    }
+
+    body #fullscreen-hero .gradient-wrapper {
+        min-height: 72.19rem;
+    }
+
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 3.625rem;
+    }
+
+    #pricing-content {
+        max-width: 50.5%;
+        top: -27.5rem;
+        margin-bottom: -33.5rem;
+        padding-bottom: 3.5rem;
+        border-radius: 35px;
+    }
+
+    #pricing-content > section.row {
+        max-width: 99%;
+    }
+
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 1.8125rem;
+    }
+
+    #pricing-content h2 {
+        font-size: 2.813rem;
+    }
+
+    #pricing-content > #pricing-intro {
+        max-width: 70%;
+        padding-top: 5.375rem;
+        padding-bottom: 5.375rem;
+    }
+
+    #pricing-content article > h5 {
+        font-size: 1.813rem;
+        padding-bottom: 1.75rem;
+    }
+
+    #pricing-content #our-fees {
+        padding-left: 1.25rem;
+    }
+
+    #pricing-content article p {
+        padding-bottom: 1.7rem;
+        font-size: 1.3rem;
+        line-height: 1.7;
+    }
+
+    #pricing-content > hr {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #pricing-content article {
+        padding-bottom: 1.85rem;
+    }
+
+    #pricing-content #what-you-receive {
+        padding-left: 1.1rem;
+        margin-top: 0.7rem;
+    }
+
+    #pricing-content #what-you-receive > h5 {
+        padding-bottom: 1.625rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(1) {
+        padding-bottom: 3.125rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(2) {
+        padding-bottom: 3.875rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
+        padding-bottom: 1.1rem;
+    }
+
+    #pricing-content #what-you-receive {
+        padding-bottom: 4.9rem;
+    }
+
+    #pricing-content > hr:last-of-type {
+        padding-bottom: 2.75rem;
+    }
+
+    #pricing-content #onboarding-time > div > div:last-of-type > p:nth-of-type(1) {
+        padding-bottom: 0.1875rem;
+    }
+
+    #pricing-content #what-you-receive p {
+        font-size: 1.2rem;
+    }
+}
+
+@media all and (min-width: 3500px) {
+    :root {
+        font-size: 24px;
+    }
+
+    #pricing-content > #pricing-intro {
+        padding-bottom: 5.2rem;
+    }
+
+    body #fullscreen-hero .gradient-wrapper #hero-content {
+        margin-top: -22rem;
+    }
+
+    body #fullscreen-hero #hero-content h1.title {
+        margin-bottom: 1.6rem;
+    }
+
+    #pricing-content > section.row {
+        max-width: 98.5%;
+    }
+
+    #pricing-content article p {
+        padding-bottom: 2rem;
+    }
+
+    #pricing-content > hr:first-of-type {
+        margin-bottom: 3.125rem;
+    }
+
+    #pricing-content #what-you-receive > h5 {
+        padding-bottom: 1.7rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(1) {
+        padding-bottom: 3.4rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(2) {
+        padding-bottom: 4.2rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
+        padding-bottom: 1.2rem;
+    }
+
+    #pricing-content {
+        margin-bottom: -33rem;
+        padding-bottom: 6.5rem;
+    }
+}
+
+@media all and (min-width: 7600px) {
+    :root {
+        font-size: 48px;
+    }
+
+    .gradient-wrapper > div, .gradient-wrapper > div > section {
+        max-width: 100%;
+        padding-right: 11%;
+        padding-left: 11%;
+    }
+
+    body #fullscreen-hero .gradient-wrapper #hero-content {
+        margin-top: -24.75rem;
+    }
+
+    body #fullscreen-hero #hero-content h1.title {
+        margin-bottom: 2.1rem;
+    }
+
+    #pricing-content > section.row {
+        max-width: 96%;
+    }
+
+    #pricing-content #our-pricing {
+        padding-right: 2%;
+        margin-bottom: 1rem;
+    }
+
+    #pricing-content article > h5 {
+        padding-bottom: 2.35rem;
+    }
+
+    #pricing-content > hr:first-of-type {
+        margin-bottom: 2rem;
+    }
+
+    #pricing-content #what-you-receive {
+        padding-left: 0.5rem;
+    }
+
+    #pricing-content #what-you-receive > h5 {
+        padding-bottom: 2.2rem;
+    }
+
+    #pricing-content #what-you-receive {
+        padding-bottom: 5rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:first-of-type {
+        padding-right: 0.5rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:last-of-type {
+        padding-left: 1rem;
+    }
+
+    #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
+        padding-bottom: 1.6rem;
+    }
+
+    #pricing-content > hr:last-of-type {
+        padding-bottom: 3.1rem;
+    }
+
+    #pricing-content #setup {
+        padding-left: 0.5rem;
+        padding-right: 1.1rem;
+    }
+
+    #pricing-content #onboarding-time {
+        padding-left: 1.6rem;
+    }
+
+    #pricing-content #onboarding-time p:nth-of-type(1) {
+        padding-bottom: 2.5rem;
+    }
+
+    #pricing-content {
+        margin-bottom: -33rem;
+        padding-bottom: 9.5rem;
+        border-radius: 95px;
     }
 }
