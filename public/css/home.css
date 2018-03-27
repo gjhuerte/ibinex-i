@@ -102,8 +102,8 @@ body.home-template aside{
     }
 
     body .ex-col {
-        margin-left: 37.5em;
-        margin-top: -8.5em;
+        margin-top: -9.15em;
+        transform: translate(1em, 0.1em);
     }
 
     body .lap-text1 {
@@ -120,6 +120,10 @@ body.home-template aside{
         line-height: 1.8;
         transform: translate(-.31em, -1.1em);
         letter-spacing: .1px;
+    }
+
+    body .lap-text9 {
+        display: none;
     }
 
     body .lap-text3 {
@@ -140,7 +144,7 @@ body.home-template aside{
     body .lap-text6 {
         font-size: 1em;
         font-weight: 100;
-        transform: translate(0.1em, -0.8em);
+        transform: translate(0.1em, -0.7em);
         letter-spacing: .009em;
     }
 
@@ -153,7 +157,7 @@ body.home-template aside{
         font-size: 1em;
         letter-spacing: -0.001px;
         word-spacing: -2px;
-        transform: translate(.02em, -0.3em);
+        transform: translate(0.1em, -0.2em);
     }
 
     body .lap-p1 {
@@ -170,19 +174,20 @@ body.home-template aside{
     }
 
     body .ex-sec2 {
-        margin-top: -5.2em;
+        margin-top: -5.4em;
         padding-bottom: 1.9em!important;
     }
 
     body .ex-div1 {
-        margin-left: -1.6em;
-        margin-top: -.5em;
+        margin-left: -1.7em;
+        margin-top: -.7em;
         padding-right: 0em;
     }
 
     body h1.ex-h1 {
         font-size: 1.75em;
-        margin-top: 0.4em;
+        margin-top: 0.3em;
+        margin-left: 0.1em;
     }
 
     body h2.ex-h2-1 {
@@ -213,7 +218,7 @@ body.home-template aside{
     }
 
     body h2.ex-h2-7 {
-
+        display: none;
     }
 
     body #downloadables .brochures {
@@ -254,25 +259,27 @@ body.home-template aside{
 
     body h2.bro-h2-1 {
         font-size: 1.24em;
-        margin-top: -0.4em;
+        margin-top: -0.35em;
         margin-left: 1.8em;
     }
 
     body h2.bro-h2-2 {
         font-size: 1.24em;
-        margin-top: -0.4em;
-        margin-left: 4.2em;
+        margin-top: -0.35em;
+        margin-left: 4.3em;
+        letter-spacing: .9px;
     }
 
     body h2.bro-h2-3 {
         font-size: 1.24em;
-        margin-left: 8.3em;
-        margin-top: -0.4em;
+        margin-left: 8.5em;
+        margin-top: -0.35em;
     }
 
     body h2.bro-h2-4 {
         font-size: 1.24em;
-        margin-left: 1.6em;
+        margin-left: 1.5em;
+        margin-top: 0.1em;
     }
 
     body h2.bro-h2-5 {
@@ -283,7 +290,7 @@ body.home-template aside{
 
     body h2.bro-h2-6 {
         font-size: 1.24em;
-        margin-left: 8.1em;
+        margin-right: -8.5em;
         margin-top: 0.1em;
     }
 
@@ -294,7 +301,7 @@ body.home-template aside{
 
     body p.bro-p-2 {
         margin-left: 5em!important;
-        margin-top: -.6em!important;
+        margin-top: -.5em!important;
     }
 
     body p.bro-p-3 {
@@ -359,7 +366,7 @@ body.home-template aside{
     }
 
     body #logo .cov-img-1 {
-        transform: translate(-1em, .8em);
+        transform: translate(-1.85em, .8em);
     }
 
     body #logo .cov-img-2 {
@@ -398,7 +405,7 @@ body.home-template aside{
 
     body .quote-wrapper  p.ex-p3 {
         margin-left: -1.6em;
-        transform: translate(0em, 0.3em);
+        transform: translate(0em, 0.2em);
         padding-right: 0.9em;
         font-family: "Playfair Display";
         font-style: italic;
@@ -426,15 +433,15 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent {
-        padding: 7.55% 0;
+        padding: 7.8% 0;
     }
 
     body .position-relative .embed-parent-wrap .embed-image {
-        background-image: url("../img/hN17jUY.png");
+        background-image: url(../img/hN17jUY.png);
         background-size: auto 100%;
         background-position: top;
         min-height: 332px;
-        margin-top: 30px;
+        margin-top: -8.3em;
     }
 
     body .position-relative .embed-parent-wrap .embed-image.halfed {
@@ -448,12 +455,35 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent-wrap > .ex-image1 {
-        background-position: -11% 11%;
-        background-repeat: no-repeat;
-        background-size: auto;
-        width: 100%;
-        height: 28.5em;
-        min-height: 0px;
+        background-position: -11% 12%!important;
+        background-repeat: no-repeat!important;
+        background-size: auto!important;
+        width: 100%!important;
+        height: 28.4em!important;
+        min-height: 332px!important;
+        margin-top: 4px!important;
+    }
+
+    body div.ex-quote1 {
+        background-color: rgba(39,112,246,1)!important;
+        opacity: 1;
+        transform: translate(5em,27em);
+        height: 10.2em!important;
+        width: 10em!important;
+        border-radius: 50%;
+        top: 0!important;
+        right: 0!important;
+    }
+
+    body svg.svg-1 {
+        width: 22px!important;
+    }
+
+    body .faButton.ex-quote {
+        position: absolute;
+        top: calc(-48% / 2);
+        left: 4.3em;
+        height: 7.8em!important;
     }
 
     body h2.title-1 {
@@ -528,7 +558,7 @@ body.home-template aside{
         padding: 16px 52px!important;
     }
 
-    body .lap-text3 {
+    body .lap-text9 {
         text-align: center !important;
         line-height: 1.4em!important;
         padding-top: 34.5px!important;
@@ -767,7 +797,7 @@ body.home-template aside{
     body section.cov-sec-1 {
         margin-bottom: 2em!important;
     }
-    
+
 }
 
 

@@ -53,23 +53,23 @@
 <div id="transparency-right">
     <div class="row mb-5">
         <div class="col-5" style="flex:0 auto; width:auto; padding-right:0">
-            <img src="./img/trans1.png" class="img-fluid">
+            <img src="{{asset('img/trans1.png')}}" class="img-fluid">
             <div class="mt-lg-4 mt-2 row">
                 <div class="col-7 py-0 pr-2">
-                    <img src="./img/trans2.png" class="img-fluid">
+                    <img src="{{asset('img/trans2.png')}}" class="img-fluid">
                 </div>
                 <div class="col-5 pl-0">
-                    <img src="./img/trans3.png" class="img-fluid">
+                    <img src="{{asset('img/trans3.png')}}" class="img-fluid">
                 </div>
             </div>
         </div>
         <div class="col pr-0 pt-lg-5 pt-0">
-            <img id="transparency-right-floater" src="./img/trans5.png" class="img-fluid">
+            <img id="transparency-right-floater" src="{{asset('img/trans5.png')}}" class="img-fluid">
         </div>
     </div>
     <div class="row  hide-on-lg">
         <div class="col-lg-auto">
-            <img src="./img/trans4.png" class="img-fluid">
+            <img src="{{asset('img/trans4.png')}}" class="img-fluid">
         </div>
         <div id="trans-quote-div" class="col-lg-5 m-4">
             <p id="transparency-quote" class="quotes">
@@ -112,14 +112,14 @@
                 </p>
                 <p class="py-2">
                     <button class="btn blue-ibinex-bg btn-primary round-btn linked-in-btn">
-                        <img src="./img/linked_in.png" /> Linkedin profile
+                        <img src="{{asset('img/linked_in.png')}}" /> Linkedin profile
                     </button>
                 </p>
             </div>
             <div id="exec-inner-right" class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
                 <span class="exec-helper"></span>
-                <img src="./img/taov2.png" class="img-fluid ml-3 mh-100" id="circ-pic"/>
-                <div><img src="./img/circ.png" class="img-fluid" id="circ" /></div>
+                <img src="{{asset('img/taov2.png')}}" class="img-fluid ml-3 mh-100" id="circ-pic"/>
+                <div><img src="{{asset('img/circ.png')}}" class="img-fluid" id="circ" /></div>
             </div>
             <div class="med-hide col-lg-2 order-4">
                 <!--spacer-->
@@ -150,18 +150,18 @@
             </h2>
             <div id="media-album">
                 {{--<img class="my-5 img-fluid" src="./img/companies.png" />--}}
-                <img class="media-img" src="./img/media1.png" alt="mashable"/>
-                <img class="media-img" src="./img/media2.png" alt="businsessinsider"/>
-                <img class="media-img" src="./img/media3.png" alt="huffpost"/>
-                <img class="media-img" src="./img/media4.png" alt="the wall street journal"/>
-                <img class="media-img" src="./img/media5.png" alt="usa today"/>
-                <img class="media-img" src="./img/media6.png" alt="the economist"/>
-                <img class="media-img" src="./img/media7.png" alt="yahoo finance"/>
-                <img class="media-img" src="./img/media8.png" alt="the guardian"/>
-                <img class="media-img" src="./img/media9.png" alt="tech crunch"/>
-                <img class="media-img" src="./img/media10.png" alt="the new york times"/>
-                <img class="media-img" src="./img/media11.png" alt="los angeles times"/>
-                <img class="media-img" src="./img/media12.png" alt="buzzfeed"/>
+                <img class="media-img" src="{{asset('img/media1.png')}}" alt="mashable"/>
+                <img class="media-img" src="{{asset('img/media2.png')}}" alt="businsessinsider"/>
+                <img class="media-img" src="{{asset('img/media3.png')}}" alt="huffpost"/>
+                <img class="media-img" src="{{asset('img/media4.png')}}" alt="the wall street journal"/>
+                <img class="media-img" src="{{asset('img/media5.png')}}" alt="usa today"/>
+                <img class="media-img" src="{{asset('img/media6.png')}}" alt="the economist"/>
+                <img class="media-img" src="{{asset('img/media7.png')}}" alt="yahoo finance"/>
+                <img class="media-img" src="{{asset('img/media8.png')}}" alt="the guardian"/>
+                <img class="media-img" src="{{asset('img/media9.png')}}" alt="tech crunch"/>
+                <img class="media-img" src="{{asset('img/media10.png')}}" alt="the new york times"/>
+                <img class="media-img" src="{{asset('img/media11.png')}}" alt="los angeles times"/>
+                <img class="media-img" src="{{asset('img/media12.png')}}" alt="buzzfeed"/>
             </div>
         </div>
         <div class="col-xl-2">
@@ -182,49 +182,45 @@
         <div id="board-box">
             <div id="board-list">
                 <div class="board-members reveal-up">
-                    <img src="./img/board1.png" class="board-img" />
+                    <img src="{{asset('img/board1.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jeremy Corbein</span>
                     <span class="board-rank">Chief of Operational Officer, Deiteriy</span>
                 </div>
                 <div class="board-members reveal-up">
-                    <img src="./img/board2.png" class="board-img" />
+                    <img src="{{asset('img/board2.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jimmy Fallon</span>
                     <span class="board-rank">Head of Economics Department, Stockholm School of Economics in Riga</span>
                 </div>
                 <div class="board-members reveal-up">
-                    <img src="./img/board3.png" class="board-img" />
+                    <img src="{{asset('img/board3.png')}}" class="board-img" />
                     <span class="board-name exec-header">Stephen Colbert</span>
                     <span class="board-rank">Head of Products and Services Development Department XB Software</span>
                 </div>
                 <div class="board-members reveal-up">
-                    <img src="./img/board4.png" class="board-img" />
+                    <img src="{{asset('img/board4.png')}}" class="board-img" />
                     <span class="board-name exec-header">Artem Kushik</span>
                     <span class="board-rank">Business Analyst, Credit Agricole CIB</span>
                 </div>
                 <div class="board-members reveal-up">
-                    <img src="./img/board1.png" class="board-img" />
+                    <img src="{{asset('img/board1.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jeremy Corbein</span>
                     <span class="board-rank">Chief of Operational Officer, Deiteriy</span>
                 </div>
                 <div class="board-members reveal-up">
-                    <img src="./img/board2.png" class="board-img" />
+                    <img src="{{asset('img/board2.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jimmy Fallon</span>
                     <span class="board-rank">Head of Economics Department, Stockholm School of Economics in Riga</span>
                 </div>
                 <div class="board-members reveal-up">
-                    <img src="./img/board3.png" class="board-img" />
+                    <img src="{{asset('img/board3.png')}}" class="board-img" />
                     <span class="board-name exec-header">Stephen Colbert</span>
                     <span class="board-rank">Head of Products and Services Development Department XB Software</span>
                 </div>
                 <div class="board-members reveal-up">
-                    <img src="./img/board4.png" class="board-img" />
+                    <img src="{{asset('img/board4.png')}}" class="board-img" />
                     <span class="board-name exec-header">Artem Kushik</span>
                     <span class="board-rank">Business Analyst, Credit Agricole CIB</span>
                 </div>
-            </div>
-            <div id="board-arrow-box">
-                <a id="board-prev" class="board-arrows" href="#" uk-icon="icon: chevron-left; ratio: 2"></a>
-                <a id="board-next" class="board-arrows" href="#" uk-icon="icon: chevron-right; ratio: 2"></a>
             </div>
         </div>
     </div>
