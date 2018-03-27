@@ -98,39 +98,58 @@ background-color: #e7fbf8;
 
 
 
-div.advisory-board{
+#advisory-board{
     background-color: #f2f2f2;
     padding: 0;
-    margin-top: -1.5%;
-}
-
-ul.advisory-board-members-list{
-    font-family: 'Montserrat';
+    text-align: center;
+    margin: -1.5em auto 0;
     font-size: 18px;
-    color: #1a1a1a;
+    color: #1A1A1A;
+    width: 100%;
 }
 
-div.advisory-board-members-list-item-name,
-div.advisory-board-members-list-item-desc{
-    padding-left: 1em;
-    padding-right: 1em;
-    color: #1a1a1a;
-}
-.advisory-board-members-list li img{
-    width:100%;
+#board-list {
+    padding: 1em 14.5% 0 16.5%;
 }
 
-.advisory-board-members-list li{
-    padding:0;
+#board-box {
+    position: relative;
+}
+.board-members{
+    width: 20.9%;
+    margin: 0 1% 7% 0;
+    vertical-align: top;
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(26,26,26);
+}
+.board-members span{
+    display: block;
+}
+.board-img {
+    margin: 0 auto;
+    height:100%;
+    width: 100%;
+    padding-bottom: 10%;
+}
+.board-name {
+    font-weight: 800;
+    font-size: 1.7em;
+    padding-top: 1em;
+}
+.board-rank {
+    letter-spacing: 0;
+    line-height: 1.1em;
+    font-size: 1.5em;
 }
 
-button.linked-in-btn {
+.linked-in-btn {
     border-radius: 23px;
     -moz-border-radius: 23px;
     -webkit-border-radius: 23px;
 }
 
-button.linked-in-btn img {
+.linked-in-btn img {
     margin-right: 0.5em;
 }
 
@@ -219,6 +238,10 @@ button.linked-in-btn img {
     }
     #trans-quote-div{
         min-width: 70%;
+    }
+
+    #advisory-board{
+        margin-top: 0;
     }
 }
 
@@ -311,9 +334,23 @@ button.linked-in-btn img {
     .exec-helper {
         height: 90%;
     }
-    
+
     #media-coverage-companies {
         padding: 7.8em 7.5em;
+    }
+
+    #advisory-board {
+        padding-top: 1.5em;
+    }
+
+    #board-title {
+        font-size: 1.9em;
+    }
+
+    #last-quote {
+        font-size: 1.9em;
+        transform: translate(13px,12px);
+        padding-bottom: 1em;
     }
 
     body #fullscreen-hero {
