@@ -147,6 +147,8 @@ background-color: #e7fbf8;
     border-radius: 23px;
     -moz-border-radius: 23px;
     -webkit-border-radius: 23px;
+    font-size: 0.9em;
+    padding-right: 2em;
 }
 
 .linked-in-btn img {
@@ -349,7 +351,7 @@ background-color: #e7fbf8;
 
     #last-quote {
         font-size: 1.9em;
-        transform: translate(13px,12px);
+        transform: translate(12px,20px);
         padding-bottom: 1em;
     }
 
