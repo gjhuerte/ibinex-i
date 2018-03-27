@@ -47,7 +47,7 @@
 
     <div class="container-fluid">
         <div class="row max-width-none">
-            <div id="platform-section" class="col-12 max-width-none" style="margin-top: 0%; background-color: #F4F4F4!important;">
+            <div id="platform-section" class="col-xl-12 max-width-none" style="margin-top: 0%; background-color: #F4F4F4!important;">
                 <div class="container-fluid max-width-none">
                     <div class="row platform-content">
                         <div class="col-12 col-lg-6 px-0">
@@ -201,7 +201,7 @@
                         <div id="fifthSection" class="col-12 col-sm-6 col-md-12 col-lg-6 px-0 fifth-section">
                             <div class="qtt-container">
                                 {{--<div class="qtt-image-container">--}}
-                                    <div class="col-12 qtt px-0">
+                                    <div class="qtt px-0">
                                         <!--<img class="qtt-img" src="" alt=""> -->
                                     </div>
                                 {{--</div>--}}
