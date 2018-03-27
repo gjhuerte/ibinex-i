@@ -1212,17 +1212,368 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 2560px) {
-    #credit-card-section {
+    #platform-img-container {
+        background-image: url(../img/l1.png);
+        background-repeat: no-repeat;
+        background-position: 91% 61%;
+        background-size: 100% 100%;
+        width: 83%;
+        height: 600px;
+        float: right;
+    }
+    #platform-text-container {
+        padding-right: 360px;
+        padding-top: 110px;
+        margin-left: 0%;
+        left: 0.65%;
+        font-size: 140%;
+    }
+    .inner-crm {
+        padding-top: 100px;
+        padding-left: 375px;
+        font-size: 140%;
+    }
+    .macbook-img {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 660px;
+        zoom: 1;
+        margin-left: 1.5%;
+    }
+    .red-ellipse {
+        top: 566px;
+        height: 46%;
+        left: 8.5%;
+    }
+    .lorem-ipsum {
+        margin-top: 15.8%;
+        width: 90%;
+    }
+    .inner-lorem {
+        padding-top: 75px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 40px;
+        font-size: 140%;
+    }
+    .inner-quote {
+        font-size: 140%;
+    }
+    #crypto-bridge-section {
+        margin-top: 3%;
+    }
+    .cb-logo {
+        height: 690px;
+    }
+    .cb-text {
 
+    }
+    .cb p {
+        line-height: 1.7;
+        font-size: 140%;
+    }
+    .font-34 {
+        font-size: 40px !important;
+    }
+    #credit-card-section {
+        padding-top: 0px;
+        margin-top: -5%;
+    }
+    .fone-img {
+        background-position: 92% 95%;
+        background-size: cover;
+        width: 67%;
+        height: 1210px;
+        float: right;
+    }
+    .credit-card p {
+        color: #595959;
+        font-weight: 500;
+        line-height: 2;
+        font-size: 140%;
+    }
+    .custodian-left {
+        font-size: 140%;
+    }
+    .qtt {
+        background-position: 40% center;
+        background-size: 100% 100%;
+        height: 690px;
+        margin-left: 1.5%;
+    }
+    .lorem-ipsum-lower {
+        margin-left: 10rem !important;
+        padding-left: 70px !important;
+        padding-right: 80px !important;
+        padding-bottom: 45px !important;
+        padding-top: 54px;
+        max-width: 88%;
+        font-size: 140%;
+    }
+    .red-ellipse-2 {
+        top: 57.5%;
+        height: 33%;
+        left: 13%;
+    }
+    .custodian {
+        padding-bottom: 460px;
     }
 }
 
 @media only screen and (min-width: 3840px) {
+    #platform-img-container {
+        background-image: url(../img/l1.png);
+        background-repeat: no-repeat;
+        background-position: 91% 61%;
+        background-size: 100% 100%;
+        width: 85%;
+        height: 850px;
+        float: right;
+    }
+    #platform-text-container {
+        padding-right: 360px;
+        padding-top: 160px;
+        margin-left: 0%;
+        left: 0.65%;
+        font-size: 210%;
+    }
+    .font-34 {
+        font-size: 60px !important;
+    }
+    .inner-crm {
+        padding-top: 100px;
+        padding-left: 616px;
+        font-size: 210%;
+    }
+    .macbook-img {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 840px;
+        zoom: 1;
+        margin-left: 1.5%;
+    }
+    .lorem-ipsum {
+        margin-top: 19.8%;
+        width: 94%;
+    }
+    .inner-lorem {
+        padding-top: 150px;
+        padding-bottom: 40px;
+        padding-left: 75px;
+        padding-right: 40px;
+        font-size: 210%;
+    }
+    .red-ellipse {
+        top: 670px;
+        height: 50%;
+        left: 3%;
+    }
+    .cb-logo {
+        height: 950px;
+    }
+    .cb p {
+        line-height: 1.7;
+        font-size: 210%;
+    }
+    .fone-img {
+        background-position: 92% 95%;
+        background-size: cover;
+        width: 67%;
+        height: 1710px;
+        float: right;
+    }
+    #credit-card-section {
+        padding-top: 0px;
+        margin-top: 0%;
+    }
+    .credit-card p {
+        color: #595959;
+        font-weight: 500;
+        line-height: 2;
+        font-size: 210%;
+    }
+    .custodian-left {
+        font-size: 210%;
+    }
+    .custodian-left {
+        padding-left: 620px;
+        padding-top: 60px;
+        padding-right: 30px !important;
+    }
+    .m-bot-30 {
+        margin-bottom: 70px;
+    }
+    .qtt {
+        background-position: 40% center;
+        background-size: 100% 100%;
+        height: 955px;
+        margin-left: 1.5%;
+    }
+    .lorem-ipsum-lower {
+        margin-left: 10rem !important;
+        padding-left: 70px !important;
+        padding-right: 80px !important;
+        padding-bottom: 45px !important;
+        padding-top: 90px;
+        max-width: 92%;
+        font-size: 210%;
+    }
+    .red-ellipse-2 {
+        top: 56%;
+        height: 35%;
+        left: 6%;
+    }
+    .navbar-expand-md>.container {
+        max-width: 50%;
+        font-size: 140%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 300%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 150%;
+    }
 
 }
 
 @media only screen and (min-width: 7680px) {
-
+    #platform-img-container {
+        background-image: url(../img/l1.png);
+        background-repeat: no-repeat;
+        background-position: 91% 61%;
+        background-size: 100% 100%;
+        width: 75%;
+        height: 1530px;
+        float: right;
+    }
+    #platform-text-container {
+        padding-right: 360px;
+        padding-top: 270px;
+        margin-left: 0%;
+        left: 0.65%;
+        font-size: 420%;
+    }
+    .font-34 {
+        font-size: 120px !important;
+    }
+    .inner-crm {
+        padding-top: 100px;
+        padding-left: 1262px;
+        font-size: 420%;
+    }
+    .macbook-img {
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 1530px;
+        zoom: 1;
+        margin-left: 1.5%;
+    }
+    .lorem-ipsum {
+        margin-top: 27.8%;
+        width: 86.8%;
+        left: 9%;
+    }
+    .red-ellipse {
+        top: 1240px;
+        height: 50%;
+        left: 16%;
+    }
+    .inner-lorem {
+        padding-top: 290px;
+        padding-bottom: 40px;
+        padding-left: 280px;
+        padding-right: 40px;
+        font-size: 420%;
+    }
+    .cb-logo {
+        height: 1950px;
+    }
+    .cb p {
+        line-height: 1.7;
+        font-size: 420%;
+    }
+    .cb-text {
+        margin-top: 8%;
+    }
+    .fone-img {
+        background-position: 92% 95%;
+        background-size: cover;
+        width: 67%;
+        height: 3495px;
+        float: right;
+    }
+    #credit-card-section {
+        padding-top: 0px;
+        margin-top: -4%;
+    }
+    .credit-card p {
+        color: #595959;
+        font-weight: 500;
+        line-height: 2;
+        font-size: 420%;
+    }
+    #fourthSection {
+        padding-top: 280px;
+    }
+    .custodian-left {
+        font-size: 420%;
+    }
+    .custodian-left {
+        padding-left: 1310px;
+        padding-top: 120px;
+        padding-right: 30px !important;
+    }
+    .m-bot-30 {
+        margin-bottom: 140px;
+    }
+    .qtt {
+        background-position: 40% center;
+        background-size: 100% 100%;
+        height: 2100px;
+        width: 98.5%;
+        margin-left: 1.5%;
+    }
+    .custodian {
+        padding-bottom: 1200px;
+    }
+    .lorem-ipsum-lower {
+        margin-left: 10rem !important;
+        padding-left: 250px !important;
+        padding-right: 80px !important;
+        padding-bottom: 130px !important;
+        padding-top: 230px;
+        max-width: 85.8%;
+        font-size: 420%;
+        left: 10%;
+    }
+    .red-ellipse-2 {
+        top: 52%;
+        height: 40%;
+        left: 15%;
+    }
+    .navbar-expand-md>.container {
+        max-width: 50%;
+        font-size: 420%;
+    }
+    .p-bot-30 {
+        padding-bottom: 100px;
+    }
+    .navbar {
+        padding: 5.5rem 0;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 600%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 420%;
+    }
+    .custodian-title {
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
 }
 
 
