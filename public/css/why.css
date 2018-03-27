@@ -445,7 +445,7 @@ h2.blocktext-2{
         margin-left: 7.2%;
     }
 }
-@media only screen and (min-width: 3352px) {
+@media only screen and (min-width: 3352px) and (max-width: 5050px)  {
     .gradient-wrapper > div{
         max-width: 35%;
     }
@@ -539,6 +539,109 @@ h2.blocktext-2{
         width: 47.4%;
         height: 100%;
         margin-bottom: 144px;
+    }
+}
+@media only screen and (min-width: 5051px) {
+    .gradient-wrapper > div {
+        max-width: 35%;
+    }
+    .gradient-wrapper > div > section {
+        max-width: 100%;
+    }
+    body #fullscreen-hero #hero-content {
+        max-width: 100%;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 27% 0px;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 173px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 90px;
+        margin-top: 4%;
+    }
+    h2.first-fold-title {
+        font-size: 136px !important;
+        margin-top: 5%;
+    }
+    p.first-fold-p {
+        margin-top: 2.4%;
+        font-size: 64px;
+        margin-bottom: 3.8%;
+    }
+    body .container > .row-core{
+        max-width: 100%;
+    }
+    .overflow-remover {
+        max-width: 60%;
+    }
+    div.core-left {
+        max-width: 19.8%;
+        margin-right: 8%;
+    }
+    div.core-right {
+        margin-left: 4%;
+        padding-left: 8.5%;
+        padding-top: 17px;
+    }
+    .core {
+        width: 188px;
+        height: 188px;
+        font-size: 59px;
+    }
+    p.second-core {
+        margin-bottom: 51%;
+        margin-top: 12%;
+    }
+    #fourth-core {
+        margin-top: 13%;
+        margin-bottom: 38%;
+    }
+    .core-div {
+        margin-top: 71px;
+    }
+    .core-text {
+        font-size: 64px;
+        line-height: 112px;
+        margin-top: 11%;
+    }
+    .pc {
+        max-width: 100%;
+        max-height: 100%;
+        padding: 0;
+    }
+    .blocktext-background {
+        zoom: 400%;
+    }
+    .block {
+        top: 8.6%;
+        width: 57%;
+        padding: 3.6% 5.7% 9.2% !important;
+    }
+    .block > :first-child{
+        margin-bottom: 4.9%;
+    }
+    h2.blocktext {
+        font-size: 136px;
+        padding: 4.6% 5% 0% 5.3%;
+    }
+    p.blocktext {
+        margin-left: 4.1%;
+        font-size: 64px;
+        padding-right: 11%;
+        line-height: 110px;
+    }
+    h2.blocktext-2 {
+        padding-left: 4.4%;
+        padding-top: 9%;
+        margin-bottom: 2.7%;
+    }
+    .blocktext-background2 {
+        margin-left: 7.2%;
+        width: 47.4%;
+        height: 100%;
+        margin-bottom: 3.6%;
     }
 }
 
