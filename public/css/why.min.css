@@ -266,13 +266,13 @@ h2.blocktext-2{
     }
 
     .block{
-         right: 0;
-         width: 53%;
-         margin-right: 0 !important;
-         padding: 3% 5% 4% !important;
-         position: absolute;
-         top: 125px;
-     }
+        right: 0;
+        width: 53%;
+        margin-right: 0 !important;
+        padding: 3% 5% 4% !important;
+        position: absolute;
+        top: 125px;
+    }
 }
 
 /* 1200 px */
