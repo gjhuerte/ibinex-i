@@ -208,7 +208,7 @@
             <!--/.Fourth column-->
         </div>
         <div>
-            <p class="property text-justify pb-5 mb-0 color-copy" style="font-size: 10.5px; color: #646781; line-height: 1.2">Risk Disclosure: Ibinex Financials (ibinex.com)
+            <p class="property text-justify pb-5 mb-0 color-copy" style="color: #646781; line-height: 1.2">Risk Disclosure: Ibinex Financials (ibinex.com)
                 will not accept any liability for loss or damage as a result of reliance on the
                 information contained within this website including data, quotes,
                 charts and buy/sell signals. Please be fully informed regarding the
