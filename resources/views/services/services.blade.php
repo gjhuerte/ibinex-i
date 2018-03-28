@@ -7,7 +7,7 @@
 @endpush
 
 @section('header-content')
-    <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto" style="margin-top: 8.5%; margin-bottom: 0.7%;">
+    <section id="hero-content" class="col-xl-12 col-sm-12 mx-auto" style="margin-top: 8.5%; margin-bottom: 0.7%;">
         <h1 class="title text-left text-sm-center">Services</h1>
         <p id="hero-first-p" class="description text-left text-sm-center" style="margin-top: -7%; margin-bottom: 3.5%;">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
         <p id="hero-second-p" class="description text-left text-sm-center" style="margin-bottom: 3%;">Our ecosystem of services comprises of the following units.</p>
@@ -206,7 +206,7 @@
                                     </div>
                                 {{--</div>--}}
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
-                                <div class="col-12 col-sm-10 col-md-12 col-lg-10 text-white px-3 lorem-ipsum-lower">
+                                <div class="col-12 col-sm-10 col-md-12 col-xl-10 text-white px-3 lorem-ipsum-lower">
                                     <p class="text-justify h4 inner-quote">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
