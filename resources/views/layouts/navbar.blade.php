@@ -5,7 +5,7 @@
     <div class="container">
         <a class="navbar-brand" href="#">
             <!--Logo here-->
-            <img src="@stack('logo-link')" alt="bootstrap">
+            <img src="@stack('logo-link')" alt="bootstrap" class="ibinex_logo">
         </a>
 
         <div onclick="ibinex.open_nav()" id="nav-icon3" class="navbar-toggler custom-toggler">
