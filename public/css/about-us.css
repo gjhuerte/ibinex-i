@@ -504,3 +504,62 @@ background-color: #e7fbf8;
         font-size:34px;
     }
 }
+
+@media only screen and (max-width: 3351px) and (min-width: 2000px){
+    body #fullscreen-hero #hero-content {
+        padding: 160px 0px 143px 0px;
+        max-width: 77.333333%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 57px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 26px;
+        line-height: 1.6em;
+        margin-top: 33px;
+    }
+}
+@media only screen and (min-width: 3352px) and (max-width: 5050px)  {
+    /*.gradient-wrapper > div{*/
+        /*max-width: 62%;*/
+    /*}*/
+    body #fullscreen-hero #hero-content {
+        padding: 253px 0px;
+        max-width: 100%
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 85px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 45px;
+        margin-top: 48px;
+    }
+
+}
+@media only screen and (min-width: 5051px) {
+    /*.gradient-wrapper > div {*/
+        /*max-width: 62%;*/
+    /*}*/
+    .gradient-wrapper > div > section {
+        max-width: 75%;
+    }
+    body #fullscreen-hero #hero-content {
+        max-width: 100%;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 27% 0px;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 173px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 90px;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 7000px){
+    .gradient-wrapper > div > section {
+        max-width: 60%;
+    }
+}
