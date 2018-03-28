@@ -186,7 +186,7 @@ body #fullscreen-hero {
     flex-wrap: wrap;
 
     /*background-attachment: fixed;*/
-    background-position: center;  
+    background-position: center;
 }
 body #fullscreen-hero.full-height {
     min-height: 100vh;
@@ -224,7 +224,7 @@ body #fullscreen-hero .semi-circle.green {
     letter-spacing: 2px;
     margin-top: 15px;
     text-transform: uppercase;
-   /* min-width: 100%;*/
+    /* min-width: 100%;*/
     font-weight: bold;
     padding: 15px 55px;
 
@@ -286,7 +286,7 @@ body .gradient-wrapper{
     }
 
     /*#fullscreen-hero #hero-content h1.title{*/
-        /*font-size: 36px;*/
+    /*font-size: 36px;*/
     /*}*/
 }
 
@@ -718,6 +718,8 @@ body footer .column2 {
     font-family: "Proxima Nova", sans-serif;
     font-size: 23px;
     color: #0b1b28;
+    margin-top: 25px;
+    margin-right: 9px;
 }
 
 section#contact-section.bg-color-grey.py-5.contact-height{
@@ -726,7 +728,10 @@ section#contact-section.bg-color-grey.py-5.contact-height{
 
 h6.text-uppercase.heads.fonts{
     font-family: "Proxima Nova", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 2px;
+
 }
 ul.list-unstyled li span.color{
     font-family: "Proxima Nova", sans-serif;
@@ -766,9 +771,44 @@ body{
 }
 
 @media all and (max-width: 330px){
-    .d-xs-block{
+    .d-xs-block {
         display: block;
+        margin-right: 11px;
+        margin-top: 3px;
     }
+
+    #contact-section h2.title {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 23px;
+        color: #0b1b28;
+        margin-top: 86px;
+        margin-right: 9px;
+    }
+    /* not yet edited */
+    h6.text-uppercase.heads.fonts{
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 12px;
+        margin-top: 10px;
+        margin-left: 2px;
+
+    }
+    ul.list-unstyled li span.color{
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+
+
+    }
+
+
+    ul.list-unstyled li span.color{
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+
+    }
+    /* not yet edited */
+
     .align-self-center{
         text-align: center;
         padding: 45px ;
@@ -791,6 +831,7 @@ body{
     body footer .pad-left-div {
         padding-left: 5px;
     }
+
 }
 
 @media all and (min-width: 331px) and (max-width: 400px){
@@ -1104,20 +1145,20 @@ Back to top
         min-height: 119.5vh;
     }
     body #fullscreen-hero #hero-content {
-    padding: 0;
+        padding: 0;
     }
     body #fullscreen-hero #hero-content p.description {
-    line-height: 1.49em;
+        line-height: 1.49em;
     }
 
     body #fullscreen-hero #hero-content p {
-    margin-top: 0;
+        margin-top: 0;
     }
     body p {
-    margin: 15px 0;
+        margin: 15px 0;
     }
     .navbar {
-    padding: .5rem 0;
+        padding: .5rem 0;
     }
 
 }
