@@ -186,7 +186,7 @@ body #fullscreen-hero {
     flex-wrap: wrap;
 
     /*background-attachment: fixed;*/
-    background-position: center;  
+    background-position: center;
 }
 body #fullscreen-hero.full-height {
     min-height: 100vh;
@@ -224,7 +224,7 @@ body #fullscreen-hero .semi-circle.green {
     letter-spacing: 2px;
     margin-top: 15px;
     text-transform: uppercase;
-   /* min-width: 100%;*/
+    /* min-width: 100%;*/
     font-weight: bold;
     padding: 15px 55px;
 
@@ -287,7 +287,7 @@ body .gradient-wrapper{
     }
 
     /*#fullscreen-hero #hero-content h1.title{*/
-        /*font-size: 36px;*/
+    /*font-size: 36px;*/
     /*}*/
 }
 
@@ -719,6 +719,8 @@ body footer .column2 {
     font-family: "Proxima Nova", sans-serif;
     font-size: 23px;
     color: #0b1b28;
+    margin-top: 25px;
+    margin-right: 9px;
 }
 
 section#contact-section.bg-color-grey.py-5.contact-height{
@@ -727,7 +729,10 @@ section#contact-section.bg-color-grey.py-5.contact-height{
 
 h6.text-uppercase.heads.fonts{
     font-family: "Proxima Nova", sans-serif;
-    font-size: 13px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 2px;
+
 }
 ul.list-unstyled li span.color{
     font-family: "Proxima Nova", sans-serif;
@@ -767,17 +772,88 @@ body{
 }
 
 @media all and (max-width: 330px){
-    .d-xs-block{
+    .d-xs-block {
         display: block;
+        margin-right: 11px;
+        margin-top: 3px;
     }
-    .align-self-center{
+
+    footer{
+        line-height: 1.6;
+        font-size: 10.3px;
+        width: auto;
+    }
+
+    h6.text-uppercase.heads.fonts {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 12px;
+        margin-top: 14px;
+        margin-left: 2px;
+        white-space: nowrap;
+    }
+
+    #contact-section h2.title {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 23px;
+        color: #0b1b28;
+        margin-top: 133px;
+        margin-right: 9px;
+    }
+
+    .py-4 {
+        padding-top: 1rem!important;
+        padding-bottom: 1.1rem!important;
+    }
+
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+        margin-top: -2px;
+    }
+
+    .list-unstyled-separator {
+        padding-left: 0;
+        list-style: none;
+        margin-top: -2px;
+    }
+
+    li {
+        white-space: nowrap;
+    }
+
+    .contact-height {
+        height: auto;
+        width: 100%;
+        margin-top: -35px;
+    }
+
+    .property {
+        padding-top: 20%;
+        margin-top: 33px;
+    }
+
+    .align-self-center {
         text-align: center;
-        padding: 45px ;
+        padding: 14px;
+        margin-top: 54px;
     }
+
+    body footer div .alignment {
+        text-align: left;
+        margin-top: 2px;
+    }
+
     body footer .pad-top{
         padding-top: 55px;
         padding-left: 3px;
+        margin-top: 6px;
     }
+
+    footer p.pad-bot {
+        margin: 10px 0;
+        margin-bottom: 14px;
+    }
+
     body footer .column2{
         padding-top: 5px;
         padding-left: 16px;
@@ -792,11 +868,20 @@ body{
     body footer .pad-left-div {
         padding-left: 5px;
     }
+
 }
 
 @media all and (min-width: 331px) and (max-width: 400px){
     .d-xs-block{
         display: block;
+    }
+
+    h6.text-uppercase.heads.fonts {
+        white-space: nowrap;
+    }
+
+    li {
+        white-space: nowrap;
     }
     .align-self-center{
         text-align: center;
@@ -825,6 +910,14 @@ body{
 @media all and (min-width: 401px) and (max-width: 490px){
     .d-sm-block{
         display: block;
+    }
+
+    h6.text-uppercase.heads.fonts {
+        white-space: nowrap;
+    }
+
+    li {
+        white-space: nowrap;
     }
     .align-self-center{
         text-align: center;
@@ -1021,6 +1114,55 @@ body{
         width: 100%;
     }
 }
+/*8k Screen Size*/
+@media all and (min-width: 7680px ){
+
+    body footer .fonts {
+        font-size: 80px;
+    }
+
+    footer{
+        line-height: 1.6;
+        font-size: 57px;
+        width: auto;
+    }
+
+
+    #contact-section h2.title {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 80px;
+        color: #0b1b28;
+        margin-top: 72px;
+        margin-right: 9px;
+    }
+
+    h6.text-uppercase.heads.fonts {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 102px;
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+
+    ul.list-unstyled li span.color {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 5em;
+        font-weight: 600;
+        padding: 3%;
+        margin-bottom: 5%;
+        line-height: 1;
+    }
+
+    footer p.pad-bot {
+        margin: 10px 0;
+        font-size: 79px;
+    }
+
+    footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot {
+        font-size: 83px;
+    }
+
+
+}
 
 
 /*
@@ -1105,20 +1247,20 @@ Back to top
         min-height: 119.5vh;
     }
     body #fullscreen-hero #hero-content {
-    padding: 0;
+        padding: 0;
     }
     body #fullscreen-hero #hero-content p.description {
-    line-height: 1.49em;
+        line-height: 1.49em;
     }
 
     body #fullscreen-hero #hero-content p {
-    margin-top: 0;
+        margin-top: 0;
     }
     body p {
-    margin: 15px 0;
+        margin: 15px 0;
     }
     .navbar {
-    padding: .5rem 0;
+        padding: .5rem 0;
     }
 
 }

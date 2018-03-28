@@ -26,13 +26,13 @@
                     <div class='col-md-6'>
                         <h1 class='subtitle black' id='subtitle_1'>Protection of Funds</h1>
                         <div id='para_1'>
-                            <p>
+                            <p class="para1">
                                 The protection of your crypto-funds is of paramount importance to us. For this reason, we take the ultimate lengths to ensure your funds remain safe at all times.
                             </p>
-                            <p>
+                            <p class="para2">
                                 As an indication of the high protective standards we hold, Ibinex has been granted the status of fully-licensed, fully-compliant and as a regulated custodian and account processor.
                             </p>
-                            <p>
+                            <p class="para3">
                                 We are the first cryptocurrency exchange platform to hold this mantle and offer exclusive payment solutions. As such, we must demonstrate a consistent level of regulatory compliance
                                 in order to retain professional distinction; a title of which we are immensely proud.
                             </p>
@@ -41,11 +41,11 @@
                     <div class='col-md-6'>
                         <h1 class='subtitle black' id='subtitle_2'>Encryption and Technologies</h1>
                         <div id='para_2'>
-                            <p>
+                            <p class="para4">
                                 A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned,
                                 and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technology.
                             </p>
-                            <p>
+                            <p class="para5">
                                 We ensure that no weak links exist to threaten the stability and core security of Ibinex for our customers. Threats are neutralised before they present themselves &ndash;
                                 we take no chances, and anticipate potential breaches before they arise, entirely removing their potential before they ever eventuate.
                             </p>
@@ -58,12 +58,12 @@
             <article class='container-fluid position-relative'>
                 <div class='row security-width'>
                     <div class='col-md-5' id='infor-security'>
-                        <h1 class='subtitle black'>Information Security</h1>
-                        <p>
+                        <h1 class='subtitle blackinf'>Information Security</h1>
+                        <p class="para6">
                            Our platform is a 24/7 guarded operation, with all crypto-based funds help in cold-wallets, shielded by our team of cyber security experts who work around the clock to ensure all funds are safe and untouchable by unauthorised seekers.
                         </p>
                         <h1 class='subtitle black' id="privacy">Privacy</h1>
-                        <p>
+                        <p class="para7">
                             Security and confidentiality are of the utmost importance for our clients, and you can learn more about our completely transparent Regulation and Privacy Policy,
                             to have complete peace of mind and confidence in Ibinex.
                         </p>
