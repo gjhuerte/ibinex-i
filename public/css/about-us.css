@@ -142,6 +142,13 @@ background-color: #e7fbf8;
     line-height: 1.1em;
     font-size: 1.5em;
 }
+.slick-members {
+    margin: 0 0 1% 0;
+    outline: none;
+}
+.slick-members .board-img {
+    width: 100%;
+}
 
 .linked-in-btn {
     border-radius: 23px;
@@ -159,11 +166,62 @@ background-color: #e7fbf8;
     transform: translateY(-350%);
 }
 
+@media (max-width: 450px){
+    div#media-album{
+        margin: 0 auto;
+        display: inline;
+    }
+    #media-album img.media-img{
+        max-width: initial;
+        width: 49%;
+        margin-bottom: 0.9em;
+    }
+    .media-img:nth-last-child(-n+4){
+        display: none;
+    }
+}
+
 @media (max-width:991px){
-    .hide-on-lg {
-        display:none;
+
+    body #fullscreen-hero #hero-content {
+        padding: 7.5em 0 8em 0;
     }
 
+    body #fullscreen-hero #hero-content p.description {
+        line-height: 1.39em;
+        padding-top: 1em;
+    }
+
+    #transparency {
+        margin: 0 0 -10px 0;
+        padding-top: 2.4em;
+    }
+    #transparency-left p {
+        line-height: 1.7em;
+        margin-bottom: 2.1em;
+    }
+    #transparency-right-floater {
+        padding-left: 0;
+        transform: translateX(-10px);
+    }
+
+    div#people-behind-bg {
+        padding: 2.9em 0 3.2em 0;
+    }
+    #exec-inner-left {
+        padding: 1.5em 0 0 0;
+    }
+    #exec-inner-left p:nth-child(3){
+        font-size: 0.99em;
+    }
+
+    #exec-title {
+        font-size: 2.15em;
+    }
+
+    .hide-on-med {
+        display: none;
+    }
     #circ{
         position: relative;
         top: 0;
@@ -184,6 +242,48 @@ background-color: #e7fbf8;
         left: 5%;
         padding-left: 10px;
         margin-left: 0px;
+    }
+    #media-coverage-companies{
+        padding-top: 1.5em;
+        padding-bottom: 2.7em;
+    }
+    #media-title{
+        font-size: 2.1em;
+        line-height: 1.3em;
+        padding-bottom: 0.5em;
+    }
+
+    .media-quotes{
+        margin-top: -0.3em;
+    }
+    .media-quotes p {
+        margin-top: 0.5em;
+        margin-bottom: 1.05em;
+    }
+
+    #advisory-board{
+        padding-top: 1.2em;
+        padding-bottom: 1em;
+    }
+    #board-title{
+        font-size: 1.85em;
+        line-height: 1.2em;
+        margin-bottom: 0;
+    }
+    .slick-members .board-name {
+        padding: 0;
+        font-size: 1.6em;
+    }
+    .slick-members .board-rank {
+        font-size: 1.2em;
+    }
+    #last-quote-box {
+        margin-top: 1.8em;
+        padding-bottom: 3.5em;
+    }
+    #last-quote{
+        font-size: 1.8em;
+        line-height: 1.45em;
     }
 }
 
@@ -245,9 +345,16 @@ background-color: #e7fbf8;
     #advisory-board{
         margin-top: 0;
     }
+
+    .hide-on-lg{
+        display: none !important;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
+    .hide-on-lg{
+        display: none !important;
+    }
 
     #media-coverage-floater {
         position: relative;
@@ -395,5 +502,64 @@ background-color: #e7fbf8;
 
     #media-title {
         font-size:34px;
+    }
+}
+
+@media only screen and (max-width: 3351px) and (min-width: 2000px){
+    body #fullscreen-hero #hero-content {
+        padding: 160px 0px 143px 0px;
+        max-width: 77.333333%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 57px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 26px;
+        line-height: 1.6em;
+        margin-top: 33px;
+    }
+}
+@media only screen and (min-width: 3352px) and (max-width: 5050px)  {
+    /*.gradient-wrapper > div{*/
+        /*max-width: 62%;*/
+    /*}*/
+    body #fullscreen-hero #hero-content {
+        padding: 253px 0px;
+        max-width: 100%
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 85px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 45px;
+        margin-top: 48px;
+    }
+
+}
+@media only screen and (min-width: 5051px) {
+    /*.gradient-wrapper > div {*/
+        /*max-width: 62%;*/
+    /*}*/
+    .gradient-wrapper > div > section {
+        max-width: 75%;
+    }
+    body #fullscreen-hero #hero-content {
+        max-width: 100%;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 27% 0px;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 173px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 90px;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 7000px){
+    .gradient-wrapper > div > section {
+        max-width: 60%;
     }
 }

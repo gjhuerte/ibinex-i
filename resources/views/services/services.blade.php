@@ -206,7 +206,7 @@
                                     </div>
                                 {{--</div>--}}
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
-                                <div class="col-12 col-sm-10 col-md-12 col-lg-10 text-white px-3 lorem-ipsum-lower">
+                                <div class="col-12 col-sm-10 col-md-12 col-xl-10 text-white px-3 lorem-ipsum-lower">
                                     <p class="text-justify h4 inner-quote">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.

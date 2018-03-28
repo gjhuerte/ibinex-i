@@ -1034,28 +1034,86 @@ body{
     .mainCont{
         max-width: 62%;
     }
-    .navCont{
+    img.ibinex_logo{
+        height: 2em;
+        width: 7.2em;
+    }
+    body #fullscreen-hero .navCont{
         max-width: 100%;
-        margin: 0;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        /*padding-top: 0.45rem;*/
+        margin-top: 2em;
     }
     .navCont > div{
         margin: 0;
         max-width: 100%;
     }
     body #fullscreen-hero nav ul.navbar-nav {
-        padding-left: 5.4%;
+        padding-left: 3.6em;
+        margin-right: 0!important;
+        padding-right: 6.5em;
+    }
+    body #fullscreen-hero nav ul.navbar-nav .nav-item {
+        padding: 0 0.625em;
     }
     .nav-link {
-        padding-top: 7px;
+        padding-top: 4px;
+    }
+    body #fullscreen-hero .semi-circle.pink{
+        padding: 1em 1em;
     }
     body #fullscreen-hero .navbar a,
     body #fullscreen-hero .semi-circle.pink {
         font-size: 0.813em;
     }
 }
-@media all and (min-width: 7680px){
+@media all and (min-width: 2560px){
     nav.navCont{
-        font-size: 48px;
+        font-size: 22px;
+    }
+    body #fullscreen-hero nav ul.navbar-nav .nav-item {
+        padding: 0 0.67em;
+    }
+    body #fullscreen-hero .semi-circle.pink {
+        padding: 1em 4em;
+    }
+}
+@media all and (min-width: 3540px){
+    nav.navCont{
+        font-size: 34px;
+    }
+    body #fullscreen-hero nav ul.navbar-nav .nav-item {
+         padding: 0 0.7em;
+    }
+    body #fullscreen-hero .semi-circle.pink {
+        padding: 1em 3.7em;
+    }
+}
+@media all and (min-width: 5000px){
+    nav.navCont{
+        font-size: 46px;
+    }
+}
+@media all and (min-width: 7000px){
+    nav.navCont{
+        font-size: 64px;
+    }
+    .mainCont{
+        max-width: 62%;
+    }
+    body #fullscreen-hero .navCont {
+        margin-top: 2.4em;
+    }
+    body #fullscreen-hero nav ul.navbar-nav {
+        padding-left: 4.3em;
+    }
+    body #fullscreen-hero nav ul.navbar-nav .nav-item {
+        padding: 0 1em;
+    }
+    body #fullscreen-hero .semi-circle.pink {
+        padding: 1em 4.2em;
     }
 }
 

@@ -261,130 +261,115 @@ body #fullscreen-hero .gradient-wrapper {
 }
 
 @media all and (min-width: 2250px) {
-    .gradient-wrapper > div,
     .gradient-wrapper > div > section {
-        max-width: 77%;
+        max-width: 98%;
     }
-
     body #fullscreen-hero .gradient-wrapper #hero-content {
-        margin-top: -20.5rem;
+        margin-top: -22em;
     }
-
     body #fullscreen-hero #hero-content h1.title {
-        margin-bottom: 1.125rem;
+        margin-bottom: 0.3em;
     }
-
     body #fullscreen-hero .gradient-wrapper {
-        min-height: 72.19rem;
+        min-height: 71.5em;
     }
-
     body #fullscreen-hero #hero-content h1.title {
-        font-size: 3.625rem;
+        font-size: 3.625em;
     }
-
     #pricing-content {
         max-width: 50.5%;
-        top: -27.5rem;
-        margin-bottom: -33.5rem;
-        padding-bottom: 3.5rem;
+        top: -27.5em;
+        margin-bottom: -33.5em;
+        padding-bottom: 3.5em;
         border-radius: 35px;
     }
-
     #pricing-content > section.row {
         max-width: 99%;
     }
-
     body #fullscreen-hero #hero-content p.description {
-        font-size: 1.8125rem;
+        font-size: 1.8125em;
     }
-
     #pricing-content h2 {
-        font-size: 2.813rem;
+        font-size: 2.813em;
     }
-
     #pricing-content > #pricing-intro {
         max-width: 70%;
-        padding-top: 5.375rem;
-        padding-bottom: 5.375rem;
+        padding-top: 5.375em;
+        padding-bottom: 5.375em;
     }
-
     #pricing-content article > h5 {
-        font-size: 1.813rem;
-        padding-bottom: 1.75rem;
+        font-size: 1.813em;
+        padding-bottom: 1.1em;
     }
-
     #pricing-content #our-fees {
-        padding-left: 1.25rem;
+        padding-left: 1.25em;
     }
-
     #pricing-content article p {
-        padding-bottom: 1.7rem;
-        font-size: 1.3rem;
+        padding-bottom: 1.3em;
+        font-size: 1.3em;
         line-height: 1.7;
     }
-
     #pricing-content > hr {
         margin-left: 2%;
         margin-right: 2%;
     }
-
     #pricing-content article {
-        padding-bottom: 1.85rem;
+        padding-bottom: 1.85em;
     }
-
     #pricing-content #what-you-receive {
-        padding-left: 1.1rem;
-        margin-top: 0.7rem;
+        padding-left: 1.1em;
+        margin-top: 0.7em;
     }
-
     #pricing-content #what-you-receive > h5 {
-        padding-bottom: 1.625rem;
+        padding-bottom: 0.8em;
     }
-
     #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(1) {
-        padding-bottom: 3.125rem;
+        padding-bottom: 2.7em;
+        font-size: 1.35em;
     }
-
     #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(2) {
-        padding-bottom: 3.875rem;
+        padding-bottom: 3.35em;
+        font-size: 1.35em;
     }
-
     #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
-        padding-bottom: 1.1rem;
+        padding-bottom: 1.1em;
+        font-size: 1.35em;
     }
-
     #pricing-content #what-you-receive {
-        padding-bottom: 4.9rem;
+        padding-bottom: 4.9em;
     }
-
     #pricing-content > hr:last-of-type {
-        padding-bottom: 2.75rem;
+        padding-bottom: 2.5em;
     }
-
     #pricing-content #onboarding-time > div > div:last-of-type > p:nth-of-type(1) {
-        padding-bottom: 0.1875rem;
+        padding-bottom: 0.1875em;
     }
 
     #pricing-content #what-you-receive p {
-        font-size: 1.2rem;
+        font-size: 1.2em;
     }
 }
 
 @media all and (min-width: 3500px) {
-    :root {
+
+    #pricing-content #what-you-receive > div.text-small{
         font-size: 24px;
     }
 
+    body #fullscreen-hero .gradient-wrapper {
+        min-height: 72em;
+    }
+
     #pricing-content > #pricing-intro {
-        padding-bottom: 5.2rem;
+        padding-bottom: 5.2em;
     }
 
     body #fullscreen-hero .gradient-wrapper #hero-content {
-        margin-top: -22rem;
+        margin-top: -24em;
     }
 
     body #fullscreen-hero #hero-content h1.title {
-        margin-bottom: 1.6rem;
+        margin-bottom: 0.4em;
     }
 
     #pricing-content > section.row {
@@ -392,32 +377,32 @@ body #fullscreen-hero .gradient-wrapper {
     }
 
     #pricing-content article p {
-        padding-bottom: 2rem;
+        padding-bottom: 2em;
     }
 
     #pricing-content > hr:first-of-type {
-        margin-bottom: 3.125rem;
+        margin-bottom: 3.125em;
     }
 
     #pricing-content #what-you-receive > h5 {
-        padding-bottom: 1.7rem;
+        padding-bottom: 1.7em;
     }
 
     #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(1) {
-        padding-bottom: 3.4rem;
+        padding-bottom: 3.4em;
     }
 
     #pricing-content #what-you-receive > div > div:first-of-type > p:nth-of-type(2) {
-        padding-bottom: 4.2rem;
+        padding-bottom: 4.2em;
     }
 
     #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
-        padding-bottom: 1.2rem;
+        padding-bottom: 1.2em;
     }
 
     #pricing-content {
-        margin-bottom: -33rem;
-        padding-bottom: 6.5rem;
+        margin-bottom: -33em;
+        padding-bottom: 6.5em;
     }
 }
 
@@ -426,18 +411,18 @@ body #fullscreen-hero .gradient-wrapper {
         font-size: 48px;
     }
 
-    .gradient-wrapper > div, .gradient-wrapper > div > section {
+    .gradient-wrapper > div > section {
         max-width: 100%;
         padding-right: 11%;
         padding-left: 11%;
     }
 
     body #fullscreen-hero .gradient-wrapper #hero-content {
-        margin-top: -24.75rem;
+        margin-top: -24.75em;
     }
 
     body #fullscreen-hero #hero-content h1.title {
-        margin-bottom: 2.1rem;
+        margin-bottom: 2.1em;
     }
 
     #pricing-content > section.row {
@@ -446,61 +431,61 @@ body #fullscreen-hero .gradient-wrapper {
 
     #pricing-content #our-pricing {
         padding-right: 2%;
-        margin-bottom: 1rem;
+        margin-bottom: 1em;
     }
 
     #pricing-content article > h5 {
-        padding-bottom: 2.35rem;
+        padding-bottom: 2.35em;
     }
 
     #pricing-content > hr:first-of-type {
-        margin-bottom: 2rem;
+        margin-bottom: 2em;
     }
 
     #pricing-content #what-you-receive {
-        padding-left: 0.5rem;
+        padding-left: 0.5em;
     }
 
     #pricing-content #what-you-receive > h5 {
-        padding-bottom: 2.2rem;
+        padding-bottom: 2.2em;
     }
 
     #pricing-content #what-you-receive {
-        padding-bottom: 5rem;
+        padding-bottom: 5em;
     }
 
     #pricing-content #what-you-receive > div > div:first-of-type {
-        padding-right: 0.5rem;
+        padding-right: 0.5em;
     }
 
     #pricing-content #what-you-receive > div > div:last-of-type {
-        padding-left: 1rem;
+        padding-left: 1em;
     }
 
     #pricing-content #what-you-receive > div > div:last-of-type > p:nth-of-type(1) {
-        padding-bottom: 1.6rem;
+        padding-bottom: 1.6em;
     }
 
     #pricing-content > hr:last-of-type {
-        padding-bottom: 3.1rem;
+        padding-bottom: 3.1em;
     }
 
     #pricing-content #setup {
-        padding-left: 0.5rem;
-        padding-right: 1.1rem;
+        padding-left: 0.5em;
+        padding-right: 1.1em;
     }
 
     #pricing-content #onboarding-time {
-        padding-left: 1.6rem;
+        padding-left: 1.6em;
     }
 
     #pricing-content #onboarding-time p:nth-of-type(1) {
-        padding-bottom: 2.5rem;
+        padding-bottom: 2.5em;
     }
 
     #pricing-content {
-        margin-bottom: -33rem;
-        padding-bottom: 9.5rem;
+        margin-bottom: -33em;
+        padding-bottom: 9.5em;
         border-radius: 95px;
     }
 }
