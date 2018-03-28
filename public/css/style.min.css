@@ -1040,7 +1040,9 @@ body{
     }
     body #fullscreen-hero .navCont{
         max-width: 100%;
-        margin: 0;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
         /*padding-top: 0.45rem;*/
         margin-top: 2em;
     }
@@ -1078,7 +1080,7 @@ body{
         padding: 1em 4em;
     }
 }
-@media all and (min-width: 3840px){
+@media all and (min-width: 3540px){
     nav.navCont{
         font-size: 34px;
     }
@@ -1089,7 +1091,12 @@ body{
         padding: 1em 3.7em;
     }
 }
-@media all and (min-width: 7680px){
+@media all and (min-width: 5000px){
+    nav.navCont{
+        font-size: 46px;
+    }
+}
+@media all and (min-width: 7000px){
     nav.navCont{
         font-size: 64px;
     }
