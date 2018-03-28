@@ -448,7 +448,7 @@ h2.blocktext-2{
 }
 @media only screen and (min-width: 3352px) and (max-width: 5050px)  {
     .gradient-wrapper > div{
-        max-width: 35%;
+        max-width: 62%;
     }
     body #fullscreen-hero #hero-content {
         padding: 253px 0px;
@@ -544,10 +544,10 @@ h2.blocktext-2{
 }
 @media only screen and (min-width: 5051px) {
     .gradient-wrapper > div {
-        max-width: 35%;
+        max-width: 62%;
     }
     .gradient-wrapper > div > section {
-        max-width: 100%;
+        max-width: 2333px;
     }
     body #fullscreen-hero #hero-content {
         max-width: 100%;
