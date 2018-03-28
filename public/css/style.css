@@ -265,6 +265,7 @@ body .gradient-wrapper{
     width:100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 12px 0px;
     background: linear-gradient(to right, rgba(57,28,255, 0.6) , rgba(255,59,48,0.6));
 }
 

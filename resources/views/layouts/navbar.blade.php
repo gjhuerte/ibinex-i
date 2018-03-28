@@ -1,7 +1,7 @@
 @push('logo-link', asset("img/logo.png"))
 
 <!-- Start menu here -->
-<nav class="container navbar navbar-expand-lg navbar-light bg-faded">
+<nav class="container navbar navbar-expand-lg navbar-light bg-faded navCont">
     <div class="container">
         <a class="navbar-brand" href="#">
             <!--Logo here-->
@@ -53,7 +53,7 @@
 @section('nav-links')
     <div class="sidenav " id="mySidenav">
         <ul class="navbar-nav mr-auto">
-            <img src="/img/logo/logo-bottom.png" alt="bootstrap" style="min-width:210px;">
+            <img src="{{ asset('img/logo/logo-bottom.png') }}" alt="bootstrap" style="min-width:210px;">
             <li class="nav-item active">
                 <a class="nav-link nav" href="{!! url('/') !!}">Home <span class="sr-only">(current)</span></a>
             </li>
