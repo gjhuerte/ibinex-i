@@ -10,7 +10,7 @@
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12">
         <div class="col-xl-12 col-sm-12 order-xl-1 header-div header-pad">
-            <h1 class="title text-left">Introducing CryptoBridge™</h1>
+            <h1 class="title text-left head-h1">Introducing CryptoBridge™</h1>
             <p class="description1 text-justify">Our patent-pending proprieta&shy;ry software, CryptoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
             <p class="description2 text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
             <button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>
@@ -148,7 +148,7 @@
 
     <!--4 -->
     <section id="fifth-fold" class="container-fluid position-relative">
-        <section class="row embed-parent max-width-none" style="margin-right: 390px;margin-left: 390px;margin-bottom: 124px;">
+        <section class="row embed-parent max-width-none ex-sec3" style="margin-right: 390px;margin-left: 390px;margin-bottom: 124px;">
             <section class="row mx-0">
                 <div class="col-xl-6 order-xl-2 ex-col">
                     <section class="pt-4">
@@ -256,25 +256,25 @@
                 <div class="carousel-item text-center active">
                     <!-- 1 -->
                     <img class="bro-img1" src="{{ asset('img/b1.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold" style="color: rgb(36, 53, 85);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Business Model</h2>
-                    <p style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure">Download</button>
+                    <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Business Model</h2>
+                    <p class="bro-p-1" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure bro-btn-1">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
                     <img class="bro-img2" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold" style="color: rgb(139, 81, 54);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">One Page Brochure</h2>
-                    <p style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure">Download</button>
+                    <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">One Page Brochure</h2>
+                    <p class="bro-p-2" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure bro-btn-2">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
                     <img class="bro-img3" src="{{ asset('img/b3.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold" style="color: rgb(157, 80, 74);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Custodian Guidelines</h2>
-                    <p style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure">Download</button>
+                    <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Custodian Guidelines</h2>
+                    <p class="bro-p-3" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure bro-btn-3">Download</button>
                 </div>
                 <!-- FIRST ROW END -->
                 <!-- SECOND ROW START -->
@@ -282,25 +282,25 @@
                 <div class="carousel-item text-center">
                     <!-- 1 -->
                     <img class="bro-img4" src="{{ asset('img/b4.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold" style="color: rgb(116, 133, 92);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Pricing Model</h2>
-                    <p style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure">Download</button>
+                    <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Pricing Model</h2>
+                    <p class="bro-p-4" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure bro-btn-4">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
                     <img class="bro-img5" src="{{ asset('img/b5.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold" style="color: rgb(102, 70, 129);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Terms & Conditions</h2>
-                    <p style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure">Download</button>
+                    <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Terms & Conditions</h2>
+                    <p class="bro-p-5" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure bro-btn-5">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
                     <img class="bro-img6" src="{{ asset('img/b6.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold" style="color: rgb(74, 93, 134);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">KYC & AML Requirements</h2>
-                    <p style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure">Download</button>
+                    <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">KYC & AML Requirements</h2>
+                    <p class="bro-p-6" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
+                    <button class="semi-circle green-brochure bro-btn-6">Download</button>
                 </div>
                 <!-- SECOND ROW END -->
 
