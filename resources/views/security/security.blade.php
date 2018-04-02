@@ -43,7 +43,7 @@
                         <div id='para_2'>
                             <p class="para4">
                                 A successful cryptocurrency exchange suite is only as strong as its weakest link. Ibinex has left no encryption technology stone unturned,
-                                and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technology.
+                                and has implemented the highest level of SSL security into the platform, complete with the most solid and secure technologies.
                             </p>
                             <p class="para5">
                                 We ensure that no weak links exist to threaten the stability and core security of Ibinex for our customers. Threats are neutralised before they present themselves &ndash;
