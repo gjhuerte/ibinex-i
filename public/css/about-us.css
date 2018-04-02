@@ -150,6 +150,28 @@ background-color: #e7fbf8;
     width: 100%;
 }
 
+a.board-arrows{
+    position: absolute;
+    color: white;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+    top: 35%;
+    height: 50px;
+    width: 40px;
+    font-size: 80px;
+    line-height: 40px;
+    background-color: rgba(0,0,0,0);
+}
+a.board-arrows:active{
+    background-color: rgba(0,0,0,0.4);
+}
+#board-next {
+    right: 0;
+}
+#board-prev {
+    color: rgba(255,255,255,0.3);
+    left: 0;
+}
+
 .linked-in-btn {
     border-radius: 23px;
     -moz-border-radius: 23px;
@@ -502,5 +524,64 @@ background-color: #e7fbf8;
 
     #media-title {
         font-size:34px;
+    }
+}
+
+@media only screen and (max-width: 3351px) and (min-width: 2000px){
+    body #fullscreen-hero #hero-content {
+        padding: 160px 0px 143px 0px;
+        max-width: 77.333333%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 57px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 26px;
+        line-height: 1.6em;
+        margin-top: 33px;
+    }
+}
+@media only screen and (min-width: 3352px) and (max-width: 5050px)  {
+    /*.gradient-wrapper > div{*/
+        /*max-width: 62%;*/
+    /*}*/
+    body #fullscreen-hero #hero-content {
+        padding: 253px 0px;
+        max-width: 100%
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 85px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 45px;
+        margin-top: 48px;
+    }
+
+}
+@media only screen and (min-width: 5051px) {
+    /*.gradient-wrapper > div {*/
+        /*max-width: 62%;*/
+    /*}*/
+    .gradient-wrapper > div > section {
+        max-width: 75%;
+    }
+    body #fullscreen-hero #hero-content {
+        max-width: 100%;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 27% 0px;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 173px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 90px;
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width: 7000px){
+    .gradient-wrapper > div > section {
+        max-width: 60%;
     }
 }

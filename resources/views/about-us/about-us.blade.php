@@ -259,6 +259,10 @@
                     <span class="board-rank">Business Analyst, Credit Agricole CIB</span>
                 </div>
             </div>
+            <div id="board-arrow-box" class="hide-on-lg">
+                <a id="board-prev" class="board-arrows" href="#">&lsaquo;</a>
+                <a id="board-next" class="board-arrows" href="#">&rsaquo;</a>
+            </div>
         </div>
     </div>
 </div>
