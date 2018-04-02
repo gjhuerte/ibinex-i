@@ -513,11 +513,11 @@ body.home-template aside{
     }
 
     body #fullscreen-hero #hero-content h1.title {
-    font-size: 1.7em;
-    font-weight: 600;
-    margin-top: -2.4em;
-    margin-left: 6.4em;
-    letter-spacing: .5px;
+        font-size: 1.7em!important;
+        font-weight: 600!important;
+        margin-top: -1.8em!important;
+        margin-left: 5.1em!important;
+        letter-spacing: .5px!important;
     }
 
     body div.header-div.header-pad {
@@ -544,25 +544,25 @@ body.home-template aside{
     body p.description1 {
         font-size: 0.9em!important;
         font-weight: normal!important;
-        margin-left: 12em!important;
-        padding-right: 17em;
-        transform: translate(0em,0.08em)!important;
+        margin-left: 9.7em!important;
+        padding-right: 14.2em;
+        transform: translate(0em,0.2em)!important;
         line-height: 1.6em!important;
         hyphens: manual!important;
-        letter-spacing: 0px!important;
+        letter-spacing: -0.1px!important;
         word-spacing: 1px!important;
     }
 
     body p.description2 {
-        transform: translate(-0.3em, 0em)!important;
+        transform: translate(-0.3em, 0.2em)!important;
         font-size: 0.9em;
         line-height: 1.6em!important;
         letter-spacing: 0.3px!important;
         word-spacing: -2px;
         hyphens: manual!important;
         font-weight: normal;
-        margin-left: 12.2em;
-        padding-right: 17em;
+        margin-left: 10em;
+        padding-right: 14.2em;
     }
 
     body #fullscreen-hero .semi-circle.green {
@@ -570,7 +570,7 @@ body.home-template aside{
         text-transform: uppercase!important;
         font-weight: 600!important;
         font-size: 0.8em!important;
-        transform: translate(13.4em,0.7em)!important;
+        transform: translate(10.8em,0.9em)!important;
         padding: 0.5em 2.7em!important;
         min-width: 0!important;
     }
@@ -675,7 +675,7 @@ body.home-template aside{
 
     body h2.ex-h2-1 {
         font-size: 0.7em!important;
-        margin-top: -3.8em!important;
+        margin-top: -4em!important;
         margin-left: 15.4em!important;
         letter-spacing: 0.3px;
     }
@@ -702,9 +702,9 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent-wrap .ex-image1 {
-        background-size: 99.6% 89.2%!important;
-        background-position: 550% 293%!important;
-        margin-top: -9em !important;
+        background-size: 100% 89.2%!important;
+        background-position: 1.2em 8.7em!important;
+        margin-top: -8.3em !important;
     }
 
     body section.ex-sec1 {
@@ -712,23 +712,23 @@ body.home-template aside{
     }
 
     body .quote-wrapper {
-        padding: 5.5em 1em 2.1em 1em!important;
+        padding: 0em 0em 0.9em 1em!important;
     }
 
     body .quote-wrapper  p.ex-p3 {
-        margin-left: 0.9em!important;
-        margin-top: 3.5em!important;
+        margin-left: 2.2em!important;
+        margin-top: 4.2em!important;
         transform: translate(0em, 0.2em)!important;
         line-height: 1.5em!important;
-        letter-spacing: -0.6px;
-        font-size: 0.9em!important;
+        letter-spacing: 0.2px;
+        font-size: 0.8em!important;
         padding-bottom: 1em!important;
         padding-right: 1.2em;
     }
 
     body span.ex-p4 {
-        font-size: 0.7em!important;
-        margin-left: 1em;
+        font-size: 0.65em!important;
+        margin-left: 3em!important;
     }
 
     body h2.ex-h2-3 {
@@ -736,37 +736,48 @@ body.home-template aside{
     }
 
     body h2.ex-h2-7 {
-        font-size: 1.34em!important;
-        font-weight: 600!important;
-        margin-top: 0.4em!important;
-        margin-left: 0.2em!important;
+        font-size: 0.75em!important;
+        font-weight: 800!important;
+        margin-top: -12.7em!important;
+        margin-left: 0.6em!important;
         line-height: 1.7em!important;
+    }
+
+    body section.ex-sec3 {
+        margin-right: 61px!important;
+        margin-left: 61px!important;
+        margin-bottom: -2.3em!important;
     }
 
     body p.ex-p5 {
-        font-size: 1.2em!important;
-        margin-top: 0.7em!important;
-        padding-right: 0.2em!important;
-        line-height: 1.72em!important;
+        font-size: 0.7em!important;
+        margin-top: -0.3em!important;
+        margin-left: 0.8em;
+        padding-right: 14.6em!important;
+        letter-spacing: -0.4px;
+        line-height: 1.7em!important;
     }
 
     body h2.ex-h2-4 {
-        font-size: 1.3em!important;
-        margin-left: -0.05em!important;
-        margin-top: 0.3em!important;
-        letter-spacing: 0.15px!important;
+        font-size: 0.7em!important;
+        margin-left: 0.6em!important;
+        margin-top: -3.5em!important;
+        letter-spacing: 0.3px!important;
         line-height: 1.7em!important;
     }
     body p.ex-p6 {
-        font-size: 1.2em!important;
-        margin-top: 1.05em!important;
-        line-height: 1.72em!important;
+        font-size: 0.6em!important;
+        margin-top: 1em!important;
+        margin-left: 1em;
+        padding-right: 17.3em;
+        line-height: 2em!important;
+        letter-spacing: 0.22px;
     }
 
     body h2.ex-h2-5 {
-        font-size: 2.4em!important;
-        margin-top: 0.5em!important;
-        margin-left: 2.2em!important;
+        font-size: 1.37em!important;
+        margin-top: 0.7em!important;
+        margin-left: 0.4em!important;
         letter-spacing: -0.4px!important;
     }
 
@@ -777,11 +788,12 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent-wrap .ex-image2 {
-        background-image: url(../img/pogi.png)!important;
-        background-size: 100% 100%!important;
-        background-position: top!important;
-        min-height: 15.8em!important;
-        margin-top: 0.3em!important;
+        background-image: url(../img/hN17jUY.png)!important;
+        background-size: 34.3em 100%!important;
+        background-position: 0em 100%!important;
+        min-height: 31.5em!important;
+        margin-top: -8.2em!important;
+        width: 87%!important;
     }
 
     body div.ex-quote1 {
@@ -794,16 +806,17 @@ body.home-template aside{
     }
 
     body h2.ex-h2-6 {
-        font-size: 1.6em!important;
-        margin-top: -4em!important;
-        margin-left: 0.5em!important;
+        font-size: 0.9em!important;
+        margin-top: 3.55em!important;
+        margin-left: 0.2em!important;
     }
 
     body h1.ex-h1 {
-        font-size: 2.1em!important;
-        margin-right: -0.1em!important;
+        font-size: 1.2em!important;
+        margin-top: -0.2em;
+        margin-right: -0.3em!important;
         line-height: 1.4em!important;
-        letter-spacing: -0.2px!important;
+        letter-spacing: -0.3px!important;
         padding-right: 1em!important;
         padding-left: 1em!important;
     }
@@ -816,90 +829,230 @@ body.home-template aside{
         width: 5em!important;
     }
 
-    body img.bro-img1,
-    .bro-img2,
-    .bro-img3,
-    .bro-img4,
-    .bro-img5,
-    .bro-img6 {
-        margin-top: 1.8em!important;
-        margin-left: -0.6em!important;
-        height: 18em!important;
-        width: 15em!important;
+    body img.bro-img1 {
+        margin-top: -0.1em!important;
+        margin-left: 11.6em!important;
+        height: 17.2em!important;
+        width: 14.7em!important;
     }
 
-    body h2.bro-h2-1,
-    .bro-h2-2,
-    .bro-h2-3,
-    .bro-h2-4,
-    .bro-h2-5,
-    .bro-h2-6 {
-        font-size: 1.45em!important;
-        margin-top: 1.2em!important;
-        margin-left: -0.15em!important;
-        letter-spacing: -0.3px!important;
+    body img.bro-img2 {
+        margin-top: -0.1em!important;
+        margin-left: 2.5em!important;
+        height: 17.2em!important;
+        width: 14.4em!important;
     }
 
-    body p.bro-p-1,
-    .bro-p-2,
-    .bro-p-3,
-    .bro-p-4,
-    .bro-p-5,
-    .bro-p-6 {
-        margin-top: -0.4em!important;
-        letter-spacing: 1px!important;
-        margin-left: -0.2em!important;
+    body img.bro-img3 {
+        margin-top: -0.1em!important;
+        margin-left: -9.7em!important;
+        height: 17.2em!important;
+        width: 14.8em!important;
     }
 
-    body button.bro-btn-1,
-    .bro-btn-2,
-    .bro-btn-3,
-    .bro-btn-4,
-    .bro-btn-5,
-    .bro-btn-6 {
-        margin-top: 0.6em!important;
-        padding: 0.8em 1.4em!important;
-        margin-left: 0.1em!important;
-        font-size: 1.1em!important;
+    body img.bro-img4 {
+        margin-top: -1.3em!important;
+        margin-left: 11.6em!important;
+        height: 17.2em!important;
+        width: 14.6em!important;
+    }
+
+    body img.bro-img5 {
+        margin-top: -1.3em!important;
+        margin-left: 2.6em!important;
+        height: 17.2em!important;
+        width: 14.7em!important;
+    }
+
+    body img.bro-img6 {
+        margin-top: -1.3em!important;
+        margin-left: -9.6em!important;
+        height: 17.2em!important;
+        width: 14.7em!important;
+    }
+
+    body h2.bro-h2-1 {
+        font-size: 0.8em!important;
+        margin-top: -0.2em!important;
+        margin-left: 20.5em!important;
+        letter-spacing: 0.1px!important;
+    }
+
+    body h2.bro-h2-2 {
+        font-size: 0.7em!important;
+        margin-top: -0.2em!important;
+        margin-left: 5.45em!important;
         letter-spacing: 1.5px!important;
-        font-weight: 500!important;
+    }
+
+    body h2.bro-h2-3 {
+        font-size: 0.7em!important;
+        margin-top: -0.2em!important;
+        margin-left: -10.7em!important;
+        letter-spacing: 0.9px!important;
+    }
+
+    body h2.bro-h2-4 {
+        font-size: 0.7em!important;
+        margin-top: 0.2em!important;
+        margin-left: 23.5em!important;
+        letter-spacing: 1px!important;
+    }
+
+    body h2.bro-h2-5 {
+        font-size: 0.7em!important;
+        margin-top: 0.2em!important;
+        margin-left: 5.3em!important;
+        letter-spacing: 1px!important;
+    }
+
+    body h2.bro-h2-6 {
+        font-size: 0.7em!important;
+        margin-top: 0.1em!important;
+        margin-left: -10.6em!important;
+        letter-spacing: 1.1px!important;
+    }
+
+    body #downloadables .brochures {
+        margin: 24px 0!important;
+        display: inline-block!important;
+    }
+
+    body p.bro-p-1 {
+        margin-top: -1.4em!important;
+        font-size: 0.6em;
+        letter-spacing: 0.5px!important;
+        margin-left: 27.3em!important;
+    }
+
+    body p.bro-p-2 {
+        margin-top: -1.3em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 0.5px!important;
+        margin-left: 6em!important;
+    }
+
+    body p.bro-p-3 {
+        margin-top: -1.3em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 0.5px!important;
+        margin-left: -12.5em!important;
+    }
+
+    body p.bro-p-4 {
+        margin-top: -1.3em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 0.5px!important;
+        margin-left: 27.3em!important;
+    }
+
+    body p.bro-p-5 {
+        margin-top: -1.3em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 0.5px!important;
+        margin-left: 6.2em!important;
+    }
+
+    body p.bro-p-6 {
+        margin-top: -1.2em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 0.5px!important;
+        margin-left: -12.5em!important;
+    }
+
+    body button.bro-btn-1 {
+        margin-top: 0.9em!important;
+        padding: 0.15em 1.5em!important;
+        margin-left: 27.3em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 1.1px!important;
+        font-weight: 600!important;
+    }
+
+    body button.bro-btn-2 {
+        margin-top: 0.9em!important;
+        padding: 0.15em 1.5em!important;
+        margin-left: 6.1em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 1.1px!important;
+        font-weight: 600!important;
+    }
+
+    body button.bro-btn-3 {
+        margin-top: 0.9em!important;
+        padding: 0.15em 1.5em!important;
+        margin-left: -12.6em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 1.1px!important;
+        font-weight: 600!important;
+    }
+
+    body button.bro-btn-4 {
+        margin-top: 0.9em!important;
+        padding: 0.15em 1.5em!important;
+        margin-left: 27.3em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 1.1px!important;
+        font-weight: 600!important;
+    }
+
+    body button.bro-btn-5 {
+        margin-top: 0.9em!important;
+        padding: 0.15em 1.5em!important;
+        margin-left: 6.1em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 1.1px!important;
+        font-weight: 600!important;
+    }
+
+    body button.bro-btn-6 {
+        margin-top: 0.9em!important;
+        padding: 0.15em 1.5em!important;
+        margin-left: -12.7em!important;
+        font-size: 0.6em!important;
+        letter-spacing: 1.1px!important;
+        font-weight: 600!important;
     }
 
     body section.ex-sec2 {
-        padding-bottom: 2.6em!important;
+        padding-bottom: 0.8em!important;
     }
 
     body h1.cov-h1-1 {
-        font-size: 2em;
+        font-size: 1.1em;
         letter-spacing: 0.45px;
-        margin-top: -0.8em;
+        margin-top: -0.3em;
         margin-left: 0.15em;
     }
 
     body img.cov-img-1 {
-        width: 50%;
-        margin-top: -1.8em;
+        width: 7em!important;
+        margin-top: -0.8em;
+        transform: translateX(0.3em);
     }
 
     body img.cov-img-2 {
-        margin-top: 1.9em;
-        margin-left: -0.2em;
-        width: 51%;
+        margin-top: -1.1em;
+        transform: translateX(0.6em);
+        width: 8.5em!important;
     }
 
     body img.cov-img-3 {
-        width: 52%;
-        margin-top: 2.2em;
+        width: 8em!important;
+        margin-top: -0.8em;
+        transform: translateX(0.4em);
     }
 
     body img.cov-img-4 {
-        width: 49%;
-        margin-top: 1.9em;
+        width: 8em!important;
+        margin-top: -0.5em;
+        transform: translateX(0.4em);
     }
 
     body img.cov-img-5 {
-        width: 52%;
-        margin-top: 1.7em;
+        width: 7em!important;
+        margin-top: -0.4em;
+        transform: translateX(0.8em);
     }
 
     body img.cov-img-6 {
@@ -909,7 +1062,7 @@ body.home-template aside{
     }
 
     body section.cov-sec-1 {
-        margin-bottom: 2.55em!important;
+        margin-bottom: 3.2em!important;
     }
 
 }
