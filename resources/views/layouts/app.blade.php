@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link href="{{ asset("css/animate.min.css") }}" rel="stylesheet" />
-    <link href="{{ asset("css/style.css") }}" rel="stylesheet" />
+    <link href="{{ asset("css/style.min.css") }}" rel="stylesheet" />
     <link href="{{ asset("css/ib-loader.min.css") }}" rel="stylesheet" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
