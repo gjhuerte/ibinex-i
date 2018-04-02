@@ -5,16 +5,18 @@
 
 @push('stylesheets')
 <link href="{{ asset("./css/about-us.css") }}" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 @endpush
 
 @section('header-content')
 <section id="hero-content" class="col-xl-7 col-lg-12 mx-auto">
-<h1 class="title text-center">About Ibinex</h1>
-<p class="description text-center">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-</p>
+    <h1 class="title text-center">About Ibinex</h1>
+    <p class="description text-center">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    </p>
 </section>
 @endsection
 
@@ -22,9 +24,7 @@
 @section('bg-img','./about-bg.png')
 @section('content')
 <div class="container-fluid">
-
 <div>
-
 <div id="transparency" class="row">
 <div id="transparency-left">
     <h2 class="mb-4" style="font-size:34px;">
@@ -67,7 +67,7 @@
             <img id="transparency-right-floater" src="{{asset('img/trans5.png')}}" class="img-fluid">
         </div>
     </div>
-    <div class="row  hide-on-lg">
+    <div class="row  hide-on-med">
         <div class="col-lg-auto">
             <img src="{{asset('img/trans4.png')}}" class="img-fluid">
         </div>
@@ -80,7 +80,6 @@
         </div>
     </div>
 </div>
-
 </div> <!-- row -->
 </div>
 
@@ -130,7 +129,6 @@
 
 <div class="my-0" id="press">
     <div class="row">
-
         <div id="media-coverage-floater" class="col-lg-6 col-md-12 blue-ibinex-bg">
             <div class="row">
                 {{--<div class="col-xl-6">--}}
@@ -171,224 +169,107 @@
 </div>
 
 <div class="my-0">
-
 <div class="row">
-
-
     <div id="advisory-board" class="col-12">
         <div class="py-5 text-center">
             <h2 id="board-title" class="mx-5">Ibinex Advisory Board</h2>
         </div>
         <div id="board-box">
-            <div id="board-list">
-                <div class="board-members reveal-up">
+            <div id="board-list" class="hide-on-med">
+                <div class="board-members">
                     <img src="{{asset('img/board1.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jeremy Corbein</span>
                     <span class="board-rank">Chief of Operational Officer, Deiteriy</span>
                 </div>
-                <div class="board-members reveal-up">
+                <div class="board-members">
                     <img src="{{asset('img/board2.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jimmy Fallon</span>
                     <span class="board-rank">Head of Economics Department, Stockholm School of Economics in Riga</span>
                 </div>
-                <div class="board-members reveal-up">
+                <div class="board-members">
                     <img src="{{asset('img/board3.png')}}" class="board-img" />
                     <span class="board-name exec-header">Stephen Colbert</span>
                     <span class="board-rank">Head of Products and Services Development Department XB Software</span>
                 </div>
-                <div class="board-members reveal-up">
+                <div class="board-members">
                     <img src="{{asset('img/board4.png')}}" class="board-img" />
                     <span class="board-name exec-header">Artem Kushik</span>
                     <span class="board-rank">Business Analyst, Credit Agricole CIB</span>
                 </div>
-                <div class="board-members reveal-up">
+                <div class="board-members">
                     <img src="{{asset('img/board1.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jeremy Corbein</span>
                     <span class="board-rank">Chief of Operational Officer, Deiteriy</span>
                 </div>
-                <div class="board-members reveal-up">
+                <div class="board-members">
                     <img src="{{asset('img/board2.png')}}" class="board-img" />
                     <span class="board-name exec-header">Jimmy Fallon</span>
                     <span class="board-rank">Head of Economics Department, Stockholm School of Economics in Riga</span>
                 </div>
-                <div class="board-members reveal-up">
+                <div class="board-members">
                     <img src="{{asset('img/board3.png')}}" class="board-img" />
                     <span class="board-name exec-header">Stephen Colbert</span>
                     <span class="board-rank">Head of Products and Services Development Department XB Software</span>
                 </div>
-                <div class="board-members reveal-up">
+                <div class="board-members">
                     <img src="{{asset('img/board4.png')}}" class="board-img" />
                     <span class="board-name exec-header">Artem Kushik</span>
                     <span class="board-rank">Business Analyst, Credit Agricole CIB</span>
                 </div>
             </div>
+            <div class="board-slick hide-on-lg">
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board1.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Jeremy Corbein</span>
+                    <span class="board-rank">Chief of Operational Officer, Deiteriy</span>
+                </div>
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board2.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Jimmy Fallon</span>
+                    <span class="board-rank">Head of Economics Department, Stockholm School of Economics in Riga</span>
+                </div>
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board3.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Stephen Colbert</span>
+                    <span class="board-rank">Head of Products and Services Development Department XB Software</span>
+                </div>
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board4.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Artem Kushik</span>
+                    <span class="board-rank">Business Analyst, Credit Agricole CIB</span>
+                </div>
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board1.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Jeremy Corbein</span>
+                    <span class="board-rank">Chief of Operational Officer, Deiteriy</span>
+                </div>
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board2.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Jimmy Fallon</span>
+                    <span class="board-rank">Head of Economics Department, Stockholm School of Economics in Riga</span>
+                </div>
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board3.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Stephen Colbert</span>
+                    <span class="board-rank">Head of Products and Services Development Department XB Software</span>
+                </div>
+                <div class="board-members slick-members">
+                    <img src="{{asset('img/board4.png')}}" class="board-img" />
+                    <span class="board-name exec-header">Artem Kushik</span>
+                    <span class="board-rank">Business Analyst, Credit Agricole CIB</span>
+                </div>
+            </div>
+            <div id="board-arrow-box" class="hide-on-lg">
+                <a id="board-prev" class="board-arrows" href="#">&lsaquo;</a>
+                <a id="board-next" class="board-arrows" href="#">&rsaquo;</a>
+            </div>
         </div>
     </div>
-
-
-
-{{--<div id="advisory-board" class="col-12">--}}
-    {{--<div class="py-5 text-center">--}}
-        {{--<h2 id="board-title" class="mx-5">Ibinex Advisory Board</h2>--}}
-    {{--</div>--}}
-    {{--<div id="board-list">--}}
-        {{--<ul class="list-inline text-center d-none d-lg-block">--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board1.png" />--}}
-                {{--<div class="board-name font-weight-bold">Jeremy Corbein</div>--}}
-                {{--<div class="board-desc">Chief Operational Officer, Deiteriy</div>--}}
-            {{--</li>--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board2.png" />--}}
-                {{--<div class="board-name font-weight-bold">Jimmy Fallon</div>--}}
-                {{--<div class="board-desc">Head of Economics Department, Stockholm School of Economics in Riga</div>--}}
-            {{--</li>--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board3.png" />--}}
-                {{--<div class="board-name font-weight-bold">Stephen Colbert</div>--}}
-                {{--<div class="board-desc">Head of Products and Services Development Department, XB Software</div>--}}
-            {{--</li>--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board4.png" />--}}
-                {{--<div class="board-name font-weight-bold">Artem Kushik</div>--}}
-                {{--<div class="board-desc">Business Analyst, Credit Agricole CIB</div>--}}
-            {{--</li>--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board1.png" />--}}
-                {{--<div class="board-name font-weight-bold">Jeremy Corbein</div>--}}
-                {{--<div class="board-desc">Chief Operational Officer, Deiteriy</div>--}}
-            {{--</li>--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board2.png" />--}}
-                {{--<div class="board-name font-weight-bold">Jimmy Fallon</div>--}}
-                {{--<div class="board-desc">Head of Economics Department, Stockholm School of Economics in Riga</div>--}}
-            {{--</li>--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board3.png" />--}}
-                {{--<div class="board-name font-weight-bold">Stephen Colbert</div>--}}
-                {{--<div class="board-desc">Head of Products and Services Development Department, XB Software</div>--}}
-            {{--</li>--}}
-            {{--<li class="board-members list-inline-item">--}}
-                {{--<img class="board-image img-fluid" src="./img/board4.png" />--}}
-                {{--<div class="board-name font-weight-bold">Artem Kushik</div>--}}
-                {{--<div class="board-desc">Business Analyst, Credit Agricole CIB</div>--}}
-            {{--</li>--}}
-        {{--</ul>--}}
-    {{--</div>--}}
-    {{--<ul class="board-list list-inline text-center d-none d-lg-block">--}}
-
-        {{--<li class="col-lg-2"><!--spacer --></li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid w-s-100" src="./img/board1.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Jeremy Corbein</div>--}}
-            {{--<div class="board-desc mb-5">Chief Operational Officer, Deiteriy</div>--}}
-        {{--</li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid" src="./img/board2.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Jimmy Fallon</div>--}}
-            {{--<div class="board-desc mb-5">Head of Economics Department, Stockholm School of Economics in Riga</div>--}}
-        {{--</li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid" src="./img/board3.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Stephen Colbert</div>--}}
-            {{--<div class="board-desc mb-5">Head of Products and Services Development Department, XB Software</div>--}}
-        {{--</li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid" src="./img/board4.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Artem Kushik</div>--}}
-            {{--<div class="board-desc mb-5">Business Analyst, Credit Agricole CIB</div>--}}
-        {{--</li>--}}
-
-        {{--<li class="col-lg-2"><!--spacer --></li>--}}
-        {{--<li class="col-lg-2"><!--spacer --></li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid" src="./img/board1.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Jeremy Corbein</div>--}}
-            {{--<div class="board-desc mb-5">Chief Operational Officer, Deiteriy</div>--}}
-        {{--</li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid" src="./img/board2.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Jimmy Fallon</div>--}}
-            {{--<div class="board-desc mb-5">Head of Economics Department, Stockholm School of Economics in Riga</div>--}}
-        {{--</li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid" src="./img/board3.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Stephen Colbert</div>--}}
-            {{--<div class="board-desc mb-5">Head of Products and Services Development Department, XB Software</div>--}}
-        {{--</li>--}}
-
-        {{--<li class="board-members list-inline-item col-s-12 col-lg-2 align-top">--}}
-            {{--<img class="board-image img-fluid" src="./img/board4.png" />--}}
-            {{--<div class="board-name font-weight-bold mt-5">Artem Kushik</div>--}}
-            {{--<div class="board-desc mb-5">Business Analyst, Credit Agricole CIB</div>--}}
-        {{--</li>--}}
-        {{--<li class="col-lg-2"><!--spacer --></li>--}}
-    {{--</ul>--}}
-
-    {{--<div class="carousel slide d-lg-none text-center" data-interval="false" data-ride="carousel" id="advisory-board-members-carousel" style="touch-action: pan-y; user-select: none; -webkit-user-drag: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">--}}
-
-        {{--<div class="carousel-inner">--}}
-            {{--<div class="carousel-item active">--}}
-                {{--<img class="d-block w-100" src="./img/board1.png">--}}
-
-                {{--<div class="board-name font-weight-bold mt-5">Jeremy Corbein</div>--}}
-                {{--<div class="board-desc mb-5">Chief Operational Officer, Deiteriy</div>--}}
-                {{--<br/>--}}
-            {{--</div>--}}
-
-            {{--<div class="carousel-item">--}}
-                {{--<img class="d-block w-100" src="./img/board2.png">--}}
-                {{--<div class="carousel-item-caption align-middle">--}}
-                    {{--<div class="board-name font-weight-bold mt-5">Jimmy Fallon</div>--}}
-                    {{--<div class="board-desc mb-5">Head of Economics Department, Stockholm School of Economics in Riga</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-
-            {{--<div class="carousel-item">--}}
-                {{--<img class="d-block w-100" src="./img/board3.png">--}}
-                {{--<div class="carousel-item-caption align-middle">--}}
-                    {{--<div class="board-name font-weight-bold mt-5">Stephen Colbert</div>--}}
-                    {{--<div class="board-desc mb-5">Head of Products and Services Development Department, XB Software</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-
-            {{--<div class="carousel-item">--}}
-                {{--<img class="d-block w-100" src="./img/board4.png">--}}
-
-                {{--<div class="board-name font-weight-bold mt-5">Artem Kushik</div>--}}
-                {{--<div class="board-desc mb-5">Business Analyst, Credit Agricole CIB</div>--}}
-                {{--<br/>--}}
-            {{--</div>--}}
-
-            {{--<a class="carousel-control-prev" href="#advisory-board-members-carousel" role="button" data-slide="prev">--}}
-                {{--<span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
-                {{--<span class="sr-only">Previous</span>--}}
-            {{--</a>--}}
-            {{--<a class="carousel-control-next" href="#advisory-board-members-carousel" role="button" data-slide="next">--}}
-                {{--<span class="carousel-control-next-icon" aria-hidden="true"></span>--}}
-                {{--<span class="sr-only">Next</span>--}}
-            {{--</a>--}}
-        {{--</div>--}}
-
-    {{--</div>--}}
-{{--</div>--}}
 </div>
 </div>
-
-
-
-
-
 
 <div class="py-lg-5">
-    <div class="row py-lg-5">
+    <div id="last-quote-box" class="row py-lg-5">
         <div class="col-lg-3"></div>
         <div class="col-lg-6 text-center px-3 my-5">
             <p id="last-quote" class="quotes blue-ibinex">
@@ -400,11 +281,12 @@
         <div class="col-lg-3"></div>
     </div><!-- row -->
 </div>
-
 </div><!--container-->
 @endsection
 
 @push('custom-scripts')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="{{ asset("js/about-us.js") }}"></script>
 @endpush
 
