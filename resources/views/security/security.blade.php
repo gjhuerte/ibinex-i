@@ -34,7 +34,7 @@
                             </p>
                             <p class="para3">
                                 We are the first cryptocurrency exchange platform to hold this mantle and offer exclusive payment solutions. As such, we must demonstrate a consistent level of regulatory compliance
-                                in order to retain professional distinction; a title of which we are immensely proud.
+                                in order to retain this professional distinction; a title of which we are immensely proud.
                             </p>
                         </div>
                     </div>

@@ -63,7 +63,7 @@ div.core-right{
 
 h2.first-fold-title{
     font-size: 34px !important;
-    margin-top: 100px;
+    margin-top: 92px;
     line-height: 1.33;
 }
 
@@ -207,7 +207,7 @@ h2.blocktext-2{
 
 @media only screen and (min-width: 992px){
     .spacer{
-        margin-bottom: 6.7%;
+        margin-bottom: 6.9%;
         /*margin-left: 20.001%;*/
         /*margin-right: 20.001%;*/
         max-width: 100%;
@@ -223,7 +223,7 @@ h2.blocktext-2{
     }
 
     .core-text {
-        margin-bottom: 32%;
+        margin-bottom: 34%;
         line-height: 1.8;
     }
     .second-core {
@@ -368,7 +368,7 @@ h2.blocktext-2{
     }
     p.first-fold-p {
         margin-top: 47px;
-        margin-bottom: 90px;
+        margin-bottom: 85px;
         font-size: 21.5px;
     }
     body .container > .row-core{
@@ -440,7 +440,7 @@ h2.blocktext-2{
         margin-bottom: 77px;
     }
     .blocktext-background2 {
-        width: 47.6%;
+        width: 47.4%;
         height: 100%;
         margin-bottom: 90px;
         margin-left: 7.2%;
@@ -451,7 +451,7 @@ h2.blocktext-2{
         max-width: 62%;
     }
     body #fullscreen-hero #hero-content {
-        padding: 253px 0px;
+        padding: 237px 0px;
         max-width: 100%
     }
     body #fullscreen-hero #hero-content h1.title {
@@ -553,7 +553,7 @@ h2.blocktext-2{
         max-width: 100%;
     }
     body #fullscreen-hero #hero-content {
-        padding: 27% 0px;
+        padding: 20% 0px;
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 173px;
