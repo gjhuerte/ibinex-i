@@ -203,7 +203,7 @@ body #fullscreen-hero .navbar a {
     color: #fff;
 }
 body #fullscreen-hero #hero-content {
-    padding: 112px 0px;
+    padding: 118px 0px;
 }
 body #fullscreen-hero #hero-content h1.title {
     font-size: 42px;
@@ -1115,6 +1115,7 @@ body{
     body #fullscreen-hero .semi-circle.pink {
         padding: 1em 4.2em;
     }
+
 }
 
 
