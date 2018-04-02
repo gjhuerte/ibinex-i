@@ -801,12 +801,12 @@ body.home-template aside{
     }
 
     body div.ex-quote1 {
-        height: 6em!important;
-        width: 6em!important;
+        height: 7em!important;
+        width: 7em!important;
         top: 11em!important;
-        right: 8.7em!important;
+        right: -2.6em!important;
         opacity: 1!important;
-        margin-top: -6.3em!important;
+        margin-top: 6.6em!important;
     }
 
     body h2.ex-h2-6 {
@@ -1723,6 +1723,8 @@ body.home-template aside{
         margin-top: 0.05em!important;
         font-size: 2.4em!important;
         line-height: 1.4em!important;
+        padding-left: 1em!important;
+        padding-right: 1em!important;
         padding-top: 36px!important;
         letter-spacing: .8px!important;
     }
