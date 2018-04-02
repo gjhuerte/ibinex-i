@@ -502,6 +502,11 @@ body.home-template aside{
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
+    body .home-template {
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
     body #fullscreen-hero {
         background-repeat: no-repeat!important;
         background-size: 91em!important;
