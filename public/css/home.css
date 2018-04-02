@@ -735,6 +735,10 @@ body.home-template aside{
         display: none!important;
     }
 
+    body div.ex-col {
+        padding-top: 2em!important;
+    }
+
     body h2.ex-h2-7 {
         font-size: 0.75em!important;
         font-weight: 800!important;
@@ -746,7 +750,7 @@ body.home-template aside{
     body section.ex-sec3 {
         margin-right: 61px!important;
         margin-left: 61px!important;
-        margin-bottom: -2.5em!important;
+        margin-bottom: -4.5em!important;
     }
 
     body p.ex-p5 {
