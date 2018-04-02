@@ -504,12 +504,17 @@ p.heading-margin-sm + p{
 @media only screen and (min-width: 414px){
     #platform-img-container {
         background-position: 44% 62%;
-        background-size: 80%;
+        background-size: 100%;
         height: 517px;
     }
 }
 
 @media only screen and (min-width: 425px) {
+    #platform-img-container {
+        background-position: 44% 62%;
+        background-size: 100%;
+        height: 517px;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
@@ -524,6 +529,10 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 480px) {
+    body #fullscreen-hero #hero-content h1.title {
+        margin-top: -20%;
+        margin-bottom: 5%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 80%;
@@ -534,6 +543,30 @@ p.heading-margin-sm + p{
         background-repeat: no-repeat;
         background-position: 53% 240%;
         background-size: 277%;
+        zoom: 2;
+        z-index: 100;
+        height: 64%;
+        position: absolute;
+        top: 16%;
+    }
+    .red-ellipse {
+        top: 47%;
+        left: 5%;
+        height: 28%;
+    }
+    .red-ellipse-2{
+        top: 47%;
+        left: 5%;
+        height: 28%;
+    }
+}
+
+@media only screen and (min-width: 568px) {
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 53% 145%;
+        background-size: 255%;
         zoom: 2;
         z-index: 100;
         height: 64%;
@@ -573,6 +606,19 @@ p.heading-margin-sm + p{
     .col-sm-6 {
 
     }
+    .red-ellipse {
+        top: 47%;
+        left: 5%;
+        height: 30%;
+    }
+    .red-ellipse-2{
+        top: 47%;
+        left: 5%;
+        height: 30%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 600px) {
@@ -600,6 +646,19 @@ p.heading-margin-sm + p{
         position: absolute;
         top: 16%;
     }
+    .red-ellipse {
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    .red-ellipse-2{
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 640px) {
@@ -626,6 +685,36 @@ p.heading-margin-sm + p{
         height: 61%;
         position: absolute;
         top: 16%;
+    }
+    .red-ellipse {
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    .red-ellipse-2{
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 667px) {
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 240%;
+        background-size: 200%;
+        zoom: 2;
+        z-index: 100;
+        height: 61%;
+        position: absolute;
+        top: 16%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
     }
 }
 
@@ -657,6 +746,19 @@ p.heading-margin-sm + p{
         position: absolute;
         top: 16%;
     }
+    .red-ellipse {
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    .red-ellipse-2{
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 750px) {
@@ -686,6 +788,19 @@ p.heading-margin-sm + p{
         height: 66%;
         position: absolute;
         top: 16%;
+    }
+    .red-ellipse {
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    .red-ellipse-2{
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
     }
 }
 
@@ -782,6 +897,9 @@ p.heading-margin-sm + p{
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 800px){
@@ -815,6 +933,46 @@ p.heading-margin-sm + p{
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 853px) {
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 200%;
+        background-size: 212%;
+        zoom: 2;
+        z-index: 100;
+        height: 61%;
+        position: absolute;
+        top: 16%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 54% 170%;
+        background-size: 212%;
+        zoom: 2;
+        z-index: 100;
+        height: 61%;
+        position: absolute;
+        top: 16%;
+    }
+    section #hero-content {
+        margin-top: 10%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -843,6 +1001,12 @@ p.heading-margin-sm + p{
     }
     .lorem-ipsum-lower {
         padding-top: 60px;
+    }
+    section #hero-content {
+        margin-top: 10%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
     }
 
 }
@@ -939,6 +1103,12 @@ p.heading-margin-sm + p{
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    section #hero-content {
+        margin-top: 10%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -976,6 +1146,9 @@ p.heading-margin-sm + p{
         left: 15%;
         height: 20%;
     }
+    section #hero-content {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 1280px){
@@ -1012,6 +1185,9 @@ p.heading-margin-sm + p{
     .qtt-container {
         position: absolute;
         top: 0%;
+    }
+    section #hero-content {
+        margin-top: 10%;
     }
 }
 
@@ -1100,6 +1276,9 @@ p.heading-margin-sm + p{
         margin-bottom: 5%;
         margin-top: -8%;
     }
+    section #hero-content {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 1440px){
@@ -1160,6 +1339,13 @@ p.heading-margin-sm + p{
     .qtt-container {
         position: absolute;
         top: 0%;
+    }
+    #crypto-bridge-section {
+        margin-bottom: 5%;
+        margin-top: -10%;
+    }
+    section #hero-content {
+        margin-top: 10%;
     }
 }
 
@@ -1341,6 +1527,13 @@ p.heading-margin-sm + p{
     .cb-text {
         margin-top: 0%;
     }
+    #crypto-bridge-section {
+        margin-bottom: 5%;
+        margin-top: 0%;
+    }
+    section #hero-content {
+        margin-top: 10%;
+    }
 }
 
 @media only screen and (min-width: 2048px) {
@@ -1375,6 +1568,9 @@ p.heading-margin-sm + p{
         width: 67%;
         height: 898px;
         float: right;
+    }
+    section #hero-content {
+        margin-top: 10%;
     }
 }
 
@@ -1491,6 +1687,9 @@ p.heading-margin-sm + p{
     }
     .custodian {
         padding-bottom: 460px;
+    }
+    section #hero-content {
+        margin-top: 12%;
     }
 }
 
@@ -1610,6 +1809,9 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content p.description {
         font-size: 150%;
+    }
+    section #hero-content {
+        margin-top: 15%;
     }
 
 }
@@ -1742,6 +1944,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 600%;
+        padding-bottom: 10%;
     }
     body #fullscreen-hero #hero-content p.description {
         font-size: 420%;
@@ -1750,6 +1953,16 @@ p.heading-margin-sm + p{
         padding-top: 5%;
         padding-bottom: 5%;
     }
+    .expand-8k {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 300%;
+    }
+    section #hero-content {
+        width: 200%;
+        margin-left: -50%;
+        margin-top: 25%;
+    }
 }
-
 

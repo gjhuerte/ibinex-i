@@ -7,10 +7,10 @@
 @endpush
 
 @section('header-content')
-    <section id="hero-content" class="col-xl-12 col-sm-12 mx-auto" style="margin-top: 8.5%; margin-bottom: 0.7%;">
+    <section id="hero-content" class="col-xl-12 max-width-none expand-8k" style="margin-bottom: 0.7%;">
         <h1 class="title text-left text-sm-center">Services</h1>
-        <p id="hero-first-p" class="description text-left text-sm-center" style="margin-top: -7%; margin-bottom: 3.5%;">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
-        <p id="hero-second-p" class="description text-left text-sm-center" style="margin-bottom: 3%;">Our ecosystem of services comprises of the following units.</p>
+        <p id="hero-first-p" class="description text-xl-center" style="margin-top: -7%; margin-bottom: 3.5%;">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
+        <p id="hero-second-p" class="description text-xl-center" style="margin-bottom: 3%;">Our ecosystem of services comprises of the following units.</p>
         {{--<button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>--}}
     </section>
 @endsection
@@ -177,7 +177,7 @@
             <div id="custodian-section" class="col-12 custodian px-0 pt-4">
                 <div class="container-fluid">
                     <div class="row max-width-none">
-                        <div class="col-12 col-sm-6 col-md-12 col-lg-6 custodian-left fifth-section">
+                        <div class="col-12 col-lg-6 col-md-12 col-lg-6 custodian-left fifth-section">
                             <p class="font-34 heading-margin-sm text-dark custodian-title">Custodian Accounts</p>
                             <p class="normal-p text-justify mt-sm-0 m-bot-30">
                                 Another first sees Ibinex leading the way as the world's first cryptocurrency exchange with a finance transaction license.
@@ -198,7 +198,7 @@
                                 </p>
                             </strong>
                         </div>
-                        <div id="fifthSection" class="col-12 col-sm-6 col-md-12 col-lg-6 px-0 fifth-section">
+                        <div id="fifthSection" class="col-12 col-xl-6 col-md-12 col-lg-6 px-0 fifth-section">
                             <div class="qtt-container">
                                 {{--<div class="qtt-image-container">--}}
                                     <div class="qtt px-0">
@@ -206,7 +206,7 @@
                                     </div>
                                 {{--</div>--}}
                                 <img class="red-ellipse-2" src="{{asset('img/ellipse.png')}}" alt="Ellipse">
-                                <div class="col-12 col-sm-10 col-md-12 col-xl-10 text-white px-3 lorem-ipsum-lower">
+                                <div class="col-12 col-xl-10 col-md-12 col-xl-10 text-white px-3 lorem-ipsum-lower">
                                     <p class="text-justify h4 inner-quote">
                                         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                                             Distinctio praesentium ex possimus aspernatur consequatur dicta nemo.
