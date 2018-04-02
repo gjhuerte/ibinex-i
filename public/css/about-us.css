@@ -2,20 +2,7 @@
     overflow-x: hidden;
 }
 
-#transparency {
-    margin: 1em 1em;
-}
-
-#transparency-quote{
-    color: #12d5b8;
-}
-
-#transparency-right-floater{
-    position: absolute;
-    padding-left:10px;
-    padding-top:2rem;
-
-}
+/*=============== TRANSPARENCY DIV  ===============*/
 
 .quotes {
     font-family: 'Playfair Display', serif;
@@ -38,9 +25,35 @@
     line-height: 1.4em;
 }
 
+#transparency {
+    margin: 1em 1em;
+}
+
+#trans-title {
+    font-size:34px;
+}
+
+
+#transparency-quote{
+    color: #12d5b8;
+}
+
+#transparency-right-floater{
+    position: absolute;
+    padding-left:10px;
+    padding-top:2rem;
+}
+
+#transparency-right div.inner-left{
+    flex: 0 auto;
+    width: auto;
+    padding-right: 0;
+}
+
+/*=============== EXECUTIVE DIV  ===============*/
 
 #people-behind-bg{
-background-color: #e7fbf8;
+    background-color: #e7fbf8;
 }
 
 #exec-inner-right{
@@ -57,9 +70,18 @@ background-color: #e7fbf8;
     transform:translateY(-75%);
 }
 
-
 #circ {
     left:-5%;
+}
+
+.exec-name{
+    font-size: 32px;
+}
+.exec-rank{
+    font-weight: bold;
+}
+.exec-desc{
+    color: #5f5f5f;
 }
 
 .exec-helper {
@@ -67,15 +89,24 @@ background-color: #e7fbf8;
     vertical-align: middle;
 }
 
-#circ-pic{
+.exec-img{
     vertical-align: middle;
     width:auto;
 }
 
-/*.media-quotes {*/
-    /*width: 15%;*/
-/*}*/
+.linked-in-btn {
+    border-radius: 23px;
+    -moz-border-radius: 23px;
+    -webkit-border-radius: 23px;
+    font-size: 0.9em;
+    padding-right: 2em;
+}
 
+.linked-in-btn img {
+    margin-right: 0.5em;
+}
+
+/*=============== MEDIA COV DIV  ===============*/
 
 .blue-ibinex{
     color:#2770f6;
@@ -96,6 +127,7 @@ background-color: #e7fbf8;
     width: 100%;
 }
 
+/*=============== ADVISORY BOARD DIV  ===============*/
 
 
 #advisory-board{
@@ -172,23 +204,14 @@ a.board-arrows:active{
     left: 0;
 }
 
-.linked-in-btn {
-    border-radius: 23px;
-    -moz-border-radius: 23px;
-    -webkit-border-radius: 23px;
-    font-size: 0.9em;
-    padding-right: 2em;
-}
+/*==============================================*/
 
-.linked-in-btn img {
-    margin-right: 0.5em;
-}
+/*=============== MEDIA QUERIES  ===============*/
 
-.carousel-control-next-icon, .carousel-control-prev-icon{
-    transform: translateY(-350%);
-}
+/*=============== SMALL  SCREEN  ===============*/
 
-@media (max-width: 450px){
+
+@media only screen and (max-width: 450px){
     div#media-album{
         margin: 0 auto;
         display: inline;
@@ -203,7 +226,7 @@ a.board-arrows:active{
     }
 }
 
-@media (max-width:991px){
+@media only screen and (max-width:991px){
 
     body #fullscreen-hero #hero-content {
         padding: 7.5em 0 8em 0;
@@ -253,7 +276,7 @@ a.board-arrows:active{
         left:5%;
     }
 
-    #circ-pic{
+    .exec-img{
         position:initial;
         top: initial;
         transform:initial;
@@ -309,7 +332,10 @@ a.board-arrows:active{
     }
 }
 
-@media all and (max-width:1023px){
+/*=============== MEDIUM SCREEN  ===============*/
+
+
+@media only screen and (max-width:1023px){
     #media-coverage-floater{
         order: 2;
     }
@@ -344,7 +370,7 @@ a.board-arrows:active{
 
 }
 
-@media all and (min-width:992px) and (max-width: 1023px){
+@media only screen and (min-width:992px) and (max-width: 1023px){
 
     #media-coverage-companies{
         margin: 0 auto !important;
@@ -372,6 +398,9 @@ a.board-arrows:active{
         display: none !important;
     }
 }
+
+/*=============== LARGE  SCREEN  ===============*/
+
 
 @media only screen and (min-width: 1024px) {
     .hide-on-lg{
@@ -527,18 +556,131 @@ a.board-arrows:active{
     }
 }
 
-@media only screen and (max-width: 3351px) and (min-width: 2000px){
+/*=============== EXTRA  LARGE  SCREEN  ===============*/
+@media only screen and (min-width: 2000px) {
+    #transparency-right div.inner-left{
+        width: 38%;
+    }
+    #transparency-right img{
+        width: 100%;
+    }
+    #transparency-right-floater {
+        position: absolute;
+        padding-left: 25px;
+        padding-top: 4.2rem;
+    }
+    #transparency-right-4 {
+        width: 23%;
+    }
+}
+
+@media only screen and (min-width: 2000px) /*and (max-width: 3351px)*/{
     body #fullscreen-hero #hero-content {
-        padding: 160px 0px 143px 0px;
+        padding: 160px 0px 190px 0px;
         max-width: 77.333333%;
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 57px;
     }
     body #fullscreen-hero #hero-content p.description {
+        font-size: 29px;
+        line-height: 1.4em;
+        margin-top: 32px;
+    }
+
+    #transparency-left{
+        padding: 13em 0.4em 18.5em 0;
+    }
+    #trans-title {
+        font-size: 47px;
+    }
+    #transparency-left p {
+        font-size: 22px;
+        line-height: 1.65em;
+        margin-bottom: 2em;
+    }
+    #transparency-right{
+        padding: 2.5em 0 0 2em;
+    }
+    #transparency-quote{
+        font-size: 42px;
+        padding: 18px 0 0 5px;
+    }
+
+    #people-behind-bg {
+        padding: 8.5em 0 17em 0;
+    }
+    #exec-title {
+        font-size: 45px;
+    }
+    #exec-inner-left {
+        padding: 3.5em 6% 0 3.7%;
+    }
+    .exec-name {
+        font-size: 43px;
+    }
+    .exec-rank {
+        padding-top: 12px;
+        font-size: 21px;
+    }
+    .exec-desc {
+        font-size: 22px;
+        padding-top: 15px;
+        line-height: 1.7em;
+    }
+    .linked-in-btn{
+        font-size: 1.3em;
+    }
+    #circ {
+        width: 20%;
+        top: 55%;
+    }
+    .exec-img{
+        width: 87%;
+    }
+
+    #media-coverage-floater{
+        width: 45%;
+        padding: 18.5em 5em 0 37.8em;
+        transform: translateY(-18%);
+        height: 75em;
+    }
+    .media-quotes {
+        font-size: 40px;
+        line-height: 1.4em;
+    }
+    #media-title {
+        font-size: 47px;
+    }
+    #media-coverage-companies {
+        padding: 11.5em 9.5em;
+    }
+    .media-img {
+        margin-bottom: 7%;
+    }
+
+    #advisory-board {
+        padding-top: 3.5em;
+    }
+    #board-title {
+        font-size: 47px;
+    }
+    #board-box {
+        padding-top: 1.2em;
+    }
+    .board-name {
         font-size: 26px;
-        line-height: 1.6em;
-        margin-top: 33px;
+        padding-top: 1.5em;
+    }
+    .board-rank {
+        letter-spacing: 0;
+        line-height: 1.1em;
+        font-size: 24px;
+    }
+    #last-quote {
+        font-size: 40px;
+        transform: none;
+        padding: 1.6em 0 2.1em 1em;
     }
 }
 @media only screen and (min-width: 3352px) and (max-width: 5050px)  {
