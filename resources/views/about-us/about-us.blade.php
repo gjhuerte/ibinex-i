@@ -27,7 +27,7 @@
 <div>
 <div id="transparency" class="row">
 <div id="transparency-left">
-    <h2 class="mb-4" style="font-size:34px;">
+    <h2 id="trans-title" class="mb-4">
         Transparency
     </h2>
     <p>
@@ -52,7 +52,7 @@
 </div>
 <div id="transparency-right">
     <div class="row mb-5">
-        <div class="col-5" style="flex:0 auto; width:auto; padding-right:0">
+        <div class="inner-left col-5">
             <img src="{{asset('img/trans1.png')}}" class="img-fluid">
             <div class="mt-lg-4 mt-2 row">
                 <div class="col-7 py-0 pr-2">
@@ -68,7 +68,7 @@
         </div>
     </div>
     <div class="row  hide-on-med">
-        <div class="col-lg-auto">
+        <div id="transparency-right-4" class="col-lg-auto">
             <img src="{{asset('img/trans4.png')}}" class="img-fluid">
         </div>
         <div id="trans-quote-div" class="col-lg-5 m-4">
@@ -95,13 +95,13 @@
                 <!--spacer-->
             </div>
             <div id="exec-inner-left" class="col-lg-4 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">
-                <p class="blue-ibinex my-0" style="font-size:32px;">
+                <p class="exec-name blue-ibinex my-0">
                     Michael Peers
                 </p>
-                <p class="blue-ibinex mt-0" style="font-weight:bold;">
+                <p class="exec-rank blue-ibinex mt-0">
                     Sales Consultant, EMEA
                 </p>
-                <p style="color:#5f5f5f;">
+                <p class="exec-desc">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiulgod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                     exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
@@ -117,7 +117,7 @@
             </div>
             <div id="exec-inner-right" class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
                 <span class="exec-helper"></span>
-                <img src="{{asset('img/taov2.png')}}" class="img-fluid ml-3 mh-100" id="circ-pic"/>
+                <img src="{{asset('img/taov2.png')}}" class="img-fluid ml-3 mh-100 exec-img" id="circ-pic"/>
                 <div><img src="{{asset('img/circ.png')}}" class="img-fluid" id="circ" /></div>
             </div>
             <div class="med-hide col-lg-2 order-4">
