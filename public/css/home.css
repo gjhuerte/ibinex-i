@@ -2,6 +2,11 @@ body #fullscreen-hero {
     /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
 }
 
+body.home-template {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 body.home-template aside{
     padding-left: 0;
     padding-right: 0;
@@ -404,18 +409,15 @@ body.home-template aside{
     }
 
     body .quote-wrapper  p.ex-p3 {
-        margin-left: -1.6em;
-        transform: translate(0em, 0.2em);
-        padding-right: 0.9em;
-        font-family: "Playfair Display";
-        font-style: italic;
+        margin-left: 1.5em;
+        transform: translate(0em, -0.1em);
+        padding-right: 1.6em;
         font-size: 20px;
-        color: #fff;
     }
 
     body .quote-wrapper span.ex-p4 {
-        margin-left: -2.1em;
-        font-size: .9em;
+        margin-left: 2em;
+        font-size: 1em;
     }
 
     body p.ex-p5 {
@@ -497,16 +499,11 @@ body.home-template aside{
     }
 
     body .quote-wrapper {
-        padding: 5.5em 1em 2.5em 1em;
+        padding: 5.5em 1em 3.3em 1em!important;
     }
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
-    body .home-template {
-        overflow: hidden;
-        overflow-y: scroll;
-    }
-
     body #fullscreen-hero {
         background-repeat: no-repeat!important;
         background-size: 91em!important;

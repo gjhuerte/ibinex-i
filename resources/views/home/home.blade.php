@@ -62,7 +62,7 @@
 
 @section('content')
     <!--1  -->
-    <section id="second-fold" class="container-fluid bg-color-grey">
+    <section id="second-fold" class="container-fluid bg-color-grey sec-color">
         <section class="row no-gutters pt-md-5 position-relative fixed-height">
             <!--Will remove fixed-height -->
             <aside class="col-xl-8 order-xl-2 d-none  d-xl-block position-absolute stick-right">
