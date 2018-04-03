@@ -16,18 +16,19 @@
 @section('body-class','contact')
 @section('bg-img','contact-bg.png')
 @section('content')
+    <section class="contactMain">
         <section>
-                    <div class="container">
+                    <div class="container section1_container">
                         <div class="ib-get-started">
                             <div class="row ib-get-started-a">
-                                <div class="col-sm p-0">
-                                    <h2>
+                                <div class="col-sm p-0 heading">
+                                    <h2 class="section1_header">
                                         Get Started
                                     </h2>
-                                    <p class="ib-mb-1">
+                                    <p class="ib-mb-1 section1_p">
                                         We invite you to first experience the Ibinex demo <a>here</a>, which will help you to conceptualise the possibilities of personalisation for your own exchange.
                                     </p>
-                                    <p class="ib-mb-2">
+                                    <p class="ib-mb-2 section1_p">
                                         The next step is to contact us to discuss on-boarding. It is a simple process which you can learn about in more detail on the Pricing page, but essentially consists of 3 steps:
                                     </p>
                                 </div>
@@ -49,7 +50,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">2</span>
                                     </div>
-                                    <img class="ib-p py-3" src="{{ asset("img/p2.png") }}" />
+                                    <img class="ib-p py-3 get-started-image2" src="{{ asset("img/p2.png") }}" />
                                     <div class="label pt-2 ib-pb-1">
                                         Letter of Intent
                                     </div>
@@ -58,7 +59,7 @@
                                     <div class="py-3 ib-circle-c">
                                         <span class="ib-circle">3</span>
                                     </div>
-                                    <img class="ib-p py-2" src="{{ asset("img/p3.png") }}" />
+                                    <img class="ib-p py-2 get-started-image3" src="{{ asset("img/p3.png") }}" />
                                     <div class="label pt-2 ib-pb-1 ib-pb-2">
                                         Proof of Escrow deposit
                                     </div>
@@ -76,7 +77,7 @@
                     <div class="ib-contact">
                         <div class="row ib-contact-support">
                             {{--<div class="col-sm-2"></div>--}}
-                            <div class="col-sm-5">
+                            <div class="col-sm-5 ib-contact-text">
                                 <div class="ib-support-text">
                                     <h2>
                                         Support
@@ -110,7 +111,7 @@
                                             <label for="inputSubject">Subject</label>
                                             <input type="text" class="form-control" id="inputSubject">
                                         </div>
-                                        <div class="form-group">
+                                        <div class="form-group textarea_form">
                                             <label for="inputMessage">Message</label>
                                             <textarea class="form-control" id="inputMessage" rows="10"></textarea>
                                         </div>
@@ -121,6 +122,7 @@
                         </div>
                     </div>
         </section>
+    </section>
 @endsection
 
 @push('scripts')

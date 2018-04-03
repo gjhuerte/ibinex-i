@@ -1353,8 +1353,17 @@ p.heading-margin-sm + p{
 @media only screen and (min-width: 1920px){
 
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -12%;
+        margin-top: -10%;
         margin-bottom: 0%;
+    }
+
+    body #fullscreen-hero #hero-content #hero-first-p{
+        max-width: 60%;
+        margin-left: 20%;
+        padding-top: 4%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p{
+        margin-top: -1%;
     }
 
     #platform-text-container{

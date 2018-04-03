@@ -1,9 +1,8 @@
+/*=================  DEFAULT CSS  =================*/
 #main-body {
     overflow-x: hidden;
 }
-
 /*=============== TRANSPARENCY DIV  ===============*/
-
 .quotes {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -12,50 +11,35 @@
     font-weight: 700;
     margin: 0;
     line-height: normal;
-    word-wrap: break-word;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
-    word-wrap: break-word;
 }
-
 .media-quotes {
     font-size: 30px;
     line-height: 1.4em;
 }
-
 #transparency {
     margin: 1em 1em;
 }
-
 #trans-title {
     font-size:34px;
 }
-
-
 #transparency-quote{
     color: #12d5b8;
 }
-
 #transparency-right-floater{
     position: absolute;
     padding-left:10px;
     padding-top:2rem;
 }
-
 #transparency-right div.inner-left{
     flex: 0 auto;
     width: auto;
     padding-right: 0;
 }
-
 /*=============== EXECUTIVE DIV  ===============*/
 
 #people-behind-bg{
     background-color: #e7fbf8;
 }
-
 #exec-inner-right{
     white-space: nowrap;
     text-align: center;
@@ -63,17 +47,14 @@
 #exec-inner-left{
     margin-left: 2em;
 }
-
 #circ{
     position: absolute;
     top: 50%;
     transform:translateY(-75%);
 }
-
 #circ {
     left:-5%;
 }
-
 .exec-name{
     font-size: 32px;
 }
@@ -83,17 +64,14 @@
 .exec-desc{
     color: #5f5f5f;
 }
-
 .exec-helper {
     display: inline-block;
     vertical-align: middle;
 }
-
 .exec-img{
     vertical-align: middle;
     width:auto;
 }
-
 .linked-in-btn {
     border-radius: 23px;
     -moz-border-radius: 23px;
@@ -101,34 +79,27 @@
     font-size: 0.9em;
     padding-right: 2em;
 }
-
 .linked-in-btn img {
     margin-right: 0.5em;
 }
-
 /*=============== MEDIA COV DIV  ===============*/
 
 .blue-ibinex{
     color:#2770f6;
 }
-
 .blue-ibinex-bg{
     background-color:#2770f6;
 }
-
 #media-coverage-floater{
     position: relative;
     width: 100%;
     max-width: 100%;
     flex: none;
 }
-
 #media-coverage-images{
     width: 100%;
 }
-
 /*=============== ADVISORY BOARD DIV  ===============*/
-
 
 #advisory-board{
     background-color: #f2f2f2;
@@ -139,11 +110,9 @@
     color: #1A1A1A;
     width: 100%;
 }
-
 #board-list {
     padding: 1em 14.5% 0 16.5%;
 }
-
 #board-box {
     position: relative;
 }
@@ -162,7 +131,6 @@
     margin: 0 auto;
     height:100%;
     width: 100%;
-    padding-bottom: 10%;
 }
 .board-name {
     font-weight: 800;
@@ -180,13 +148,13 @@
 }
 .slick-members .board-img {
     width: 100%;
+    transform: scaleY(0.92) translateY(-18px);
 }
-
 a.board-arrows{
     position: absolute;
     color: white;
     text-shadow: 2px 2px rgba(0,0,0,0.5);
-    top: 35%;
+    top: 30.5%;
     height: 50px;
     width: 40px;
     font-size: 80px;
@@ -204,12 +172,9 @@ a.board-arrows:active{
     left: 0;
 }
 
-/*==============================================*/
+/*================== MEDIA QUERIES  ==================*/
 
-/*=============== MEDIA QUERIES  ===============*/
-
-/*=============== SMALL  SCREEN  ===============*/
-
+/*================== SMALL  SCREEN  ==================*/
 
 @media only screen and (max-width: 450px){
     div#media-album{
@@ -227,29 +192,25 @@ a.board-arrows:active{
 }
 
 @media only screen and (max-width:991px){
-
     body #fullscreen-hero #hero-content {
-        padding: 7.5em 0 8em 0;
+        padding: 7.5em 0 8.2em 0;
     }
-
     body #fullscreen-hero #hero-content p.description {
         line-height: 1.39em;
         padding-top: 1em;
     }
-
     #transparency {
         margin: 0 0 -10px 0;
-        padding-top: 2.4em;
+        padding-top: 2.2em;
     }
     #transparency-left p {
-        line-height: 1.7em;
+        line-height: 1.74em;
         margin-bottom: 2.1em;
     }
     #transparency-right-floater {
         padding-left: 0;
         transform: translateX(-10px);
     }
-
     div#people-behind-bg {
         padding: 2.9em 0 3.2em 0;
     }
@@ -259,37 +220,37 @@ a.board-arrows:active{
     #exec-inner-left p:nth-child(3){
         font-size: 0.99em;
     }
-
     #exec-title {
         font-size: 2.15em;
     }
-
     .hide-on-med {
         display: none;
     }
     #circ{
         position: relative;
-        top: 0;
+        top: 1px;
         width:25%;
         transform:translateY(-50%);
         height:auto;
         left:5%;
     }
-
+    .exec-rank {
+        padding-top: 5px;
+    }
     .exec-img{
+        margin-left: 10px !important;
         position:initial;
         top: initial;
         transform:initial;
         width:100%;
     }
-
     #exec-desc{
         left: 5%;
         padding-left: 10px;
         margin-left: 0px;
     }
-    #media-coverage-companies{
-        padding-top: 1.5em;
+    #media-coverage-companies {
+        padding-top: 1.2em;
         padding-bottom: 2.7em;
     }
     #media-title{
@@ -297,7 +258,9 @@ a.board-arrows:active{
         line-height: 1.3em;
         padding-bottom: 0.5em;
     }
-
+    #media-coverage-floater {
+        padding: 0 20px;
+    }
     .media-quotes{
         margin-top: -0.3em;
     }
@@ -305,15 +268,17 @@ a.board-arrows:active{
         margin-top: 0.5em;
         margin-bottom: 1.05em;
     }
-
+    #thirdfold-p1{
+        margin-bottom: 1.2em;
+    }
     #advisory-board{
-        padding-top: 1.2em;
-        padding-bottom: 1em;
+        padding-top: 2.1em;
+        padding-bottom: 3em;
     }
     #board-title{
         font-size: 1.85em;
-        line-height: 1.2em;
-        margin-bottom: 0;
+        line-height: 1.3em;
+        margin-bottom: 0.6em;
     }
     .slick-members .board-name {
         padding: 0;
@@ -332,34 +297,28 @@ a.board-arrows:active{
     }
 }
 
-/*=============== MEDIUM SCREEN  ===============*/
-
+/*================== MEDIUM SCREEN  ==================*/
 
 @media only screen and (max-width:1023px){
     #media-coverage-floater{
         order: 2;
     }
-
     #media-coverage-companies{
         order: 1;
         margin-top: 2em;
         text-align: center !important;
     }
-
     #transparency-right{
         width: 100%;
     }
-
     #people-behind-bg {
         padding: 5em 0;
     }
-
     #media-album{
         margin: 0 auto;
         margin-top: 2.5em;
         max-width: 80%;
     }
-
     .media-img {
         display: inline-block;
         width: 30%;
@@ -367,7 +326,6 @@ a.board-arrows:active{
         margin-bottom: 3em;
         max-width: 300px;
     }
-
 }
 
 @media only screen and (min-width:992px) and (max-width: 1023px){
@@ -375,11 +333,9 @@ a.board-arrows:active{
     #media-coverage-companies{
         margin: 0 auto !important;
     }
-
     #media-coverage-companies>h2{
         text-align: center;
     }
-
     .exec-helper {
         height: 90%;
     }
@@ -389,24 +345,20 @@ a.board-arrows:active{
     #trans-quote-div{
         min-width: 70%;
     }
-
     #advisory-board{
         margin-top: 0;
     }
-
     .hide-on-lg{
         display: none !important;
     }
 }
 
-/*=============== LARGE  SCREEN  ===============*/
-
+/*================== LARGE  SCREEN  ==================*/
 
 @media only screen and (min-width: 1024px) {
     .hide-on-lg{
         display: none !important;
     }
-
     #media-coverage-floater {
         position: relative;
         transform: translateY(-18%);
@@ -415,13 +367,10 @@ a.board-arrows:active{
         max-width: 100%;
         flex: none;
     }
-
-
     #media-coverage-images {
         margin-left: 100px !important;
         margin-top: 100px !important;
     }
-
     #people-behind-bg {
         padding: 6.5em 0 9em 0
     }
@@ -435,7 +384,6 @@ a.board-arrows:active{
     .exec-helper {
         height: 90%;
     }
-
     #media-coverage-companies {
         padding: 7% 7.5%;
     }
@@ -443,14 +391,12 @@ a.board-arrows:active{
     #media-album{
         margin-top: 2.5em;
     }
-
     .media-img {
         display: inline-block;
         width: 30%;
         margin-bottom: 3em;
-        max-width: 300px;
+        max-width: initial;
     }
-
     #trans-quote-div{
         min-width: 70%;
     }
@@ -463,7 +409,6 @@ a.board-arrows:active{
     #transparency {
         margin: 3.2em 0 0 20%
     }
-
     #transparency-left {
         padding: 9em 0.4em 14.5em 0;
         width: 37%;
@@ -481,20 +426,16 @@ a.board-arrows:active{
     #people-behind-bg {
         padding: 6.5em 0 10.5em 0;
     }
-
     #exec-inner-left{
         min-width: 0;
         padding: 1.7em 7% 0 3.7%;
     }
-
     #exec-title {
         font-size: 2.1em;
     }
-
     .exec-helper {
         height: 90%;
     }
-
     #media-coverage-companies {
         padding: 7.8em 7.5em;
     }
@@ -502,34 +443,27 @@ a.board-arrows:active{
     #advisory-board {
         padding-top: 1.5em;
     }
-
     #board-title {
         font-size: 1.9em;
     }
-
     #last-quote {
         font-size: 1.9em;
         transform: translate(12px,20px);
         padding-bottom: 1em;
     }
-
     body #fullscreen-hero {
         background-position: center top;
     }
-
     body #fullscreen-hero #hero-content {
         padding: 7.5em 0 8.9em 0;
     }
-
     body #fullscreen-hero #hero-content p.description {
         margin-top: 23px;
         line-height: 1.4em;
     }
-
-
 }
-@media only screen and (min-width: 1800px) {
 
+@media only screen and (min-width: 1800px) {
     #media-coverage-floater {
         height: 900px;
         width: 870px;
@@ -538,11 +472,9 @@ a.board-arrows:active{
         transform: translateY(-20%);
         padding: 215px 55px 210px 455px;
     }
-
     #thirdfold-p1 {
         margin-bottom: 40px;
     }
-
     #media-coverage-images {
         margin-left: 100px !important;
         margin-top: 100px !important;
@@ -550,31 +482,16 @@ a.board-arrows:active{
     .media-img {
         width: 27%;
     }
-
     #media-title {
         font-size:34px;
     }
 }
 
 /*=============== EXTRA  LARGE  SCREEN  ===============*/
-@media only screen and (min-width: 2000px) {
-    #transparency-right div.inner-left{
-        width: 38%;
-    }
-    #transparency-right img{
-        width: 100%;
-    }
-    #transparency-right-floater {
-        position: absolute;
-        padding-left: 25px;
-        padding-top: 4.2rem;
-    }
-    #transparency-right-4 {
-        width: 23%;
-    }
-}
 
 @media only screen and (min-width: 2000px) /*and (max-width: 3351px)*/{
+    /*===================  BANNER  =======================*/
+
     body #fullscreen-hero #hero-content {
         padding: 160px 0px 190px 0px;
         max-width: 77.333333%;
@@ -588,48 +505,24 @@ a.board-arrows:active{
         margin-top: 32px;
     }
 
-    #transparency-left{
-        padding: 13em 0.4em 18.5em 0;
+    /*===================  BODY  =======================*/
+
+    /*===================  EXTRAS  =======================*/
+    #transparency-right div.inner-left{
+        width: 38%;
     }
-    #trans-title {
-        font-size: 47px;
+    #transparency-right img{
+        width: 100%;
     }
     #transparency-left p {
-        font-size: 22px;
         line-height: 1.65em;
-        margin-bottom: 2em;
     }
-    #transparency-right{
-        padding: 2.5em 0 0 2em;
+    #transparency-right-floater {
+        position: absolute;
+        padding-left: 25px;
     }
-    #transparency-quote{
-        font-size: 42px;
-        padding: 18px 0 0 5px;
-    }
-
-    #people-behind-bg {
-        padding: 8.5em 0 17em 0;
-    }
-    #exec-title {
-        font-size: 45px;
-    }
-    #exec-inner-left {
-        padding: 3.5em 6% 0 3.7%;
-    }
-    .exec-name {
-        font-size: 43px;
-    }
-    .exec-rank {
-        padding-top: 12px;
-        font-size: 21px;
-    }
-    .exec-desc {
-        font-size: 22px;
-        padding-top: 15px;
-        line-height: 1.7em;
-    }
-    .linked-in-btn{
-        font-size: 1.3em;
+    #transparency-right-4 {
+        width: 23%;
     }
     #circ {
         width: 20%;
@@ -638,58 +531,120 @@ a.board-arrows:active{
     .exec-img{
         width: 87%;
     }
-
     #media-coverage-floater{
-        width: 45%;
-        padding: 18.5em 5em 0 37.8em;
-        transform: translateY(-18%);
         height: 75em;
+        width: 44.6%;
+        transform: translateY(-19%);
     }
     .media-quotes {
-        font-size: 40px;
         line-height: 1.4em;
     }
-    #media-title {
-        font-size: 47px;
+    .exec-desc {
+        line-height: 1.69em;
     }
-    #media-coverage-companies {
-        padding: 11.5em 9.5em;
-    }
-    .media-img {
-        margin-bottom: 7%;
+    #last-quote {
+        transform: none;
     }
 
-    #advisory-board {
-        padding-top: 3.5em;
+    /*===================  FONT     SIZES  =======================*/
+    #trans-title, #exec-title, #media-title, #board-title {
+        font-size: 45px;
     }
-    #board-title {
-        font-size: 47px;
+    #transparency-left p, .exec-desc, .exec-rank{
+        font-size: 22px;
+    }
+    #transparency-right-floater {
+        padding-top: 4.2rem;
+    }
+    #transparency-quote, .exec-name {
+        font-size: 42px;
+    }
+    .linked-in-btn{
+        font-size: 1.3em;
+    }
+    .media-quotes{
+        font-size: 39px;
+    }
+    #last-quote {
+        font-size: 40px;
+    }
+    .board-name {
+        font-size: 26px;
+    }
+    .board-rank {
+        font-size: 24px;
+    }
+
+    /*===================PADDING AND MARGIN=======================*/
+    #transparency-left{
+        padding: 13em 0.4em 19em 0;
+    }
+    #trans-title{
+        padding-bottom: 5px;
+    }
+    #transparency-left p {
+        margin-bottom: 1.9em;
+    }
+    #transparency-right{
+        padding: 2.5em 0 0 2em;
+    }
+    #transparency-quote{
+        padding: 18px 0 0 5px;
+    }
+    #people-behind-bg {
+        padding: 8.5em 0 17em 0;
+    }
+    #exec-inner-left {
+        padding: 3.5em 6% 0 3.7%;
+    }
+    .exec-rank {
+        padding-top: 12px;
+    }
+    .exec-desc {
+        padding-top: 10px;
+    }
+    #media-coverage-floater{
+        padding: 18.5em 5em 0 37.8em;
+    }
+    #thirdfold-p1 {
+        margin-bottom: 56px;
+    }
+    #media-coverage-companies {
+        padding: 11.4em 9.9em;
+    }
+    #media-album {
+        margin-top: 3.5em;
+    }
+    .media-img {
+        margin-bottom: 6.5%;
+    }
+    #advisory-board {
+        padding-top: 2.8em;
     }
     #board-box {
         padding-top: 1.2em;
     }
     .board-name {
-        font-size: 26px;
         padding-top: 1.5em;
     }
     .board-rank {
-        letter-spacing: 0;
         line-height: 1.1em;
-        font-size: 24px;
+        letter-spacing: 0;
     }
     #last-quote {
-        font-size: 40px;
-        transform: none;
-        padding: 1.6em 0 2.1em 1em;
+        padding: 1.7em 0 2.1em 1em;
     }
 }
+
 @media only screen and (min-width: 3352px) and (max-width: 5050px)  {
-    /*.gradient-wrapper > div{*/
-        /*max-width: 62%;*/
-    /*}*/
+    /*===================  BANNER  =======================*/
+
+    body section.container {
+        margin: 0 21%;
+    }
     body #fullscreen-hero #hero-content {
-        padding: 253px 0px;
-        max-width: 100%
+        padding: 237px 0 270px 0;
+        min-width: 120%;
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 85px;
@@ -699,11 +654,141 @@ a.board-arrows:active{
         margin-top: 48px;
     }
 
+    /*===================  BODY  =======================*/
+
+    /*===================  EXTRAS  =======================*/
+    #transparency-left p {
+        line-height: 1.75em;
+    }
+    #transparency-right-floater {
+        position: absolute;
+    }
+    #transparency-right-4 {
+        width: 23%;
+    }
+    #circ {
+        width: 20%;
+        top: 55%;
+    }
+    .exec-img{
+        width: 87%;
+    }
+    #media-coverage-floater{
+        height: 113em;
+        width: 44.5%;
+        transform: translateY(-17%);
+    }
+    .media-quotes {
+        line-height: 1.3em;
+    }
+    .exec-desc {
+        line-height: 1.75em;
+    }
+    #last-quote {
+        transform: none;
+    }
+
+    /*===================  FONT     SIZES  =======================*/
+    #trans-title, #exec-title, #media-title, #board-title {
+        font-size: 68px;
+    }
+    #transparency-left p, .exec-desc, .exec-rank{
+        font-size: 32px;
+    }
+    #transparency-quote, .exec-name {
+        font-size: 62px;
+    }
+    .linked-in-btn{
+        font-size: 2em;
+    }
+    .media-quotes{
+        font-size: 64px;
+    }
+    #last-quote {
+        font-size: 60px;
+    }
+    .board-name {
+        font-size: 44px;
+    }
+    .board-rank {
+        font-size: 35px;
+    }
+
+    /*===================PADDING AND MARGIN=======================*/
+    #transparency-left{
+        padding: 21em 0.4em 28.5em 0;
+    }
+    #trans-title{
+        padding-bottom: 22px;
+    }
+    #transparency-left p {
+        margin-bottom: 1.75em;
+    }
+    #transparency-right{
+        padding: 5.5em 0 0 3em;
+    }
+    #transparency-right-floater {
+        padding-top: 8.2rem;
+        padding-left: 25px;
+    }
+    #transparency-quote{
+        padding: 68px 0 0 5px;
+    }
+    #people-behind-bg {
+        padding: 12.5em 0 24em 0;
+    }
+    #exec-inner-left {
+        padding: 7.6em 6.7% 0 3.7%;
+    }
+    #exec-inner-right{
+        padding: 42px;
+    }
+    .exec-rank {
+        padding-top: 42px;
+    }
+    .exec-desc {
+        padding-top: 15px;
+    }
+    .linked-in-btn{
+        margin-top: 22px;
+    }
+    #media-coverage-floater{
+        padding: 28.2em 5em 0 54em;
+    }
+    #thirdfold-p1 {
+        margin-bottom: 73px;
+    }
+    #media-coverage-companies {
+        padding: 18.8em 15.1em;
+    }
+    #media-album {
+        margin-top: 5.5em;
+    }
+    .media-img {
+        margin-bottom: 7%;
+    }
+    #advisory-board {
+        padding-top: 5.4em;
+    }
+    #board-box {
+        padding-top: 4.2em;
+    }
+    #board-list{
+        padding-bottom: 1em;
+    }
+    .board-name {
+        padding-top: 1.5em;
+    }
+    .board-rank {
+        line-height: 1.1em;
+        letter-spacing: 0;
+    }
+    #last-quote {
+        padding: 3em 0 3.2em 1em;
+    }
 }
+
 @media only screen and (min-width: 5051px) {
-    /*.gradient-wrapper > div {*/
-        /*max-width: 62%;*/
-    /*}*/
     .gradient-wrapper > div > section {
         max-width: 75%;
     }
@@ -711,14 +796,115 @@ a.board-arrows:active{
         max-width: 100%;
     }
     body #fullscreen-hero #hero-content {
-        padding: 27% 0px;
+        padding: 16% 0px 18.5% 0;
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 173px;
     }
     body #fullscreen-hero #hero-content p.description {
-        font-size: 90px;
+        font-size: 93px;
         margin-top: 4%;
+    }
+
+    /*===================  BODY  =======================*/
+
+    /*===================  EXTRAS  =======================*/
+    #trans-title {
+        padding-bottom: 70px;
+    }
+    .linked-in-btn img {
+        width: 1em;
+    }
+    .linked-in-btn {
+        border-radius: 1em;
+    }
+    #media-coverage-floater {
+        height: 225em;
+        transform: translateY(-16%);
+    }
+    /*===================  FONT     SIZES  =======================*/
+    #trans-title, #exec-title, #media-title, #board-title {
+        font-size: 136px;
+    }
+    #transparency-left p, .exec-desc, .exec-rank {
+        font-size: 64px;
+    }
+    #transparency-quote, .exec-name {
+        font-size: 125px;
+    }
+    .linked-in-btn {
+        font-size: 4.1em;
+    }
+    .media-quotes {
+        font-size: 125px;
+    }
+    .board-name {
+        font-size: 88px;
+    }
+    .board-rank {
+        font-size: 70px;
+    }
+    #last-quote {
+         font-size: 120px;
+     }
+    /*===================PADDING AND MARGIN=======================*/
+    #transparency-left {
+        padding: 46em 0.4em 56em 0;
+    }
+    #transparency-right {
+        padding: 14.5em 0 0 7em;
+    }
+    #transparency-left p {
+        margin-bottom: 2.2em;
+    }
+    #transparency-right-floater {
+        padding-top: 19.2rem;
+    }
+    #transparency-quote {
+        padding: 2em 0 0 19px;
+    }
+    #people-behind-bg {
+        padding: 25.5em 0 46em 0;
+    }
+    #exec-inner-left {
+        padding: 18.5em 6% 0 3.7%;
+    }
+    .exec-rank {
+        padding-top: 1.6em;
+    }
+    .exec-desc {
+        padding-top: 1.5em;
+    }
+    .linked-in-btn {
+        margin-top: 3em;
+    }
+    .linked-in-btn img {
+        margin-right: 0;
+    }
+    #exec-inner-right{
+        padding: 7em 0 7em 8em;
+    }
+    #media-coverage-floater {
+        padding: 56.5em 15em 0 105em;
+    }
+    #thirdfold-p1 {
+        margin-bottom: 0.7em;
+    }
+    #media-coverage-companies {
+        padding: 40em 29.9em;
+    }
+    #media-album {
+        margin-top: 10.5em;
+    }
+    #advisory-board {
+        padding-top: 13.6em;
+        padding-bottom: 5em;
+    }
+    #board-box {
+        padding-top: 12.5em;
+    }
+    #last-quote {
+        padding: 4.2em 0 4.5em 1em;
     }
 }
 

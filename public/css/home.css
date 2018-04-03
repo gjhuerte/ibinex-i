@@ -2,6 +2,11 @@ body #fullscreen-hero {
     /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
 }
 
+body.home-template {
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 body.home-template aside{
     padding-left: 0;
     padding-right: 0;
@@ -404,18 +409,15 @@ body.home-template aside{
     }
 
     body .quote-wrapper  p.ex-p3 {
-        margin-left: -1.6em;
-        transform: translate(0em, 0.2em);
-        padding-right: 0.9em;
-        font-family: "Playfair Display";
-        font-style: italic;
+        margin-left: 1.5em;
+        transform: translate(0em, -0.1em);
+        padding-right: 1.6em;
         font-size: 20px;
-        color: #fff;
     }
 
     body .quote-wrapper span.ex-p4 {
-        margin-left: -2.1em;
-        font-size: .9em;
+        margin-left: 2em;
+        font-size: 1em;
     }
 
     body p.ex-p5 {
@@ -497,16 +499,11 @@ body.home-template aside{
     }
 
     body .quote-wrapper {
-        padding: 5.5em 1em 2.5em 1em;
+        padding: 5.5em 1em 3.3em 1em!important;
     }
 }
 
 @media (min-width: 1280px) and (max-width: 1440px) {
-    body .home-template {
-        overflow: hidden;
-        overflow-y: scroll;
-    }
-
     body #fullscreen-hero {
         background-repeat: no-repeat!important;
         background-size: 91em!important;
@@ -1873,7 +1870,7 @@ body.home-template aside{
     body h2.ex-h2-5 {
         font-size: 2.4em!important;
         margin-top: 0.5em!important;
-        margin-left: 2.2em!important;
+        margin-left: 2.6em!important;
         letter-spacing: -0.4px!important;
     }
 
@@ -1888,8 +1885,8 @@ body.home-template aside{
     body div.ex-quote1 {
         height: 6em!important;
         width: 6em!important;
-        top: 11em!important;
-        right: 8.7em!important;
+        top: 11.2em!important;
+        right: 9.7em!important;
         opacity: 1!important;
         margin-top: -6.3em!important;
     }
@@ -1901,7 +1898,7 @@ body.home-template aside{
     }
 
     body h1.ex-h1 {
-        font-size: 2.1em!important;
+        font-size: 2.4em!important;
         margin-right: -0.1em!important;
         line-height: 1.4em!important;
         letter-spacing: -0.2px!important;
@@ -1964,6 +1961,11 @@ body.home-template aside{
         font-size: 1.1em!important;
         letter-spacing: 1.5px!important;
         font-weight: 500!important;
+    }
+
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
     }
 
     body section.ex-sec2 {
@@ -2319,6 +2321,11 @@ body.home-template aside{
         font-weight: 500!important;
     }
 
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
+    }
+
     body section.ex-sec2 {
         padding-bottom: 2.6em!important;
     }
@@ -2579,7 +2586,7 @@ body.home-template aside{
     body h2.ex-h2-5 {
         font-size: 2.4em!important;
         margin-top: 0.5em!important;
-        margin-left: 2.2em!important;
+        margin-left: 2em!important;
         letter-spacing: -0.4px!important;
     }
 
@@ -2592,10 +2599,10 @@ body.home-template aside{
     }
 
     body div.ex-quote1 {
-        height: 6em!important;
-        width: 6em!important;
-        top: 11em!important;
-        right: 8.7em!important;
+        height: 5.5em!important;
+        width: 5.5em!important;
+        top: 11.5em!important;
+        right: 8.3em!important;
         opacity: 1!important;
         margin-top: -6.3em!important;
     }
@@ -2670,6 +2677,11 @@ body.home-template aside{
         font-size: 1.1em!important;
         letter-spacing: 1.5px!important;
         font-weight: 500!important;
+    }
+
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
     }
 
     body section.ex-sec2 {
