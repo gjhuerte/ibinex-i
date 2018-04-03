@@ -788,7 +788,6 @@ a.board-arrows:active{
     #last-quote {
         padding: 3em 0 3.2em 1em;
     }
-
 }
 
 @media only screen and (min-width: 5051px) {
@@ -820,6 +819,10 @@ a.board-arrows:active{
     }
     .linked-in-btn {
         border-radius: 1em;
+    }
+    #media-coverage-floater {
+        height: 225em;
+        transform: translateY(-16%);
     }
     /*===================  FONT     SIZES  =======================*/
     #trans-title, #exec-title, #media-title, #board-title {
@@ -897,6 +900,7 @@ a.board-arrows:active{
     }
     #advisory-board {
         padding-top: 13.6em;
+        padding-bottom: 5em;
     }
     #board-box {
         padding-top: 12.5em;
@@ -905,7 +909,6 @@ a.board-arrows:active{
         padding: 4.2em 0 4.5em 1em;
     }
 }
-
 @media only screen and (min-width: 7000px){
     .gradient-wrapper > div > section {
         max-width: 60%;
