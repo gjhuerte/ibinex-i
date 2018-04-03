@@ -442,7 +442,104 @@
 }
 @media only screen and (min-width: 3000px) {
     .contactMain {
-        font-size: 21.5px;
+        font-size: 32px;
+    }
+    .mainCont > .container{
+        max-width: 59%;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 7.4em 0px;
+        font-size: 32px;
+        max-width: 42em;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        line-height: 1.34em;
+        margin-top: 0.92em;
+        margin-bottom: 1.06em;
+    }
+    .container .ib-get-started {
+        padding-top: 12.11em;
+    }
+    .section1_header {
+        margin-bottom: 0.7em;
+    }
+    .ib-circle {
+        padding-top: 2.5%;
+    }
+    .ib-circle-c {
+        padding-top: 0.6em!important;
+    }
+    .section1_container {
+        max-width: 63.5%;
+    }
+    .img-1 {
+        padding-bottom: 4em!important;
+    }
+    .get-started-image2 {
+        padding-bottom: 3.2em!important;
+    }
+    .get-started-image3 {
+        padding-bottom: 3em!important;
+    }
+    .ib-pt-1 {
+        margin-bottom: 3.7%;
+    }
+    .ib-note {
+        margin-top: 3.6em!important;
+    }
+    .ib-contact {
+        margin: 12%0 0 0;
+    }
+    .ib-contact-form {
+        width: 47.7%;
+        margin: -8em 0 0em 5.2em;
+        padding: 3.2em 3.4em 3.5em;
+    }
+    .form-group input {
+        height: 5.7em;
+    }
+    .form-group label {
+        margin-bottom: 1em;
+    }
+    .form-group {
+        margin-bottom: 1.7em;
+    }
+    .ib-contact-form textarea {
+        height: 35.8em;
+    }
+    .ib-contact-form button.btn.btn-primary {
+        width: 11.5em;
+        height: 3.3em;
+        font-size: 1em;
+        margin-bottom: 1.5em;
+    }
+    .ib-support-text h2 {
+        font-size: 2.1em;
+    }
+    .ib-contact-support .ib-support-text {
+        padding-right: 0.9em;
+    }
+    .p1 {
+        margin-top: 1.24em;
+    }
+    .p2 {
+        margin-top: 1.6em;
+    }
+    .col-sm-7.ib-contact-bg {
+        height: 55.3em;
+    }
+}
+@media only screen and (min-width: 5000px) {
+    .contactMain {
+        font-size: 32px;
+    }
+
+    .mainCont > .container {
+        max-width: 59%;
+    }
+
+    body #fullscreen-hero #hero-content {
+        font-size: 32px;
     }
 }
 @media only screen and (max-width: 1224px) and (min-width: 576px) {
