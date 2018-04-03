@@ -1963,6 +1963,11 @@ body.home-template aside{
         font-weight: 500!important;
     }
 
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
+    }
+
     body section.ex-sec2 {
         padding-bottom: 2.6em!important;
     }
@@ -2316,6 +2321,11 @@ body.home-template aside{
         font-weight: 500!important;
     }
 
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
+    }
+
     body section.ex-sec2 {
         padding-bottom: 2.6em!important;
     }
@@ -2667,6 +2677,11 @@ body.home-template aside{
         font-size: 1.1em!important;
         letter-spacing: 1.5px!important;
         font-weight: 500!important;
+    }
+
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
     }
 
     body section.ex-sec2 {
