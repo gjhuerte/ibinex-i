@@ -300,6 +300,9 @@ body .gradient-wrapper{
         min-height:100vh;
         /*height: 119.5vh;*/
     }
+    body #fullscreen-hero .navbar {
+        margin-top: 8%;
+    }
 }
 @media all and (min-width: 992px){
     #logo .flexed-image{
@@ -473,11 +476,11 @@ body .gradient-wrapper{
     display: block;
     position: absolute;
     height: 3px;
-    width: 100%;
+    width: 80%;
     background: #fff;
     border-radius: 9px;
     opacity: 1;
-    left: 0;
+    left: 2px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -489,15 +492,15 @@ body .gradient-wrapper{
 }
 
 #nav-icon3 span:nth-child(1) {
-    top: 3px;
+    top: 4px;
 }
 
 #nav-icon3 span:nth-child(2),#nav-icon3 span:nth-child(3) {
-    top: 13px;
+    top: 12px;
 }
 
 #nav-icon3 span:nth-child(4) {
-    top: 23px;
+    top: 20px;
 }
 
 #nav-icon3.open span:nth-child(1) {
