@@ -282,8 +282,8 @@ body .gradient-wrapper{
     }
     body .faButton.top-half {
         position: absolute;
-        top: calc(-50% / 2);
-        left: 5em;
+        top: calc(-45% / 2);
+        left: 4em;
     }
 
     /*#fullscreen-hero #hero-content h1.title{*/
@@ -373,16 +373,17 @@ body .gradient-wrapper{
     }
     body .position-relative .embed-parent-wrap.left {
         left: 0;
+        top: 1.5em;
     }
     body .position-relative .embed-parent-wrap .embed-image {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        min-height: 55vh;
+        min-height: 61vh;
     }
     body .position-relative .embed-parent-wrap .embed-image.halfed {
-        width: 80%;
+        width: 86.5%;
         position: relative;
     }
     body .position-relative .embed-parent-wrap .embed-blue-wrap {

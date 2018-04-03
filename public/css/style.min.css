@@ -258,13 +258,13 @@ body .position-relative .embed-parent-wrap .embed-blue-wrap {
     background-color: rgba(39,112,246, 1);
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
-body #downloadables .brochures {
-    margin: 25px 0;
-    display: inline-block;
-}
-body #downloadables .brochures p {
-    margin: 0;
-}
+/*body #downloadables .brochures {*/
+    /*margin: 25px 0;*/
+    /*display: inline-block;*/
+/*}*/
+/*body #downloadables .brochures p {*/
+    /*margin: 0;*/
+/*}*/
 
 body .gradient-wrapper{
     width:100%;
