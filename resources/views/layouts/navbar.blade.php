@@ -1,4 +1,4 @@
-@push('logo-link', asset("img/logo.png"))
+@push('logo-link', asset("img/logo/logo.png"))
 
 <!-- Start menu here -->
 <nav class="container navbar navbar-expand-lg navbar-light bg-faded navCont">
