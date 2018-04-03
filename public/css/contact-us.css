@@ -531,7 +531,7 @@
 }
 @media only screen and (min-width: 5000px) {
     .contactMain {
-        font-size: 32px;
+        font-size: 64px
     }
 
     .mainCont > .container {
@@ -539,7 +539,56 @@
     }
 
     body #fullscreen-hero #hero-content {
-        font-size: 32px;
+        font-size: 64px;
+    }
+    .container .ib-get-started {
+        padding-top: 12.3em;
+    }
+    .section1_header {
+        margin-bottom: 0.6em;
+    }
+    .ib-circle {
+        padding-top: 3.5%;
+    }
+    .section1_container {
+        max-width: 63.9%;
+    }
+    .img-1 {
+        padding-bottom: 4.6em!important;
+    }
+    .get-started-image2 {
+        padding-bottom: 3.7em!important;
+    }
+    .get-started-image3 {
+        padding-bottom: 3.4em!important;
+    }
+    .ib-pt-1 {
+        margin-bottom: 5.4%;
+    }
+    .ib-note {
+        margin-top: 3.95em!important;
+    }
+    .ib-contact {
+        margin: 12.2% 0 0 0;
+    }
+    .ib-contact-form {
+        margin: -8em 0 0em 5.4em;
+        padding: 3.4em 3.4em 3.5em;
+    }
+    .form-group input {
+        height: 11.7em;
+    }
+    .form-group {
+        margin-bottom: 2em;
+    }
+    .ib-contact-form textarea {
+        height: 71.8em;
+    }
+    .ib-contact-support .ib-support-text {
+        padding-right: 1.2em;
+    }
+    .p2 {
+        margin-top: 1.5em;
     }
 }
 @media only screen and (max-width: 1224px) and (min-width: 576px) {
