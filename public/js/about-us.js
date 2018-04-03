@@ -8,16 +8,15 @@ $(document).ready(function(){
     });
 
     $('.board-slick').on('afterChange', function(e,s,curr){
-        if(curr>1 && curr<s.slideCount-1) return;
+        $('#board-next').css('color','white');
+        $('#board-prev').css('color','white');
+
         if($('.slick-members:first-child').hasClass('slick-active')){
             $('#board-prev').css('color','rgba(255,255,255,0.3)');
-        }else{
-            $('#board-prev').css('color','white');
         }
+
         if($('.slick-members:last-child').hasClass('slick-active')){
             $('#board-next').css('color','rgba(255,255,255,0.3)');
-        }else{
-            $('#board-next').css('color','white');
         }
     });
 });

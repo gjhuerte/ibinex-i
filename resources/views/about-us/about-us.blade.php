@@ -131,15 +131,10 @@
     <div class="row">
         <div id="media-coverage-floater" class="col-lg-6 col-md-12 blue-ibinex-bg">
             <div class="row">
-                {{--<div class="col-xl-6">--}}
-                    {{--<!-- spacer-->--}}
-                {{--</div>--}}
-                {{--<div class="col-xl-6 my-5 p-5 pr-3">--}}
-                    <div class="media-quotes quotes text-white px-3 py-5 px-lg-0 py-lg-0 mr-lg-4 mr-0">
-                        <p id="thirdfold-p1">This is the dawn of a new era. A great era, we believe. Because with every beat of the heart, a starting signal rings out.</p>
-                        <p>With each tick of the clock we gain one second. With each new thought we change the way we think forever.</p>
-                    </div>
-                {{--</div>--}}
+                <div class="media-quotes quotes text-white px-3 py-5 px-lg-0 py-lg-0 mr-lg-4 mr-0">
+                    <p id="thirdfold-p1">This is the dawn of a new era. A great era, we believe. Because with every beat of the heart, a starting signal rings out.</p>
+                    <p>With each tick of the clock we gain one second. With each new thought we change the way we think forever.</p>
+                </div>
             </div>
         </div>
         <div id="media-coverage-companies" class="col-lg-6 text-center text-lg-left">
@@ -147,7 +142,6 @@
                 Ibinex media coverage
             </h2>
             <div id="media-album">
-                {{--<img class="my-5 img-fluid" src="./img/companies.png" />--}}
                 <img class="media-img" src="{{asset('img/media1.png')}}" alt="mashable"/>
                 <img class="media-img" src="{{asset('img/media2.png')}}" alt="businsessinsider"/>
                 <img class="media-img" src="{{asset('img/media3.png')}}" alt="huffpost"/>
@@ -162,16 +156,14 @@
                 <img class="media-img" src="{{asset('img/media12.png')}}" alt="buzzfeed"/>
             </div>
         </div>
-        <div class="col-xl-2">
-            <!--spacer-->
-        </div>
+        <div class="col-xl-2"></div>
     </div>
 </div>
 
 <div class="my-0">
 <div class="row">
     <div id="advisory-board" class="col-12">
-        <div class="py-5 text-center">
+        <div class="py-4 text-center">
             <h2 id="board-title" class="mx-5">Ibinex Advisory Board</h2>
         </div>
         <div id="board-box">
