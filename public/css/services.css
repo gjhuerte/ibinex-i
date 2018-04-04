@@ -1600,6 +1600,10 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content h1.title {
+        margin-left: 0%;
+        padding-top: 8%;
+    }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
         max-width: 50%;
