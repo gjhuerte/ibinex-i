@@ -1,34 +1,49 @@
+body #fullscreen-hero {
+    /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
+}
+
 body.home-template {
     overflow: hidden;
     overflow-y: scroll;
 }
+
 body.home-template aside{
     padding-left: 0;
     padding-right: 0;
 }
+
 .quote-mark {
     width:57px;
     height: 53px;
     align-self:center;
 }
+
 @media (min-width: 1920px) and (max-width: 1999px) {
+    body #fullscreen-hero {
+        /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
+    }
+
     body.home-template aside{
         padding-left: 0;
         padding-right: 0;
     }
+
     .quote-mark {
         width:57px;
         height: 53px;
         align-self:center;
     }
+
     body .header-div {
         margin-left: -1em;
         margin-top: 2em;
     }
+
     body #fullscreen-hero {
         background-size: 113%;
         background-position: 7% 28.5%;
     }
+
     body #fullscreen-hero #hero-content h1.title {
         margin-left: -0.2em;
         margin-top: -2.7em;
@@ -49,26 +64,33 @@ body.home-template aside{
         padding-right: .9em;
         transform: translate(0em, 1em);
     }
+
     body .gradient-wrapper {
         height: 53em;
     }
+
     body .lap-right {
         height: 37em;
         transform: translate(-4.2em,-.7em);
     }
+
     body .pt-1, .py-1 {
         margin-right: -1.1em;
     }
+
     body .pt-4, .py-4 {
         margin-right: -0.1em;
     }
+
     body #fullscreen-hero .semi-circle.green {
-        min-width: 200px;
-        transform: translate(-1em, 2.4em);
+    min-width: 200px;
+    transform: translate(-1em, 2.4em);
     }
+
     body .fixed-height {
         height: 626px;
     }
+
     body .position-relative .raise-image {
         position: relative;
         top: -7.8em;
@@ -76,16 +98,20 @@ body.home-template aside{
         width: 46.3em;
         height: 48.7em;
     }
+
     body .container-fluid, body .container {
         margin-bottom: -0.8em;
     }
+
     body .order-xl-12 {
         transform: translate(.9em, 1.8em);
     }
+
     body .ex-col {
         margin-top: -9.15em;
         transform: translate(1em, 0.1em);
     }
+
     body .lap-text1 {
         font-size: 2.1rem;
         margin-top: .7em;
@@ -93,6 +119,7 @@ body.home-template aside{
         transform: translate(-.31em, 0em);
         letter-spacing: .1px;
     }
+
     body .lap-text2 {
         font-size: 2.1rem;
         margin-top: .7em;
@@ -100,254 +127,318 @@ body.home-template aside{
         transform: translate(-.31em, -1.1em);
         letter-spacing: .1px;
     }
+
     body .lap-text9 {
         display: none;
     }
+
     body .lap-text3 {
         font-size: 0.8em;
         transform: translate(0.2em, -.5em);
     }
+
     body .lap-text4 {
         font-size: .81em;
         transform: translate(0.1em, -1.8em);
     }
+
     body h2.lap-text5 {
         font-size: 18px;
         transform: translate(0.1em, -.9em);
     }
+
     body .lap-text6 {
         font-size: 1em;
         font-weight: 100;
         transform: translate(0.1em, -0.7em);
         letter-spacing: .009em;
     }
+
     body h2.lap-text7 {
         font-size: 1.12em;
         transform: translate(0.1em, -.35em)
     }
+
     body .lap-text8 {
         font-size: 1em;
         letter-spacing: -0.001px;
         word-spacing: -2px;
         transform: translate(0.1em, -0.2em);
     }
+
     body .lap-p1 {
         transform: translate(-1em, -3.2em);
         padding-right: 5.1em;
     }
+
     body .ex-sec {
         margin-bottom: -0.8em!important;
     }
+
     body .ex-sec1 {
         margin-bottom: 0;
     }
+
     body .ex-sec2 {
         margin-top: -5.4em;
         padding-bottom: 1.9em!important;
     }
+
     body .ex-div1 {
         margin-left: -1.7em;
         margin-top: -.7em;
         padding-right: 0em;
     }
+
     body h1.ex-h1 {
         font-size: 1.75em;
         margin-top: 0.3em;
         margin-left: 0.1em;
     }
+
     body h2.ex-h2-1 {
+
     }
+
     body h2.ex-h2-2 {
+
     }
+
     body h2.ex-h2-3 {
         font-size: 1.11em;
     }
+
     body h2.ex-h2-4 {
         font-size: 1.09em;
         margin-top: -.95em;
     }
+
     body h2.ex-h2-5 {
         font-size: 2em;
         transform: translate(0em, 1.5em);
     }
+
     body h2.ex-h2-6 {
         margin-top: 4.6em;
         font-size: 1.4em;
     }
+
     body h2.ex-h2-7 {
         display: none;
     }
+
     body #downloadables .brochures {
         width: 33%;
         margin-top: 2.7em;
     }
+
     body .container-fluid > .bro-sec {
         max-width: 1191px;
     }
+
     body img.bro-img1 {
         margin-left: -1em;
     }
+
     body img.bro-img2 {
         margin-left: 2.9em;
     }
+
     body img.bro-img3 {
         margin-left: 4.8em;
     }
+
     body img.bro-img4 {
         margin-top: -1.7em;
         margin-left: -1em;
     }
+
     body img.bro-img5 {
         margin-top: -1.7em;
         margin-left: 2.9em;
     }
+
     body img.bro-img6 {
         margin-top: -1.7em;
         margin-left: 4.8em;
     }
+
     body h2.bro-h2-1 {
         font-size: 1.24em;
         margin-top: -0.35em;
         margin-left: 1.8em;
     }
+
     body h2.bro-h2-2 {
         font-size: 1.24em;
         margin-top: -0.35em;
         margin-left: 4.3em;
         letter-spacing: .9px;
     }
+
     body h2.bro-h2-3 {
         font-size: 1.24em;
         margin-left: 8.5em;
         margin-top: -0.35em;
     }
+
     body h2.bro-h2-4 {
         font-size: 1.24em;
         margin-left: 1.5em;
         margin-top: 0.1em;
     }
+
     body h2.bro-h2-5 {
         font-size: 1.24em;
         margin-left: 4em;
         margin-top: 0.1em;
     }
+
     body h2.bro-h2-6 {
         font-size: 1.24em;
         margin-right: -8.5em;
         margin-top: 0.1em;
     }
+
     body p.bro-p-1 {
         margin-left: 2em!important;
         margin-top: -.6em!important;
     }
+
     body p.bro-p-2 {
         margin-left: 5em!important;
         margin-top: -.5em!important;
     }
+
     body p.bro-p-3 {
         margin-left: 10.5em!important;
         margin-top: -0.6em!important;
     }
+
     body p.bro-p-4 {
         margin-left: 2em!important;
         margin-top: -0.5em!important;
     }
+
     body p.bro-p-5 {
         margin-left: 5em!important;
         margin-top: -0.6em!important;
     }
+
     body p.bro-p-6 {
         margin-left: 10.5em!important;
         margin-top: -0.6em!important;
     }
+
     body button.bro-btn-1 {
         margin-top: 20px!important;
         padding: 10px 25px!important;
         margin-left: 1.9em!important;
     }
+
     body button.bro-btn-2 {
         margin-top: 20px!important;
         padding: 10px 25px!important;
         margin-left: 5em!important;
     }
+
     body button.bro-btn-3 {
         margin-top: 20px!important;
         padding: 10px 25px!important;
         margin-left: 10.3em!important;
     }
+
     body button.bro-btn-4 {
         margin-top: 20px!important;
         padding: 10px 25px!important;
         margin-left: 1.9em!important;
     }
+
     body button.bro-btn-5 {
         margin-top: 20px!important;
         padding: 10px 25px!important;
         margin-left: 5em!important;
     }
+
     body button.bro-btn-6 {
         margin-top: 20px!important;
         padding: 10px 25px!important;
         margin-left: 10.3em!important;
     }
+
     body h1.cov-h1-1 {
         margin-top: 2.7em!important;
         font-size: 1.75em!important;
     }
+
     body #logo .cov-img-1 {
         transform: translate(-1.85em, .8em);
     }
+
     body #logo .cov-img-2 {
         transform: translate(-.6em, 0.5em);
     }
+
     body #logo .cov-img-3 {
         transform: translate(-0.4em, .9em);
     }
+
     body #logo .cov-img-4 {
         transform: translate(0.7em, 1em);
     }
+
     body #logo .cov-img-5 {
         transform: translate(2.3em, 1.2em);
     }
+
     body #logo .cov-img-6 {
         transform: translate(3.6em, 1em);
     }
+
     body section.cov-sec-1 {
         padding-bottom: 3em;
     }
+
     body .ex-p1 {
         margin-top: 1.68em;
         letter-spacing: -0.09px;
     }
+
     body .ex-p2 {
         margin-top: 1.3em;
         margin-right: 0em;
     }
-    body .quote-wrapper p.ex-p3 {
+
+    body .quote-wrapper  p.ex-p3 {
         margin-left: 1.5em;
         transform: translate(0em, -0.1em);
         padding-right: 1.6em;
         font-size: 20px;
     }
+
     body .quote-wrapper span.ex-p4 {
         margin-left: 2em;
         font-size: 1em;
     }
+
     body p.ex-p5 {
         font-size: .9em;
         margin-top: 1.2em;
         margin-right: -.9em;
         letter-spacing: 0.6px;
     }
+
     body p.ex-p6 {
         font-size: .95em;
         margin-top: 1.4em;
         letter-spacing: .1px;
         padding-right: 1em;
     }
+
     body .position-relative .embed-parent {
         padding: 7.8% 0;
     }
+
     body .position-relative .embed-parent-wrap .embed-image {
         background-image: url(../img/hN17jUY.png);
         background-size: auto 100%;
@@ -355,14 +446,17 @@ body.home-template aside{
         min-height: 332px;
         margin-top: -8.3em;
     }
+
     body .position-relative .embed-parent-wrap .embed-image.halfed {
         width: 86.5%;
         position: relative;
         min-height: 71vh;
     }
+
     body .position-relative .embed-parent-wrap.ex-image {
         top: 8%;
     }
+
     body .position-relative .embed-parent-wrap > .ex-image1 {
         background-position: -11% 12%!important;
         background-repeat: no-repeat!important;
@@ -372,6 +466,7 @@ body.home-template aside{
         min-height: 332px!important;
         margin-top: 4px!important;
     }
+
     body div.ex-quote1 {
         background-color: rgba(39,112,246,1)!important;
         opacity: 1;
@@ -382,27 +477,33 @@ body.home-template aside{
         top: 0!important;
         right: 0!important;
     }
+
     body svg.svg-1 {
         width: 22px!important;
     }
+
     body .faButton.ex-quote {
         position: absolute;
         top: calc(-48% / 2);
         left: 4.3em;
         height: 7.8em!important;
     }
+
     body h2.title-1 {
         font-size: 1.1em;
         margin-top: -0.1em;
     }
+
     body h2.title-2 {
         font-size: 1.12em;
         margin-top: 1em;
     }
+
     body .quote-wrapper {
         padding: 5.5em 1em 3.3em 1em!important;
     }
 }
+
 @media (min-width: 1280px) and (max-width: 1440px) {
     body #fullscreen-hero {
         background-repeat: no-repeat!important;
@@ -413,6 +514,7 @@ body.home-template aside{
         flex-wrap: wrap!important;
         background-position: -1.5em -7.3em!important;
     }
+
     body #fullscreen-hero #hero-content h1.title {
         font-size: 1.7em!important;
         font-weight: 600!important;
@@ -420,9 +522,11 @@ body.home-template aside{
         margin-left: 5.1em!important;
         letter-spacing: .5px!important;
     }
+
     body div.header-div.header-pad {
         padding-right: 0!important;
     }
+
     body .gradient-wrapper {
         width: 100%!important;
         display: flex!important;
@@ -430,6 +534,7 @@ body.home-template aside{
         background: linear-gradient(to right,rgba(57,28,255,.6) ,rgba(255,59,48,.6))!important;
         padding-bottom: 6.5em!important;
     }
+
     body h1.head-h1 {
         visibility: visible!important;
         margin-top: 0.45em!important;
@@ -438,6 +543,7 @@ body.home-template aside{
         line-height: 1.1em!important;
         font-size: 3em!important;
     }
+
     body p.description1 {
         font-size: 0.9em!important;
         font-weight: normal!important;
@@ -449,6 +555,7 @@ body.home-template aside{
         letter-spacing: -0.1px!important;
         word-spacing: 1px!important;
     }
+
     body p.description2 {
         transform: translate(-0.3em, 0.2em)!important;
         font-size: 0.9em;
@@ -460,6 +567,7 @@ body.home-template aside{
         margin-left: 10em;
         padding-right: 14.2em;
     }
+
     body #fullscreen-hero .semi-circle.green {
         letter-spacing: 0px!important;
         text-transform: uppercase!important;
@@ -469,15 +577,19 @@ body.home-template aside{
         padding: 0.5em 2.7em!important;
         min-width: 0!important;
     }
-    body h2.lap-text1, .lap-text2 {
+
+    body h2.lap-text1,
+    .lap-text2 {
         font-size: 1.4em;
         margin-left: 8.4em;
         margin-top: 0.4em;
         line-height: 1em;
     }
+
     body h2.lap-text9 {
         display: none!important;
     }
+
     body p.lap-p1 {
         font-size: 0.65em!important;
         margin-top: 0.2em!important;
@@ -486,14 +598,17 @@ body.home-template aside{
         line-height: 1.8em!important;
         hyphens: manual!important;
     }
+
     body img.lap-right {
         height: 24.1em;
         margin-left: 1.7em;
         margin-top: -1.4em;
     }
+
     body .fixed-height {
-        height: 26em!important;
+    height: 26em!important;
     }
+
     body h2.third-div {
         margin-top: 0.3em!important;
         margin-left: 0.1em!important;
@@ -501,12 +616,14 @@ body.home-template aside{
         letter-spacing: -0.7px!important;
         line-height: 1.5em!important;
     }
+
     body h2.lap-text3 {
         font-size: 0.55em!important;
         margin-top: -1.4em!important;
         margin-left: 0.3em;
         letter-spacing: -0.2px!important;
     }
+
     body h2.lap-text4 {
         font-size: 0.55em!important;
         margin-left: 0.26em!important;
@@ -515,12 +632,14 @@ body.home-template aside{
         line-height: 1.75em!important;
         hyphens: manual!important;
     }
+
     body h2.lap-text5 {
         margin-top: 0.7em!important;
         margin-left: 1em;
         letter-spacing: 1px!important;
         font-size: 0.6em!important;
     }
+
     body p.lap-text6 {
         font-size: 0.7em!important;
         margin-top: 1.2em!important;
@@ -529,18 +648,21 @@ body.home-template aside{
         line-height: 1.72em!important;
         letter-spacing: -0.3px!important;
     }
+
     body img.raise-image {
         height: 32em!important;
         width: 30.5em!important;
         margin-top: 0.2em!important;
         margin-right: -1.7em!important;
     }
+
     body h2.lap-text7 {
         font-size: 0.7em;
         margin-top: -1.5em;
         margin-left: 0.8em;
         letter-spacing: 0.3px;
     }
+
     body p.lap-text8 {
         font-size: 0.6em;
         margin-top: 1em;
@@ -549,26 +671,31 @@ body.home-template aside{
         line-height: 2em;
         letter-spacing: 0.4px;
     }
+
     body section.ex-sec {
         padding-bottom: 3.8em;
     }
+
     body h2.ex-h2-1 {
         font-size: 0.7em!important;
         margin-top: -4em!important;
         margin-left: 15.4em!important;
         letter-spacing: 0.3px;
     }
+
     body p.ex-p1 {
         font-size: 0.64em!important;
         margin-top: 1.7em!important;
         margin-left: 17em!important;
         line-height: 1.8em!important;
     }
+
     body h2.ex-h2-2 {
         font-size: 0.7em!important;
         margin-left: 15.4em!important;
         letter-spacing: 0.3px;
     }
+
     body p.ex-p2 {
         font-size: 0.7em!important;
         margin-top: 1.1em!important;
@@ -576,18 +703,22 @@ body.home-template aside{
         line-height: 1.75em!important;
         letter-spacing: -0.4px!important;
     }
+
     body .position-relative .embed-parent-wrap .ex-image1 {
         background-size: 100% 89.2%!important;
         background-position: 1.2em 8.7em!important;
         margin-top: -8.3em !important;
     }
+
     body section.ex-sec1 {
         padding-bottom: 1em!important;
     }
+
     body .quote-wrapper {
         padding: 0em 0em 0.9em 1em!important;
     }
-    body .quote-wrapper p.ex-p3 {
+
+    body .quote-wrapper  p.ex-p3 {
         margin-left: 2.2em!important;
         margin-top: 4.2em!important;
         transform: translate(0em, 0.2em)!important;
@@ -597,16 +728,20 @@ body.home-template aside{
         padding-bottom: 1em!important;
         padding-right: 1.2em;
     }
+
     body span.ex-p4 {
         font-size: 0.65em!important;
         margin-left: 3em!important;
     }
+
     body h2.ex-h2-3 {
         display: none!important;
     }
+
     body div.ex-col {
         padding-top: 2em!important;
     }
+
     body h2.ex-h2-7 {
         font-size: 0.75em!important;
         font-weight: 800!important;
@@ -614,11 +749,13 @@ body.home-template aside{
         margin-left: 0.6em!important;
         line-height: 1.7em!important;
     }
+
     body section.ex-sec3 {
         margin-right: 61px!important;
         margin-left: 61px!important;
         margin-bottom: -4.5em!important;
     }
+
     body p.ex-p5 {
         font-size: 0.7em!important;
         margin-top: -0.3em!important;
@@ -627,6 +764,7 @@ body.home-template aside{
         letter-spacing: -0.4px;
         line-height: 1.7em!important;
     }
+
     body h2.ex-h2-4 {
         font-size: 0.75em!important;
         margin-left: 0.6em!important;
@@ -642,17 +780,20 @@ body.home-template aside{
         line-height: 2em!important;
         letter-spacing: 0.22px;
     }
+
     body h2.ex-h2-5 {
         font-size: 1.37em!important;
         margin-top: 0.7em!important;
         margin-left: 0.4em!important;
         letter-spacing: -0.4px!important;
     }
+
     body img.quote-mark {
         width: 40px;
         height: 35px;
         align-self: center;
     }
+
     body .position-relative .embed-parent-wrap .ex-image2 {
         background-image: url(../img/hN17jUY.png)!important;
         background-size: 100% 100%!important;
@@ -661,6 +802,7 @@ body.home-template aside{
         margin-top: -8.2em!important;
         width: 89%!important;
     }
+
     body div.ex-quote1 {
         height: 7em!important;
         width: 7em!important;
@@ -669,11 +811,13 @@ body.home-template aside{
         opacity: 1!important;
         margin-top: 6.6em!important;
     }
+
     body h2.ex-h2-6 {
         font-size: 0.9em!important;
         margin-top: 3.6em!important;
         margin-left: 0.2em!important;
     }
+
     body h1.ex-h1 {
         font-size: 1.2em!important;
         margin-top: -0.2em;
@@ -683,6 +827,7 @@ body.home-template aside{
         padding-right: 1em!important;
         padding-left: 1em!important;
     }
+
     body .faButton.ex-quote {
         position: absolute!important;
         top: calc(-47% / 2)!important;
@@ -690,118 +835,138 @@ body.home-template aside{
         height: 5.2em!important;
         width: 5em!important;
     }
+
     body img.bro-img1 {
         margin-top: -0.1em!important;
         margin-left: 11.6em!important;
         height: 17.2em!important;
         width: 14.7em!important;
     }
+
     body img.bro-img2 {
         margin-top: -0.1em!important;
         margin-left: 2.5em!important;
         height: 17.2em!important;
         width: 14.4em!important;
     }
+
     body img.bro-img3 {
         margin-top: -0.1em!important;
         margin-left: -9.7em!important;
         height: 17.2em!important;
         width: 14.8em!important;
     }
+
     body img.bro-img4 {
         margin-top: -1.3em!important;
         margin-left: 11.6em!important;
         height: 17.2em!important;
         width: 14.6em!important;
     }
+
     body img.bro-img5 {
         margin-top: -1.3em!important;
         margin-left: 2.6em!important;
         height: 17.2em!important;
         width: 14.7em!important;
     }
+
     body img.bro-img6 {
         margin-top: -1.3em!important;
         margin-left: -9.6em!important;
         height: 17.2em!important;
         width: 14.7em!important;
     }
+
     body h2.bro-h2-1 {
         font-size: 0.8em!important;
         margin-top: -0.2em!important;
         margin-left: 20.5em!important;
         letter-spacing: 0.1px!important;
     }
+
     body h2.bro-h2-2 {
         font-size: 0.7em!important;
         margin-top: -0.2em!important;
         margin-left: 5.45em!important;
         letter-spacing: 1.5px!important;
     }
+
     body h2.bro-h2-3 {
         font-size: 0.7em!important;
         margin-top: -0.2em!important;
         margin-left: -10.7em!important;
         letter-spacing: 0.9px!important;
     }
+
     body h2.bro-h2-4 {
         font-size: 0.7em!important;
         margin-top: 0.2em!important;
         margin-left: 23.5em!important;
         letter-spacing: 1px!important;
     }
+
     body h2.bro-h2-5 {
         font-size: 0.7em!important;
         margin-top: 0.2em!important;
         margin-left: 5.3em!important;
         letter-spacing: 1px!important;
     }
+
     body h2.bro-h2-6 {
         font-size: 0.7em!important;
         margin-top: 0.1em!important;
         margin-left: -10.6em!important;
         letter-spacing: 1.1px!important;
     }
+
     body #downloadables .brochures {
         margin: 24px 0!important;
         display: inline-block!important;
     }
+
     body p.bro-p-1 {
         margin-top: -1.4em!important;
         font-size: 0.6em;
         letter-spacing: 0.5px!important;
         margin-left: 27.3em!important;
     }
+
     body p.bro-p-2 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: 6em!important;
     }
+
     body p.bro-p-3 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: -12.5em!important;
     }
+
     body p.bro-p-4 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: 27.3em!important;
     }
+
     body p.bro-p-5 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: 6.2em!important;
     }
+
     body p.bro-p-6 {
         margin-top: -1.2em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: -12.5em!important;
     }
+
     body button.bro-btn-1 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -810,6 +975,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-2 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -818,6 +984,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-3 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -826,6 +993,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-4 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -834,6 +1002,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-5 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -842,6 +1011,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-6 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -850,55 +1020,67 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body section.ex-sec2 {
         padding-bottom: 0.8em!important;
     }
+
     body h1.cov-h1-1 {
         font-size: 1.1em;
         letter-spacing: 0.45px;
         margin-top: -0.3em;
         margin-left: 0.15em;
     }
+
     body img.cov-img-1 {
         width: 7em!important;
         margin-top: -0.8em!important;
         transform: translateX(0.25em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-2 {
         margin-top: -1em!important;
         transform: translateX(0.5em)!important;
         width: 8.5em!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-3 {
         width: 8em!important;
         margin-top: -0.5em!important;
         transform: translateX(0.3em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-4 {
         width: 8em!important;
         margin-top: -0.5em!important;
         transform: translateX(0.3em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-5 {
         width: 7em!important;
         margin-top: -0.4em!important;
         transform: translateX(0.7em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-6 {
         width: 8.8em!important;
         margin-top: -0.2em;
         transform: translateX(1.2em);
         max-width: 300px!important;
     }
+
     body section.cov-sec-1 {
         margin-bottom: 3.2em!important;
     }
+
+
 }
+
 @media (min-width: 768px) and (max-width: 1024px) {
     body #fullscreen-hero {
         background-repeat: no-repeat!important;
@@ -909,6 +1091,7 @@ body.home-template aside{
         flex-wrap: wrap!important;
         background-position: -1.5em -7.3em!important;
     }
+
     body #fullscreen-hero #hero-content h1.title {
         font-size: 1.7em!important;
         font-weight: 600!important;
@@ -916,9 +1099,11 @@ body.home-template aside{
         margin-left: 5.1em!important;
         letter-spacing: .5px!important;
     }
+
     body div.header-div.header-pad {
         padding-right: 0!important;
     }
+
     body .gradient-wrapper {
         width: 100%!important;
         display: flex!important;
@@ -926,6 +1111,7 @@ body.home-template aside{
         background: linear-gradient(to right,rgba(57,28,255,.6) ,rgba(255,59,48,.6))!important;
         padding-bottom: 6.5em!important;
     }
+
     body h1.head-h1 {
         visibility: visible!important;
         margin-top: 0.45em!important;
@@ -934,6 +1120,7 @@ body.home-template aside{
         line-height: 1.1em!important;
         font-size: 3em!important;
     }
+
     body p.description1 {
         font-size: 0.9em!important;
         font-weight: normal!important;
@@ -945,6 +1132,7 @@ body.home-template aside{
         letter-spacing: -0.1px!important;
         word-spacing: 1px!important;
     }
+
     body p.description2 {
         transform: translate(-0.3em, 0.2em)!important;
         font-size: 0.9em;
@@ -956,6 +1144,7 @@ body.home-template aside{
         margin-left: 10em;
         padding-right: 14.2em;
     }
+
     body #fullscreen-hero .semi-circle.green {
         letter-spacing: 0px!important;
         text-transform: uppercase!important;
@@ -965,15 +1154,19 @@ body.home-template aside{
         padding: 0.5em 2.7em!important;
         min-width: 0!important;
     }
-    body h2.lap-text1, .lap-text2 {
+
+    body h2.lap-text1,
+    .lap-text2 {
         font-size: 1.4em;
         margin-left: 8.4em;
         margin-top: 0.4em;
         line-height: 1em;
     }
+
     body h2.lap-text9 {
         display: none!important;
     }
+
     body p.lap-p1 {
         font-size: 0.65em!important;
         margin-top: 0.2em!important;
@@ -982,14 +1175,17 @@ body.home-template aside{
         line-height: 1.8em!important;
         hyphens: manual!important;
     }
+
     body img.lap-right {
         height: 24.1em;
         margin-left: 1.7em;
         margin-top: -1.4em;
     }
+
     body .fixed-height {
         height: 26em!important;
     }
+
     body h2.third-div {
         margin-top: 0.3em!important;
         margin-left: 0.1em!important;
@@ -997,12 +1193,14 @@ body.home-template aside{
         letter-spacing: -0.7px!important;
         line-height: 1.5em!important;
     }
+
     body h2.lap-text3 {
         font-size: 0.55em!important;
         margin-top: -1.4em!important;
         margin-left: 0.3em;
         letter-spacing: -0.2px!important;
     }
+
     body h2.lap-text4 {
         font-size: 0.55em!important;
         margin-left: 0.26em!important;
@@ -1011,12 +1209,14 @@ body.home-template aside{
         line-height: 1.75em!important;
         hyphens: manual!important;
     }
+
     body h2.lap-text5 {
         margin-top: 0.7em!important;
         margin-left: 1em;
         letter-spacing: 1px!important;
         font-size: 0.6em!important;
     }
+
     body p.lap-text6 {
         font-size: 0.7em!important;
         margin-top: 1.2em!important;
@@ -1025,18 +1225,21 @@ body.home-template aside{
         line-height: 1.72em!important;
         letter-spacing: -0.3px!important;
     }
+
     body img.raise-image {
         height: 32em!important;
         width: 30.5em!important;
         margin-top: 0.2em!important;
         margin-right: -1.7em!important;
     }
+
     body h2.lap-text7 {
         font-size: 0.7em;
         margin-top: -1.5em;
         margin-left: 0.8em;
         letter-spacing: 0.3px;
     }
+
     body p.lap-text8 {
         font-size: 0.6em;
         margin-top: 1em;
@@ -1045,26 +1248,31 @@ body.home-template aside{
         line-height: 2em;
         letter-spacing: 0.4px;
     }
+
     body section.ex-sec {
         padding-bottom: 3.8em;
     }
+
     body h2.ex-h2-1 {
         font-size: 0.7em!important;
         margin-top: -4em!important;
         margin-left: 15.4em!important;
         letter-spacing: 0.3px;
     }
+
     body p.ex-p1 {
         font-size: 0.64em!important;
         margin-top: 1.7em!important;
         margin-left: 17em!important;
         line-height: 1.8em!important;
     }
+
     body h2.ex-h2-2 {
         font-size: 0.7em!important;
         margin-left: 15.4em!important;
         letter-spacing: 0.3px;
     }
+
     body p.ex-p2 {
         font-size: 0.7em!important;
         margin-top: 1.1em!important;
@@ -1072,18 +1280,22 @@ body.home-template aside{
         line-height: 1.75em!important;
         letter-spacing: -0.4px!important;
     }
+
     body .position-relative .embed-parent-wrap .ex-image1 {
         background-size: 100% 89.2%!important;
         background-position: 1.2em 8.7em!important;
         margin-top: -8.3em !important;
     }
+
     body section.ex-sec1 {
         padding-bottom: 1em!important;
     }
+
     body .quote-wrapper {
         padding: 0em 0em 0.9em 1em!important;
     }
-    body .quote-wrapper p.ex-p3 {
+
+    body .quote-wrapper  p.ex-p3 {
         margin-left: 2.2em!important;
         margin-top: 4.2em!important;
         transform: translate(0em, 0.2em)!important;
@@ -1093,16 +1305,20 @@ body.home-template aside{
         padding-bottom: 1em!important;
         padding-right: 1.2em;
     }
+
     body span.ex-p4 {
         font-size: 0.65em!important;
         margin-left: 3em!important;
     }
+
     body h2.ex-h2-3 {
         display: none!important;
     }
+
     body div.ex-col {
         padding-top: 2em!important;
     }
+
     body h2.ex-h2-7 {
         font-size: 0.75em!important;
         font-weight: 800!important;
@@ -1110,11 +1326,13 @@ body.home-template aside{
         margin-left: 0.6em!important;
         line-height: 1.7em!important;
     }
+
     body section.ex-sec3 {
         margin-right: 61px!important;
         margin-left: 61px!important;
         margin-bottom: -4.5em!important;
     }
+
     body p.ex-p5 {
         font-size: 0.7em!important;
         margin-top: -0.3em!important;
@@ -1123,6 +1341,7 @@ body.home-template aside{
         letter-spacing: -0.4px;
         line-height: 1.7em!important;
     }
+
     body h2.ex-h2-4 {
         font-size: 0.75em!important;
         margin-left: 0.6em!important;
@@ -1138,17 +1357,20 @@ body.home-template aside{
         line-height: 2em!important;
         letter-spacing: 0.22px;
     }
+
     body h2.ex-h2-5 {
         font-size: 1.37em!important;
         margin-top: 0.7em!important;
         margin-left: 0.4em!important;
         letter-spacing: -0.4px!important;
     }
+
     body img.quote-mark {
         width: 40px;
         height: 35px;
         align-self: center;
     }
+
     body .position-relative .embed-parent-wrap .ex-image2 {
         background-image: url(../img/hN17jUY.png)!important;
         background-size: 100% 100%!important;
@@ -1157,6 +1379,7 @@ body.home-template aside{
         margin-top: -8.2em!important;
         width: 89%!important;
     }
+
     body div.ex-quote1 {
         height: 6em!important;
         width: 6em!important;
@@ -1165,11 +1388,13 @@ body.home-template aside{
         opacity: 1!important;
         margin-top: -6.3em!important;
     }
+
     body h2.ex-h2-6 {
         font-size: 0.9em!important;
         margin-top: 3.6em!important;
         margin-left: 0.2em!important;
     }
+
     body h1.ex-h1 {
         font-size: 1.2em!important;
         margin-top: -0.2em;
@@ -1179,6 +1404,7 @@ body.home-template aside{
         padding-right: 1em!important;
         padding-left: 1em!important;
     }
+
     body .faButton.ex-quote {
         position: absolute!important;
         top: calc(-47% / 2)!important;
@@ -1186,118 +1412,138 @@ body.home-template aside{
         height: 5.2em!important;
         width: 5em!important;
     }
+
     body img.bro-img1 {
         margin-top: -0.1em!important;
         margin-left: 11.6em!important;
         height: 17.2em!important;
         width: 14.7em!important;
     }
+
     body img.bro-img2 {
         margin-top: -0.1em!important;
         margin-left: 2.5em!important;
         height: 17.2em!important;
         width: 14.4em!important;
     }
+
     body img.bro-img3 {
         margin-top: -0.1em!important;
         margin-left: -9.7em!important;
         height: 17.2em!important;
         width: 14.8em!important;
     }
+
     body img.bro-img4 {
         margin-top: -1.3em!important;
         margin-left: 11.6em!important;
         height: 17.2em!important;
         width: 14.6em!important;
     }
+
     body img.bro-img5 {
         margin-top: -1.3em!important;
         margin-left: 2.6em!important;
         height: 17.2em!important;
         width: 14.7em!important;
     }
+
     body img.bro-img6 {
         margin-top: -1.3em!important;
         margin-left: -9.6em!important;
         height: 17.2em!important;
         width: 14.7em!important;
     }
+
     body h2.bro-h2-1 {
         font-size: 0.8em!important;
         margin-top: -0.2em!important;
         margin-left: 20.5em!important;
         letter-spacing: 0.1px!important;
     }
+
     body h2.bro-h2-2 {
         font-size: 0.7em!important;
         margin-top: -0.2em!important;
         margin-left: 5.45em!important;
         letter-spacing: 1.5px!important;
     }
+
     body h2.bro-h2-3 {
         font-size: 0.7em!important;
         margin-top: -0.2em!important;
         margin-left: -10.7em!important;
         letter-spacing: 0.9px!important;
     }
+
     body h2.bro-h2-4 {
         font-size: 0.7em!important;
         margin-top: 0.2em!important;
         margin-left: 23.5em!important;
         letter-spacing: 1px!important;
     }
+
     body h2.bro-h2-5 {
         font-size: 0.7em!important;
         margin-top: 0.2em!important;
         margin-left: 5.3em!important;
         letter-spacing: 1px!important;
     }
+
     body h2.bro-h2-6 {
         font-size: 0.7em!important;
         margin-top: 0.1em!important;
         margin-left: -10.6em!important;
         letter-spacing: 1.1px!important;
     }
+
     body #downloadables .brochures {
         margin: 24px 0!important;
         display: inline-block!important;
     }
+
     body p.bro-p-1 {
         margin-top: -1.4em!important;
         font-size: 0.6em;
         letter-spacing: 0.5px!important;
         margin-left: 27.3em!important;
     }
+
     body p.bro-p-2 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: 6em!important;
     }
+
     body p.bro-p-3 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: -12.5em!important;
     }
+
     body p.bro-p-4 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: 27.3em!important;
     }
+
     body p.bro-p-5 {
         margin-top: -1.3em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: 6.2em!important;
     }
+
     body p.bro-p-6 {
         margin-top: -1.2em!important;
         font-size: 0.6em!important;
         letter-spacing: 0.5px!important;
         margin-left: -12.5em!important;
     }
+
     body button.bro-btn-1 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -1306,6 +1552,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-2 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -1314,6 +1561,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-3 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -1322,6 +1570,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-4 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -1330,6 +1579,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-5 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -1338,6 +1588,7 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body button.bro-btn-6 {
         margin-top: 0.9em!important;
         padding: 0.15em 1.5em!important;
@@ -1346,67 +1597,72 @@ body.home-template aside{
         letter-spacing: 1.1px!important;
         font-weight: 600!important;
     }
+
     body section.ex-sec2 {
         padding-bottom: 0.8em!important;
     }
+
     body h1.cov-h1-1 {
         font-size: 1.1em;
         letter-spacing: 0.45px;
         margin-top: -0.3em;
         margin-left: 0.15em;
     }
+
     body img.cov-img-1 {
         width: 7em!important;
         margin-top: -0.8em!important;
         transform: translateX(0.25em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-2 {
         margin-top: -1em!important;
         transform: translateX(0.5em)!important;
         width: 8.5em!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-3 {
         width: 8em!important;
         margin-top: -0.5em!important;
         transform: translateX(0.3em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-4 {
         width: 8em!important;
         margin-top: -0.5em!important;
         transform: translateX(0.3em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-5 {
         width: 7em!important;
         margin-top: -0.4em!important;
         transform: translateX(0.7em)!important;
         max-width: 300px!important;
     }
+
     body img.cov-img-6 {
         width: 8.8em!important;
         margin-top: -0.2em;
         transform: translateX(1.2em);
         max-width: 300px!important;
     }
+
     body section.cov-sec-1 {
         margin-bottom: 3.2em!important;
     }
+
+
 }
+
 @media (min-width: 414px) and (max-width: 480px) {
-    body #fullscreen-hero {
-        background-repeat: no-repeat!important;
-        background-size: 106em!important;
-        width: 100%!important;
-        display: flex!important;
-        flex-wrap: wrap!important;
-        background-position: -32em -0.5em!important;
-    }
     body div.header-div.header-pad {
         padding-right: 0!important;
     }
+
     body .gradient-wrapper {
         width: 100%!important;
         display: flex!important;
@@ -1414,6 +1670,7 @@ body.home-template aside{
         background: linear-gradient(to right,rgba(57,28,255,.6) ,rgba(255,59,48,.6))!important;
         padding-bottom: 6.5em!important;
     }
+
     body h1.head-h1 {
         visibility: visible!important;
         margin-top: 0.45em!important;
@@ -1422,6 +1679,7 @@ body.home-template aside{
         line-height: 1.1em!important;
         font-size: 3em!important;
     }
+
     body p.description1 {
         font-size: 1.55em!important;
         margin-left: -0.5em!important;
@@ -1431,6 +1689,7 @@ body.home-template aside{
         letter-spacing: 0.4px!important;
         word-spacing: 1px!important;
     }
+
     body p.description2 {
         transform: translate(-0.5em,2.9em)!important;
         font-size: 1.5em!important;
@@ -1438,6 +1697,7 @@ body.home-template aside{
         letter-spacing: 0.5px!important;
         hyphens: manual!important;
     }
+
     body #fullscreen-hero .semi-circle.green {
         letter-spacing: 1.3px!important;
         text-transform: uppercase!important;
@@ -1446,9 +1706,12 @@ body.home-template aside{
         transform: translate(-0.4em,5em)!important;
         padding: 21px 59px!important;
     }
-    body h2.lap-text1, .lap-text2 {
+
+    body h2.lap-text1,
+    .lap-text2 {
         display: none!important;
     }
+
     body h2.lap-text9 {
         text-align: center !important;
         margin-top: 0.05em!important;
@@ -1459,12 +1722,14 @@ body.home-template aside{
         padding-top: 36px!important;
         letter-spacing: .8px!important;
     }
+
     body p.lap-p1 {
         font-size: 1.2em!important;
         margin-top: 1.2em!important;
         line-height: 1.72em!important;
         hyphens: manual!important;
     }
+
     body h2.third-div {
         margin-top: 0.3em!important;
         margin-left: 0.1em!important;
@@ -1472,11 +1737,13 @@ body.home-template aside{
         letter-spacing: -0.7px!important;
         line-height: 1.5em!important;
     }
+
     body h2.lap-text5 {
         font-size: 1.3em!important;
         margin-top: 0.1em!important;
         letter-spacing: 0.15px!important;
     }
+
     body p.lap-text6 {
         font-size: 1.2em!important;
         margin-left: 0.1em!important;
@@ -1485,11 +1752,13 @@ body.home-template aside{
         line-height: 1.75em!important;
         hyphens: manual!important;
     }
+
     body h2.lap-text7 {
         margin-top: -1em!important;
         letter-spacing: 0.2px!important;
         font-size: 1.3em!important;
     }
+
     body p.lap-text8 {
         font-size: 1.2em!important;
         margin-top: 1.2em!important;
@@ -1498,28 +1767,26 @@ body.home-template aside{
         letter-spacing: -0.1px!important;
         word-spacing: -1px!important;
     }
-    body img.raise-image {
-        height: 22.4em!important;
-        width: 21.3em!important;
-        margin-top: 4.1em!important;
-        margin-left: 1.3em!important;
-    }
+
     body h2.ex-h2-1 {
         font-size: 1.32em!important;
         margin-top: 0.6em!important;
         margin-left: 0.1em!important;
     }
+
     body p.ex-p1 {
         font-size: 1.2em!important;
         margin-top: 1.55em!important;
         margin-left: 0.1em!important;
         line-height: 1.75em!important;
     }
+
     body h2.ex-h2-2 {
         font-size: 1.32em!important;
         margin-left: 0.15em!important;
         margin-top: 0.6em!important;
     }
+
     body p.ex-p2 {
         font-size: 1.2em!important;
         margin-top: 1.3em!important;
@@ -1527,16 +1794,19 @@ body.home-template aside{
         line-height: 1.75em!important;
         letter-spacing: -0.2px!important;
     }
+
     body .position-relative .embed-parent-wrap .ex-image1 {
         background-size: auto 100%!important;
         background-position: 4% 100%!important;
         min-height: 24.3em!important;
         margin-top: 2.4em !important;
     }
+
     body .quote-wrapper {
         padding: 5.5em 1em 2.1em 1em!important;
     }
-    body .quote-wrapper p.ex-p3 {
+
+    body .quote-wrapper  p.ex-p3 {
         margin-left: 0.2em!important;
         margin-top: 0.7em!important;
         transform: translate(0em, 0.2em)!important;
@@ -1544,29 +1814,32 @@ body.home-template aside{
         font-size: 1.45em!important;
         padding-bottom: 0.3em!important;
     }
+
     body span.ex-p4 {
         font-size: 1.15em!important;
         margin-left: 0.25em!important;
     }
+
     body h2.ex-h2-3 {
         display: none!important;
     }
+
     body h2.ex-h2-7 {
         font-size: 1.34em!important;
-        font-weight: 600!important;
         margin-top: 0.4em!important;
         margin-left: 0.2em!important;
         line-height: 1.7em!important;
     }
+
     body p.ex-p5 {
         font-size: 1.2em!important;
         margin-top: 0.7em!important;
         padding-right: 0.2em!important;
         line-height: 1.72em!important;
     }
+
     body h2.ex-h2-4 {
-        font-size: 1.3em!important;
-        margin-left: -0.05em!important;
+        font-size: 1.34em!important;
         margin-top: 0.3em!important;
         letter-spacing: 0.15px!important;
         line-height: 1.7em!important;
@@ -1576,32 +1849,27 @@ body.home-template aside{
         margin-top: 1.05em!important;
         line-height: 1.72em!important;
     }
+
     body h2.ex-h2-5 {
         font-size: 2.4em!important;
         margin-top: 0.5em!important;
-        margin-left: 2.6em!important;
         letter-spacing: -0.4px!important;
+        text-align: center;
     }
-    body .position-relative .embed-parent-wrap .ex-image2 {
-        background-image: url(../img/pogi.webp)!important;
-        background-size: 100% 100%!important;
-        background-position: top!important;
-        min-height: 15.8em!important;
-        margin-top: 0.3em!important;
-    }
+
     body div.ex-quote1 {
         height: 6em!important;
         width: 6em!important;
-        top: 11.2em!important;
-        right: 9.7em!important;
         opacity: 1!important;
-        margin-top: -6.3em!important;
+        margin: auto;
     }
+
     body h2.ex-h2-6 {
         font-size: 1.6em!important;
         margin-top: -4em!important;
         margin-left: 0.5em!important;
     }
+
     body h1.ex-h1 {
         font-size: 2.4em!important;
         margin-right: -0.1em!important;
@@ -1610,6 +1878,7 @@ body.home-template aside{
         padding-right: 1em!important;
         padding-left: 1em!important;
     }
+
     body .faButton.ex-quote {
         position: absolute!important;
         top: calc(-29% / 2)!important;
@@ -1617,24 +1886,48 @@ body.home-template aside{
         height: 6.4em!important;
         width: 6.6em!important;
     }
-    body img.bro-img1, .bro-img2, .bro-img3, .bro-img4, .bro-img5, .bro-img6 {
+
+    body img.bro-img1,
+    .bro-img2,
+    .bro-img3,
+    .bro-img4,
+    .bro-img5,
+    .bro-img6 {
         margin-top: 1.8em!important;
         margin-left: -0.6em!important;
         height: 18em!important;
         width: 15em!important;
     }
-    body h2.bro-h2-1, .bro-h2-2, .bro-h2-3, .bro-h2-4, .bro-h2-5, .bro-h2-6 {
+
+    body h2.bro-h2-1,
+    .bro-h2-2,
+    .bro-h2-3,
+    .bro-h2-4,
+    .bro-h2-5,
+    .bro-h2-6 {
         font-size: 1.45em!important;
         margin-top: 1.2em!important;
         margin-left: -0.15em!important;
         letter-spacing: -0.3px!important;
     }
-    body p.bro-p-1, .bro-p-2, .bro-p-3, .bro-p-4, .bro-p-5, .bro-p-6 {
+
+    body p.bro-p-1,
+    .bro-p-2,
+    .bro-p-3,
+    .bro-p-4,
+    .bro-p-5,
+    .bro-p-6 {
         margin-top: -0.4em!important;
         letter-spacing: 1px!important;
         margin-left: -0.2em!important;
     }
-    body button.bro-btn-1, .bro-btn-2, .bro-btn-3, .bro-btn-4, .bro-btn-5, .bro-btn-6 {
+
+    body button.bro-btn-1,
+    .bro-btn-2,
+    .bro-btn-3,
+    .bro-btn-4,
+    .bro-btn-5,
+    .bro-btn-6 {
         margin-top: 0.6em!important;
         padding: 0.8em 1.4em!important;
         margin-left: 0.1em!important;
@@ -1642,60 +1935,54 @@ body.home-template aside{
         letter-spacing: 1.5px!important;
         font-weight: 500!important;
     }
-    body a.carousel-control-next, .carousel-control-prev {
+
+    body a.carousel-control-next,
+    .carousel-control-prev {
         top: -10em!important;
     }
+
     body section.ex-sec2 {
         padding-bottom: 2.6em!important;
     }
+
     body h1.cov-h1-1 {
-        font-size: 2em;
+        font-size: 2em!important;
         letter-spacing: 0.45px;
         margin-top: -0.8em;
         margin-left: 0.15em;
     }
+
     body img.cov-img-1 {
-        width: 50%;
         margin-top: -1.8em;
     }
+
     body img.cov-img-2 {
         margin-top: 1.9em;
-        margin-left: -0.2em;
-        width: 51%;
     }
+
     body img.cov-img-3 {
-        width: 52%;
         margin-top: 2.2em;
     }
+
     body img.cov-img-4 {
-        width: 49%;
         margin-top: 1.9em;
     }
+
     body img.cov-img-5 {
-        width: 52%;
         margin-top: 1.7em;
     }
+
     body img.cov-img-6 {
-        width: 50%;
-        margin-left: -0.6em;
         margin-top: 2.6em;
     }
+
     body section.cov-sec-1 {
         margin-bottom: 2.55em!important;
     }
+
 }
+
 @media (min-width: 375px) and (max-width: 413px) {
-    body #fullscreen-hero {
-        background-repeat: no-repeat!important;
-        background-size: 106em!important;
-        width: 100%!important;
-        display: flex!important;
-        flex-wrap: wrap!important;
-        background-position: -32em -0.5em!important;
-    }
-    body div.header-div.header-pad {
-        padding-right: 0!important;
-    }
     body .gradient-wrapper {
         width: 100%!important;
         display: flex!important;
@@ -1703,6 +1990,7 @@ body.home-template aside{
         background: linear-gradient(to right,rgba(57,28,255,.6) ,rgba(255,59,48,.6))!important;
         padding-bottom: 6.5em!important;
     }
+
     body h1.head-h1 {
         visibility: visible!important;
         margin-top: 0.45em!important;
@@ -1711,33 +1999,37 @@ body.home-template aside{
         line-height: 1.1em!important;
         font-size: 3em!important;
     }
+
     body p.description1 {
         font-size: 1.55em!important;
         margin-left: -0.5em!important;
-        transform: translate(0em,1.35em)!important;
         line-height: 1.45em!important;
         hyphens: manual!important;
         letter-spacing: 0.4px!important;
-        word-spacing: 1px!important;
     }
+
     body p.description2 {
-        transform: translate(-0.5em,2.9em)!important;
         font-size: 1.5em!important;
         line-height: 1.49em!important;
+        margin-left: -0.5em!important;
         letter-spacing: 0.5px!important;
         hyphens: manual!important;
     }
+
     body #fullscreen-hero .semi-circle.green {
         letter-spacing: 1.3px!important;
         text-transform: uppercase!important;
         font-weight: 600!important;
         font-size: 1.3em!important;
-        transform: translate(-0.4em,5em)!important;
+        transform: translate(-0.4em,3em)!important;
         padding: 21px 59px!important;
     }
-    body h2.lap-text1, .lap-text2 {
+
+    body h2.lap-text1,
+    .lap-text2 {
         display: none!important;
     }
+
     body h2.lap-text9 {
         text-align: center !important;
         margin-top: 0.05em!important;
@@ -1746,12 +2038,14 @@ body.home-template aside{
         padding-top: 36px!important;
         letter-spacing: .8px!important;
     }
+
     body p.lap-p1 {
         font-size: 1.2em!important;
         margin-top: 1.2em!important;
         line-height: 1.72em!important;
         hyphens: manual!important;
     }
+
     body h2.third-div {
         margin-top: 0.3em!important;
         margin-left: 0.1em!important;
@@ -1759,11 +2053,13 @@ body.home-template aside{
         letter-spacing: -0.7px!important;
         line-height: 1.5em!important;
     }
+
     body h2.lap-text5 {
         font-size: 1.3em!important;
         margin-top: 0.1em!important;
         letter-spacing: 0.15px!important;
     }
+
     body p.lap-text6 {
         font-size: 1.2em!important;
         margin-left: 0.1em!important;
@@ -1772,11 +2068,13 @@ body.home-template aside{
         line-height: 1.75em!important;
         hyphens: manual!important;
     }
+
     body h2.lap-text7 {
         margin-top: -1em!important;
         letter-spacing: 0.2px!important;
         font-size: 1.3em!important;
     }
+
     body p.lap-text8 {
         font-size: 1.2em!important;
         margin-top: 1.2em!important;
@@ -1785,28 +2083,33 @@ body.home-template aside{
         letter-spacing: -0.1px!important;
         word-spacing: -1px!important;
     }
+
     body img.raise-image {
         height: 22.4em!important;
         width: 21.3em!important;
         margin-top: 4.1em!important;
         margin-left: 1.3em!important;
     }
+
     body h2.ex-h2-1 {
         font-size: 1.32em!important;
         margin-top: 0.6em!important;
         margin-left: 0.1em!important;
     }
+
     body p.ex-p1 {
         font-size: 1.2em!important;
         margin-top: 1.55em!important;
         margin-left: 0.1em!important;
         line-height: 1.75em!important;
     }
+
     body h2.ex-h2-2 {
         font-size: 1.32em!important;
         margin-left: 0.15em!important;
         margin-top: 0.6em!important;
     }
+
     body p.ex-p2 {
         font-size: 1.2em!important;
         margin-top: 1.3em!important;
@@ -1814,16 +2117,19 @@ body.home-template aside{
         line-height: 1.75em!important;
         letter-spacing: -0.2px!important;
     }
+
     body .position-relative .embed-parent-wrap .ex-image1 {
         background-size: auto 100%!important;
         background-position: 4% 100%!important;
         min-height: 24.3em!important;
         margin-top: 2.4em !important;
     }
+
     body .quote-wrapper {
         padding: 5.5em 1em 2.1em 1em!important;
     }
-    body .quote-wrapper p.ex-p3 {
+
+    body .quote-wrapper  p.ex-p3 {
         margin-left: 0.2em!important;
         margin-top: 0.7em!important;
         transform: translate(0em, 0.2em)!important;
@@ -1831,300 +2137,16 @@ body.home-template aside{
         font-size: 1.45em!important;
         padding-bottom: 0.3em!important;
     }
+
     body span.ex-p4 {
         font-size: 1.15em!important;
         margin-left: 0.25em!important;
     }
+
     body h2.ex-h2-3 {
         display: none!important;
     }
-    body h2.ex-h2-7 {
-        font-size: 1.32em!important;
-        font-weight: 700!important;
-        margin-top: 0.4em!important;
-        margin-left: 0.2em!important;
-        line-height: 1.7em!important;
-    }
-    body p.ex-p5 {
-        font-size: 1.2em!important;
-        margin-top: 0.7em!important;
-        padding-right: 0.2em!important;
-        line-height: 1.72em!important;
-    }
-    body h2.ex-h2-4 {
-        font-size: 1.32em!important;
-        margin-left: -0.05em!important;
-        margin-top: 0.3em!important;
-        letter-spacing: 0.15px!important;
-        line-height: 1.7em!important;
-    }
-    body p.ex-p6 {
-        font-size: 1.2em!important;
-        margin-top: 1.05em!important;
-        line-height: 1.72em!important;
-    }
-    body h2.ex-h2-5 {
-        font-size: 2.4em!important;
-        margin-top: 0.5em!important;
-        margin-left: 2.2em!important;
-        letter-spacing: -0.4px!important;
-    }
-    body .position-relative .embed-parent-wrap .ex-image2 {
-        background-image: url(../img/pogi.webp)!important;
-        background-size: 100% 100%!important;
-        background-position: top!important;
-        min-height: 15.8em!important;
-        margin-top: 0.3em!important;
-    }
-    body div.ex-quote1 {
-        height: 6em!important;
-        width: 6em!important;
-        top: 11em!important;
-        right: 8.7em!important;
-        opacity: 1!important;
-        margin-top: -6.3em!important;
-    }
-    body h2.ex-h2-6 {
-        font-size: 1.6em!important;
-        margin-top: -4em!important;
-        margin-left: 0.5em!important;
-    }
-    body h1.ex-h1 {
-        font-size: 2.1em!important;
-        margin-right: -0.1em!important;
-        line-height: 1.4em!important;
-        letter-spacing: -0.2px!important;
-        padding-right: 1em!important;
-        padding-left: 1em!important;
-    }
-    body .faButton.ex-quote {
-        position: absolute!important;
-        top: calc(-29% / 2)!important;
-        left: 2.3em!important;
-        height: 6.4em!important;
-        width: 6.6em!important;
-    }
-    body img.bro-img1, .bro-img2, .bro-img3, .bro-img4, .bro-img5, .bro-img6 {
-        margin-top: 1.8em!important;
-        margin-left: -0.6em!important;
-        height: 18em!important;
-        width: 15em!important;
-    }
-    body h2.bro-h2-1, .bro-h2-2, .bro-h2-3, .bro-h2-4, .bro-h2-5, .bro-h2-6 {
-        font-size: 1.45em!important;
-        margin-top: 1.2em!important;
-        margin-left: -0.15em!important;
-        letter-spacing: -0.3px!important;
-    }
-    body p.bro-p-1, .bro-p-2, .bro-p-3, .bro-p-4, .bro-p-5, .bro-p-6 {
-        margin-top: -0.4em!important;
-        letter-spacing: 1px!important;
-        margin-left: -0.2em!important;
-    }
-    body button.bro-btn-1, .bro-btn-2, .bro-btn-3, .bro-btn-4, .bro-btn-5, .bro-btn-6 {
-        margin-top: 0.6em!important;
-        padding: 0.8em 1.4em!important;
-        margin-left: 0.1em!important;
-        font-size: 1.1em!important;
-        letter-spacing: 1.5px!important;
-        font-weight: 500!important;
-    }
-    body a.carousel-control-next, .carousel-control-prev {
-        top: -10em!important;
-    }
-    body section.ex-sec2 {
-        padding-bottom: 2.6em!important;
-    }
-    body h1.cov-h1-1 {
-        font-size: 2em;
-        letter-spacing: 0.45px;
-        margin-top: -0.8em;
-        margin-left: 0.15em;
-    }
-    body img.cov-img-1 {
-        width: 50%;
-        margin-top: -1.8em;
-    }
-    body img.cov-img-2 {
-        margin-top: 1.9em;
-        margin-left: -0.2em;
-        width: 51%;
-    }
-    body img.cov-img-3 {
-        width: 52%;
-        margin-top: 2.2em;
-    }
-    body img.cov-img-4 {
-        width: 49%;
-        margin-top: 1.9em;
-    }
-    body img.cov-img-5 {
-        width: 52%;
-        margin-top: 1.7em;
-    }
-    body img.cov-img-6 {
-        width: 50%;
-        margin-left: -0.6em;
-        margin-top: 2.6em;
-    }
-    body section.cov-sec-1 {
-        margin-bottom: 2.55em!important;
-    }
-}
-@media (min-width: 360px) and (max-width: 374px) {
-    body #fullscreen-hero {
-        background-repeat: no-repeat!important;
-        background-size: 106em!important;
-        width: 100%!important;
-        display: flex!important;
-        flex-wrap: wrap!important;
-        background-position: -32em -0.5em!important;
-    }
-    body div.header-div.header-pad {
-        padding-right: 0!important;
-    }
-    body .gradient-wrapper {
-        width: 100%!important;
-        display: flex!important;
-        flex-wrap: wrap!important;
-        background: linear-gradient(to right,rgba(57,28,255,.6) ,rgba(255,59,48,.6))!important;
-        padding-bottom: 6.5em!important;
-    }
-    body h1.head-h1 {
-        visibility: visible!important;
-        margin-top: 0.45em!important;
-        margin-left: -0.25em!important;
-        letter-spacing: 1.1px!important;
-        line-height: 1.1em!important;
-        font-size: 3em!important;
-    }
-    body p.description1 {
-        font-size: 1.55em!important;
-        margin-left: -0.5em!important;
-        transform: translate(0em,1.35em)!important;
-        line-height: 1.45em!important;
-        hyphens: manual!important;
-        letter-spacing: 0.4px!important;
-        word-spacing: 1px!important;
-    }
-    body p.description2 {
-        transform: translate(-0.5em,2.9em)!important;
-        font-size: 1.5em!important;
-        line-height: 1.49em!important;
-        letter-spacing: 0.5px!important;
-        hyphens: manual!important;
-    }
-    body #fullscreen-hero .semi-circle.green {
-        letter-spacing: 1.3px!important;
-        text-transform: uppercase!important;
-        font-weight: 600!important;
-        font-size: 1.3em!important;
-        transform: translate(-0.4em,5em)!important;
-        padding: 21px 59px!important;
-    }
-    body h2.lap-text1, .lap-text2 {
-        display: none!important;
-    }
-    body h2.lap-text9 {
-        text-align: center !important;
-        margin-top: 0.05em!important;
-        font-size: 2.4em!important;
-        line-height: 1.4em!important;
-        padding-top: 36px!important;
-        letter-spacing: .8px!important;
-    }
-    body p.lap-p1 {
-        font-size: 1.2em!important;
-        margin-top: 1.2em!important;
-        line-height: 1.72em!important;
-        hyphens: manual!important;
-    }
-    body h2.third-div {
-        margin-top: 0.3em!important;
-        margin-left: 0.1em!important;
-        font-size: 2em!important;
-        letter-spacing: -0.7px!important;
-        line-height: 1.5em!important;
-    }
-    body h2.lap-text5 {
-        font-size: 1.3em!important;
-        margin-top: 0.1em!important;
-        letter-spacing: 0.15px!important;
-    }
-    body p.lap-text6 {
-        font-size: 1.2em!important;
-        margin-left: 0.1em!important;
-        margin-top: 1.2em!important;
-        word-spacing: 3px!important;
-        line-height: 1.75em!important;
-        hyphens: manual!important;
-    }
-    body h2.lap-text7 {
-        margin-top: -1em!important;
-        letter-spacing: 0.2px!important;
-        font-size: 1.3em!important;
-    }
-    body p.lap-text8 {
-        font-size: 1.2em!important;
-        margin-top: 1.2em!important;
-        margin-left: 0.1em!important;
-        line-height: 1.72em!important;
-        letter-spacing: -0.1px!important;
-        word-spacing: -1px!important;
-    }
-    body img.raise-image {
-        height: 22.4em!important;
-        width: 21.3em!important;
-        margin-top: 4.1em!important;
-        margin-left: 1.3em!important;
-    }
-    body h2.ex-h2-1 {
-        font-size: 1.32em!important;
-        margin-top: 0.6em!important;
-        margin-left: 0.1em!important;
-    }
-    body p.ex-p1 {
-        font-size: 1.2em!important;
-        margin-top: 1.55em!important;
-        margin-left: 0.1em!important;
-        line-height: 1.75em!important;
-    }
-    body h2.ex-h2-2 {
-        font-size: 1.32em!important;
-        margin-left: 0.15em!important;
-        margin-top: 0.6em!important;
-    }
-    body p.ex-p2 {
-        font-size: 1.2em!important;
-        margin-top: 1.3em!important;
-        margin-left: 0.2em!important;
-        line-height: 1.75em!important;
-        letter-spacing: -0.2px!important;
-    }
-    body .position-relative .embed-parent-wrap .ex-image1 {
-        background-size: auto 100%!important;
-        background-position: 4% 100%!important;
-        min-height: 24.3em!important;
-        margin-top: 2.4em !important;
-    }
-    body .quote-wrapper {
-        padding: 5.5em 1em 2.1em 1em!important;
-    }
-    body .quote-wrapper p.ex-p3 {
-        margin-left: 0.2em!important;
-        margin-top: 0.7em!important;
-        transform: translate(0em, 0.2em)!important;
-        line-height: 1.5em!important;
-        font-size: 1.45em!important;
-        padding-bottom: 0.3em!important;
-    }
-    body span.ex-p4 {
-        font-size: 1.15em!important;
-        margin-left: 0.25em!important;
-    }
-    body h2.ex-h2-3 {
-        display: none!important;
-    }
+
     body h2.ex-h2-7 {
         font-size: 1.34em!important;
         font-weight: 600!important;
@@ -2132,12 +2154,14 @@ body.home-template aside{
         margin-left: 0.2em!important;
         line-height: 1.7em!important;
     }
+
     body p.ex-p5 {
         font-size: 1.2em!important;
         margin-top: 0.7em!important;
         padding-right: 0.2em!important;
         line-height: 1.72em!important;
     }
+
     body h2.ex-h2-4 {
         font-size: 1.3em!important;
         margin-left: -0.05em!important;
@@ -2150,32 +2174,27 @@ body.home-template aside{
         margin-top: 1.05em!important;
         line-height: 1.72em!important;
     }
+
     body h2.ex-h2-5 {
         font-size: 2.4em!important;
         margin-top: 0.5em!important;
-        margin-left: 2em!important;
         letter-spacing: -0.4px!important;
+        text-align: center;
     }
-    body .position-relative .embed-parent-wrap .ex-image2 {
-        background-image: url(../img/pogi.webp)!important;
-        background-size: 100% 100%!important;
-        background-position: top!important;
-        min-height: 15.8em!important;
-        margin-top: 0.3em!important;
-    }
+
     body div.ex-quote1 {
         height: 5.5em!important;
         width: 5.5em!important;
-        top: 11.5em!important;
-        right: 8.3em!important;
         opacity: 1!important;
-        margin-top: -6.3em!important;
+        margin: 0 auto;
     }
+
     body h2.ex-h2-6 {
         font-size: 1.6em!important;
         margin-top: -4em!important;
         margin-left: 0.5em!important;
     }
+
     body h1.ex-h1 {
         font-size: 2.1em!important;
         margin-right: -0.1em!important;
@@ -2184,6 +2203,7 @@ body.home-template aside{
         padding-right: 1em!important;
         padding-left: 1em!important;
     }
+
     body .faButton.ex-quote {
         position: absolute!important;
         top: calc(-29% / 2)!important;
@@ -2191,24 +2211,48 @@ body.home-template aside{
         height: 6.4em!important;
         width: 6.6em!important;
     }
-    body img.bro-img1, .bro-img2, .bro-img3, .bro-img4, .bro-img5, .bro-img6 {
+
+    body img.bro-img1,
+    .bro-img2,
+    .bro-img3,
+    .bro-img4,
+    .bro-img5,
+    .bro-img6 {
         margin-top: 1.8em!important;
         margin-left: -0.6em!important;
         height: 18em!important;
         width: 15em!important;
     }
-    body h2.bro-h2-1, .bro-h2-2, .bro-h2-3, .bro-h2-4, .bro-h2-5, .bro-h2-6 {
+
+    body h2.bro-h2-1,
+    .bro-h2-2,
+    .bro-h2-3,
+    .bro-h2-4,
+    .bro-h2-5,
+    .bro-h2-6 {
         font-size: 1.45em!important;
         margin-top: 1.2em!important;
         margin-left: -0.15em!important;
         letter-spacing: -0.3px!important;
     }
-    body p.bro-p-1, .bro-p-2, .bro-p-3, .bro-p-4, .bro-p-5, .bro-p-6 {
+
+    body p.bro-p-1,
+    .bro-p-2,
+    .bro-p-3,
+    .bro-p-4,
+    .bro-p-5,
+    .bro-p-6 {
         margin-top: -0.4em!important;
         letter-spacing: 1px!important;
         margin-left: -0.2em!important;
     }
-    body button.bro-btn-1, .bro-btn-2, .bro-btn-3, .bro-btn-4, .bro-btn-5, .bro-btn-6 {
+
+    body button.bro-btn-1,
+    .bro-btn-2,
+    .bro-btn-3,
+    .bro-btn-4,
+    .bro-btn-5,
+    .bro-btn-6 {
         margin-top: 0.6em!important;
         padding: 0.8em 1.4em!important;
         margin-left: 0.1em!important;
@@ -2216,62 +2260,406 @@ body.home-template aside{
         letter-spacing: 1.5px!important;
         font-weight: 500!important;
     }
-    body a.carousel-control-next, .carousel-control-prev {
+
+    body a.carousel-control-next,
+    .carousel-control-prev {
         top: -10em!important;
     }
+
     body section.ex-sec2 {
         padding-bottom: 2.6em!important;
     }
+
     body h1.cov-h1-1 {
-        font-size: 2em;
+        font-size: 2em!important;
         letter-spacing: 0.45px;
         margin-top: -0.8em;
         margin-left: 0.15em;
     }
+
     body img.cov-img-1 {
         width: 50%;
         margin-top: -1.8em;
     }
+
     body img.cov-img-2 {
         margin-top: 1.9em;
-        margin-left: -0.2em;
-        width: 51%;
     }
+
     body img.cov-img-3 {
-        width: 52%;
         margin-top: 2.2em;
     }
+
     body img.cov-img-4 {
-        width: 49%;
         margin-top: 1.9em;
     }
+
     body img.cov-img-5 {
-        width: 52%;
         margin-top: 1.7em;
     }
+
     body img.cov-img-6 {
-        width: 50%;
-        margin-left: -0.6em;
         margin-top: 2.6em;
     }
+
     body section.cov-sec-1 {
         margin-bottom: 2.55em!important;
     }
+
 }
-@media (min-width: 320px) and (max-width: 325px) {
-    body .lap-text1, .lap-text2 {
+
+@media (min-width: 360px) and (max-width: 374px) {
+    body #fullscreen-hero {
+        background-repeat: no-repeat!important;
+        width: 100%!important;
+        display: flex!important;
+        flex-wrap: wrap!important;
+        background-position: -32em 0em!important;
+    }
+
+    body div.header-div.header-pad {
+        padding-right: 0!important;
+    }
+
+    body .gradient-wrapper {
+        width: 100%!important;
+        display: flex!important;
+        flex-wrap: wrap!important;
+        background: linear-gradient(to right,rgba(57,28,255,.6) ,rgba(255,59,48,.6))!important;
+        padding-bottom: 6.5em!important;
+    }
+
+    body h1.head-h1 {
+        visibility: visible!important;
+        margin-top: 0.45em!important;
+        margin-left: -0.25em!important;
+        letter-spacing: 1.1px!important;
+        line-height: 1.1em!important;
+        font-size: 3em!important;
+    }
+
+    body p.description1 {
+        font-size: 1.55em!important;
+        margin-left: -0.5em!important;
+        transform: translate(0em,1.35em)!important;
+        line-height: 1.45em!important;
+        hyphens: manual!important;
+        letter-spacing: 0.4px!important;
+        word-spacing: 1px!important;
+    }
+
+    body p.description2 {
+        transform: translate(-0.5em,2.9em)!important;
+        font-size: 1.5em!important;
+        line-height: 1.49em!important;
+        letter-spacing: 0.5px!important;
+        hyphens: manual!important;
+    }
+
+    body #fullscreen-hero .semi-circle.green {
+        letter-spacing: 1.3px!important;
+        text-transform: uppercase!important;
+        font-weight: 600!important;
+        font-size: 1.3em!important;
+        transform: translate(-0.4em,5em)!important;
+        padding: 21px 59px!important;
+    }
+
+    body h2.lap-text1,
+    .lap-text2 {
+        display: none!important;
+    }
+
+    body h2.lap-text9 {
+        text-align: center !important;
+        margin-top: 0.05em!important;
+        font-size: 2.4em!important;
+        line-height: 1.4em!important;
+        padding-top: 36px!important;
+        letter-spacing: .8px!important;
+    }
+
+    body p.lap-p1 {
+        font-size: 1.2em!important;
+        margin-top: 1.2em!important;
+        line-height: 1.72em!important;
+        hyphens: manual!important;
+    }
+
+    body h2.third-div {
+        margin-top: 0.3em!important;
+        margin-left: 0.1em!important;
+        font-size: 2em!important;
+        letter-spacing: -0.7px!important;
+        line-height: 1.5em!important;
+    }
+
+    body h2.lap-text5 {
+        font-size: 1.3em!important;
+        margin-top: 0.1em!important;
+        letter-spacing: 0.15px!important;
+    }
+
+    body p.lap-text6 {
+        font-size: 1.2em!important;
+        margin-left: 0.1em!important;
+        margin-top: 1.2em!important;
+        word-spacing: 3px!important;
+        line-height: 1.75em!important;
+        hyphens: manual!important;
+    }
+
+    body h2.lap-text7 {
+        margin-top: -1em!important;
+        letter-spacing: 0.2px!important;
+        font-size: 1.3em!important;
+    }
+
+    body p.lap-text8 {
+        font-size: 1.2em!important;
+        margin-top: 1.2em!important;
+        margin-left: 0.1em!important;
+        line-height: 1.72em!important;
+        letter-spacing: -0.1px!important;
+        word-spacing: -1px!important;
+    }
+
+    body img.raise-image {
+        height: 22.4em!important;
+        width: 21.3em!important;
+        margin-top: 4.1em!important;
+        margin-left: 1.3em!important;
+    }
+
+    body h2.ex-h2-1 {
+        font-size: 1.32em!important;
+        margin-top: 0.6em!important;
+        margin-left: 0.1em!important;
+    }
+
+    body p.ex-p1 {
+        font-size: 1.2em!important;
+        margin-top: 1.55em!important;
+        margin-left: 0.1em!important;
+        line-height: 1.75em!important;
+    }
+
+    body h2.ex-h2-2 {
+        font-size: 1.32em!important;
+        margin-left: 0.15em!important;
+        margin-top: 0.6em!important;
+    }
+
+    body p.ex-p2 {
+        font-size: 1.2em!important;
+        margin-top: 1.3em!important;
+        margin-left: 0.2em!important;
+        line-height: 1.75em!important;
+        letter-spacing: -0.2px!important;
+    }
+
+    body .position-relative .embed-parent-wrap .ex-image1 {
+        background-size: auto 100%!important;
+        background-position: 4% 100%!important;
+        min-height: 24.3em!important;
+        margin-top: 2.4em !important;
+    }
+
+    body .quote-wrapper {
+        padding: 5.5em 1em 2.1em 1em!important;
+    }
+
+    body .quote-wrapper  p.ex-p3 {
+        margin-left: 0.2em!important;
+        margin-top: 0.7em!important;
+        transform: translate(0em, 0.2em)!important;
+        line-height: 1.5em!important;
+        font-size: 1.45em!important;
+        padding-bottom: 0.3em!important;
+    }
+
+    body span.ex-p4 {
+        font-size: 1.15em!important;
+        margin-left: 0.25em!important;
+    }
+
+    body h2.ex-h2-3 {
+        display: none!important;
+    }
+
+    body h2.ex-h2-7 {
+        font-size: 1.34em!important;
+        font-weight: 600!important;
+        margin-top: 0.4em!important;
+        margin-left: 0.2em!important;
+        line-height: 1.7em!important;
+    }
+
+    body p.ex-p5 {
+        font-size: 1.2em!important;
+        margin-top: 0.7em!important;
+        padding-right: 0.2em!important;
+        line-height: 1.72em!important;
+    }
+
+    body h2.ex-h2-4 {
+        font-size: 1.3em!important;
+        margin-left: -0.05em!important;
+        margin-top: 0.3em!important;
+        letter-spacing: 0.15px!important;
+        line-height: 1.7em!important;
+    }
+    body p.ex-p6 {
+        font-size: 1.2em!important;
+        margin-top: 1.05em!important;
+        line-height: 1.72em!important;
+    }
+
+    body h2.ex-h2-5 {
+        font-size: 2.4em!important;
+        margin-top: 0.5em!important;
+        letter-spacing: -0.4px!important;
+        text-align: center;
+    }
+
+    body div.ex-quote1 {
+        height: 5.5em!important;
+        width: 5.5em!important;
+        opacity: 1!important;
+    }
+
+    body h2.ex-h2-6 {
+        font-size: 1.6em!important;
+        margin-top: -4em!important;
+        margin-left: 0.5em!important;
+    }
+
+    body h1.ex-h1 {
+        font-size: 2.1em!important;
+        margin-right: -0.1em!important;
+        line-height: 1.4em!important;
+        letter-spacing: -0.2px!important;
+        padding-right: 1em!important;
+        padding-left: 1em!important;
+    }
+
+    body .faButton.ex-quote {
+        position: absolute!important;
+        top: calc(-29% / 2)!important;
+        left: 2.3em!important;
+        height: 6.4em!important;
+        width: 6.6em!important;
+    }
+
+    body img.bro-img1,
+    .bro-img2,
+    .bro-img3,
+    .bro-img4,
+    .bro-img5,
+    .bro-img6 {
+        margin-top: 1.8em!important;
+        margin-left: -0.6em!important;
+        height: 18em!important;
+        width: 15em!important;
+    }
+
+    body h2.bro-h2-1,
+    .bro-h2-2,
+    .bro-h2-3,
+    .bro-h2-4,
+    .bro-h2-5,
+    .bro-h2-6 {
+        font-size: 1.45em!important;
+        margin-top: 1.2em!important;
+        margin-left: -0.15em!important;
+        letter-spacing: -0.3px!important;
+    }
+
+    body p.bro-p-1,
+    .bro-p-2,
+    .bro-p-3,
+    .bro-p-4,
+    .bro-p-5,
+    .bro-p-6 {
+        margin-top: -0.4em!important;
+        letter-spacing: 1px!important;
+        margin-left: -0.2em!important;
+    }
+
+    body button.bro-btn-1,
+    .bro-btn-2,
+    .bro-btn-3,
+    .bro-btn-4,
+    .bro-btn-5,
+    .bro-btn-6 {
+        margin-top: 0.6em!important;
+        padding: 0.8em 1.4em!important;
+        margin-left: 0.1em!important;
+        font-size: 1.1em!important;
+        letter-spacing: 1.5px!important;
+        font-weight: 500!important;
+    }
+
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
+    }
+
+    body section.ex-sec2 {
+        padding-bottom: 2.6em!important;
+    }
+
+    body h1.cov-h1-1 {
+        font-size: 2em!important;
+        letter-spacing: 0.45px;
+        margin-top: -0.8em;
+        margin-left: 0.15em;
+    }
+
+    body img.cov-img-1 {
+        margin-top: -1.8em;
+    }
+
+    body img.cov-img-2 {
+        margin-top: 1.9em;
+    }
+
+    body img.cov-img-3 {
+        margin-top: 2.2em;
+    }
+
+    body img.cov-img-4 {
+        margin-top: 1.9em;
+    }
+
+    body img.cov-img-5 {
+        margin-top: 1.7em;
+    }
+
+    body img.cov-img-6 {
+        margin-top: 2.6em;
+    }
+
+    body section.cov-sec-1 {
+        margin-bottom: 2.55em!important;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 359px) {
+    body .lap-text1,
+    .lap-text2 {
         display: none;
     }
-    body #fullscreen-hero {
-        background-size: 90em!important;
-        background-position: -27.2em -0.35em!important;
-    }
+
     body .gradient-wrapper {
         height: 55.4em!important;
     }
+
     body div.header-pad {
         padding-right: 0;
     }
+
     body #fullscreen-hero #hero-content h1.title {
         margin-left: -0.35em!important;
         font-size: 2.5em!important;
@@ -2279,6 +2667,7 @@ body.home-template aside{
         margin-top: -0.15em!important;
         visibility: visible!important;
     }
+
     body #fullscreen-hero #hero-content p.description1 {
         font-size: 1.35em!important;
         line-height: 1.4em!important;
@@ -2287,156 +2676,171 @@ body.home-template aside{
         margin-left: -.7em!important;
         transform: translate(0em, 1em);
     }
+
     body #fullscreen-hero #hero-content p.description2 {
         font-size: 1.35em!important;
         line-height: 1.4em!important;
         word-spacing: 1.4px!important;
         hyphens: manual!important;
         margin-left: -.7em!important;
-        transform: translate(0em, 2.4em);
+        transform: translate(0em, 1.4em);
     }
+
     body #fullscreen-hero .semi-circle.green {
         letter-spacing: 0px!important;
-        word-spacing: 0px!important;
-        margin-top: 4.4em!important;
-        margin-left: -.6em!important;
-        text-transform: uppercase!important;
         font-size: 1.2em;
         font-weight: 600!important;
-        transform: translate(0em, 0.5em);
-        padding: 16px 52px!important;
     }
+
     body .lap-text9 {
         text-align: center !important;
         line-height: 1.4em!important;
         padding-top: 34.5px!important;
         letter-spacing: 1px!important;
     }
+
     body .ws-5 {
         word-spacing: 1px!important;
         letter-spacing: 0px!important;
         margin-top: 1.3em!important;
     }
+
     body h2.third-div {
         margin-top: .15em!important;
         letter-spacing: .2px!important;
     }
+
     body h2.lap-text5 {
         letter-spacing: 0.2px!important;
         margin-left: -0.1em!important;
     }
+
     body h2.lap-text7 {
         margin-top: 0.2em!important;
         letter-spacing: 0.15px!important;
     }
+
     body p.lap-text6 {
         margin-top: 1.1em!important;
     }
+
     body p.lap-text8 {
         margin-top: 1.15em!important;
     }
+
     body.home-template aside {
         padding-left: 0!important;
         padding-right: 0!important;
         padding-bottom: .7em!important;
     }
+
     body img.raise-image {
         width: 91%!important;
         height: 304px!important;
         transform: translate(1em, 1.7em)!important;
     }
+
     body h2.ex-h2-1 {
         margin-top: 1em!important;
         letter-spacing: 0.2px!important;
     }
+
     body h2.ex-h2-2 {
         margin-top: .3em!important;
         letter-spacing: .2px!important;
     }
+
     body p.ex-p1 {
         margin-top: 1.5em!important;
     }
+
     body p.ex-p2 {
         margin-top: 1.3em!important;
     }
+
     body div.ex-div1 {
         padding-bottom: .3em!important;
     }
+
     body .position-relative .embed-parent-wrap .ex-image1 {
         background-size: auto 100%!important;
         background-position: 4% 100%!important;
         min-height: 332px!important;
         margin-top: 27px !important;
     }
+
     body div.ex-quote {
         height: 89px!important;
         width: 89px!important;
         margin-top: 1.4em;
         margin-left: -2em;
     }
+
     .quote-mark {
         width: 43px!important;
         height: 37px!important;
         align-self: center!important;
     }
+
     body .quote-wrapper {
         padding: 5.5em 1em 3.3em 1em!important;
     }
+
     .quote-wrapper p.quote {
         line-height: 1.45em!important;
     }
+
     body span.ex-p4 {
         margin-left: 0.1em!important;
         float: left!important;
         margin-top: -.1em!important;
         padding-bottom: 0em!important;
     }
+
     body h2.ex-h2-3 {
         display: none!important;
     }
+
     body h2.ex-h2-7 {
         margin-left: 0.1em!important;
         margin-top: -.9em!important;
         letter-spacing: .2px!important;
         line-height: 1.8em!important;
     }
+
     body p.ex-p5 {
         margin-top: 0.65em!important;
         padding-right: 0.4em!important;
         hyphens: manual!important;
         letter-spacing: -0.01px!important;
     }
+
     body h2.ex-h2-4 {
         margin-left: -0.2em!important;
         margin-top: 0.1em!important;
         letter-spacing: .2px!important;
         line-height: 1.6em!important;
     }
+
     body p.ex-p6 {
         margin-left: -0.1em!important;
         margin-top: 1.05em!important;
         letter-spacing: -0.001em!important;
     }
+
     body h2.ex-h2-5 {
-        text-align: center!important;
-        font-size: 2em!important;
-        margin-top: .4em!important;
+        text-align: center;
+        font-size: 2em;
+        margin-top: .4em;
     }
+
     body div.ex-quote1 {
-        height: 82px!important;
-        width: 81px!important;
-        top: 170px!important;
-        right: 120px!important;
+        height: 5em!important;
+        width: 5em!important;
         opacity: 1!important;
-        margin-top: -6.6em;
+        margin: 0 auto;
     }
-    body .position-relative .embed-parent-wrap .ex-image2 {
-        background-image: url(../img/pogi.webp);
-        background-size: auto 100%!important;
-        background-position: 4% 100%!important;
-        min-height: 215px!important;
-        margin-top: 4px !important;
-    }
+
     body h2.ex-h2-6 {
         margin-top: -5.7em;
         font-size: 1.35em;
@@ -2444,19 +2848,23 @@ body.home-template aside{
         margin-left: 0.4em;
     }
     body h1.ex-h1 {
-        font-size: 1.8em;
-        margin-left: 1.2em;
-        margin-top: 0.1em;
-        letter-spacing: -0.01px;
-        padding-right: 1em;
-        line-height: 1.4em;
+        font-size: 1.8em!important;
+        padding-right: 0.5em!important;
+        padding-left: 0.5em!important;
     }
-    body img.bro-img1, .bro-img2, .bro-img3, .bro-img4, .bro-img5, .bro-img6 {
+
+    body img.bro-img1,
+    .bro-img2,
+    .bro-img3,
+    .bro-img4,
+    .bro-img5,
+    .bro-img6 {
         margin-top: 1.6em;
         margin-left: -0.6em;
         height: 15em;
         width: 13em;
     }
+
     body .semi-circle.green-brochure {
         background-color: rgba(18, 213, 184, 1);
         color: rgba(33, 42, 95, 1);
@@ -2465,41 +2873,214 @@ body.home-template aside{
         letter-spacing: 1px;
         padding: 8px 20px!important;
     }
+
     body section.ex-sec2 {
         padding-bottom: 2.3em!important;
     }
+
     body h1.cov-h1-1 {
-        font-size: 1.75em;
-        margin-top: -1.1em;
+        font-size: 1.75em!important;
+        margin-top: -1em;
     }
+
     body img.cov-img-1 {
         margin-top: -2em;
     }
+
     body img.cov-img-2 {
         margin-top: 1.5em;
-        width: 10em;
-        margin-left: -0.5em;
     }
+
     body img.cov-img-3 {
         margin-top: 2em;
-        width: 10.25em;
     }
+
     body img.cov-img-4 {
         margin-top: 1.7em;
-        margin-right: 0.4em;
-        width: 9.6em;
     }
+
     body img.cov-img-5 {
         margin-top: 1.45em;
-        margin-left: -0.2em;
-        width: 10.3em;
     }
+
     body img.cov-img-6 {
         margin-top: 2.2em;
-        margin-right: 0.9em;
-        width: 10em;
     }
+
     body section.cov-sec-1 {
         margin-bottom: 2em!important;
+    }
+
+}
+
+
+@media all and (max-width: 768px) {
+    body #fullscreen-hero #hero-content {
+        padding: 11vh 0;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 22px;
+        line-height: 31px;
+        word-break: break-all;
+        hyphens: auto;
+    }
+    body #fullscreen-hero .semi-circle.green {
+        letter-spacing: 2px;
+        margin-top: 2em;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 15px 55px;
+    }
+    h2.title.text-center-sm {
+        text-align: center !important;
+        line-height: 1.4em;
+        padding-top: 36px;
+        letter-spacing: 1px;
+    }
+
+    h2.title.title-sm {
+        font-size: 1.6rem;
+        line-height: 1.6em;
+    }
+
+    body h2.lap-text1,
+    .lap-text2 {
+        display: none!important;
+    }
+
+    body h2.ex-h2-3 {
+        display: none!important;
+    }
+
+    body a.carousel-control-next,
+    .carousel-control-prev {
+        top: -10em!important;
+    }
+
+    body img.bro-img1, .bro-img2, .bro-img3, .bro-img4, .bro-img5, .bro-img6 {
+        margin-top: 1.6em;
+        margin-left: -0.6em;
+        height: 21em;
+        width: 17em;
+    }
+
+    .ws-5 {
+        word-spacing: 1px;
+        letter-spacing: 0px;
+    }
+
+    body .position-relative .embed-parent-wrap .embed-image {
+        background-image: url(http://localhost:8000/img/hN17jUY.png);
+        background-size: 100% 100%;
+        background-position: top;
+        min-height: 300px;
+    }
+
+    .faButton {
+        height: 90px !important;
+        width: 90px !important;
+    }
+
+    body .faButton.top-half {
+        position: absolute;
+        top: calc(-45% / 2);
+        left: 4em;
+    }
+
+    .quote-wrapper p.quote {
+        line-height: 1.4em;
+
+    }
+
+    p.description1, p.description2 {
+        font-size: 1.3em;
+        padding-top: 1em;
+    }
+
+    p.lap-p1 {
+        font-size: 1.2em!important;
+        margin-top: 1.2em!important;
+        line-height: 1.72em!important;
+        hyphens: manual!important;
+    }
+
+    p.lap-text6 {
+        font-size: 1.2em;
+        padding-bottom: 2em;
+        margin-top: 1.05em;
+        line-height: 1.72em;
+    }
+
+    p.lap-text8 {
+        font-size: 1.2em;
+        padding-bottom: 2em;
+        margin-top: 1.05em;
+        line-height: 1.72em;
+    }
+
+    p.ex-p1 {
+        font-size: 1.2em;
+        padding-bottom: 2em;
+        margin-top: 1.05em;
+        line-height: 1.72em;
+    }
+
+    p.ex-p2 {
+        font-size: 1.2em;
+        padding-bottom: 2em;
+        margin-top: 1.05em;
+        line-height: 1.72em;
+    }
+
+    .ex-h2-4, .ex-h2-7, .ex-h2-1, .ex-h2-2, .lap-text5, .lap-text7 {
+        font-size: 1.35em!important;
+    }
+
+    p.ex-p5 {
+        font-size: 1.2em;
+        margin-top: 1.05em;
+        line-height: 1.72em;
+    }
+
+    p.ex-p6 {
+        font-size: 1.2em;
+        margin-top: 1.05em;
+        line-height: 1.72em;
+    }
+
+    h2.ex-h2-5 {
+        font-size: 2.4em!important;
+        padding: 1em;
+        text-align: center;
+    }
+
+    h2.ex-h2-6 {
+        font-size: 1.6em!important;
+        margin-top: -4em;
+    }
+
+    h1.ex-h1 {
+        font-size: 2.4em!important;
+        text-align: center;
+        line-height: 1.4em!important;
+        letter-spacing: -0.2px!important;
+        padding-right: 2em!important;
+        padding-left: 2em!important;
+    }
+
+    h1.cov-h1-1 {
+        font-size: 2.4em!important;
+    }
+
+    img.flexed-image {
+        padding-bottom: 1em;
+    }
+
+    body .quote-wrapper{
+        padding:4.5em 1em 1.8em 1em;
+    }
+
+    .sm-title-lh {
+        line-height: 1.4em;
     }
 }
