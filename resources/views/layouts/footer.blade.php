@@ -189,8 +189,8 @@
             <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-4 col-xl-5 ">
                 <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3 color-copy" style="color: #646781; padding-bottom: 5px;">sign up to our news letter</h6>
                 <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
-                    <input type="email" class="semi-circle" style="width:85%; height: 53px; color: black" placeholder="Insert your email"/>
-                    <input type="submit" class="position-absolute semi-circle semi-circle-dark-red" value="SUBMIT" style="width:100px; height: 55px; right:8%; top:-2%; color:white; font-size: x-small; font-weight: bold; letter-spacing: 1px; background-color: rgb(184, 22, 31);"/>
+                    <input type="email" class="semi-circle" placeholder="Insert your email"/>
+                    <input type="submit" class="position-absolute semi-circle semi-circle-dark-red" value="SUBMIT"/>
                 </div>
                 <h6 class="text-uppercase fonts font-weight-light d-none d-lg-block d-xl-block grey color-copy" style="color: #646781; padding-bottom: 5px;">find us online</h6>
                 <div class ="position-relative d-none d-lg-block d-xl-block">

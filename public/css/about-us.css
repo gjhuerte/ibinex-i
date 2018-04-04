@@ -1,7 +1,7 @@
+/*=================  DEFAULT CSS  =================*/
 #main-body {
     overflow-x: hidden;
 }
-
 /*=============== TRANSPARENCY DIV  ===============*/
 .quotes {
     font-family: 'Playfair Display', serif;
@@ -131,7 +131,6 @@
     margin: 0 auto;
     height:100%;
     width: 100%;
-    padding-bottom: 10%;
 }
 .board-name {
     font-weight: 800;
@@ -149,13 +148,13 @@
 }
 .slick-members .board-img {
     width: 100%;
+    transform: scaleY(0.92) translateY(-18px);
 }
-
 a.board-arrows{
     position: absolute;
     color: white;
     text-shadow: 2px 2px rgba(0,0,0,0.5);
-    top: 35%;
+    top: 30.5%;
     height: 50px;
     width: 40px;
     font-size: 80px;
@@ -173,11 +172,9 @@ a.board-arrows:active{
     left: 0;
 }
 
-/*==============================================*/
+/*================== MEDIA QUERIES  ==================*/
 
-/*=============== MEDIA QUERIES  ===============*/
-
-/*=============== SMALL  SCREEN  ===============*/
+/*================== SMALL  SCREEN  ==================*/
 
 @media only screen and (max-width: 450px){
     div#media-album{
@@ -195,29 +192,25 @@ a.board-arrows:active{
 }
 
 @media only screen and (max-width:991px){
-
     body #fullscreen-hero #hero-content {
-        padding: 7.5em 0 8em 0;
+        padding: 7.5em 0 8.2em 0;
     }
-
     body #fullscreen-hero #hero-content p.description {
         line-height: 1.39em;
         padding-top: 1em;
     }
-
     #transparency {
         margin: 0 0 -10px 0;
-        padding-top: 2.4em;
+        padding-top: 2.2em;
     }
     #transparency-left p {
-        line-height: 1.7em;
+        line-height: 1.74em;
         margin-bottom: 2.1em;
     }
     #transparency-right-floater {
         padding-left: 0;
         transform: translateX(-10px);
     }
-
     div#people-behind-bg {
         padding: 2.9em 0 3.2em 0;
     }
@@ -227,37 +220,37 @@ a.board-arrows:active{
     #exec-inner-left p:nth-child(3){
         font-size: 0.99em;
     }
-
     #exec-title {
         font-size: 2.15em;
     }
-
     .hide-on-med {
         display: none;
     }
     #circ{
         position: relative;
-        top: 0;
+        top: 1px;
         width:25%;
         transform:translateY(-50%);
         height:auto;
         left:5%;
     }
-
+    .exec-rank {
+        padding-top: 5px;
+    }
     .exec-img{
+        margin-left: 10px !important;
         position:initial;
         top: initial;
         transform:initial;
         width:100%;
     }
-
     #exec-desc{
         left: 5%;
         padding-left: 10px;
         margin-left: 0px;
     }
-    #media-coverage-companies{
-        padding-top: 1.5em;
+    #media-coverage-companies {
+        padding-top: 1.2em;
         padding-bottom: 2.7em;
     }
     #media-title{
@@ -265,7 +258,9 @@ a.board-arrows:active{
         line-height: 1.3em;
         padding-bottom: 0.5em;
     }
-
+    #media-coverage-floater {
+        padding: 0 20px;
+    }
     .media-quotes{
         margin-top: -0.3em;
     }
@@ -273,15 +268,17 @@ a.board-arrows:active{
         margin-top: 0.5em;
         margin-bottom: 1.05em;
     }
-
+    #thirdfold-p1{
+        margin-bottom: 1.2em;
+    }
     #advisory-board{
-        padding-top: 1.2em;
-        padding-bottom: 1em;
+        padding-top: 2.1em;
+        padding-bottom: 3em;
     }
     #board-title{
         font-size: 1.85em;
-        line-height: 1.2em;
-        margin-bottom: 0;
+        line-height: 1.3em;
+        margin-bottom: 0.6em;
     }
     .slick-members .board-name {
         padding: 0;
@@ -300,7 +297,7 @@ a.board-arrows:active{
     }
 }
 
-/*=============== MEDIUM SCREEN  ===============*/
+/*================== MEDIUM SCREEN  ==================*/
 
 @media only screen and (max-width:1023px){
     #media-coverage-floater{
@@ -356,7 +353,7 @@ a.board-arrows:active{
     }
 }
 
-/*=============== LARGE  SCREEN  ===============*/
+/*================== LARGE  SCREEN  ==================*/
 
 @media only screen and (min-width: 1024px) {
     .hide-on-lg{
@@ -465,6 +462,7 @@ a.board-arrows:active{
         line-height: 1.4em;
     }
 }
+
 @media only screen and (min-width: 1800px) {
     #media-coverage-floater {
         height: 900px;
@@ -909,6 +907,7 @@ a.board-arrows:active{
         padding: 4.2em 0 4.5em 1em;
     }
 }
+
 @media only screen and (min-width: 7000px){
     .gradient-wrapper > div > section {
         max-width: 60%;

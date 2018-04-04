@@ -38,9 +38,6 @@ article {
     display: block;
     padding-top: 0.5em;
 }
-#hero-content{
-    width:60%;
-}
 body p {
     margin-top: 7px;
 }
@@ -58,7 +55,7 @@ body p {
     }
     h1#subtitle_1 {
         margin-left: -22px;
-        margin-top: 103px;
+        margin-top: 83px;
         font-size: 35px!important;
         word-spacing: -2px;
     }
@@ -77,7 +74,7 @@ body p {
     }
     h1#subtitle_2 {
         margin-left: 22px;
-        margin-top: 100px;
+        margin-top: 79px;
         font-size: 35px!important;
         word-spacing: -2px;
     }
@@ -97,7 +94,7 @@ body p {
     }
     h1.subtitle.blackinf {
         margin-left: -22px;
-        margin-top: 0px;
+        margin-top: -5px;
         font-size: 35px!important;
     }
     p.para6 {
@@ -108,11 +105,11 @@ body p {
     h1#privacy {
         margin-left: -22px;
         font-size: 35px!important;
-        margin-top: 40px;
+        margin-top: 43px;
     }
     p.para7 {
         margin-left: -22px;
-        margin-top: 26px;
+        margin-top: 24px;
         line-height: 21pt;
         word-spacing: 2px;
     }
@@ -175,8 +172,8 @@ body p {
     body #fullscreen-hero #hero-content p.description {
         margin-bottom: -40px;
         word-spacing: 0px;
-        margin-top: 17px;
-        line-height: 23pt;
+        margin-top: 27px;
+        line-height: 31px;
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 42px;
@@ -184,10 +181,10 @@ body p {
     }
     h1#subtitle_1 {
         margin-left: -4px;
-        margin-top: -7px;
+        margin-top: -2px;
     }
     p.para1 {
-        margin-top: -3px;
+        margin-top: 0px!important;
         margin-left: -4px;
         word-spacing: 0px;
         line-height: 21pt;
@@ -204,6 +201,7 @@ body p {
     }
     h1#subtitle_2 {
         margin-left: -4px;
+        margin-top: -3px;
     }
     p.para4 {
         word-spacing: 0px;
@@ -216,8 +214,8 @@ body p {
         line-height: 21pt;
     }
     h1.subtitle.blackinf {
-        margin-left: -5px;
-        margin-top: 23px;
+        margin-left: -4px;
+        margin-top: 1px;
         font-size: 34px;
     }
     p.para6 {
@@ -237,7 +235,7 @@ body p {
     .second-section{
         background-color: rgb(231,251,248);
         height: 650px;
-        margin-top: -20px;
+        margin-top: 4px;
     }
     h1#security_title {
         margin-top: -35px;
@@ -286,15 +284,46 @@ body p {
     }
 }
 
-/* Larger than iPad */
-@media only screen and (min-width: 768px)  {
+/* 768px */
+@media only screen and (width: 768px){
+    body #fullscreen-hero #hero-content p.description {
+        width: 100%;
+        font-size: 22px;
+    }
+    section#protection {
+        margin-top: 5%;
+    }
+    p.para1 {
+        margin-top: 47px;
+    }
+    section#technology {
+        margin-top: 12%;
+    }
+    .second-section {
+        background-color: rgb(231,251,248);
+        padding-bottom: 50px;
+    }
     .security-section {
         display: block;
         position:absolute;
-        height: 128%;
+        height: 108%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+/* Larger than iPad */
+@media only screen and (min-width: 769px) and (max-width: 3839px) {
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 131%;
         width: 49%;
         right: 2px;
-        top: -27%;
+        top: -29%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
@@ -319,7 +348,7 @@ body p {
     }
     body #fullscreen-hero #hero-content h1.title{
         font-size: 40px;
-        margin-top: -13px;
+        margin-top: -16px;
     }
     body #fullscreen-hero #hero-content p.description{
         width: 100%;
@@ -332,6 +361,361 @@ body p {
     }
     body h1.black{
         font-size: 40px;
+    }
+    section#protection {
+        margin: 1%;
+    }
+}
+
+/* 1280px
+@media only screen and (max-width: 1280px){
+    body #fullscreen-hero #hero-content p.description {
+        width: 100%;
+        font-size: 21px!important;
+    }
+} */
+
+@media only screen and (min-width: 2560px) and (max-width: 3351px) {
+    .gradient-wrapper > div {
+        max-width: 62%;
+    }
+    body #fullscreen-hero #hero-content {
+        max-width: 100%
+    }
+    body .container-fluid > .row, body .container > .row {
+        max-width: 1550px;
+        margin: 0 auto;
+    }
+    section#protection {
+        margin: -2%;
+    }
+    section#technology {
+        margin-top: 9%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 69px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 22px;
+        margin-top: 48px;
+        width: 100%;
+        border: 0px solid black;
+        margin-bottom: 0.25em;
+    }
+    h1#subtitle_1 {
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 45px!important;
+        word-spacing: -2px;
+    }
+    p.para1 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    p.para2 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    p.para3 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    h1#subtitle_2{
+        margin-left: 45px;
+        margin-top: 103px;
+        font-size: 45px!important;
+        word-spacing: -2px;
+    }
+    p.para4 {
+        margin-left: 45px;
+        word-spacing: -3px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    p.para5 {
+        margin-left: 45px;
+        word-spacing: -3px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    h1.subtitle.blackinf{
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 45px!important;
+        word-spacing: -2px;
+    }
+    p.para6 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    h1#privacy{
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 45px!important;
+        word-spacing: -2px;
+    }
+    p.para7 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .security-section {
+        display: block;
+        position: absolute;
+        height: 124%;
+        width: 49%;
+        right: 2px;
+        top: -29%;
+        background: url(../img/security-section.png), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+
+@media only screen and (min-width: 3352px) and (max-width: 5050px) {
+    .gradient-wrapper > div {
+        max-width: 62%;
+    }
+    body #fullscreen-hero #hero-content {
+        max-width: 100%
+    }
+    body .container-fluid > .row, body .container > .row {
+        max-width: 2500px;
+        margin: 0 auto;
+    }
+    section#protection {
+        margin: 5%;
+    }
+    section#technology {
+        margin-top: 10%;
+    }
+    .second-section {
+        background-color: rgb(231, 251, 248);
+        padding-bottom: 5%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 85px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 37px;
+        margin-top: 48px;
+        width: 100%;
+        border: 0px solid black;
+        margin-bottom: 0.25em;
+    }
+    #hero-content {
+        width: auto;
+    }
+    h1#subtitle_1 {
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 60px!important;
+        word-spacing: -2px;
+    }
+    p.para1 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    p.para2{
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    p.para3{
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    h1#subtitle_2{
+        margin-left: 45px;
+        margin-top: 103px;
+        font-size: 60px!important;
+        word-spacing: -2px;
+    }
+    p.para4{
+        margin-left: 45px;
+        word-spacing: -3px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    p.para5{
+        margin-left: 45px;
+        word-spacing: -3px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    h1.subtitle.blackinf{
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 60px!important;
+        word-spacing: -2px;
+    }
+    p.para6 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    h1#privacy{
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 60px!important;
+        word-spacing: -2px;
+    }
+    p.para7 {
+        margin-left: -22px;
+        word-spacing: -3px;
+        font-size: 42px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+    .security-section {
+        display: block;
+        position: absolute;
+        height: 131%;
+        width: 49%;
+        right: 2px;
+        top: -29%;
+        background: url(../img/security-section.png), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 5051px) {
+    .gradient-wrapper > div {
+        max-width: 62%;
+    }
+    .gradient-wrapper > div > section {
+        max-width: 2333px;
+    }
+    body .container-fluid > .row, body .container > .row {
+        max-width: 4465px;
+        margin: 0 auto;
+    }
+    section#protection {
+        margin: 5%;
+    }
+    section#technology {
+        margin-top: 12%;
+    }
+    .second-section {
+        background-color: rgb(231, 251, 248);
+        padding-bottom: 5%;
+    }
+    body #fullscreen-hero #hero-content {
+        max-width: 100%;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 20% 0px;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 173px;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 75px;
+        margin-top: 4%;
+    }
+    h1#subtitle_1 {
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 115px!important;
+        word-spacing: -2px;
+    }
+    p.para1 {
+        margin-left: -22px;
+        margin-top: 65px;
+        word-spacing: -1px;
+        font-size: 86px;
+        line-height: 76pt;
+    }
+    p.para2 {
+        margin-left: -22px;
+        margin-top: 80px;
+        word-spacing: -1px;
+        font-size: 86px;
+        line-height: 76pt;
+    }
+    p.para3 {
+        margin-left: -22px;
+        margin-top: 80px;
+        word-spacing: -1px;
+        font-size: 86px;
+        line-height: 76pt;
+    }
+    h1#subtitle_2 {
+        margin-left: 125px;
+        margin-top: 103px;
+        font-size: 115px!important;
+        word-spacing: -2px;
+    }
+    p.para4 {
+        margin-left: 125px;
+        margin-top: 65px;
+        word-spacing: -1px;
+        font-size: 86px;
+        line-height: 76pt;
+    }
+    p.para5 {
+        margin-left: 125px;
+        margin-top: 80px;
+        word-spacing: -1px;
+        font-size: 86px;
+        line-height: 76pt;
+    }
+    h1.subtitle.blackinf {
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 115px!important;
+        word-spacing: -2px;
+    }
+    p.para6 {
+        margin-left: -22px;
+        margin-top: 80px;
+        word-spacing: -1px;
+        font-size: 86px;
+        line-height: 76pt;
+    }
+    h1#privacy{
+        margin-left: -22px;
+        margin-top: 103px;
+        font-size: 115px!important;
+        word-spacing: -2px;
+    }
+    p.para7 {
+        margin-left: -22px;
+        margin-top: 80px;
+        word-spacing: -1px;
+        font-size: 86px;
+        line-height: 76pt;
+    }
+    .security-section {
+        display: block;
+        position: absolute;
+        height: 131%;
+        width: 49%;
+        right: 2px;
+        top: -29%;
+        background: url(../img/security-section.png), no-repeat, center center;
+        background-size: cover;
     }
 }
 
