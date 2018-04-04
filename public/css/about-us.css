@@ -934,10 +934,12 @@ a.board-arrows:active{
     }
     #advisory-board {
         padding-top: 13.6em;
-        padding-bottom: 5em;
     }
     #board-box {
         padding-top: 12.5em;
+    }
+    .board-rank{
+        padding-top: 0.5em;
     }
     #last-quote {
         padding: 4.2em 0 4.5em 1em;
