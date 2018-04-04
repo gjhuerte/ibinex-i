@@ -345,8 +345,14 @@ a.board-arrows:active{
     .exec-helper {
         height: 90%;
     }
+    #exec-spacer-left{
+        max-width: 8%;
+    }
     #exec-inner-left{
         padding: 1.7em 2.5% 0 3.7%;
+    }
+    #exec-inner-right {
+        min-width: 45%;
     }
     #advisory-board{
         margin-top: 0;
@@ -368,6 +374,9 @@ a.board-arrows:active{
     #trans-quote-div{
         min-width: 65%;
     }
+    #exec-spacer-left{
+        max-width: 8%;
+    }
     #media-coverage-floater {
         position: relative;
         transform: translateY(-18%);
@@ -386,6 +395,9 @@ a.board-arrows:active{
     #exec-inner-left{
         min-width: 40%;
         padding: 1.7em 2.5% 0 3.7%;
+    }
+    #exec-inner-right {
+        min-width: 45%;
     }
     .med-hide{
         display: none;
@@ -431,6 +443,9 @@ a.board-arrows:active{
     }
     #people-behind-bg {
         padding: 6.5em 0 11em 0;
+    }
+    #exec-spacer-left{
+        max-width: initial;
     }
     #exec-inner-left{
         min-width: 0;
