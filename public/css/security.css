@@ -61,8 +61,8 @@ body p {
     }
     p.para1 {
         margin-left: -22px;
-        margin-top: -38px;
         word-spacing: -1px;
+        margin-top: -37px;
     }
     p.para2 {
         margin-top: 4px;
@@ -74,7 +74,7 @@ body p {
     }
     h1#subtitle_2 {
         margin-left: 22px;
-        margin-top: 79px;
+        margin-top: 83px;
         font-size: 35px!important;
         word-spacing: -2px;
     }
@@ -82,7 +82,7 @@ body p {
         padding: 4px;
         margin-right: -65px;
         margin-left: 20px;
-        margin-top: 15px;
+        margin-top: 9px;
         line-height: 21pt;
     }
     p.para5 {
@@ -116,18 +116,10 @@ body p {
     body #fullscreen-hero #hero-content p.description {
         margin-bottom: 47px;
     }
-    body .gradient-wrapper {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 20px 0px;
-        background: linear-gradient(to right, rgba(57,28,255, 0.6) , rgba(255,59,48,0.6));
-    }
     section#technology {
         margin-top: 90px;
     }
 }
-
 
 @media all and (max-width: 767px) {
     body #fullscreen-hero {
@@ -172,7 +164,7 @@ body p {
     body #fullscreen-hero #hero-content p.description {
         margin-bottom: -40px;
         word-spacing: 0px;
-        margin-top: 27px;
+        margin-top: -7px;;
         line-height: 31px;
     }
     body #fullscreen-hero #hero-content h1.title {
@@ -205,8 +197,8 @@ body p {
     }
     p.para4 {
         word-spacing: 0px;
-        margin-left: -4px;
-        line-height: 21pt;
+        margin-left: -4px!important;
+        line-height: 21pt!important;
     }
     p.para5 {
         word-spacing: 0px;
@@ -250,7 +242,7 @@ body p {
     }
 }
 
-/* iPad specific */
+/* iPad specific
 @media only screen and (min-device-width: 1200px) and (max-device-width: 767px) {
     .security-section {
         display: block;
@@ -282,7 +274,7 @@ body p {
     body #fullscreen-hero #hero-content h1.title{
         font-size: 50px;
     }
-}
+} */
 
 /* 768px */
 @media only screen and (width: 768px){
@@ -315,8 +307,83 @@ body p {
     }
 }
 
-/* Larger than iPad */
-@media only screen and (min-width: 769px) and (max-width: 3839px) {
+/* 800px */
+@media only screen and (width: 800px){
+    body #fullscreen-hero #hero-content p.description {
+        width: 100%;
+        font-size: 22px;
+        border: 0px solid black;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+    }
+    section#protection {
+        margin-top: 5%;
+    }
+    section#technology {
+        margin-top: 13%;
+    }
+    .second-section {
+        padding-bottom: 48px;
+    }
+    p.para1 {
+        margin-top: 47px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 108%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+/* 1024px */
+@media only screen and (width: 1024px){
+    body #fullscreen-hero #hero-content {
+        max-width: 100%
+    }
+    body .container-fluid > .row, body .container > .row {
+        max-width: 1550px;
+        margin: 0 auto;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        width: 100%;
+        font-size: 18px!important;
+        border: 0px solid black;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+    }
+}
+
+/* 1280px */
+@media only screen and (width: 1280px){
+    body #fullscreen-hero #hero-content {
+        max-width: 100%
+    }
+    body .container-fluid > .row, body .container > .row {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    section#protection {
+        margin-top: -5%!important;
+    }
+    section#technology {
+        margin-top: 2%!important;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        width: 100%;
+        font-size: 21px!important;
+        border: 0px solid black;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+    }
+}
+
+    /* Larger than iPad */
+@media only screen and (min-width: 801px) and (max-width: 3839px) {
     .security-section {
         display: block;
         position:absolute;
@@ -367,13 +434,6 @@ body p {
     }
 }
 
-/* 1280px
-@media only screen and (max-width: 1280px){
-    body #fullscreen-hero #hero-content p.description {
-        width: 100%;
-        font-size: 21px!important;
-    }
-} */
 
 @media only screen and (min-width: 2560px) and (max-width: 3351px) {
     .gradient-wrapper > div {
@@ -670,13 +730,16 @@ body p {
     p.para4 {
         margin-left: 125px;
         margin-top: 65px;
+        margin-right: -200px;
         word-spacing: -1px;
         font-size: 86px;
         line-height: 76pt;
+        
     }
     p.para5 {
         margin-left: 125px;
         margin-top: 80px;
+        margin-right: -200px;
         word-spacing: -1px;
         font-size: 86px;
         line-height: 76pt;

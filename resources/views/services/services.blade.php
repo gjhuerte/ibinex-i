@@ -87,10 +87,10 @@
                     <div id="crm-left-container" class="col-12 col-lg-6 bg-white crm second-section">
                         <div class="inner-crm">
                             <div class="text-left" style="margin-top: 2%; margin-left: -1%; ">
-                                <span class="text-dark font-34">CRM Back Office</span>
+                                <span class="text-dark font-34 crm-title">CRM Back Office</span>
                             </div>
                             <div class="">
-                                <p class="text-secondary text-justify mt-sm-0 mb-sm-3 lh-18" style="margin-left: -1.2%; padding-top: 2%;">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
+                                <p class="text-secondary text-justify mt-sm-0 mb-sm-3 lh-18 crm-secondary" style="margin-left: -1.2%; padding-top: 2%;">The Ibinex solution unites the front-end and platform with a full back office suit including CRM with:</p>
                             </div>
                             <div class="text-primary text-justify" style="margin-left: -1%;">
                                 <strong>
@@ -178,7 +178,7 @@
                 <div class="container-fluid">
                     <div class="row max-width-none">
                         <div class="col-12 col-lg-6 col-md-12 col-lg-6 custodian-left fifth-section">
-                            <p class="font-34 heading-margin-sm text-dark custodian-title">Custodian Accounts</p>
+                            <p class="font-34 heading-margin-sm text-dark custodian-title"><span>Custodian</span> <span>Accounts</span></p>
                             <p class="normal-p text-justify mt-sm-0 m-bot-30">
                                 Another first sees Ibinex leading the way as the world's first cryptocurrency exchange with a finance transaction license.
                                 We are proud to be the first to offer you:
