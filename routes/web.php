@@ -28,7 +28,7 @@ Route::get('/security', function () {
 });
 
 Route::get('/why-ibinex', function () {
-    return view('why-ibinex.why');
+    return view('base.why-ibinex');
 });
 
 Route::get('/services', function () {
