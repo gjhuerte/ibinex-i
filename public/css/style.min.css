@@ -244,9 +244,8 @@ body #fullscreen-hero .semi-circle {
 }
 body #fullscreen-hero .semi-circle.green {
     letter-spacing: 2px;
-    margin-top: 15px;
+    margin-top: 2em;
     text-transform: uppercase;
-    /* min-width: 100%;*/
     font-weight: bold;
     padding: 15px 55px;
 
