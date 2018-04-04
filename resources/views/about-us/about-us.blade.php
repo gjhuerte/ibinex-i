@@ -91,7 +91,7 @@
         </h2>
         </div>
         <div id="exec-inner" class="row w-100">
-            <div class="col-lg-2 order-1">
+            <div id="exec-spacer-left" class="col-lg-2 order-1">
                 <!--spacer-->
             </div>
             <div id="exec-inner-left" class="col-lg-4 mr-2 mx-lg-3 order-2 mb-lg-5 pb-lg-5 order-lg-2" id="exec-desc">

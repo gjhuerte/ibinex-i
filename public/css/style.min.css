@@ -3,10 +3,24 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i');
 @font-face {
     font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNovaRegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNovaBold.otf') format('opentype');
@@ -140,6 +154,9 @@ body #fullscreen-hero {
 }
 body #fullscreen-hero h1, body #fullscreen-hero h2, body #fullscreen-hero p, body #fullscreen-hero span {
     color: white;
+}
+#fullscreen-hero p {
+    font-weight: 100;
 }
 body #fullscreen-hero button {
     color: white;
@@ -965,31 +982,30 @@ body{
         font-family: "Proxima Nova", sans-serif;
         font-size: 14px;
         margin-top: 10px;
-        margin-left: -25px;
+        margin-left: -24px;
         white-space: nowrap;
     }
 
     .list-unstyled {
         padding-left: 0;
         list-style: none;
-        font-size: 23px;
     }
 
     ul.list-unstyled li span.color {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 600;
         margin-left: -25px;
     }
 
     footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot {
-        font-size: 15px;
-        margin-left: 3px;
+        font-size: 13px;
+        margin-left: -18px;
     }
 
     .property{
         padding-top: 2%;
-        font-size: 13px;
+        font-size: 10px;
     }
 
     ul.list-unstyled li span.color {
@@ -1032,7 +1048,7 @@ body{
     }
 
     body footer .column2{
-        padding-left: 5%;
+        padding-left: 3%;
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
@@ -1053,6 +1069,7 @@ body{
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block{
         width: 100%;
+        margin-left: -15px;
     }
 
     body .semi-circle.red{
@@ -1073,11 +1090,12 @@ body{
 
     .footer{
         height: auto;
+        width: 100%;
     }
 
     .footer{
         height: auto;
-        width: 100%;
+
     }
 
     .contact-height{
@@ -1132,11 +1150,19 @@ body{
         display: block;
     }
 
+    #contact-section h2.title {
+        font-family: "Proxima Nova", sans-serif;
+        font-size: 23px;
+        color: #0b1b28;
+        margin-top: -6px;
+        margin-right: 57px;
+    }
+
     h6.text-uppercase.heads.fonts {
         font-family: "Proxima Nova", sans-serif;
         font-size: 14px;
         margin-top: 10px;
-        margin-left: 15px;
+        margin-left: 3px;
         white-space: nowrap;
     }
 
@@ -1148,19 +1174,22 @@ body{
 
     ul.list-unstyled li span.color {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 17px;
+        font-size: 13px;
         font-weight: 600;
-        margin-left: -6px;
+        margin-left: 5px;
     }
 
     footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot {
-        font-size: 16px;
-        margin-left: 23px;
+        font-size: 14px;
+        margin-left: -30px;
+        margin-top: 5px;
     }
 
     .property{
-        padding-top: 2%;
-        font-size: 16px;
+        font-size: 13px;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-top: 26px;
     }
 
     ul.list-unstyled li span.color {
@@ -1171,22 +1200,24 @@ body{
     }
 
     img.padding.img-size {
-        width: 100%;
+        width: 68%;
         height: auto;
+        margin-left: 47px;
+        margin-top: 29px;
     }
 
     footer .semi-circle {
         color: rgb(184, 22, 31);
         width: 76%;
-        height: 36px;
-        margin-left: 19px;
+        height: 51px;
+        margin-left: -3px;
     }
 
     footer .semi-circle-dark-red {
         background: rgba(184,22,31,1);
         color: #fff;
-        width: 100px;
-        right: 20%;
+        width: 116px;
+        right: 21%;
     }
 
     body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
@@ -1203,7 +1234,7 @@ body{
     }
 
     body footer .column2{
-        padding-left: 5%;
+        padding-left: 3%;
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
@@ -1224,6 +1255,8 @@ body{
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block{
         width: 100%;
+        margin-left: 16px;
+        margin-top: 30px;
     }
 
     body .semi-circle.red{
