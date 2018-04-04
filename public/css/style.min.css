@@ -3,6 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i');
 @font-face {
     font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaThin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNovaRegular.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
@@ -149,7 +156,7 @@ body #fullscreen-hero h1, body #fullscreen-hero h2, body #fullscreen-hero p, bod
     color: white;
 }
 #fullscreen-hero p {
-    font-weight: 300;
+    font-weight: 100;
 }
 body #fullscreen-hero button {
     color: white;
