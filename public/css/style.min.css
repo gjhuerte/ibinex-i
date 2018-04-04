@@ -9,6 +9,13 @@
 }
 @font-face {
     font-family: 'Proxima Nova';
+    src: url('../fonts/ProximaNovaLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
     src: url('../fonts/ProximaNovaBold.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
@@ -140,6 +147,9 @@ body #fullscreen-hero {
 }
 body #fullscreen-hero h1, body #fullscreen-hero h2, body #fullscreen-hero p, body #fullscreen-hero span {
     color: white;
+}
+#fullscreen-hero p {
+    font-weight: 300;
 }
 body #fullscreen-hero button {
     color: white;
