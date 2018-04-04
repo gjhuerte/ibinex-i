@@ -88,7 +88,7 @@
                                     </p>
                                     <p class="p2">
                                         For support regarding any aspect of the Ibinex platform, your use of this website
-                                        or your own exchange integrationm please contact us with your enquiry for
+                                        or your own exchange integration please contact us with your enquiry for
                                         personalised customer service.
                                     </p>
                                     <p class="p3">

@@ -94,18 +94,21 @@
 .ib-get-started-b .label {
     font-size: 1.4rem;
 }
-@media only screen and (min-height: 900px) {
-    .ib-contact-form textarea {
-        height: 23em;
-    }
-}
-@media only screen and (max-height: 480px) {
-    body #fullscreen-hero #hero-content {
-        padding: 5vh 0 80px;
-    }
-}
+/*@media only screen and (min-height: 900px) {*/
+    /*.ib-contact-form textarea {*/
+        /*height: 23em;*/
+    /*}*/
+/*}*/
+/*@media only screen and (max-height: 480px) {*/
+    /*body #fullscreen-hero #hero-content {*/
+        /*padding: 5vh 0 80px;*/
+    /*}*/
+/*}*/
 
 @media only screen and (max-width: 576px) {
+    body #fullscreen-hero {
+         min-height: 100%;
+    }
     .col-sm-7.ib-contact-bg {
         background: #f2f1f1;
         height: 100%;
@@ -121,15 +124,52 @@
     .ib-contact-form button.btn.btn-primary {
         width: 70%;
     }
-}
-@media only screen and (min-height: 551px) {
+    body #fullscreen-hero #hero-content {
+        padding: 41.4% 0 45%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        margin-bottom: 10%;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        line-height: 30px;
+    }
+    .section1_header{
+        font-size: 34px;
+    }
+    .ib-contact {
+        margin: 14% 0 0 0;
+    }
+    .ib-contact-support .ib-contact-text .ib-support-text {
+         float: none;
+    }
+    .ib-support-text h2{
+        font-size: 34px;
+    }
+    .ib-contact-support .col-sm-7.ib-contact-bg {
+        margin-top: 8%;
+    }
     .ib-contact-form {
-        width: 28vw;
+        padding: 15.7% 1%;
     }
-    .col-sm-7.ib-contact-bg {
-        height: 90vh;
+    .ib-contact-form .form-group label{
+        margin-bottom: 2%;
+        font-size: 14px;
+    }
+    .form-group {
+        margin-bottom: 16px;
+    }
+    .ib-contact-bg .ib-contact-form .form-group input {
+        height: 43px;
     }
 }
+/*@media only screen and (min-height: 551px) {*/
+    /*.ib-contact-form {*/
+        /*width: 28vw;*/
+    /*}*/
+    /*.col-sm-7.ib-contact-bg {*/
+        /*height: 90vh;*/
+    /*}*/
+/*}*/
 @media only screen and (max-width: 650px), screen and (max-height: 621px) {
     .row.ib-get-started-a {
         margin: 0 0 0;
@@ -605,6 +645,14 @@
 @media all and (max-width: 768px) and (max-height: 1024px) {
     .ib-contact-support .ib-support-text {
         width: 100%;
+    }
+}
+@media (max-width: 991px) {
+    body #fullscreen-hero {
+        min-height: 100%;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 41.4% 0 45%;
     }
 }
 
