@@ -11,8 +11,8 @@
     <section id="hero-content" class="col-xl-7 col-sm-12">
         <div class="col-xl-12 col-sm-12 order-xl-1 header-div header-pad">
             <h1 class="title text-left head-h1">Introducing CryptoBridge™</h1>
-            <p class="description1 text-justify">Our patent-pending proprieta&shy;ry software, CryptoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
-            <p class="description2 text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
+            <p class="description1 text-justify description">Our patent-pending proprieta&shy;ry software, CryptoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
+            <p class="description2 text-justify description">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
             <button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>
         </div>
     </section>
@@ -26,36 +26,36 @@
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
     <script>
 
-        // $(function() {
-        //     //floating button will remain a circle at all times
-        //     let faButton = $('.faButton');
-        //     faButton.css('display', 'block').css('height', faButton.width());
-        //     $(window).resize(function() {
-        //     });
-        //
-        //     //floating play button's position
-        //     let playButton = $('.playButton');
-        //     let playSize =  parseInt(playButton.height()) / 2;
-        //     if($( document ).width() > 1201)
-        //         playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
-        //     else
-        //         playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize);
-        //
-        //     $(window).resize(function() {
-        //         //floating button will remain a circle at all times
-        //         faButton.css('height', faButton.width());
-        //
-        //         //margin-right fix for fifth-fold
-        //         marginRight = parseInt($('#third-fold > .row').css('margin-right'));
-        //         $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
-        //
-        //         //play button position
-        //         if($( document ).width() > 1200)
-        //             playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
-        //         else
-        //             playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize).delay(1000);
-        //     });
-        // });
+        $(function() {
+            //floating button will remain a circle at all times
+            let faButton = $('.faButton');
+            faButton.css('display', 'block').css('height', faButton.width());
+            $(window).resize(function() {
+            });
+
+            //floating play button's position
+            let playButton = $('.playButton');
+            let playSize =  parseInt(playButton.height()) / 2;
+            if($( document ).width() > 1201)
+                playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
+            else
+                playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize);
+
+            $(window).resize(function() {
+                //floating button will remain a circle at all times
+                faButton.css('height', faButton.width());
+
+                //margin-right fix for fifth-fold
+                marginRight = parseInt($('#third-fold > .row').css('margin-right'));
+                $('#fifth-fold > .row').css('margin-right', marginRight).css('margin-left', marginRight);
+
+                //play button position
+                if($( document ).width() > 1200)
+                    playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', (0 - playSize));
+                else
+                    playButton.css('top', parseInt($('div.embed-image.halfed').height()) / 2 - playSize).css('right', parseInt($('div.embed-image.halfed').width()) / 2 - playSize).delay(1000);
+            });
+        });
 
     </script>
 @endpush
@@ -107,14 +107,14 @@
             </div>
 
             <aside class="col-xl-6 order-xl-1 position-relative">
-                <img class="raise-image" src="{{asset("img/3nSwpAa.png")}}" height="520" alt="bootstrap">
+                <img class="raise-image" src="{{asset("img/3nSwpAa.png")}}" alt="bootstrap">
             </aside>
 
         </section>
     </section>
 
     <!--3 -->
-    <section id="fourth-fold" class="container-fluid bg-color-grey mb-5 position-relative">
+    <section id="fourth-fold" class="container-fluid bg-color-grey mb-5 position-relative sec-color1">
         <section class="row embed-parent ex-sec1">
             <div class="col-xl-6 order-xl-1 ex-div1">
                 <section class="pt-3">
@@ -147,7 +147,7 @@
     </section>
 
     <!--4 -->
-    <section id="fifth-fold" class="container-fluid position-relative">
+    <section id="fifth-fold" class="container-fluid position-relative sec-color2">
         <section class="row embed-parent max-width-none ex-sec3" style="margin-right: 390px;margin-left: 390px;margin-bottom: 124px;">
             <section class="row mx-0">
                 <div class="col-xl-6 order-xl-2 ex-col">
@@ -171,7 +171,7 @@
             </section>
 
             <aside class="col-xl-6 order-xl-1 embed-parent-wrap left ex-wrap">
-                <div class="embed-image halfed shadow ex-image2">
+                <div class="embed-image halfed shadow ex-image2" style="background-image: url('{{ asset("img/pogi.webp") }}');">
                     <div class="playButton faButton raise-half blue-button shadow d-flex justify-content-center ex-quote1">
                         <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
                     </div>
@@ -192,7 +192,7 @@
             <section id="downloadables" class="d-flex justify-content-around flex-wrap">
                 <!-- FIRST ROW START -->
 
-                <div class="brochures text-center">
+                <div class="col-md-6 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img1" src="{{ asset('img/b1.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85)">Business Model</h2>
@@ -200,7 +200,7 @@
                     <button class="semi-circle green-brochure bro-btn-1">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img2" src="{{ asset('img/b2.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54)">One Page Brochure</h2>
@@ -208,7 +208,7 @@
                     <button class="semi-circle green-brochure bro-btn-2">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img3" src="{{ asset('img/b3.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74)">Custodian Guidelines</h2>
@@ -218,7 +218,7 @@
                 <!-- FIRST ROW END -->
                 <!-- SECOND ROW START -->
 
-                <div class="brochures text-center">
+                <div class="col-md-6 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img4" src="{{ asset('img/b4.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92)">Pricing Model</h2>
@@ -226,7 +226,7 @@
                     <button class="semi-circle green-brochure bro-btn-4">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img5" src="{{ asset('img/b5.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129)">Terms & Conditions</h2>
@@ -234,7 +234,7 @@
                     <button class="semi-circle green-brochure bro-btn-5">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img6" src="{{ asset('img/b6.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134)">KYC & AML Requirements</h2>
@@ -322,13 +322,13 @@
         <header>
             <h1 class="title black smaller bold cov-h1-1">Ibinex Media Coverage</h1>
         </header>
-        <section id="logo" class="mt-5">
-           <img alt="" class="flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
-           <img alt="" class="flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
-           <img alt="" class="flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
-           <img alt="" class="flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
-           <img alt="" class="flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
-           <img alt="" class="flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
+        <section id="logo" class="container-fluid col-sm-10 mt-5">
+           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
+           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
+           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
+           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
+           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
+           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
         </section>
     </section>
 @endsection
