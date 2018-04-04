@@ -133,7 +133,7 @@ body .faButton.raise-half{
     position: absolute;
 }
 body .playButton{
-    opacity: 0
+    opacity: 1
 }
 body .semi-circle {
     padding: 10px 25px;
@@ -1775,9 +1775,9 @@ Back to top
 /*Lester Jan - 3/21/2018*/
 
 @media all and (max-width: 767px) {
-    body #fullscreen-hero {
-        min-height: 119.5vh;
-    }
+    /*body #fullscreen-hero {*/
+        /*min-height: 119.5vh;*/
+    /*}*/
     body #fullscreen-hero #hero-content {
         padding: 0;
     }
