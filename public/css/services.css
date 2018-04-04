@@ -394,24 +394,86 @@ p.heading-margin-sm + p{
 /* Tablets to Desktop */
 
 @media only screen and (min-width: 320px) {
+    body #fullscreen-hero {
+        min-height: 123.5vh;
+    }
     body #fullscreen-hero #hero-content h1.title {
-        margin-bottom: 15%;
-        margin-top: -50%;
+        /*margin-bottom: 15%;
+        margin-top: -50%;*/
+        padding-top: 2em;
+        position: absolute;
+        top: 9%;
+        left: 0.3%;
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-bottom: 5%;
+        padding-top: 29%
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-bottom: 0%;
+        padding-top: 2%;
     }
     #platform-img-container {
         background-image: url(../img/l1.png);
         background-repeat: no-repeat;
-        background-position: 50% 100%;
-        background-size: 89%;
+        background-position: -44% 50%;
+        background-size: 102%;
         height: 190px;
         padding-right: 0 !important;
+    }
+    .inner-crm{
+        margin-left: 1.4%;
+        margin-top: -2%;
+    }
+    .crm-secondary {
+        margin-top: 3%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-bottom: 3%;
+    }
+    .crm-container #second-section-container .inner-lorem .inner-quote {
+        padding-top: 5%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: -2.5%;
+        margin-left: -1%;
+    }
+    .crm-container #second-section-container .red-ellipse {
+         z-index: 999;
+        position: absolute;
+        top: 42%;
+        height: 26%;
+        left: -2%;
+    }
+    .crm-title{
+
+    }
+    p.custodian-title span {
+        display: inline-block;
+        padding: 8px 0px;
+        &::before {
+          content: "\A";
+          white-space: pre;
+        }
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 52.5% 147%;
+        background-size: 309%;
+        zoom: 2;
+        z-index: 100;
+        height: 43%;
+        position: absolute;
+        top: 16%;
+    }
+    .cb-text {
+        padding-top: 101%;
     }
 }
 
 @media only screen and (min-width: 360px) {
+
 
     #laptop-container{
         /*height: 215px;*/
@@ -425,8 +487,12 @@ p.heading-margin-sm + p{
         height: 190px;
         padding-right: 0 !important;
     }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
 
-    .red-ellipse {
+    .crm-container #second-section-container .red-ellipse {
         top: 45%;
     }
 
@@ -435,7 +501,7 @@ p.heading-margin-sm + p{
     }
 
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -55%;
+        margin-top: -25%;
         margin-bottom: 15%;
     }
 
@@ -446,7 +512,7 @@ p.heading-margin-sm + p{
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 52% 240%;
+        background-position: 53% 220%;
         background-size: 305%;
         zoom: 2;
         z-index: 100;
@@ -457,7 +523,14 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 375px) {
-
+    body #fullscreen-hero #hero-content h1.title {
+        margin-top: -20%;
+        margin-bottom: 5%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
 
     #platform-img-container{
         height: 248px;
@@ -477,8 +550,16 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 411px){
+    body #fullscreen-hero #hero-content h1.title {
+        margin-top: -20%;
+        margin-bottom: 5%;
+    }
     #platform-img-container {
         height: 248px;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
     }
     .cb1 {
         background-image: url(../img/cb1.png);
@@ -491,7 +572,7 @@ p.heading-margin-sm + p{
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 52% 240%;
+        background-position: 53% 310%;
         background-size: 305%;
         zoom: 2;
         z-index: 100;
@@ -502,23 +583,23 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 414px){
+    body #fullscreen-hero #hero-content h1.title {
+        margin-top: -20%;
+        margin-bottom: 5%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 100%;
         height: 517px;
     }
-}
-
-@media only screen and (min-width: 425px) {
-    #platform-img-container {
-        background-position: 44% 62%;
-        background-size: 100%;
-        height: 517px;
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
     }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 52% 240%;
+        background-position: 53% 390%;
         background-size: 300%;
         zoom: 2;
         z-index: 100;
@@ -528,9 +609,45 @@ p.heading-margin-sm + p{
     }
 }
 
+@media only screen and (min-width: 425px) {
+    body #fullscreen-hero #hero-content h1.title {
+        margin-top: -15%;
+        margin-bottom: 5%;
+    }
+    #platform-img-container {
+        background-position: 44% 62%;
+        background-size: 100%;
+        height: 517px;
+    }
+    .cb2 {
+        background-image: url(../img/cb2_nobg.png);
+        background-repeat: no-repeat;
+        background-position: 52% 340%;
+        background-size: 300%;
+        zoom: 2;
+        z-index: 100;
+        height: 59%;
+        position: absolute;
+        top: 16%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        top: 46%;
+    left: 0%;
+    height: 26%;
+
+    }
+}
+
 @media only screen and (min-width: 480px) {
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -20%;
+        margin-top: -15%;
         margin-bottom: 5%;
     }
     #platform-img-container {
@@ -538,18 +655,28 @@ p.heading-margin-sm + p{
         background-size: 80%;
         height: 517px;
     }
+    .cb-text {
+        margin-top: -40%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 53% 240%;
-        background-size: 277%;
+        background-position: 54% 70%;
+        background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 64%;
+        height: 81%;
         position: absolute;
-        top: 16%;
+        top: -12%;
     }
-    .red-ellipse {
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
         top: 47%;
         left: 5%;
         height: 28%;
@@ -562,20 +689,42 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 568px) {
+    body #fullscreen-hero #hero-content h1.title{
+        padding-top: 28%;
+    }
+    .cb-text {
+        margin-top: -40%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 53% 145%;
-        background-size: 255%;
+        background-position: 54% 60%;
+        background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 64%;
+        height: 81%;
         position: absolute;
-        top: 16%;
+        top: -12%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        top: 47%;
+        left: 5%;
+        height: 30%;
     }
 }
 
 @media only screen and (min-width: 576px){
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 35%;
+        padding-top: 28%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 80%;
@@ -589,24 +738,31 @@ p.heading-margin-sm + p{
         height: 234px;
         z-index: 0;
     }
+    .cb-text {
+        margin-top: -40%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 53% 240%;
-        background-size: 216%;
+        background-position: 54% 30%;
+        background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 57%;
+        height: 81%;
         position: absolute;
-        top: 16%;
-    }
-    .cb-text {
-
+        top: -12%;
     }
     .col-sm-6 {
 
     }
-    .red-ellipse {
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
         top: 47%;
         left: 5%;
         height: 30%;
@@ -622,10 +778,26 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 600px) {
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 35%;
+        padding-top: 28%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 80%;
         height: 517px;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        top: 47%;
+        left: 5%;
+        height: 33%;
     }
     .cb1 {
         background-image: url(../img/cb1.png);
@@ -635,21 +807,19 @@ p.heading-margin-sm + p{
         height: 234px;
         z-index: 0;
     }
+    .cb-text {
+        margin-top: -40%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 53% 240%;
-        background-size: 218%;
+        background-position: 54% 30%;
+        background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 59%;
+        height: 81%;
         position: absolute;
-        top: 16%;
-    }
-    .red-ellipse {
-        top: 49%;
-        left: 5%;
-        height: 33%;
+        top: -12%;
     }
     .red-ellipse-2{
         top: 49%;
@@ -662,10 +832,26 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 640px) {
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 35%;
+        padding-top: 28%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 80%;
         height: 517px;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        top: 49%;
+        left: 5%;
+        height: 33%;
     }
     .cb1 {
         background-image: url(../img/cb1.png);
@@ -675,21 +861,19 @@ p.heading-margin-sm + p{
         height: 234px;
         z-index: 0;
     }
+    .cb-text {
+        margin-top: -40%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 240%;
+        background-position: 54% 30%;
         background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 61%;
+        height: 81%;
         position: absolute;
-        top: 16%;
-    }
-    .red-ellipse {
-        top: 49%;
-        left: 5%;
-        height: 33%;
+        top: -12%;
     }
     .red-ellipse-2{
         top: 49%;
@@ -702,16 +886,49 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 667px) {
+    body #fullscreen-hero {
+        min-height: 45vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 20%;
+        max-width: 77%;
+        margin-left: 16%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 77%;
+        margin-left: 16%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+        margin-bottom: 0%;
+        margin-top: -15%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        top: 49%;
+        left: 5%;
+        height: 33%;
+    }
+     .cb-text {
+        margin-top: -40%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 240%;
-        background-size: 200%;
+        background-position: 54% 0%;
+        background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 61%;
+        height: 81%;
         position: absolute;
-        top: 16%;
+        top: -12%;
     }
     body #fullscreen-hero #hero-content p.description {
         text-align: center;
@@ -719,13 +936,31 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 720px) {
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 20%;
+        max-width: 77%;
+        margin-left: 16%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 77%;
+        margin-left: 16%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+        margin-bottom: 0%;
+        margin-top: -15%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 80%;
         height: 517px;
     }
     .cb-text {
-        margin-top: 10%;
+        margin-top: -40%;
     }
     .cb1 {
         background-image: url(../img/cb1.png);
@@ -738,15 +973,22 @@ p.heading-margin-sm + p{
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 240%;
+        background-position: 54% 0%;
         background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 67%;
+        height: 81%;
         position: absolute;
-        top: 16%;
+        top: -12%;
     }
-    .red-ellipse {
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
         top: 49%;
         left: 5%;
         height: 33%;
@@ -762,13 +1004,45 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 750px) {
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 20%;
+        max-width: 77%;
+        margin-left: 16%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 77%;
+        margin-left: 16%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+        margin-bottom: 0%;
+        margin-top: -15%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        z-index: 999;
+        position: absolute;
+        top: 46%;
+        height: 35%;
+        left: 5%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 80%;
         height: 517px;
     }
     .cb-text {
-        margin-top: 15%;
+        margin-top: -40%;
     }
     .cb1 {
         background-image: url(../img/cb1.png);
@@ -779,16 +1053,16 @@ p.heading-margin-sm + p{
         z-index: 0;
     }
     .cb2 {
-        background-image: url(../img/cb2_nobg.png);
+         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 240%;
+        background-position: 54% 0%;
         background-size: 212%;
         zoom: 2;
         z-index: 100;
-        height: 66%;
+        height: 81%;
         position: absolute;
-        top: 16%;
-    }
+        top: -12%;
+        }
     .red-ellipse {
         top: 49%;
         left: 5%;
@@ -799,31 +1073,49 @@ p.heading-margin-sm + p{
         left: 5%;
         height: 33%;
     }
-    body #fullscreen-hero #hero-content p.description {
-        text-align: center;
-    }
 }
 
 @media only screen and (min-width: 768px){
-    body #fullscreen-hero #hero-content h1.title {
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+        margin-bottom: 0%;
         margin-top: -15%;
-        margin-bottom: 8%;
     }
-    .inner-lorem{
-        padding-top: 90px;
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
     }
-
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        z-index: 999;
+        position: absolute;
+        top: 64%;
+        height: 24%;
+        left: 5%;
+    }
     .lorem-ipsum-lower{
         padding-top: 45px;
     }
-
     #platform-img-container{
         background-position: 44% 62%;
         background-size: 80%;
         height: 517px;;
     }
-
-
     .macbook-img{
         background-position: 87% center;
         height: 700px;
@@ -903,6 +1195,36 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 800px){
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        z-index: 999;
+        position: absolute;
+        top: 64%;
+        height: 24%;
+        left: 5%;
+    }
     #platform-img-container {
         background-position: 44% 62%;
         background-size: 80%;
@@ -939,6 +1261,36 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 853px) {
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        z-index: 999;
+        position: absolute;
+        top: 64%;
+        height: 24%;
+        left: 5%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
@@ -956,6 +1308,36 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 900px) {
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        z-index: 999;
+        position: absolute;
+        top: 64%;
+        height: 24%;
+        left: 5%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
@@ -976,6 +1358,36 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 992px) {
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        z-index: 999;
+        position: absolute;
+        top: 65%;
+        height: 26%;
+        left: -2%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
+    }
     #platform-img-container {
         background-position: 92% 62%;
         background-size: 100%;
@@ -1012,7 +1424,22 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 1024px){
-
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content h1.title{
+        margin-left: 40%;
+    }
     .macbook-img{
         height: 411px;
     }
@@ -1028,7 +1455,10 @@ p.heading-margin-sm + p{
         background-size: 100%;
         height: 517px;
     }
-
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
     .lorem{
         padding-top: 50px;
     }
@@ -1036,7 +1466,7 @@ p.heading-margin-sm + p{
     .lorem-ipsum{
         z-index: 5;
         position: absolute;
-        top: 87.8%;
+        top: 89.5%;
     }
 
     .lorem-ipsum{
@@ -1047,11 +1477,11 @@ p.heading-margin-sm + p{
         margin-left: 5rem;
     }
 
-    .inner-lorem {
-        padding-top: 45px;
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 35px;
     }
 
-    .red-ellipse{
+    .crm-container #second-section-container .red-ellipse{
         top: 75%;
         left: 13%;
         height: 33%;
@@ -1112,20 +1542,35 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 1200px) {
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+    }
     #platform-img-container {
         background-position: 92% 62%;
         background-size: 100%;
         height: 482px;
     }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
     .lorem-ipsum {
         z-index: 5;
         position: absolute;
-        top: 87%;
+        top: 89%;
     }
-    .inner-lorem {
-        padding-top: 65px;
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 25px;
     }
-    .red-ellipse {
+    .crm-container #second-section-container .red-ellipse {
         top: 74%;
         left: 12%;
         height: 35%;
@@ -1152,16 +1597,35 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 1280px){
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        margin-left: 0%;
+        padding-top: 8%;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
     .lorem-ipsum {
         z-index: 5;
         position: absolute;
-        top: 87%;
+        top: 89%;
     }
-    .inner-lorem {
-        padding-top: 50px;
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 30px;
     }
-    .red-ellipse {
-        top: 73%;
+    .crm-container #second-section-container .red-ellipse {
+        top: 75%;
         left: 12%;
         height: 35%;
     }
@@ -1192,9 +1656,20 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 1366px){
-
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
     .m-bot-30{
         margin: 20px 0;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        padding-top: 0%;
+        max-width: 50%;
+        margin-left: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
+        padding-bottom: 0%;
     }
 
     #platform-img-container {
@@ -1208,6 +1683,16 @@ p.heading-margin-sm + p{
     #laptop-container{
         padding-right: 20px;
         margin-top: 35px;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+
+    .crm-container #second-section-container .red-ellipse {
+        top: 78%;
+        left: 14%;
+        height: 36%;
     }
 
     .lorem {
@@ -1233,13 +1718,9 @@ p.heading-margin-sm + p{
         height: 785px;
     }
 
-    .red-ellipse {
-        top: 78%;
-        left: 14%;
-        height: 36%;
-    }
-    .inner-lorem {
-        padding-top: 52px;
+    
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 2%;
     }
 
     #crm-left-container {
@@ -1282,8 +1763,11 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 1440px){
+    body #fullscreen-hero {
+        min-height: 0vh;
+    }
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -13%;
+        margin-top: 10%;
         margin-bottom: 0%;
     }
     #platform-img-container{
@@ -1297,12 +1781,21 @@ p.heading-margin-sm + p{
     }
 
     .lorem-ipsum{
-        top: 91%;
+        top: 94%;
     }
 
-    .red-ellipse{
+    .crm-container #second-section-container .red-ellipse{
         top: 76%;
         height: 37%;
+        left: 15%;
+    }
+
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 2%;
     }
 
     .crm-container {
@@ -1345,13 +1838,23 @@ p.heading-margin-sm + p{
         margin-top: -10%;
     }
     section #hero-content {
-        margin-top: 10%;
+        margin-top: -15%;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        max-width: 50%;
+        margin-left: 25%;
+        padding-top: 25%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        padding-top: 0%;
     }
 }
 
 
 @media only screen and (min-width: 1920px){
-
+    body #fullscreen-hero {
+        min-height: 50vh;
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-top: -10%;
         margin-bottom: 0%;
@@ -1390,8 +1893,12 @@ p.heading-margin-sm + p{
         left: -2.5%;
         padding-bottom: 5.6%
     }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
 
-    .red-ellipse{
+    .crm-container #second-section-container .red-ellipse{
         top: 426px;
         height: 43%;
         left: 18.5%;
@@ -1436,9 +1943,9 @@ p.heading-margin-sm + p{
         margin-left: 1.5%;
     }
 
-    .inner-lorem{
-        padding-top: 75px;
-        padding-bottom: 40px;
+    .crm-container #second-section-container .inner-lorem{
+        padding-top: 50px;
+        padding-bottom: 0px;
         padding-left: 75px;
         padding-right: 40px;
     }
@@ -1546,6 +2053,25 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 2048px) {
+    body #fullscreen-hero {
+        min-height: 20vh;
+    }
+    .crm-container #second-section-container .red-ellipse {
+        top: 78%;
+        height: 50%;
+        left: 15%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 60px;
+        padding-bottom: 0%;
+        padding-left: 75px;
+        padding-right: 40px;
+        font-size: 140%;
+    }
     .lorem-ipsum {
         margin-left: 11.2rem !important;
         top: 507px;
@@ -1584,6 +2110,9 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 2560px) {
+    body #fullscreen-hero {
+        min-height: 20vh;
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-bottom: 0%;
     }
@@ -1616,18 +2145,22 @@ p.heading-margin-sm + p{
         zoom: 1;
         margin-left: 1.5%;
     }
-    .red-ellipse {
-        top: 566px;
-        height: 46%;
-        left: 8.5%;
+    .crm-container #second-section-container .red-ellipse {
+        top: 78%;
+        height: 50%;
+        left: 10%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
     }
     .lorem-ipsum {
         margin-top: 15.8%;
         width: 90%;
     }
-    .inner-lorem {
-        padding-top: 75px;
-        padding-bottom: 40px;
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 60px;
+        padding-bottom: 0%;
         padding-left: 75px;
         padding-right: 40px;
         font-size: 140%;
@@ -1642,7 +2175,7 @@ p.heading-margin-sm + p{
         height: 690px;
     }
     .cb-text {
-
+            margin-top: 3%;
     }
     .cb p {
         line-height: 1.7;
@@ -1698,11 +2231,17 @@ p.heading-margin-sm + p{
         padding-bottom: 460px;
     }
     section #hero-content {
-        margin-top: 12%;
+        margin-top: 10%;
     }
 }
 
 @media only screen and (min-width: 3840px) {
+    body #fullscreen-hero {
+        min-height: 25vh;
+    }
+    body #fullscreen-hero #hero-content {
+        margin-top: 0%;
+    }
     #platform-img-container {
         background-image: url(../img/l1.png);
         background-repeat: no-repeat;
@@ -1739,17 +2278,21 @@ p.heading-margin-sm + p{
         margin-top: 19.8%;
         width: 94%;
     }
-    .inner-lorem {
-        padding-top: 150px;
-        padding-bottom: 40px;
+    .crm-container #second-section-container .inner-lorem {
+        padding-top: 100px;
+        padding-bottom: 0%;
         padding-left: 75px;
         padding-right: 40px;
         font-size: 210%;
     }
-    .red-ellipse {
-        top: 670px;
+    .crm-container #second-section-container .red-ellipse {
+        top: 68%;
         height: 50%;
-        left: 3%;
+        left: 5%;
+    }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
     }
     .cb-logo {
         height: 950px;
@@ -1757,6 +2300,9 @@ p.heading-margin-sm + p{
     .cb p {
         line-height: 1.7;
         font-size: 210%;
+    }
+    .cb-text {
+        margin-top: 3%;
     }
     .fone-img {
         background-position: 92% 95%;
@@ -1815,9 +2361,10 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 300%;
+        padding-top: 1.5em;
     }
     body #fullscreen-hero #hero-content p.description {
-        font-size: 150%;
+        font-size: 200%;
     }
     section #hero-content {
         margin-top: 15%;
@@ -1826,6 +2373,14 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 7680px) {
+    body #fullscreen-hero {
+        min-height: 50vh;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        max-width: 100%;
+        margin-left: 0%;
+        padding-top: 4%;
+    }
     #platform-img-container {
         background-image: url(../img/l1.png);
         background-repeat: no-repeat;
@@ -1863,13 +2418,17 @@ p.heading-margin-sm + p{
         width: 86.8%;
         left: 9%;
     }
-    .red-ellipse {
+     .crm-container #second-section-container .red-ellipse {
         top: 1240px;
         height: 50%;
         left: 16%;
     }
+    .crm-container #second-section-container .inner-lorem .huffpost-bottom {
+        margin-top: 0%;
+        margin-left: 0%;
+    }
     .inner-lorem {
-        padding-top: 290px;
+        padding-top: 5%;
         padding-bottom: 40px;
         padding-left: 280px;
         padding-right: 40px;
@@ -1953,7 +2512,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 600%;
-        padding-bottom: 10%;
+        padding-top: 0%;
     }
     body #fullscreen-hero #hero-content p.description {
         font-size: 420%;
