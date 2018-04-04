@@ -1145,6 +1145,31 @@ body{
     }
 
     /* Footer By Chester*/
+    #contact-section > div {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 62%;
+    }
+
+    #contact-section > div > div.row > div:nth-of-type(1) {
+        max-width: 15.7%;
+    }
+
+    #contact-section > div > div.row > div:nth-of-type(3) {
+        max-width: 16.5%;
+    }
+
+    #contact-section > div > div.row > div:nth-of-type(4) {
+        flex: 0 0 17.2%;
+        max-width: 17.2%;
+    }
+
+    #contact-section .list-unstyled > li {
+        margin-top: -0.13em;
+    }
+    .page-footer > div > div.row {
+        padding-top: 1.4em;
+    }
 
     .d-xl-block{
         display: block;
@@ -1152,15 +1177,15 @@ body{
 
     #contact-section h2.title {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 23px;
+        font-size: 1.438em;
         color: #0b1b28;
-        margin-top: -6px;
-        margin-right: 57px;
+        margin-top: -0.125em;
+        margin-right: 2.188em;
     }
 
     h6.text-uppercase.heads.fonts {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 14px;
+        font-size: 0.813em;
         margin-top: 10px;
         margin-left: 3px;
         white-space: nowrap;
@@ -1196,7 +1221,7 @@ body{
         font-family: "Proxima Nova", sans-serif;
         font-size: 13px;
         font-weight: 600;
-        margin-left: 19px;
+        /*margin-left: 19px;*/
     }
 
     img.padding.img-size {
