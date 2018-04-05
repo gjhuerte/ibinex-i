@@ -1,5 +1,5 @@
 body #fullscreen-hero {
-    background-image: url("https://i.imgur.com/JM0qNPw.png");
+    /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
 }
 
 body.home-template {
@@ -18,44 +18,22 @@ body.home-template aside{
     align-self:center;
 }
 
-@media all and (min-width: 2250px) {
-    body header#fullscreen-hero {
-        background-size: 100% 79%;
-        background-position: 0rem 0rem;
-        height: 70.5em;
+@media all and (min-width: 1920px) {
+    body #fullscreen-hero {
+        /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
     }
 
-    body h1.head-h1 {
-        font-size: 3.55em;
-        margin-top: -0.9em;
-        margin-left: -3.87em;
+    body.home-template aside {
+        padding-left: 0;
+        padding-right: 0;
     }
 
-    body p.description1 {
-        font-size: 1.7em;
-        line-height: 1.7em;
-        letter-spacing: 0.05em;
-        margin-left: -8.1em;
-        margin-top: 1.9em;
+    .quote-mark {
+        width: 57px;
+        height: 53px;
+        align-self: center;
     }
 
-    body button.semi-circle.green {
-        font-size: 1.45em;
-        margin-top: 2.1em;
-        margin-left: -9.5em;
-        padding: 25px 65px;
-    }
-
-    body h2.lap-text1 {
-        font-size: 2.8em;
-        margin-top: 1.5em;
-        margin-left: -4.55em;
-    }
-
-
-}
-
-@media (min-width: 1920px) and (max-width: 1999px) {
     body .header-div {
         margin-left: -1em;
         margin-top: 2em;
@@ -68,17 +46,17 @@ body.home-template aside{
 
     body #fullscreen-hero #hero-content h1.title {
         margin-left: -0.2em;
-        margin-top: -2.7em;
+        margin-top: -2.5em;
     }
     body #fullscreen-hero #hero-content p.description1 {
-        font-size: 22px;
+        font-size: 1.4em;
         line-height: 1.6em;
         hyphens: manual;
         margin-left: -.6em;
         padding-right: .9em;
     }
     body #fullscreen-hero #hero-content p.description2 {
-        font-size: 22px;
+        font-size: 1.4em;
         line-height: 1.7em;
         hyphens: manual;
         margin-left: -.6em;
@@ -103,8 +81,7 @@ body.home-template aside{
     }
 
     body #fullscreen-hero .semi-circle.green {
-    min-width: 200px;
-    transform: translate(-1em, 2.4em);
+        transform: translate(-.9em, 2em);
     }
 
     body .fixed-height {
@@ -201,7 +178,7 @@ body.home-template aside{
 
     body .ex-sec2 {
         margin-top: -5.4em;
-        padding-bottom: 1.9em!important;
+        padding-bottom: 3.4em !important;
     }
 
     body .ex-div1 {
@@ -261,26 +238,26 @@ body.home-template aside{
     }
 
     body img.bro-img2 {
-        margin-left: 2.9em;
+        margin-left: 1.9em;
     }
 
     body img.bro-img3 {
-        margin-left: 4.8em;
+        margin-left: 3.9em;
     }
 
     body img.bro-img4 {
-        margin-top: -1.7em;
+        margin-top: -0.1em;
         margin-left: -1em;
     }
 
     body img.bro-img5 {
-        margin-top: -1.7em;
-        margin-left: 2.9em;
+        margin-top: -0.1em;
+        margin-left: 1.9em;
     }
 
     body img.bro-img6 {
-        margin-top: -1.7em;
-        margin-left: 4.8em;
+        margin-top: -0.1em;
+        margin-left: 3.9em;
     }
 
     body h2.bro-h2-1 {
@@ -351,37 +328,37 @@ body.home-template aside{
     }
 
     body button.bro-btn-1 {
-        margin-top: 20px!important;
+        margin-top: 0.35em !important;
         padding: 10px 25px!important;
         margin-left: 1.9em!important;
     }
 
     body button.bro-btn-2 {
-        margin-top: 20px!important;
+        margin-top: 0.25em !important;
         padding: 10px 25px!important;
         margin-left: 5em!important;
     }
 
     body button.bro-btn-3 {
-        margin-top: 20px!important;
+        margin-top: 0.35em !important;
         padding: 10px 25px!important;
         margin-left: 10.3em!important;
     }
 
     body button.bro-btn-4 {
-        margin-top: 20px!important;
+        margin-top: 0.35em !important;
         padding: 10px 25px!important;
         margin-left: 1.9em!important;
     }
 
     body button.bro-btn-5 {
-        margin-top: 20px!important;
+        margin-top: 0.35em !important;
         padding: 10px 25px!important;
         margin-left: 5em!important;
     }
 
     body button.bro-btn-6 {
-        margin-top: 20px!important;
+        margin-top: 0.35em !important;
         padding: 10px 25px!important;
         margin-left: 10.3em!important;
     }
@@ -392,27 +369,27 @@ body.home-template aside{
     }
 
     body #logo .cov-img-1 {
-        transform: translate(-1.85em, .8em);
+        transform: translate(2.8em, 0.7em);
     }
 
     body #logo .cov-img-2 {
-        transform: translate(-.6em, 0.5em);
+        transform: translate(2.1em, 0.5em);
     }
 
     body #logo .cov-img-3 {
-        transform: translate(-0.4em, .9em);
+        transform: translate(0.7em, .8em);
     }
 
     body #logo .cov-img-4 {
-        transform: translate(0.7em, 1em);
+        transform: translate(-0.3em, 0.8em);
     }
 
     body #logo .cov-img-5 {
-        transform: translate(2.3em, 1.2em);
+        transform: translate(-0.6em, 1em);
     }
 
     body #logo .cov-img-6 {
-        transform: translate(3.6em, 1em);
+        transform: translate(-1.1em, 1em);
     }
 
     body section.cov-sec-1 {
@@ -460,11 +437,14 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent-wrap .embed-image {
-        background-image: url(../img/hN17jUY.png);
         background-size: auto 100%;
         background-position: top;
         min-height: 332px;
         margin-top: -8.3em;
+    }
+
+    body .position-relative .embed-parent-wrap .ex-image2 {
+        background-image: url(../img/hN17jUY.webp) !important;
     }
 
     body .position-relative .embed-parent-wrap .embed-image.halfed {
@@ -1189,27 +1169,27 @@ body.home-template aside{
     }
 
     body img.bro-img1 {
-        width: 14.7em;
+        width: 14.7em !important;
     }
 
     body img.bro-img2 {
-        width: 14.4em;
+        width: 14.4em !important;
     }
 
     body img.bro-img3 {
-        width: 14.8em;
+        width: 14.8em !important;
     }
 
     body img.bro-img4 {
-        width: 14.6em;
+        width: 14.6em !important;
     }
 
     body img.bro-img5 {
-        width: 14.7em;
+        width: 14.7em !important;
     }
 
     body img.bro-img6 {
-        width: 14.7em;
+        width: 14.7em !important;
     }
 
     body #downloadables .brochures {
@@ -2698,11 +2678,11 @@ body.home-template aside{
     }
     body h1.ex-h1 {
         font-size: 1.8em!important;
-        padding-right: 1em!important;
-        padding-left: 1em!important;
+        padding-right: 0.5em !important;
+        padding-left: 0.5em !important;
     }
 
-    body img.bro-img1,
+    img.bro-img1,
     img.bro-img2,
     img.bro-img3,
     img.bro-img4,
@@ -2715,10 +2695,12 @@ body.home-template aside{
     }
 
     body .semi-circle.green-brochure {
-        font-size: 1em!important;
-        margin-top: 0.4em!important;
-        letter-spacing: 1px!important;
-        padding: 8px 19px!important;
+        background-color: rgba(18, 213, 184, 1);
+        color: rgba(33, 42, 95, 1);
+        font-weight: normal !important;
+        margin-top: 0.4em;
+        letter-spacing: 1px;
+        padding: 8px 20px !important;
     }
 
     body section.ex-sec2 {
@@ -2727,42 +2709,31 @@ body.home-template aside{
 
     body h1.cov-h1-1 {
         font-size: 1.75em!important;
-        margin-top: -1.1em;
+        margin-top: -1em;
     }
 
     body img.cov-img-1 {
         margin-top: -2em;
-        width: 12em!important;
     }
 
     body img.cov-img-2 {
-        margin-top: 0.6em;
-        margin-right: 0.6em;
-        width: 12em!important;
+        margin-top: 1.5em;
     }
 
     body img.cov-img-3 {
-        margin-top: 1em;
-        margin-right: 0.5em;
-        width: 11.6em!important;
+        margin-top: 2em;
     }
 
     body img.cov-img-4 {
-        margin-top: 0.7em;
-        margin-right: 0.2em;
+        margin-top: 1.7em;
     }
 
     body img.cov-img-5 {
-        margin-top: 0.56em;
-        margin-right: 0.3em;
-        width: 12em!important;
+        margin-top: 1.45em;
     }
 
     body img.cov-img-6 {
-        margin-top: 1.3em;
-        margin-right: 0.6em;
-        width: 11.6em!important;
-        padding-bottom: 0em;
+        margin-top: 2.2em;
     }
 
     body section.cov-sec-1 {
