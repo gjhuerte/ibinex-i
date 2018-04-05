@@ -1407,6 +1407,9 @@ body{
 
 }
 @media all and (min-width: 2560px) and (max-width: 3539px){
+    div.footer-buffer {
+        height: 8.2em;
+    }
     nav.navCont{
         font-size: 22px;
     }
@@ -1638,6 +1641,9 @@ body{
 
 }
 @media all and (min-width: 7000px){
+    div.footer-buffer {
+        height: 26.4em;
+    }
     nav.navCont{
         font-size: 64px;
     }
