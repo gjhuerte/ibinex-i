@@ -15,26 +15,26 @@ Route::get('/', function () {
     return view('home.home');
 });
 
-Route::get('/contact-us', function () {
+Route::get('contact-us', function () {
     return view('contact-us.contact-us');
 });
 
-Route::get('/pricing', function () {
+Route::get('pricing', function () {
     return view('base.pricing');
 });
 
-Route::get('/security', function () {
+Route::get('security', function () {
     return view('security.security');
 });
 
-Route::get('/why-ibinex', function () {
+Route::get('why-ibinex', function () {
     return view('base.why-ibinex');
 });
 
-Route::get('/services', function () {
+Route::get('services', function () {
     return view('services.services');
 });
 
-Route::get('/about-us', function () {
-    return view('about-us/about-us');
+Route::get('about-us', function () {
+    return view('base.about-us');
 });

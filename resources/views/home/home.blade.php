@@ -11,8 +11,8 @@
     <section id="hero-content" class="col-xl-7 col-sm-12">
         <div class="col-xl-12 col-sm-12 order-xl-1 header-div header-pad">
             <h1 class="title text-left head-h1">Introducing CryptoBridge™</h1>
-            <p class="description1 text-justify">Our patent-pending proprieta&shy;ry software, CryptoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
-            <p class="description2 text-justify">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
+            <p class="description1 text-justify description">Our patent-pending proprieta&shy;ry software, CryptoBridge, is the nexus that aggregates premier cryptocurrency ex&shy;changes and indexes for your customers, in real-time.</p>
+            <p class="description2 text-justify description">The CryptoBridge algorithm benefits your customers by showing them a unique com&shy;bination of the best and most select cryptocurrency exchan&shy;ges and most attractive live prices - only available via the Ibinex trading platform.</p>
             <button class="semi-circle green"><span style="line-height:0">Request a Demo</span></button>
         </div>
     </section>
@@ -88,7 +88,7 @@
                         <h2 class="title text-left text-center-sm lap-text3">Exchange your Way with Ibinex.</h2><br>
                         <h2 class="title text-left text-center-sm lap-text4">Your Turn-Key Solution Includes:</h2>
                     </div>
-                    <div class="d-lg-none">
+                    <div id="exchange" class="d-lg-none">
                         <span>Exchange your Way with Ibinex.
                         Your Turn-Key Solution Includes:</span>
                     </div>
@@ -192,7 +192,7 @@
             <section id="downloadables" class="d-flex justify-content-around flex-wrap">
                 <!-- FIRST ROW START -->
 
-                <div class="brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img1" src="{{ asset('img/b1.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85)">Business Model</h2>
@@ -200,7 +200,7 @@
                     <button class="semi-circle green-brochure bro-btn-1">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img2" src="{{ asset('img/b2.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54)">One Page Brochure</h2>
@@ -208,7 +208,7 @@
                     <button class="semi-circle green-brochure bro-btn-2">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img3" src="{{ asset('img/b3.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74)">Custodian Guidelines</h2>
@@ -218,7 +218,7 @@
                 <!-- FIRST ROW END -->
                 <!-- SECOND ROW START -->
 
-                <div class="brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img4" src="{{ asset('img/b4.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92)">Pricing Model</h2>
@@ -226,7 +226,7 @@
                     <button class="semi-circle green-brochure bro-btn-4">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img5" src="{{ asset('img/b5.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129)">Terms & Conditions</h2>
@@ -234,7 +234,7 @@
                     <button class="semi-circle green-brochure bro-btn-5">Download</button>
                 </div>
 
-                <div class="brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img6" src="{{ asset('img/b6.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134)">KYC & AML Requirements</h2>
@@ -323,12 +323,12 @@
             <h1 class="title black smaller bold cov-h1-1">Ibinex Media Coverage</h1>
         </header>
         <section id="logo" class="container-fluid col-sm-10 mt-5">
-           <img alt="" class="col-6 col-sm-5 flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
-           <img alt="" class="col-6 col-sm-5 flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
-           <img alt="" class="col-6 col-sm-5 flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
-           <img alt="" class="col-6 col-sm-5 flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
-           <img alt="" class="col-6 col-sm-5 flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
-           <img alt="" class="col-6 col-sm-5 flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
         </section>
     </section>
 @endsection
