@@ -557,14 +557,12 @@ body.home-template aside{
     }
 
     body p.description2 {
-        transform: translate(-0.3em, 0.2em)!important;
-        font-size: 0.9em;
+        font-size: 0.9em!important;
         line-height: 1.6em!important;
-        letter-spacing: 0.3px!important;
         word-spacing: -2px;
         hyphens: manual!important;
-        font-weight: normal;
-        margin-left: 10em;
+        font-weight: 500!important;
+        margin-left: 9.7em;
         padding-right: 14.2em;
     }
 
@@ -618,35 +616,35 @@ body.home-template aside{
     }
 
     body h2.lap-text3 {
-        font-size: 0.55em!important;
-        margin-top: -1.4em!important;
+        font-size: 0.55em;
+        margin-top: -1.4em;
         margin-left: 0.3em;
-        letter-spacing: -0.2px!important;
+        letter-spacing: -0.2px;
     }
 
     body h2.lap-text4 {
-        font-size: 0.55em!important;
-        margin-left: 0.26em!important;
-        margin-top: -3.15em!important;
+        font-size: 0.55em;
+        margin-left: 0.26em;
+        margin-top: -3.15em;
         letter-spacing: -0.2px;
-        line-height: 1.75em!important;
-        hyphens: manual!important;
+        line-height: 1.75em;
+        hyphens: manual;
     }
 
     body h2.lap-text5 {
-        margin-top: 0.7em!important;
+        margin-top: 0.7em;
         margin-left: 1em;
-        letter-spacing: 1px!important;
-        font-size: 0.6em!important;
+        letter-spacing: 1px;
+        font-size: 0.7em;
     }
 
     body p.lap-text6 {
-        font-size: 0.7em!important;
-        margin-top: 1.2em!important;
-        margin-left: 0.8em!important;
+        font-size: 0.7em;
+        margin-top: 1.2em;
+        margin-left: 0.8em;
         padding-right: 14.5em;
-        line-height: 1.72em!important;
-        letter-spacing: -0.3px!important;
+        line-height: 1.8em;
+        letter-spacing: 0.4px;
     }
 
     body img.raise-image {
@@ -677,22 +675,22 @@ body.home-template aside{
     }
 
     body h2.ex-h2-1 {
-        font-size: 0.7em!important;
-        margin-top: -4em!important;
-        margin-left: 15.4em!important;
+        font-size: 0.7em;
+        margin-top: -8em;
+        margin-left: 15.4em;
         letter-spacing: 0.3px;
     }
 
     body p.ex-p1 {
-        font-size: 0.64em!important;
-        margin-top: 1.7em!important;
-        margin-left: 17em!important;
-        line-height: 1.8em!important;
+        font-size: 0.7em;
+        margin-top: 1.7em;
+        margin-left: 15.4em;
+        line-height: 1.8em;
     }
 
     body h2.ex-h2-2 {
-        font-size: 0.7em!important;
-        margin-left: 15.4em!important;
+        font-size: 0.7em;
+        margin-left: 15.4em;
         letter-spacing: 0.3px;
     }
 
@@ -719,13 +717,12 @@ body.home-template aside{
     }
 
     body .quote-wrapper  p.ex-p3 {
-        margin-left: 2.2em!important;
-        margin-top: 4.2em!important;
-        transform: translate(0em, 0.2em)!important;
-        line-height: 1.5em!important;
+        margin-left: 2.2em;
+        margin-top: 4.5em;
+        line-height: 1.5em;
         letter-spacing: 0.2px;
-        font-size: 0.8em!important;
-        padding-bottom: 1em!important;
+        font-size: 0.8em;
+        padding-bottom: 1em;
         padding-right: 1.2em;
     }
 
@@ -773,12 +770,12 @@ body.home-template aside{
         line-height: 1.7em!important;
     }
     body p.ex-p6 {
-        font-size: 0.6em!important;
+        font-size: 0.7em!important;
         margin-top: 1em!important;
-        margin-left: 1em;
-        padding-right: 17.3em;
+        margin-left: 0.8em;
+        padding-right: 14.6em;
         line-height: 2em!important;
-        letter-spacing: 0.22px;
+        letter-spacing: -0.4px;
     }
 
     body h2.ex-h2-5 {

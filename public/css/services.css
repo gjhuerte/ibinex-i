@@ -690,7 +690,7 @@ p.heading-margin-sm + p{
 
 @media only screen and (min-width: 568px) {
     body #fullscreen-hero #hero-content h1.title{
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     .cb-text {
         margin-top: -40%;
@@ -723,7 +723,7 @@ p.heading-margin-sm + p{
 @media only screen and (min-width: 576px){
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 35%;
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -780,7 +780,7 @@ p.heading-margin-sm + p{
 @media only screen and (min-width: 600px) {
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 35%;
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -832,9 +832,12 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 640px) {
+    /*body #fullscreen-hero #hero-content {
+        margin-top: -30%;
+    }*/
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 35%;
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -900,9 +903,10 @@ p.heading-margin-sm + p{
         margin-left: 16%;
     }
     body #fullscreen-hero #hero-content h1.title{
-        margin-left: 40%;
+        margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
+        /*padding-top: 18%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -950,9 +954,10 @@ p.heading-margin-sm + p{
         margin-left: 16%;
     }
     body #fullscreen-hero #hero-content h1.title{
-        margin-left: 40%;
+        margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
+        /*padding-top: 18%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -1018,9 +1023,10 @@ p.heading-margin-sm + p{
         margin-left: 16%;
     }
     body #fullscreen-hero #hero-content h1.title{
-        margin-left: 40%;
+        margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
+        /*padding-top: 18%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1090,9 +1096,10 @@ p.heading-margin-sm + p{
         margin-left: 25%;
     }
     body #fullscreen-hero #hero-content h1.title{
-        margin-left: 40%;
+        margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
+        /*padding-top: 10%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1140,7 +1147,7 @@ p.heading-margin-sm + p{
     .cb2{
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 240%;
+        background-position: 54% 115%;
         background-size: 205%;
         zoom: 2;
         z-index: 100;
@@ -1150,7 +1157,7 @@ p.heading-margin-sm + p{
     }
 
     .cb-text{
-        padding-top: 490px;
+        padding-top: 100%;
     }
 
 
@@ -1209,7 +1216,8 @@ p.heading-margin-sm + p{
         margin-left: 25%;
     }
     body #fullscreen-hero #hero-content h1.title{
-        margin-left: 40%;
+        margin-left: 38%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1243,13 +1251,16 @@ p.heading-margin-sm + p{
     .cb2{
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 240%;
+        background-position: 54% 135%;
         background-size: 212%;
         zoom: 2;
         z-index: 100;
         height: 61%;
         position: absolute;
         top: 16%;
+    }
+    .cb-text {
+        padding-top: 100%;
     }
     .custodian-title {
         padding-top: 5%;
@@ -1275,7 +1286,8 @@ p.heading-margin-sm + p{
         margin-left: 25%;
     }
     body #fullscreen-hero #hero-content h1.title{
-        margin-left: 40%;
+        margin-left: 38%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1291,10 +1303,13 @@ p.heading-margin-sm + p{
         height: 24%;
         left: 5%;
     }
+    .cb-text {
+        padding-top: 100%;
+    }
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 200%;
+        background-position: 54% 130%;
         background-size: 212%;
         zoom: 2;
         z-index: 100;
@@ -1322,7 +1337,8 @@ p.heading-margin-sm + p{
         margin-left: 25%;
     }
     body #fullscreen-hero #hero-content h1.title{
-        margin-left: 40%;
+        margin-left: 38%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1341,13 +1357,16 @@ p.heading-margin-sm + p{
     .cb2 {
         background-image: url(../img/cb2_nobg.png);
         background-repeat: no-repeat;
-        background-position: 54% 170%;
+        background-position: 54% 125%;
         background-size: 212%;
         zoom: 2;
         z-index: 100;
         height: 61%;
         position: absolute;
         top: 16%;
+    }
+    .cb-text {
+        padding-top: 100%;
     }
     section #hero-content {
         margin-top: 10%;
@@ -1373,13 +1392,14 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 40%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .red-ellipse {
         z-index: 999;
         position: absolute;
-        top: 65%;
-        height: 26%;
-        left: -2%;
+        top: 67%;
+        height: 22%;
+        left: 5%;
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1394,7 +1414,7 @@ p.heading-margin-sm + p{
         height: 517px;
     }
     .cb-text {
-        padding-top: 0px;
+        
     }
     .cb {
         margin-bottom: -4%;
@@ -1439,6 +1459,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 40%;
+        /*padding-top: 8%;*/
     }
     .macbook-img{
         height: 411px;
@@ -1475,6 +1496,7 @@ p.heading-margin-sm + p{
 
     .lorem-ipsum-lower{
         margin-left: 5rem;
+        width: 84.4%;
     }
 
     .crm-container #second-section-container .inner-lorem {
@@ -1545,6 +1567,10 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content h1.title {
+        margin-left: 0%;
+        /*padding-top: 8%;*/
+    }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
         max-width: 50%;
@@ -1594,6 +1620,7 @@ p.heading-margin-sm + p{
     section #hero-content {
         margin-top: 10%;
     }
+    
 }
 
 @media only screen and (min-width: 1280px){
@@ -1602,7 +1629,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
@@ -1625,7 +1652,7 @@ p.heading-margin-sm + p{
         padding-top: 30px;
     }
     .crm-container #second-section-container .red-ellipse {
-        top: 75%;
+        top: 77%;
         left: 12%;
         height: 35%;
     }
@@ -2059,7 +2086,7 @@ p.heading-margin-sm + p{
     .crm-container #second-section-container .red-ellipse {
         top: 78%;
         height: 50%;
-        left: 15%;
+        left: 17%;
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -2148,7 +2175,7 @@ p.heading-margin-sm + p{
     .crm-container #second-section-container .red-ellipse {
         top: 78%;
         height: 50%;
-        left: 10%;
+        left: 12%;
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -2240,7 +2267,7 @@ p.heading-margin-sm + p{
         min-height: 25vh;
     }
     body #fullscreen-hero #hero-content {
-        margin-top: 0%;
+        margin-top: 5%;
     }
     #platform-img-container {
         background-image: url(../img/l1.png);
@@ -2427,7 +2454,7 @@ p.heading-margin-sm + p{
         margin-top: 0%;
         margin-left: 0%;
     }
-    .inner-lorem {
+    .crm-container #second-section-container .inner-lorem {
         padding-top: 5%;
         padding-bottom: 40px;
         padding-left: 280px;
@@ -2511,11 +2538,15 @@ p.heading-margin-sm + p{
         padding: 5.5rem 0;
     }
     body #fullscreen-hero #hero-content h1.title {
-        font-size: 600%;
+        font-size: 173px;
         padding-top: 0%;
     }
     body #fullscreen-hero #hero-content p.description {
         font-size: 420%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        max-width: 75%;
+        margin-left: 12%;
     }
     .custodian-title {
         padding-top: 5%;
