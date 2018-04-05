@@ -690,7 +690,7 @@ p.heading-margin-sm + p{
 
 @media only screen and (min-width: 568px) {
     body #fullscreen-hero #hero-content h1.title{
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     .cb-text {
         margin-top: -40%;
@@ -723,7 +723,7 @@ p.heading-margin-sm + p{
 @media only screen and (min-width: 576px){
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 35%;
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -780,7 +780,7 @@ p.heading-margin-sm + p{
 @media only screen and (min-width: 600px) {
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 35%;
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -837,7 +837,7 @@ p.heading-margin-sm + p{
     }*/
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 35%;
-        padding-top: 28%;
+        /*padding-top: 28%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -906,7 +906,7 @@ p.heading-margin-sm + p{
         margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
-        padding-top: 18%;
+        /*padding-top: 18%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -957,7 +957,7 @@ p.heading-margin-sm + p{
         margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
-        padding-top: 18%;
+        /*padding-top: 18%;*/
     }
     #platform-img-container {
         background-position: 44% 62%;
@@ -1026,7 +1026,7 @@ p.heading-margin-sm + p{
         margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
-        padding-top: 18%;
+        /*padding-top: 18%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1099,7 +1099,7 @@ p.heading-margin-sm + p{
         margin-left: 38%;
         margin-bottom: 0%;
         margin-top: -15%;
-        padding-top: 10%;
+        /*padding-top: 10%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1217,7 +1217,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1287,7 +1287,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1338,7 +1338,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
         margin-top: 0%;
@@ -1392,7 +1392,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 40%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .red-ellipse {
         z-index: 999;
@@ -1459,7 +1459,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 40%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     .macbook-img{
         height: 411px;
@@ -1569,7 +1569,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
@@ -1629,7 +1629,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
-        padding-top: 8%;
+        /*padding-top: 8%;*/
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
@@ -2538,11 +2538,15 @@ p.heading-margin-sm + p{
         padding: 5.5rem 0;
     }
     body #fullscreen-hero #hero-content h1.title {
-        font-size: 600%;
+        font-size: 173px;
         padding-top: 0%;
     }
     body #fullscreen-hero #hero-content p.description {
         font-size: 420%;
+    }
+    body #fullscreen-hero #hero-content #hero-second-p {
+        max-width: 75%;
+        margin-left: 12%;
     }
     .custodian-title {
         padding-top: 5%;
