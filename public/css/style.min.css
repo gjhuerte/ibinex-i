@@ -1381,7 +1381,7 @@ body{
 }
 @media all and (min-width: 2560px) and (max-width: 3539px){
     nav.navCont{
-        font-size: 23.3px;
+        font-size: 22px;
     }
     body #fullscreen-hero nav ul.navbar-nav .nav-item {
         padding: 0 0.67em;
@@ -1512,11 +1512,91 @@ body{
     /* FOOTER BY KEVIN */
 
     #contact-section{
-        font-size: 22px;
+        font-size: 23.2px;
     }
     #contact-section h2.title{
         letter-spacing: 4.5px;
         padding-left: 5%;
+    }
+    #contact-section > div {
+        max-width: 61.4%;
+    }
+    #contact-section > div > div {
+        padding-top: 1%;
+    }
+    h6.text-uppercase.heads.fonts {
+        font-size: 0.715em;
+        margin-bottom: 1.3em;
+    }
+    #contact-section > div > div.row > div:nth-of-type(3) {
+        max-width: 18%;
+        flex: 0 0 17.2%;
+    }
+    ul.list-unstyled li span.color {
+        font-size: 0.49em;
+        margin-left: 0.3em;
+    }
+    #contact-section .list-unstyled > li {
+        margin-top: 0.17em;
+    }
+    section#contact-section.bg-color-grey.py-5.contact-height {
+        padding-bottom: 1.76em !important;
+    }
+    .footer {
+        font-size: 23.2px;
+    }
+    .page-footer > div > div.row {
+        padding-top: 2.1%;
+    }
+    footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot {
+        font-size: 19px;
+        margin-left: -40px;
+    }
+    body footer li {
+        list-style-type: none;
+        margin-top: 5.6%;
+    }
+    body footer .pad-top {
+        padding-top: 32%;
+        margin-left: 1%;
+    }
+    body footer .column2 {
+        padding-left: 2.1%;
+    }
+    img.padding.img-size {
+        width: 66%;
+        margin-top: 1.6em;
+    }
+    .page-footer > div > div.row > div:nth-of-type(4) > h6:first-of-type {
+        padding-left: 3.2em;
+    }
+    body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4 {
+        margin-top: 5%!important;
+        margin-left: 4%;
+    }
+    footer .semi-circle {
+        height: 65px;
+    }
+    footer .semi-circle-dark-red {
+        width: 9.9em;
+        right: 21%;
+    }
+    .page-footer > div > div.row > div:nth-of-type(4) > h6:last-of-type {
+        padding-left: 3.2em;
+    }
+    .d-none > a > img {
+        width: 5.8%;
+    }
+    footer a {
+        margin-right: 0.09em;
+    }
+    .property {
+        font-size: 0.688em;
+        padding-left: 3%;
+        padding-right: 3.4%;
+        line-height: 17px!important;
+        margin-top: 3.8em;
+        padding-bottom: 7.5em;
     }
 }
 @media all and (min-width: 3540px){
