@@ -1006,6 +1006,8 @@ body{
     .property{
         padding-top: 2%;
         font-size: 10px;
+        padding-bottom: 6.2em;
+        margin-bottom: 0
     }
 
     ul.list-unstyled li span.color {
@@ -1078,6 +1080,7 @@ body{
 
     body footer .semi-circle-dark-red {
         background-color: rgba(184,22,31,1);
+        font-size: 12px;
     }
 
     body section .col-lg-3{
@@ -1085,7 +1088,7 @@ body{
     }
 
     body section .about {
-        max-width: 11%;
+        max-width: 12%;
     }
 
     .footer{
@@ -1165,10 +1168,37 @@ body{
     }
 
     #contact-section .list-unstyled > li {
-        margin-top: -0.13em;
+        margin-top: -0.075em;
     }
     .page-footer > div > div.row {
-        padding-top: 1.4em;
+        padding-top: 1.2em;
+    }
+
+    .page-footer > div > div.row > div:nth-of-type(4) > h6:first-of-type {
+        color: #646781;
+        padding-bottom: .522em;
+        padding-left: 3em;
+    }
+    .page-footer > div > div.row > div:nth-of-type(4) > h6:last-of-type {
+        color: #646781;
+        padding-bottom: 0;
+        padding-left: 3em;
+    }
+
+    .page-footer > div > div.row > div:nth-of-type(4) > div:nth-of-type(2) {
+        margin-left: .75em;
+        margin-top: .813em;
+    }
+
+    .page-footer > div > div.row > div:nth-of-type(4) > div:first-of-type {
+        padding-bottom: 1.3em;
+    }
+
+    footer a, a:hover{
+        margin-right: 0.12em;
+    }
+    footer p.pad-bot {
+        padding-bottom: 0.06em;
     }
 
     .d-xl-block{
@@ -1186,22 +1216,23 @@ body{
     h6.text-uppercase.heads.fonts {
         font-family: "Proxima Nova", sans-serif;
         font-size: 0.813em;
-        margin-top: 10px;
-        margin-left: 3px;
+        margin-top: 0.625em;
+        margin-left: 0.188em;
         white-space: nowrap;
     }
 
     .list-unstyled {
         padding-left: 0;
         list-style: none;
-        font-size: 23px;
+        font-size: 1.438em;
+        margin-top: -0.2em;
     }
 
     ul.list-unstyled li span.color {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 13px;
+        font-size: 0.813em;
         font-weight: 600;
-        margin-left: 5px;
+        margin-left: 0.313em;
     }
 
     footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot {
@@ -1211,10 +1242,13 @@ body{
     }
 
     .property{
-        font-size: 13px;
-        padding-left: 3%;
+        font-size: 0.688em;
+        padding-left: 2.7%;
         padding-right: 3%;
-        margin-top: 26px;
+        margin-top: 4em;
+        padding-bottom: 8em;
+        margin-bottom: 0;
+        letter-spacing: -0.005em;
     }
 
     ul.list-unstyled li span.color {
@@ -1227,22 +1261,25 @@ body{
     img.padding.img-size {
         width: 68%;
         height: auto;
-        margin-left: 47px;
-        margin-top: 29px;
+        margin-left: 2.938em;
+        margin-top: 2.1em;
     }
 
     footer .semi-circle {
         color: rgb(184, 22, 31);
         width: 76%;
         height: 51px;
-        margin-left: -3px;
+        margin-left: -0.188em;
     }
 
     footer .semi-circle-dark-red {
         background: rgba(184,22,31,1);
         color: #fff;
-        width: 116px;
-        right: 21%;
+        width: 10.5em;
+        right: 20%;
+        padding-left: 2.5em;
+        font-size: .7em;
+        letter-spacing: 0.1em;
     }
 
     body footer .col-sm-12.col-md-4.col-lg-3.align-self-center{
@@ -1255,15 +1292,16 @@ body{
     }
 
     body footer .pad-top{
-        padding-top: 70px;
+        padding-top: 4.4em;
     }
 
     body footer .column2{
-        padding-left: 3%;
+        padding-left: 1.8em;
     }
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block.pt-xs-3.mt-lg-4{
         width: 100%;
+        padding-bottom: 1.1em;
     }
 
     body footer input::placeholder{
@@ -1280,8 +1318,8 @@ body{
 
     body footer .position-relative.d-none.d-lg-block.d-xl-block{
         width: 100%;
-        margin-left: 16px;
-        margin-top: 30px;
+        margin-left: 1em;
+        margin-top: 1.875em;
     }
 
     body .semi-circle.red{

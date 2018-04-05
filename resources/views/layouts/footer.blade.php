@@ -187,12 +187,12 @@
 
             <!--Fourth column-->
             <div class=" d-none d-lg-block d-xl-block col-md-4  col-lg-4 col-xl-5 ">
-                <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3 color-copy" style="color: #646781; padding-bottom: 5px;">sign up to our news letter</h6>
+                <h6 class="text-uppercase fonts font-weight-light grey pt-lg-3 color-copy">sign up to our news letter</h6>
                 <div class="position-relative d-none d-lg-block d-xl-block pt-xs-3 mt-lg-4">
                     <input type="email" class="semi-circle" placeholder="Insert your email"/>
                     <input type="submit" class="position-absolute semi-circle semi-circle-dark-red" value="SUBMIT"/>
                 </div>
-                <h6 class="text-uppercase fonts font-weight-light d-none d-lg-block d-xl-block grey color-copy" style="color: #646781; padding-bottom: 5px;">find us online</h6>
+                <h6 class="text-uppercase fonts font-weight-light d-none d-lg-block d-xl-block grey color-copy">find us online</h6>
                 <div class ="position-relative d-none d-lg-block d-xl-block">
                     <a href="https://www.facebook.com"><img src="{{ asset('img/social-icons/fb.png') }}" alt=" facebook logo"></a>
                     <a href="https://twitter.com/IbinexExchange"><img src="{{ asset('/img/social-icons/twitter.png') }}" alt=" twitter logo"></a>
@@ -208,7 +208,7 @@
             <!--/.Fourth column-->
         </div>
         <div>
-            <p class="property text-justify pb-5 mb-0 color-copy" style="color: #646781; line-height: 1.2">Risk Disclosure: Ibinex Financials (ibinex.com)
+            <p class="property text-justify color-copy" style="color: #646781; line-height: 1.2">Risk Disclosure: Ibinex Financials (ibinex.com)
                 will not accept any liability for loss or damage as a result of reliance on the
                 information contained within this website including data, quotes,
                 charts and buy/sell signals. Please be fully informed regarding the
