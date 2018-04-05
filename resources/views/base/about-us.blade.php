@@ -4,7 +4,7 @@
 
 
 @push('stylesheets')
-<link href="{{ asset("./css/about-us.css") }}" rel="stylesheet" />
+<link href="{{ asset("./css/about-us.min.css") }}" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
 @endpush
@@ -21,7 +21,7 @@
 @endsection
 
 @section('body-class','about')
-@section('bg-img','./about-bg.png')
+@section('bg-img','./about-us/bg.png')
 @section('content')
 <div class="container-fluid">
 <div>
@@ -53,23 +53,23 @@
 <div id="transparency-right">
     <div class="row mb-5">
         <div class="inner-left col-5">
-            <img src="{{asset('img/trans1.png')}}" class="img-fluid">
+            <img src="{{asset('img/about-us/trans/trans1.png')}}" class="img-fluid">
             <div class="mt-lg-4 mt-2 row">
                 <div class="col-7 py-0 pr-2">
-                    <img src="{{asset('img/trans2.png')}}" class="img-fluid">
+                    <img src="{{asset('img/about-us/trans/trans2.png')}}" class="img-fluid">
                 </div>
                 <div class="col-5 pl-0">
-                    <img src="{{asset('img/trans3.png')}}" class="img-fluid">
+                    <img src="{{asset('img/about-us/trans/trans3.png')}}" class="img-fluid">
                 </div>
             </div>
         </div>
         <div class="col pr-0 pt-lg-5 pt-0">
-            <img id="transparency-right-floater" src="{{asset('img/trans5.png')}}" class="img-fluid">
+            <img id="transparency-right-floater" src="{{asset('img/about-us/trans/trans5.png')}}" class="img-fluid">
         </div>
     </div>
     <div class="row  hide-on-med">
         <div id="transparency-right-4" class="col-lg-auto">
-            <img src="{{asset('img/trans4.png')}}" class="img-fluid">
+            <img src="{{asset('img/about-us/trans/trans4.png')}}" class="img-fluid">
         </div>
         <div id="trans-quote-div" class="col-lg-5 m-4">
             <p id="transparency-quote" class="quotes">
@@ -111,14 +111,14 @@
                 </p>
                 <p class="py-2">
                     <button class="btn blue-ibinex-bg btn-primary round-btn linked-in-btn">
-                        <img src="{{asset('img/linked_in.png')}}" /> Linkedin profile
+                        <img src="{{asset('img/about-us/linked_in.png')}}" /> Linkedin profile
                     </button>
                 </p>
             </div>
             <div id="exec-inner-right" class="col-lg-4 order-1 order-lg-3 text-center text-lg-left">
                 <span class="exec-helper"></span>
-                <img src="{{asset('img/taov2.png')}}" class="img-fluid ml-3 mh-100 exec-img" id="circ-pic"/>
-                <div><img src="{{asset('img/circ.png')}}" class="img-fluid" id="circ" /></div>
+                <img src="{{asset('img/about-us/taov2.png')}}" class="img-fluid ml-3 mh-100 exec-img" id="circ-pic"/>
+                <div><img src="{{asset('img/about-us/circ.png')}}" class="img-fluid" id="circ" /></div>
             </div>
             <div class="med-hide col-lg-2 order-4">
                 <!--spacer-->
@@ -142,18 +142,18 @@
                 Ibinex media coverage
             </h2>
             <div id="media-album">
-                <img class="media-img" src="{{asset('img/media1.png')}}" alt="mashable"/>
-                <img class="media-img" src="{{asset('img/media2.png')}}" alt="businsessinsider"/>
-                <img class="media-img" src="{{asset('img/media3.png')}}" alt="huffpost"/>
-                <img class="media-img" src="{{asset('img/media4.png')}}" alt="the wall street journal"/>
-                <img class="media-img" src="{{asset('img/media5.png')}}" alt="usa today"/>
-                <img class="media-img" src="{{asset('img/media6.png')}}" alt="the economist"/>
-                <img class="media-img" src="{{asset('img/media7.png')}}" alt="yahoo finance"/>
-                <img class="media-img" src="{{asset('img/media8.png')}}" alt="the guardian"/>
-                <img class="media-img" src="{{asset('img/media9.png')}}" alt="tech crunch"/>
-                <img class="media-img" src="{{asset('img/media10.png')}}" alt="the new york times"/>
-                <img class="media-img" src="{{asset('img/media11.png')}}" alt="los angeles times"/>
-                <img class="media-img" src="{{asset('img/media12.png')}}" alt="buzzfeed"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media1.png')}}" alt="mashable"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media2.png')}}" alt="businsessinsider"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media3.png')}}" alt="huffpost"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media4.png')}}" alt="the wall street journal"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media5.png')}}" alt="usa today"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media6.png')}}" alt="the economist"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media7.png')}}" alt="yahoo finance"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media8.png')}}" alt="the guardian"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media9.png')}}" alt="tech crunch"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media10.png')}}" alt="the new york times"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media11.png')}}" alt="los angeles times"/>
+                <img class="media-img" src="{{asset('img/about-us/media/media12.png')}}" alt="buzzfeed"/>
             </div>
         </div>
         <div class="col-xl-2"></div>
@@ -279,7 +279,7 @@
 @push('custom-scripts')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-    <script src="{{ asset("js/about-us.js") }}"></script>
+    <script src="{{ asset("js/about-us.min.js") }}"></script>
 @endpush
 
 

@@ -250,7 +250,7 @@ body #fullscreen-hero .gradient-wrapper {
     }
 
     div.footer-buffer {
-        height: 65px;
+        height: 6em;
         background-color: #f2f1f1;
     }
 }
