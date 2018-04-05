@@ -1794,7 +1794,7 @@ p.heading-margin-sm + p{
         min-height: 0vh;
     }
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: 4%;
+        margin-top: -6%;
         margin-bottom: 0%;
     }
     #platform-img-container{
@@ -1865,12 +1865,12 @@ p.heading-margin-sm + p{
         margin-top: -10%;
     }
     section #hero-content {
-        margin-top: -15%;
+        margin-top: 0%;
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         max-width: 50%;
         margin-left: 25%;
-        padding-top: 25%;
+        padding-top: 10%;
     }
     body #fullscreen-hero #hero-content #hero-second-p {
         padding-top: 0%;
