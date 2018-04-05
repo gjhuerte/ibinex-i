@@ -1371,6 +1371,7 @@ body{
     .contact-height{
         height: auto;
         width: 100%;
+        padding-top: 2.6em!important;
     }
 
 }
