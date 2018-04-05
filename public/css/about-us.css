@@ -703,14 +703,11 @@ a.board-arrows:active{
     /*===================  BODY  =======================*/
 
     /*===================  EXTRAS  =======================*/
-    #transparency-left p {
+    #transparency-left p, .exec-desc {
         line-height: 1.75em;
     }
     #transparency-right-floater {
         position: absolute;
-    }
-    #transparency-right-4 {
-        width: 23%;
     }
     #media-coverage-floater{
         height: 113em;
@@ -719,12 +716,6 @@ a.board-arrows:active{
     }
     .media-quotes {
         line-height: 1.3em;
-    }
-    .exec-desc {
-        line-height: 1.75em;
-    }
-    #last-quote {
-        transform: none;
     }
 
     /*===================  FONT     SIZES  =======================*/
@@ -815,10 +806,6 @@ a.board-arrows:active{
     #board-list{
         padding-bottom: 1em;
     }
-    .board-rank {
-        line-height: 1.1em;
-        letter-spacing: 0;
-    }
     #last-quote {
         padding: 3em 0 3.2em 1em;
     }
@@ -881,8 +868,8 @@ a.board-arrows:active{
         font-size: 70px;
     }
     #last-quote {
-         font-size: 120px;
-     }
+        font-size: 120px;
+    }
     /*===================PADDING AND MARGIN=======================*/
     #transparency-left {
         padding: 46em 0.4em 56em 0;
