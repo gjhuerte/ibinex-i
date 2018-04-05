@@ -13,3 +13,17 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css');
+
+mix.styles([
+		'public/css/styles.css',
+		'public/css/footer.css',
+		'public/css/navbar.css',
+		'public/css/styles.css'
+	], 'public/css/all.css');
+
+mix.styles([
+		'public/css/styles.min.css',
+		'public/css/footer.min.css',
+		'public/css/navbar.min.css',
+		'public/css/styles.min.css'
+	], 'public/css/all.min.css');
