@@ -1,5 +1,5 @@
 body #fullscreen-hero {
-    /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
+    background-image: url("https://i.imgur.com/JM0qNPw.png");
 }
 
 body.home-template {
@@ -18,22 +18,44 @@ body.home-template aside{
     align-self:center;
 }
 
+@media all and (min-width: 2250px) {
+    body header#fullscreen-hero {
+        background-size: 100% 79%;
+        background-position: 0rem 0rem;
+        height: 70.5em;
+    }
+
+    body h1.head-h1 {
+        font-size: 3.55em;
+        margin-top: -0.9em;
+        margin-left: -3.87em;
+    }
+
+    body p.description1 {
+        font-size: 1.7em;
+        line-height: 1.7em;
+        letter-spacing: 0.05em;
+        margin-left: -8.1em;
+        margin-top: 1.9em;
+    }
+
+    body button.semi-circle.green {
+        font-size: 1.45em;
+        margin-top: 2.1em;
+        margin-left: -9.5em;
+        padding: 25px 65px;
+    }
+
+    body h2.lap-text1 {
+        font-size: 2.8em;
+        margin-top: 1.5em;
+        margin-left: -4.55em;
+    }
+
+
+}
+
 @media (min-width: 1920px) and (max-width: 1999px) {
-    body #fullscreen-hero {
-        /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
-    }
-
-    body.home-template aside{
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .quote-mark {
-        width:57px;
-        height: 53px;
-        align-self:center;
-    }
-
     body .header-div {
         margin-left: -1em;
         margin-top: 2em;
