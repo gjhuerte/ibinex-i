@@ -1174,10 +1174,6 @@ body{
         margin-right: auto;
         max-width: 62%;
     }
-    #contact-section h2.title{
-        letter-spacing: 4.5px;
-        padding-left: 4.7%;
-    }
 
     #contact-section > div > div.row > div:nth-of-type(1) {
         max-width: 15.7%;
@@ -1381,7 +1377,7 @@ body{
 }
 @media all and (min-width: 2560px) and (max-width: 3539px){
     nav.navCont{
-        font-size: 23.3px;
+        font-size: 22px;
     }
     body #fullscreen-hero nav ul.navbar-nav .nav-item {
         padding: 0 0.67em;
@@ -1513,10 +1509,6 @@ body{
 
     #contact-section{
         font-size: 22px;
-    }
-    #contact-section h2.title{
-        letter-spacing: 4.5px;
-        padding-left: 5%;
     }
 }
 @media all and (min-width: 3540px){
