@@ -795,9 +795,30 @@ body{
 }
 
 @media all and (max-width: 330px){
+
+    section#contact-section.bg-color-grey.py-5.contact-height {
+        padding-top: 0.625em;
+        padding-right: 1.2em;
+    }
+
+    #contact-section h2.title {
+        font-size: 1.5em;
+        margin-right: 0.125em;
+    }
+
+    h6.text-uppercase.heads.fonts {
+        font-size: 0.813em;
+        white-space: nowrap;
+    }
+
+    #contact-section > div > div.row > ul.list-unstyled {
+        margin-bottom: 0.6rem;
+    }
+
     .d-xs-block{
         display: block;
     }
+
     .align-self-center{
         text-align: center;
         padding: 45px ;
