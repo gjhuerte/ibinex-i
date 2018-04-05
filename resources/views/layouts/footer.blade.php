@@ -3,7 +3,7 @@
 
         <div class="col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 text-sm-left text-md-left">
             <header>
-                <h2 class="title text-center pt-2 pb-3" style="letter-spacing: 4.5px; padding-left: 4.7%;">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header text-center"style="padding-top: 10px;">1-800-972-3981</span></h2>
+                <h2 class="title text-center pt-2 pb-3">GIVE US A CALL: <span class="d-xs-block d-sm-block d-md-block d-lg-inline title-header text-center"style="padding-top: 10px;">1-800-972-3981</span></h2>
             </header>
             <div class="row">
                 <div class ="col-xs-12 col-sm-4 col-md-4 col-lg-2">
