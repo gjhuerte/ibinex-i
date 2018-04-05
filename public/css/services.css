@@ -892,6 +892,9 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 45vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 18%;
+    }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 20%;
         max-width: 77%;
@@ -901,11 +904,12 @@ p.heading-margin-sm + p{
         padding-top: 0%;
         max-width: 77%;
         margin-left: 16%;
+        padding-bottom: 18%;
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
         margin-bottom: 0%;
-        margin-top: -10%;
+        margin-top: -16%;
         /*padding-top: 18%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
@@ -943,6 +947,9 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 10%;
+    }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 20%;
         max-width: 77%;
@@ -952,11 +959,12 @@ p.heading-margin-sm + p{
         padding-top: 0%;
         max-width: 77%;
         margin-left: 16%;
+        padding-bottom: 10%;
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
         margin-bottom: 0%;
-        margin-top: -10%;
+        margin-top: -13%;
         /*padding-top: 18%;*/
     }
     #platform-img-container {
@@ -1012,6 +1020,9 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 10%;
+    }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 20%;
         max-width: 77%;
@@ -1021,11 +1032,12 @@ p.heading-margin-sm + p{
         padding-top: 0%;
         max-width: 77%;
         margin-left: 16%;
+        padding-bottom: 10%;
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
         margin-bottom: 0%;
-        margin-top: -10%;
+        margin-top: -13%;
         /*padding-top: 18%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
@@ -1098,7 +1110,7 @@ p.heading-margin-sm + p{
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
         margin-bottom: 0%;
-        margin-top: -15%;
+        margin-top: -19%;
         /*padding-top: 10%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
@@ -1217,6 +1229,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
+        margin-top: -19%;
         /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
@@ -1287,6 +1300,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
+        margin-top: -19%;
         /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
@@ -1338,6 +1352,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 38%;
+        margin-top: -19%;
         /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .inner-lorem .huffpost-bottom {
@@ -1392,6 +1407,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 40%;
+        margin-top: -20%;
         /*padding-top: 8%;*/
     }
     .crm-container #second-section-container .red-ellipse {
@@ -1447,6 +1463,10 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 10%;
+        margin-bottom: -15%;
+    }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
         max-width: 50%;
@@ -1459,6 +1479,7 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content h1.title{
         margin-left: 40%;
+        margin-top: -20%;
         /*padding-top: 8%;*/
     }
     .macbook-img{
@@ -1567,8 +1588,13 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 10%;
+        margin-bottom: -15%;
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
+        margin-top: -18%;
         /*padding-top: 8%;*/
     }
     body #fullscreen-hero #hero-content #hero-first-p {
@@ -1627,8 +1653,13 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 10%;
+        margin-bottom: -15%;
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
+        margin-top: -19%;
         /*padding-top: 8%;*/
     }
     body #fullscreen-hero #hero-content #hero-first-p {
@@ -1685,6 +1716,11 @@ p.heading-margin-sm + p{
 @media only screen and (min-width: 1366px){
     body #fullscreen-hero {
         min-height: 0vh;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        margin-left: 0%;
+        margin-top: -13%;
+        /* padding-top: 8%; */
     }
     .m-bot-30{
         margin: 20px 0;
@@ -1793,6 +1829,9 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 5%;
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-top: -6%;
         margin-bottom: 0%;
@@ -1880,7 +1919,10 @@ p.heading-margin-sm + p{
 
 @media only screen and (min-width: 1920px){
     body #fullscreen-hero {
-        min-height: 50vh;
+        min-height: 47.5vh;
+    }
+    body #fullscreen-hero #hero-content {
+        margin-top: 10%;
     }
     body #fullscreen-hero #hero-content h1.title {
         margin-top: -10%;
@@ -2269,6 +2311,11 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content {
         margin-top: 5%;
+    }
+    body #fullscreen-hero #hero-content #hero-first-p {
+        max-width: 80%;
+        margin-left: 10%;
+        padding-top: 4%;
     }
     #platform-img-container {
         background-image: url(../img/l1.png);

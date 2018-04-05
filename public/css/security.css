@@ -24,6 +24,7 @@ article {
 }
 .second-section {
     background-color: rgb(231,251,248);
+    padding-bottom: 170px;
 }
 .security-width {
     max-width: 1020px;
@@ -73,12 +74,14 @@ body p {
         word-spacing: 0px;
     }
     p.para3 {
-        margin-top: 4px;
-        margin-left: -22px;
+        margin-top: 27px;
+        margin-left: -20px;
+        line-height: 21pt;
+        word-spacing: 0px;
     }
     h1#subtitle_2 {
-        margin-left: 22px;
-        margin-top: 83px;
+        margin-left: 23px;
+        margin-top: 77px;
         font-size: 35px!important;
         word-spacing: -2px;
     }
@@ -86,36 +89,38 @@ body p {
         padding: 4px;
         margin-right: -65px;
         margin-left: 20px;
-        margin-top: -6px;
+        margin-top: -1px;
         line-height: 21pt;
     }
     p.para5 {
-        margin-top: 20px;
+        margin-top: 25px;
         margin-right: -68px;
-        margin-left: 20px;
+        margin-left: 23px;
         word-spacing: 1px;
         line-height: 21pt;
     }
     h1.subtitle.blackinf {
-        margin-left: -22px;
-        margin-top: -5px;
+        margin-left: -21px;
+        margin-top: 6px;
         font-size: 35px!important;
+        word-spacing: -5px;
     }
     p.para6 {
-        margin-left: -22px;
-        margin-top: 0px;
-        line-height: 21pt;
+        margin-left: -20px;
+        word-spacing: 0px;
+        margin-top: 18px;
+        line-height: 23pt;
     }
     h1#privacy {
-        margin-left: -22px;
+        margin-left: -20px;
         font-size: 35px!important;
-        margin-top: 43px;
+        margin-top: 33px;
     }
     p.para7 {
-        margin-left: -22px;
-        margin-top: 24px;
-        line-height: 21pt;
-        word-spacing: 2px;
+        margin-left: -20px;
+        margin-top: 19px;
+        line-height: 22pt;
+        word-spacing: 3px;
     }
     body #fullscreen-hero #hero-content p.description {
         margin-bottom: 47px;
@@ -347,7 +352,7 @@ body p {
         margin-top: 47px;
     }
     .second-section {
-        padding-bottom: 15px;
+        padding-bottom: 55px;
     }
     .security-section {
         display: block;
@@ -464,10 +469,10 @@ body p {
     .security-section {
         display: block;
         position:absolute;
-        height: 131%;
+        height: 128%;
         width: 49%;
-        right: 2px;
-        top: -29%;
+        right: 3px;
+        top: -26%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
