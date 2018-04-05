@@ -192,7 +192,7 @@
             <section id="downloadables" class="d-flex justify-content-around flex-wrap">
                 <!-- FIRST ROW START -->
 
-                <div class="col-md-6 brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img1" src="{{ asset('img/b1.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85)">Business Model</h2>
@@ -200,7 +200,7 @@
                     <button class="semi-circle green-brochure bro-btn-1">Download</button>
                 </div>
 
-                <div class="col-md-6 brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img2" src="{{ asset('img/b2.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54)">One Page Brochure</h2>
@@ -208,7 +208,7 @@
                     <button class="semi-circle green-brochure bro-btn-2">Download</button>
                 </div>
 
-                <div class="col-md-6 brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img3" src="{{ asset('img/b3.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74)">Custodian Guidelines</h2>
@@ -218,7 +218,7 @@
                 <!-- FIRST ROW END -->
                 <!-- SECOND ROW START -->
 
-                <div class="col-md-6 brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img4" src="{{ asset('img/b4.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92)">Pricing Model</h2>
@@ -226,7 +226,7 @@
                     <button class="semi-circle green-brochure bro-btn-4">Download</button>
                 </div>
 
-                <div class="col-md-6 brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img5" src="{{ asset('img/b5.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129)">Terms & Conditions</h2>
@@ -234,7 +234,7 @@
                     <button class="semi-circle green-brochure bro-btn-5">Download</button>
                 </div>
 
-                <div class="col-md-6 brochures text-center">
+                <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img6" src="{{ asset('img/b6.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134)">KYC & AML Requirements</h2>
