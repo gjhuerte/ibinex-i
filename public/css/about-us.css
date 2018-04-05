@@ -421,6 +421,16 @@ a.board-arrows:active{
 }
 
 @media all and (min-width:1200px){
+    body #fullscreen-hero {
+        background-position: center top;
+    }
+    body #fullscreen-hero #hero-content {
+        padding: 7.5em 0 8.9em 0;
+    }
+    body #fullscreen-hero #hero-content p.description {
+        margin-top: 23px;
+        line-height: 1.4em;
+    }
     .med-hide{
         display: block;
     }
@@ -479,16 +489,6 @@ a.board-arrows:active{
         font-size: 1.9em;
         transform: translate(22px,12px);
         padding-bottom: 1.2em;
-    }
-    body #fullscreen-hero {
-        background-position: center top;
-    }
-    body #fullscreen-hero #hero-content {
-        padding: 7.5em 0 8.9em 0;
-    }
-    body #fullscreen-hero #hero-content p.description {
-        margin-top: 23px;
-        line-height: 1.4em;
     }
 }
 
@@ -933,8 +933,8 @@ a.board-arrows:active{
         margin-top: 10.5em;
     }
     #advisory-board {
-        padding-top: 13.6em;
-    }
+        padding-top: 13.6em; 
+   }
     #board-box {
         padding-top: 12.5em;
     }
