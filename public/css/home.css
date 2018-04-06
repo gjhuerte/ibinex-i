@@ -22,6 +22,11 @@ body.home-template aside{
     display: none !important;
 }
 
+body div.ex-quote1 {
+    opacity: 1 !important;
+    transform: translate(-1em,7em);
+}
+
 @media all and (min-width: 2600px) {
     body .position-relative .embed-parent-wrap .embed-image.halfed {
         width: 76%;
@@ -158,7 +163,6 @@ body.home-template aside{
 
     body .lap-text6 {
         font-size: 1em;
-        font-weight: 100;
         transform: translate(0.1em, -0.7em);
         letter-spacing: .009em;
     }
@@ -449,8 +453,6 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent-wrap .embed-image {
-        background-size: auto 100%;
-        background-position: top;
         min-height: 332px;
         margin-top: -8.3em;
     }
@@ -516,7 +518,7 @@ body.home-template aside{
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
     body #fullscreen-hero {
         background-repeat: no-repeat!important;
         background-size: 91em!important;
@@ -714,6 +716,10 @@ body.home-template aside{
         letter-spacing: -0.4px!important;
     }
 
+    body div.ex-quote1 {
+        transform: none;
+    }
+
     body .position-relative .embed-parent-wrap .ex-image1 {
         background-size: 100% 89.2%!important;
         background-position: 1.2em 8.7em!important;
@@ -744,7 +750,11 @@ body.home-template aside{
     }
 
     body h2.ex-h2-3 {
-        display: none!important;
+        font-size: 0.75em!important;
+        margin-left: 0.6em!important;
+        margin-top: -3.2em!important;
+        letter-spacing: 0.3px!important;
+        line-height: 1.7em!important;
     }
 
     body div.ex-col {
@@ -1086,7 +1096,6 @@ body.home-template aside{
     body section.cov-sec-1 {
         margin-bottom: 3.2em!important;
     }
-
 
 }
 
