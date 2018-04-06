@@ -776,7 +776,7 @@ section#technology {
     }
     body #fullscreen-hero #hero-content p.description{
         width: 100%;
-        font-size: 23px;
+        font-size: 22.5px!important;
         padding: -20px;
         border: 0px solid black;
         padding: 0em 5em;
