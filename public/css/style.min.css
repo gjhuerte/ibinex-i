@@ -319,6 +319,7 @@ body .gradient-wrapper{
     }
     body #fullscreen-hero .navbar {
         margin-top: 8%;
+        z-index: 99;
     }
 }
 @media all and (min-width: 992px){
