@@ -63,7 +63,7 @@
 @endpush
 
 @section('body-class','contact')
-@section('bg-img','why-ibinex/bg.webp')
+@section('bg-img','why-ibinex/bg.png')
 @section('content')
     <div id="first-fold" class="container spacer">
         <div class="row max-width-none">
@@ -71,7 +71,7 @@
                 <span class="d-lg-block">Ibinex</span>
             </h2>
             <p class="col-sm-12 text-center first-fold-p">Our strategy is underpinned by the 4 core strengths of Ibinex:</p>
-            <div class="container overflow-remover">
+            <div class="container overflow-remover">png
                 <div class="row row-core">
                      <div class="col-lg-3 {{--col-md-5--}}col-s-12 core-left">
                         <div class="core-div">
@@ -89,7 +89,7 @@
                     </div><!--col-->
 
 
-                    <img class="col-lg-5 {{--col-md-12--}}d-none d-lg-block pc" src="{{asset('img/why-ibinex/pc.webp')}}" alt="pc image">
+                    <img class="col-lg-5 {{--col-md-12--}}d-none d-lg-block pc" src="{{asset('img/why-ibinex/pc.png')}}" alt="pc image">
 
 
 
@@ -114,7 +114,7 @@
     <div id="second-fold" class="container-fluid remover">
         <div id="our-vision" class="row position-relative max-width-none overflow-remover">
             <div class="col-xs-12 blocktext-background"> <!--content--></div>
-            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/why-ibinex/hand.webp')}}" alt="typing hand">
+            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/why-ibinex/hand.png')}}" alt="typing hand">
             <div class="block">
                 <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
                 <p class="blocktext blocktext-p1">
