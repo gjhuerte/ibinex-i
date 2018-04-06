@@ -20,7 +20,7 @@
 
 @section('body-class','home')
 {{--@section('header-height','full-height')--}}
-@section('bg-img','home-cover.png')
+@section('bg-img','home-cover.webp')
 
 @push('custom-scripts')
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
@@ -72,9 +72,7 @@
                 <h2 class="title text-left text-center-sm lap-text1">Ibinex - The Gateway to your Own</h2>
                 <h2 class="title text-left text-center-sm lap-text2">Customised Cryptocurrency Ecosystem</h2>
                 <h2 class="title text-left text-center-sm lap-text9">Ibinex - The Gateway to your Own Customised Cryptocurrency Ecosystem</h2>
-                <p class="text-justify pt-2 ws-5 lap-p1">With an in-depth understanding of evolving blockchain
-                    technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable,
-                    private, institutional white label platform. Trailblazing turnkey solutions to merge with
+                <p class="text-justify pt-2 eco-desc lap-p1">With an in-depth understanding of evolving blockchain technology and cryptocurrency development, Ibinex invite you to engage with a fully-customisable, private, institutional white label platform. Trailblazing turnkey solutions to merge with
                     your own web-based platform, Ibinex, will show you definitely how to build a cryptocurrency exchange, your way.</p>
             </div>
         </section>
@@ -90,7 +88,7 @@
                         <h2 class="title text-left text-center-sm lap-text3">Exchange your Way with Ibinex.</h2><br>
                         <h2 class="title text-left text-center-sm lap-text4">Your Turn-Key Solution Includes:</h2>
                     </div>
-                    <div id="exchange" class="d-lg-none">
+                    <div class="d-lg-none">
                         <span>Exchange your Way with Ibinex.
                         Your Turn-Key Solution Includes:</span>
                     </div>
@@ -98,19 +96,12 @@
 
                 <section class="pt-4">
                     <h2 class="lap-text5 sub-title blue bold">Tailored Front End content website</h2>
-                    <p class="lap-text6 description text-justify pt-1 ws-5">Ibinex provide you with a tailored front-end
-                        website with a fully-integrated web-based trading platform and Content Management System (CMS).
-                        Offering you flexible front-end user trading, while preserving the personal touch for your
-                        brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
+                    <p class="lap-text6 sub-description text-justify pt-1 ws-5">Ibinex provide you with a tailored front-end website with a fully-integrated web-based trading platform and Content Management System (CMS). Offering you flexible front-end user trading, while preserving the personal touch for your brand, the Ibinex solution showcases enhanced practicality and performance driven features.</p>
                 </section>
 
                 <section class="mt-5 pt-1">
                     <h2 class="lap-text7 sub-title blue bold">Full CRM & Back Office Solution</h2>
-                    <p class="lap-text8 description text-justify pt-2 ws-5">The Ibinex ecosystem assimilates a com&shy;plete
-                        Customer Relationship Manage&shy;ment (CRM) as a complement to your web based exchange platform.
-                        This includes KYC/AML documentation collection and verification, and account & money man&shy;agement.
-                        The result is an effortless back office administration workflow and smooth UI/UX for your
-                        customers.</p>
+                    <p class="lap-text8 sub-description text-justify pt-2 ws-5">The Ibinex ecosystem assimilates a com&shy;plete Customer Relationship Manage&shy;ment (CRM) as a complement to your web based exchange platform. This includes KYC/AML documentation collection and verification, and account & money man&shy;agement. The result is an effortless back office administration workflow and smooth UI/UX for your customers.</p>
                 </section>
 
             </div>
@@ -128,27 +119,18 @@
             <div class="col-xl-6 order-xl-1 ex-div1">
                 <section class="pt-3">
                     <h2 class="sub-title blue bold title-1 ex-h2-1">Aggregated Liquidity Exchange</h2>
-                    <p class="description text-justify ex-p1">Connect with Ibinex and receive coveted access to an
-                        unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges
-                        for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading
-                        exchange market for the most in-demand cryptocurrencies and never miss the opportunity to
-                        benefit from liquidity as trends shift.</p>
+                    <p class="sub-description text-justify ex-p1">Connect with Ibinex and receive coveted access to an unprecedented first-tier array of "Top of the Book" API bridges from over 60 leading exchanges for hundreds of cryptocurrencies. By monitoring the Ibinex stream, you can become a leading exchange market for the most in-demand cryptocurrencies and never miss the opportunity to benefit from liquidity as trends shift.</p>
                 </section>
 
-                <section class="pt-4">
+                <section id="fourth-inner-2" class="pt-4">
                     <h2 class="sub-title blue bold title-2 ex-h2-2">Complete processing solution</h2>
-                    <p class="description text-justify pt-1 ex-p2">With our thriving network of exclusive partners,
-                        Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive
-                        payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and
-                        sold and turbocharging the possibilities for your exchange to thrive in maximum liquidity.</p>
+                    <p class="sub-description text-justify pt-1 ex-p2">With our thriving network of exclusive partners, Ibinex is changing the game for cryptocurrency payment processing. We bring you exclusive payment solutions unavailable elsewhere, truly revolutionising the way that crypto is bought and sold and turbocharging the possibilities for your exchange to thrive in maximum liquidity.</p>
                 </section>
             </div>
 
 
             <aside class="col-xl-6 order-xl-12 embed-parent-wrap top right ex-image">
-                <div class="embed-image ex-image1" style="background-image: url('{{ asset("img/home-card.png") }}');">
-                    &nbsp;
-                </div>
+                <div class="embed-image ex-image1" style="background-image: url('{{ asset("img/home-card.webp") }}');">&nbsp;</div>
                 <div class="embed-blue-wrap shadow">
                     <div class="faButton top-half red-button shadow d-flex justify-content-center ex-quote">
                         <img src="{{ asset('img/quote-mark.png') }}" alt="Quotation Mark" class="quote-mark">
@@ -171,35 +153,31 @@
                 <div class="col-xl-6 order-xl-2 ex-col">
                     <section class="pt-4">
                         <h2 class="sub-title blue bold sm-title-lh ex-h2-3">Compliant Banking Custodian Service</h2>
-                        <h2 class="sub-title blue bold sm-title-lh ex-h2-7">Compliant Banking Custodian service</h2>
-                        <p class="description text-justify pt-2 ex-p5">Ibinex is the first ever cryptocurrency ex&shy;change
-                            platform in the world that has a finance transaction license. We can offer fully-compliant
-                            and licensed custo&shy;dian processing and accounts, or you can choose to operate with your
-                            own custodian. Ibinex is licensed to facilitate pay&shy;ments via swipe-and-transmit from
-                            FIAT to a base currency. This preferred solution is unavailable to the bigger crypto&shy;currency
-                            exchanges, and is only offered by Ibinex.</p>
+                        <p class="sub-description text-justify pt-2 ex-p5">Ibinex is the first ever cryptocurrency ex&shy;change platform in the world that has a finance transaction license. We can offer fully-compliant and licensed custo&shy;dian processing and accounts, or you can choose to operate with your own custodian. Ibinex is licensed to facilitate pay&shy;ments via swipe-and-transmit from FIAT to a base currency. This preferred solution is unavailable to the bigger crypto&shy;currency exchanges, and is only offered by Ibinex.</p>
                     </section>
 
-                    <section class="pt-4">
+                    <section id="fifth-inner-2" class="pt-4">
                         <h2 class="sub-title blue bold sm-title-lh pt-2 ex-h2-4">Hosted in a secure private cloud environment</h2>
-                        <p class="description text-justify pt-1 ex-p6">Security is a 360 degree operation, with the
-                            Ibinex platform guarded 24/7 in a pri&shy;vate cloud and crypto-based funds held in shielded
-                            cold wallets. Cyber security ex&shy;perts maintain and defend the platform. While cold
-                            wallets containing funds are im&shy;pregnable, offline, and safely out of unau&shy;thorised
-                            reach.</p>
+                        <p class="sub-description text-justify pt-1 ex-p6">Security is a 360 degree operation, with the Ibinex platform guarded 24/7 in a pri&shy;vate cloud and crypto-based funds held in shielded cold wallets. Cyber security ex&shy;perts maintain and defend the platform. While cold wallets containing funds are im&shy;pregnable, offline, and safely out of unau&shy;thorised reach.</p>
                     </section>
 
-                    <section class="pt-4">
-                        <h2 class="sub-title blue bold sm-title-lh ex-h2-5">Our Vision</h2>
+                    <section id="fifth-inner-3" class="pt-4">
+                        <h2 id="our-vision" class="sub-title blue bold sm-title-lh ex-h2-5">Our Vision</h2>
                     </section>
+                </div>
+                
+                <div id="vision-box" class="hide-on-lg position-relative">
+                    <a href="#" class="round-button">
+                        <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
+                    </a>
+                    <img id="vision-img" src="{{asset('img/pogi.webp')}}" alt="our-vision"/>
                 </div>
 
                 <div class="col-xl-6 order-xl-1 d-none d-lg-block d-xl-block" style=""></div>
             </section>
 
-            <aside class="col-xl-6 order-xl-1 embed-parent-wrap left ex-wrap">
-                <div class="embed-image halfed shadow ex-image2"
-                     style="background-image: url('{{ asset("img/pogi.png") }}');">
+            <aside class="hide-on-sml col-xl-6 order-xl-1 embed-parent-wrap left ex-wrap">
+                <div class="embed-image halfed shadow ex-image2" style="background-image: url('{{ asset("img/pogi.webp") }}');">
                     <div class="playButton faButton raise-half blue-button shadow d-flex justify-content-center ex-quote1">
                         <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
                     </div>
@@ -212,8 +190,8 @@
     <!--5 -->
     <section id="sixth-fold" class="container-fluid bg-color-grey py-5 ex-sec2">
         <header class="title-section text-center">
-            <h2 class="sub-title grey bold ex-h2-6">Learn more about Ibinex</h2>
-            <h1 class="title black smaller bold ex-h1">Technical Papers & Legal Circular</h1>
+            <h2 id="sixth-title-1" class="sub-title grey bold ex-h2-6">Learn more about Ibinex</h2>
+            <h1 id="sixth-title-2" class="title black smaller bold ex-h1">Technical Papers & Legal Circular</h1>
         </header>
         <section class="row slide text-center d-none d-md-block bro-sec">
 
@@ -222,7 +200,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img1" src="{{ asset('img/b1.png')}}" alt="Brochure"/>
+                    <img class="bro-img1" src="{{ asset('img/b1.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p class="bro-p-1">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-1">Download</button>
@@ -230,7 +208,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img2" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
+                    <img class="bro-img2" src="{{ asset('img/b2.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54)">One Page Brochure</h2>
                     <p class="bro-p-2">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-2">Download</button>
@@ -238,7 +216,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img3" src="{{ asset('img/b3.png')}}" alt="Brochure"/>
+                    <img class="bro-img3" src="{{ asset('img/b3.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74)">Custodian Guidelines</h2>
                     <p class="bro-p-3">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-3">Download</button>
@@ -248,7 +226,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img4" src="{{ asset('img/b4.png')}}" alt="Brochure"/>
+                    <img class="bro-img4" src="{{ asset('img/b4.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92)">Pricing Model</h2>
                     <p class="bro-p-4">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-4">Download</button>
@@ -256,7 +234,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img5" src="{{ asset('img/b5.png')}}" alt="Brochure"/>
+                    <img class="bro-img5" src="{{ asset('img/b5.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129)">Terms & Conditions</h2>
                     <p class="bro-p-5">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-5">Download</button>
@@ -264,7 +242,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img6" src="{{ asset('img/b6.png')}}" alt="Brochure"/>
+                    <img class="bro-img6" src="{{ asset('img/b6.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134)">KYC & AML Requirements</h2>
                     <p class="bro-p-6">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-6">Download</button>
@@ -278,57 +256,56 @@
 
             <div id="downloadables" class="carousel-inner">
 
-
                 <!-- FIRST ROW START -->
 
                 <div class="carousel-item text-center active">
                     <!-- 1 -->
-                    <img class="bro-img1" src="{{ asset('img/b1.png')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img1" src="{{ asset('img/b1.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Business Model</h2>
                     <p class="bro-p-1" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure bro-btn-1">Download</button>
+                    <button class="carousel-btn semi-circle green-brochure bro-btn-1">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="bro-img2" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img2" src="{{ asset('img/b2.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">One Page Brochure</h2>
                     <p class="bro-p-2" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure bro-btn-2">Download</button>
+                    <button class="carousel-btn semi-circle green-brochure bro-btn-2">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="bro-img3" src="{{ asset('img/b3.png')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img3" src="{{ asset('img/b3.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Custodian Guidelines</h2>
                     <p class="bro-p-3" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure bro-btn-3">Download</button>
+                    <button class="carousel-btn semi-circle green-brochure bro-btn-3">Download</button>
                 </div>
                 <!-- FIRST ROW END -->
                 <!-- SECOND ROW START -->
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="bro-img4" src="{{ asset('img/b4.png')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img4" src="{{ asset('img/b4.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Pricing Model</h2>
                     <p class="bro-p-4" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure bro-btn-4">Download</button>
+                    <button class="carousel-btn semi-circle green-brochure bro-btn-4">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="bro-img5" src="{{ asset('img/b5.png')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img5" src="{{ asset('img/b5.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Terms & Conditions</h2>
                     <p class="bro-p-5" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure bro-btn-5">Download</button>
+                    <button class="carousel-btn semi-circle green-brochure bro-btn-5">Download</button>
                 </div>
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="bro-img6" src="{{ asset('img/b6.png')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img6" src="{{ asset('img/b6.webp')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">KYC & AML Requirements</h2>
                     <p class="bro-p-6" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
-                    <button class="semi-circle green-brochure bro-btn-6">Download</button>
+                    <button class="carousel-btn semi-circle green-brochure bro-btn-6">Download</button>
                 </div>
                 <!-- SECOND ROW END -->
 
@@ -348,15 +325,15 @@
     </section>
     <section id="seventh-fold" class="text-center my-5 cov-sec-1">
         <header>
-            <h1 class="title black smaller bold cov-h1-1">Ibinex Media Coverage</h1>
+            <h1 id="media-title" class="title black smaller bold cov-h1-1">Ibinex Media Coverage</h1>
         </header>
         <section id="logo" class="container-fluid col-sm-10 mt-5">
-            <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
-            <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
-            <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
-            <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
-            <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
-            <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
+           <img alt="ibinex-media" class="media-img col-6 col-sm-5 col-md-4 flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
+           <img alt="ibinex-media" class="media-img col-6 col-sm-5 col-md-4 flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
+           <img alt="ibinex-media" class="media-img col-6 col-sm-5 col-md-4 flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
+           <img alt="ibinex-media" class="media-img col-6 col-sm-5 col-md-4 flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
+           <img alt="ibinex-media" class="media-img col-6 col-sm-5 col-md-4 flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
+           <img alt="ibinex-media" class="media-img col-6 col-sm-5 col-md-4 flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
         </section>
     </section>
 @endsection
