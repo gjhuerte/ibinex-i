@@ -881,6 +881,7 @@ body{
     body footer .height-foot{
         left: 0;
         padding-left: 16px;
+        margin-top: 21px;
     }
     body footer .ibinex-footA{
         padding-left: 6px;
@@ -983,9 +984,49 @@ body{
     }
 }
 
-@media all and (min-width: 401px) and (max-width: 490px){
+@media all and (max-width: 360px){
+
+    #contact-section h2.title {
+        letter-spacing: 4.4px;
+        font-size: 23px;
+        color: #0b1b28;
+        margin-top: -37px;
+        margin-right: -4px;
+        margin-bottom: 12px;
+    }
+    .align-self-center {
+        text-align: center;
+        margin-top: 35px;
+        padding-top: 47px;
+        margin-right: 5px;
+    }
+
+    .property {
+        padding-top: 7px;
+        margin-top: 25px;
+        font-size: 11px;
+        padding-bottom: 15%;
+        margin-bottom: 0;
+    }
+    body footer .pad-top {
+        padding-top: 83px;
+    }
+
+
+}
+
+@media all and (min-width: 361px) and (max-width: 412px){
     .d-sm-block{
         display: block;
+    }
+
+    #contact-section h2.title {
+        letter-spacing: 4.4px;
+        font-size: 23px;
+        color: #0b1b28;
+        margin-top: -37px;
+        margin-right: -4px;
+        margin-bottom: 12px;
     }
     .align-self-center{
         text-align: center;
@@ -1012,6 +1053,7 @@ body{
     .property {
         padding-bottom: 13%;
         margin-bottom: 0;
+        font-size: 13px;
     }
 }
 
