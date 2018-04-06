@@ -499,7 +499,7 @@ p.heading-margin-sm + p{
         top: 44%;
     }
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -30%;
+        margin-top: -33%;
         margin-bottom: 15%;
         font-size: 45px;
     }
@@ -524,16 +524,16 @@ p.heading-margin-sm + p{
 }
 @media (min-height: 740px) and (min-width: 360px) {
     body #fullscreen-hero #hero-content {
-        margin-top: -40%;
+        margin-top: -35%;
     }
 }
 
 @media only screen and (min-width: 375px) {
     body #fullscreen-hero #hero-content {
-        margin-top: -48%;
+        margin-top: -25%;
     }
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -23%;
+        margin-top: -33%;
         margin-bottom: 5%;
         font-size: 45px;
     }
@@ -567,10 +567,10 @@ p.heading-margin-sm + p{
 
 @media (min-height: 812px) and (min-width: 375px) {
     body #fullscreen-hero #hero-content {
-        margin-top: -30%;
+        margin-top: -8%;
     }
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -35%;
+        margin-top: -45%;
         margin-bottom: 5%;
         font-size: 50px;
     }
@@ -583,6 +583,9 @@ p.heading-margin-sm + p{
 }
 
 @media only screen and (min-width: 411px){
+    body #fullscreen-hero #hero-content {
+        margin-top: -55%;
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-top: -20%;
         margin-bottom: 5%;
@@ -617,7 +620,7 @@ p.heading-margin-sm + p{
 
 @media only screen and (min-width: 414px){
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -23%;
+        margin-top: -33%;
         margin-bottom: 5%;
         font-size: 48px;
     }
@@ -650,10 +653,10 @@ p.heading-margin-sm + p{
 }
 @media (min-height: 846px) and (min-width: 414px) {
     body #fullscreen-hero #hero-content {
-        margin-top: -55%;
+        margin-top: -30%;
     }
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -23%;
+        margin-top: -33%;
         margin-bottom: 5%;
         font-size: 48px;
     }
@@ -703,10 +706,10 @@ p.heading-margin-sm + p{
 
 @media only screen and (min-width: 480px) {
     body #fullscreen-hero #hero-content {
-        margin-top: -44%;
+        margin-top: -32%;
     }
     body #fullscreen-hero #hero-content h1.title {
-        margin-top: -22%;
+        margin-top: -27%;
         margin-bottom: 5%;
         font-size: 50px;
     }
