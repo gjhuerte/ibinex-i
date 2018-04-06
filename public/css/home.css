@@ -18,6 +18,14 @@ body.home-template aside{
     align-self:center;
 }
 
+@media all and (min-width: 2600px) {
+    body .position-relative .embed-parent-wrap .embed-image.halfed {
+        width: 76%;
+        position: relative;
+        min-height: 62.3vh;
+    }
+}
+
 @media all and (min-width: 1920px) {
     body #fullscreen-hero {
         /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
