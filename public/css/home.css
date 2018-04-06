@@ -1177,7 +1177,7 @@ body div.ex-quote1 {
         padding-right: 0;
     }
     body #fullscreen-hero{
-        background-position: 38% 1em;
+        background-position: 38% bottom;
     }
     #hero-content {
         padding: 4.5em 0 !important;
