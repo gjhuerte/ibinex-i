@@ -1,3 +1,5 @@
+Kevin Edited
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i');
@@ -794,7 +796,103 @@ body{
     font-weight: 600;
 }
 
-@media all and (max-width: 400px){
+@media all and (min-width: 320px){
+
+    .d-xs-block {
+        display: block;
+        margin-right: 11px;
+        margin-top: 9px;
+    }
+
+    #contact-section h2.title {
+        letter-spacing: 4.4px;
+        font-size: 23px;
+        color: #0b1b28;
+        margin-top: -37px;
+        margin-right: -4px;
+        margin-bottom: 12px;
+    }
+
+    .list-unstyled {
+        margin-bottom: 8px;
+    }
+
+    #contact-section > div > div.row > div:nth-of-type(1) {
+        margin-top: 0px;
+        margin-left: -2px;
+    }
+    #contact-section > div > div.row > div:nth-of-type(2) {
+        margin-top: -2px;
+        margin-left: -2px;
+    }
+    #contact-section > div > div.row > div:nth-of-type(3) {
+        margin-top: 4px;
+        margin-left: -2px;
+    }
+    #contact-section > div > div.row > div:nth-of-type(4) {
+        margin-top: 9px;
+        margin-left: -2px;
+    }
+    #contact-section > div > div.row > div:nth-of-type(5) {
+        margin-top: -4px;
+        margin-left: -2px;
+    }
+    #contact-section > div > div.row > div:nth-of-type(6) {
+        margin-top: -3px;
+        margin-left: -2px;
+    }
+
+    .align-self-center {
+        text-align: center;
+        margin-top: 35px;
+        padding-top: 47px;
+        margin-right: 5px;
+    }
+
+    .property {
+        padding-top: 7px;
+        margin-top: 25px;
+        font-size: 11px;
+        padding-bottom: 15%;
+        margin-bottom: 0;
+    }
+
+    body footer div .alignment {
+        text-align: left;
+        margin-top: 2px;
+    }
+
+    body footer .pad-top{
+        padding-top: 84px;
+        padding-left: 2px;
+        margin-top: 9px;
+        line-height: 31px;
+    }
+
+    footer p.pad-bot {
+        margin-top: -8px;
+        padding-bottom: 7px;
+    }
+
+    body footer .column2{
+        padding-top: 5px;
+        padding-left: 16px;
+    }
+    body footer .height-foot{
+        left: 0;
+        padding-left: 16px;
+    }
+    body footer .ibinex-footA{
+        padding-left: 6px;
+    }
+    body footer .pad-left-div {
+        padding-left: 5px;
+    }
+
+
+}
+
+@media all and (min-width: 331px)(max-width: 400px){
 
     section#contact-section.bg-color-grey.py-5.contact-height {
         padding-top: 0.625em !important;
@@ -802,8 +900,9 @@ body{
     }
 
     #contact-section h2.title {
+        letter-spacing: 4.4px;
         font-size: 1.5em;
-        margin-right: 0.125em;
+        margin-right: -8px;
     }
 
     h6.text-uppercase.heads.fonts {
@@ -822,7 +921,7 @@ body{
     }
 
     #contact-section > div > div.row > ul.list-unstyled {
-        margin-bottom: 0.6rem;
+        margin-top: 1px;
     }
 
     #contact-section > div > div.row > div:nth-of-type(5) {
@@ -869,7 +968,9 @@ body{
     body footer .column2{
         padding-top: 35px;
         padding-left: 16px;
+        margin-bottom: 0;
     }
+
     body footer .height-foot{
         left: 0;
         padding-left: 16px;
@@ -1155,6 +1256,7 @@ body{
     }
 
 }
+
 
 @media all and (min-width: 1920px){
     .mainCont{
