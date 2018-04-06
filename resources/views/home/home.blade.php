@@ -88,7 +88,7 @@
                         <h2 class="title text-left text-center-sm lap-text3">Exchange your Way with Ibinex.</h2><br>
                         <h2 class="title text-left text-center-sm lap-text4">Your Turn-Key Solution Includes:</h2>
                     </div>
-                    <div class="d-lg-none">
+                    <div id="exchange" class="d-lg-none">
                         <span>Exchange your Way with Ibinex.
                         Your Turn-Key Solution Includes:</span>
                     </div>
@@ -323,12 +323,12 @@
             <h1 class="title black smaller bold cov-h1-1">Ibinex Media Coverage</h1>
         </header>
         <section id="logo" class="container-fluid col-sm-10 mt-5">
-           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
-           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
-           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
-           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
-           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
-           <img alt="" class="col-6 col-sm-5 col-md-4 flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-1" src="{{ asset("img/logo/logo-1.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-2" src="{{ asset("img/logo/logo-2.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-3" src="{{ asset("img/logo/logo-3.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-4" src="{{ asset("img/logo/logo-4.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-5" src="{{ asset("img/logo/logo-5.png") }}">
+           <img alt="" class="col-8 col-sm-5 col-md-4 flexed-image cov-img-6" src="{{ asset("img/logo/logo-6.png") }}">
         </section>
     </section>
 @endsection

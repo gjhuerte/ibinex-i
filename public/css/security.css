@@ -24,6 +24,7 @@ article {
 }
 .second-section {
     background-color: rgb(231,251,248);
+    padding-bottom: 170px;
 }
 .security-width {
     max-width: 1020px;
@@ -41,6 +42,7 @@ article {
 body p {
     margin-top: 7px;
 }
+
 /*** Media Queries as per chrome dev tool ***/
 @media (min-width: 1200px) {
     body #fullscreen-hero {
@@ -55,26 +57,31 @@ body p {
     }
     h1#subtitle_1 {
         margin-left: -22px;
-        margin-top: 83px;
+        margin-top: 77px;
         font-size: 35px!important;
         word-spacing: -2px;
     }
     p.para1 {
-        margin-left: -22px;
+        margin-left: -20px;
         word-spacing: -1px;
-        margin-top: -37px;
+        margin-top: -34px;
+        line-height: 22pt;
     }
     p.para2 {
-        margin-top: 4px;
-        margin-left: -22px;
+        margin-top: 24px;
+        margin-left: -20px;
+        line-height: 21pt;
+        word-spacing: 0px;
     }
     p.para3 {
-        margin-top: 4px;
-        margin-left: -22px;
+        margin-top: 27px;
+        margin-left: -20px;
+        line-height: 21pt;
+        word-spacing: 0px;
     }
     h1#subtitle_2 {
-        margin-left: 22px;
-        margin-top: 83px;
+        margin-left: 23px;
+        margin-top: 77px;
         font-size: 35px!important;
         word-spacing: -2px;
     }
@@ -82,36 +89,38 @@ body p {
         padding: 4px;
         margin-right: -65px;
         margin-left: 20px;
-        margin-top: 9px;
+        margin-top: -1px;
         line-height: 21pt;
     }
     p.para5 {
-        margin-top: 20px;
+        margin-top: 25px;
         margin-right: -68px;
-        margin-left: 20px;
+        margin-left: 23px;
         word-spacing: 1px;
         line-height: 21pt;
     }
     h1.subtitle.blackinf {
-        margin-left: -22px;
-        margin-top: -5px;
+        margin-left: -21px;
+        margin-top: 6px;
         font-size: 35px!important;
+        word-spacing: -5px;
     }
     p.para6 {
-        margin-left: -22px;
-        margin-top: 0px;
-        line-height: 21pt;
+        margin-left: -20px;
+        word-spacing: 0px;
+        margin-top: 18px;
+        line-height: 23pt;
     }
     h1#privacy {
-        margin-left: -22px;
+        margin-left: -20px;
         font-size: 35px!important;
-        margin-top: 43px;
+        margin-top: 33px;
     }
     p.para7 {
-        margin-left: -22px;
-        margin-top: 24px;
-        line-height: 21pt;
-        word-spacing: 2px;
+        margin-left: -20px;
+        margin-top: 19px;
+        line-height: 22pt;
+        word-spacing: 3px;
     }
     body #fullscreen-hero #hero-content p.description {
         margin-bottom: 47px;
@@ -162,14 +171,17 @@ body p {
         width: 100%;
     }
     body #fullscreen-hero #hero-content p.description {
-        margin-bottom: -40px;
-        word-spacing: 0px;
-        margin-top: -7px;;
-        line-height: 31px;
+        margin-bottom: -19px;
+        margin-top: 31px;
+        line-height: 23pt;
+        margin-left: -2px;
+        margin-right: 2px;
     }
     body #fullscreen-hero #hero-content h1.title {
         font-size: 42px;
         font-weight: 600;
+        margin-left: -3px;
+        margin-top: -43px;
     }
     h1#subtitle_1 {
         margin-left: -4px;
@@ -212,6 +224,7 @@ body p {
     }
     p.para6 {
         margin-left: -3px;
+        margin-top: -3px;
         word-spacing: -1px;
         line-height: 21pt;
     }
@@ -219,8 +232,8 @@ body p {
         margin-left: -4px;
     }
     p.para7 {
-        margin-top: 10px;
-        margin-left: -2px;
+        margin-top: 6px;
+        margin-left: -3px;
         line-height: 21pt;
         word-spacing: 0px;
     }
@@ -242,45 +255,11 @@ body p {
     }
 }
 
-/* iPad specific
-@media only screen and (min-device-width: 1200px) and (max-device-width: 767px) {
-    .security-section {
-        display: block;
-        position:absolute;
-        height:120%;
-        width:50%;
-        top:-27%;
-        right:0;
-        background: url('../img/security-section.png'), no-repeat, center center;
-        background-size: cover;
-    }
-    #infor-security {
-        padding-bottom: 0;
-    }
-    article {
-        padding: 8px;
-    }
-    .first-section {
-        position: relative;
-        padding: 10% 0;
-    }
-    section {
-        position: relative;
-        padding: 4em 0;
-    }
-    body #fullscreen-hero #hero-content p.description{
-        font-size: 34px;
-    }
-    body #fullscreen-hero #hero-content h1.title{
-        font-size: 50px;
-    }
-} */
-
 /* 768px */
-@media only screen and (width: 768px){
+@media only screen and (min-width: 768px) and (max-width: 793px) {
     body #fullscreen-hero #hero-content p.description {
         width: 100%;
-        font-size: 22px;
+        font-size: 23px;
     }
     section#protection {
         margin-top: 5%;
@@ -307,14 +286,58 @@ body p {
     }
 }
 
-/* 800px */
-@media only screen and (width: 800px){
+/* 794px */
+@media only screen and (width: 794px){
     body #fullscreen-hero #hero-content p.description {
         width: 100%;
-        font-size: 22px;
-        border: 0px solid black;
-        margin-bottom: 0.25em;
-        margin-top: 0.5em;
+        font-size: 23px;
+    }
+    section#protection {
+        margin-top: 5%;
+    }
+    p.para1 {
+        margin-top: 47px;
+        font-size: 18px;
+    }
+    p.para2 {
+        font-size: 18px;
+    }
+    p.para3 {
+        font-size: 18px;
+    }
+    p.para4 {
+        font-size: 18px;
+    }
+    p.para5 {
+        font-size: 18px;
+    }
+    section#technology {
+        margin-top: 11%;
+    }
+    p.para6 {
+        font-size: 18px;
+    }
+    p.para7 {
+        font-size: 18px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 100%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+/* 800px */
+@media only screen and (min-width: 795px) and (max-width: 800px){
+    body #fullscreen-hero #hero-content p.description {
+        font-size: 23px;
+        line-height: 1.4em;
+        hyphens: manual;;
     }
     section#protection {
         margin-top: 5%;
@@ -328,6 +351,9 @@ body p {
     p.para1 {
         margin-top: 47px;
     }
+    .second-section {
+        padding-bottom: 55px;
+    }
     .security-section {
         display: block;
         position:absolute;
@@ -340,6 +366,38 @@ body p {
     }
 }
 
+/* 874px */
+@media only screen and (width: 874px){
+    body #fullscreen-hero #hero-content p.description {
+    font-size: 23px;
+    line-height: 1.4em;
+    hyphens: manual;
+    }
+    section#protection {
+        margin-top: 5%;
+    }
+    section#technology {
+        margin-top: 13%;
+    }
+    p.para1 {
+        margin-top: 47px;
+    }
+    .second-section {
+        padding-bottom: 27px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 108%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+
 /* 1024px */
 @media only screen and (width: 1024px){
     body #fullscreen-hero #hero-content {
@@ -349,12 +407,33 @@ body p {
         max-width: 1550px;
         margin: 0 auto;
     }
+    body #fullscreen-hero #hero-content h1.title {
+        font-size: 45px;
+        font-weight: 600;
+    }
     body #fullscreen-hero #hero-content p.description {
-        width: 100%;
-        font-size: 18px!important;
-        border: 0px solid black;
-        margin-bottom: 0.25em;
         margin-top: 0.5em;
+    }
+    section#protection {
+        margin-top: 5%;
+    }
+    section#technology {
+        margin-top: 9%;
+    }
+    .second-section {
+        background-color: rgb(231,251,248);
+        padding-top: 23px;
+        padding-bottom: 40px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 113%;
+        width: 52%;
+        right: 2px;
+        top: -16%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
     }
 }
 
@@ -375,7 +454,7 @@ body p {
     }
     body #fullscreen-hero #hero-content p.description {
         width: 100%;
-        font-size: 21px!important;
+        font-size: 22px!important;
         border: 0px solid black;
         margin-bottom: 0.25em;
         margin-top: 0.5em;
@@ -383,14 +462,17 @@ body p {
 }
 
     /* Larger than iPad */
-@media only screen and (min-width: 801px) and (max-width: 3839px) {
+@media only screen and (min-width: 1279px) and (max-width: 3839px) {
+    body .gradient-wrapper {
+        padding-bottom: 14px;
+    }
     .security-section {
         display: block;
         position:absolute;
-        height: 131%;
+        height: 128%;
         width: 49%;
-        right: 2px;
-        top: -29%;
+        right: 3px;
+        top: -26%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
@@ -415,16 +497,17 @@ body p {
     }
     body #fullscreen-hero #hero-content h1.title{
         font-size: 40px;
-        margin-top: -16px;
+        margin-top: 2px;
     }
     body #fullscreen-hero #hero-content p.description{
         width: 100%;
-        font-size: 22px;
+        font-size: 23px;
         padding: -20px;
         border: 0px solid black;
         padding: 0em 5em;
         margin-bottom: 0.25em;
         margin-top: 0.5em;
+        margin-left: 7px;
     }
     body h1.black{
         font-size: 40px;
@@ -456,7 +539,7 @@ body p {
         font-size: 69px;
     }
     body #fullscreen-hero #hero-content p.description {
-        font-size: 22px;
+        font-size: 23px;
         margin-top: 48px;
         width: 100%;
         border: 0px solid black;
@@ -493,6 +576,7 @@ body p {
         word-spacing: -2px;
     }
     p.para4 {
+        margin-top: 0px;
         margin-left: 45px;
         word-spacing: -3px;
         font-size: 26px;
@@ -566,7 +650,7 @@ body p {
         font-size: 85px;
     }
     body #fullscreen-hero #hero-content p.description {
-        font-size: 37px;
+        font-size: 38px;
         margin-top: 48px;
         width: 100%;
         border: 0px solid black;
@@ -691,7 +775,7 @@ body p {
         font-size: 173px;
     }
     body #fullscreen-hero #hero-content p.description {
-        font-size: 75px;
+        font-size: 77px;
         margin-top: 4%;
     }
     h1#subtitle_1 {
@@ -773,10 +857,10 @@ body p {
     .security-section {
         display: block;
         position: absolute;
-        height: 131%;
+        height: 140%;
         width: 49%;
         right: 2px;
-        top: -29%;
+        top: -37%;
         background: url(../img/security-section.png), no-repeat, center center;
         background-size: cover;
     }
