@@ -89,7 +89,7 @@ body p {
         padding: 4px;
         margin-right: -65px;
         margin-left: 20px;
-        margin-top: -1px;
+        margin-top: 2px;
         line-height: 21pt;
     }
     p.para5 {
@@ -478,8 +478,8 @@ section#technology {
     .security-section {
         display: block;
         position:absolute;
-        height: 130%;
-        width: 52%;
+        height: 136%;
+        width: 49%;
         right: 2px;
         top: -19%;
         background: url('../img/security-section.png'), no-repeat, center center;
@@ -652,6 +652,13 @@ section#technology {
     p.para1 {
         margin-top: 3px;
     }
+    p.para4 {
+        padding: 4px;
+        margin-right: -65px;
+        margin-left: 20px;
+        margin-top: -4px;
+        line-height: 21pt;
+}
     section#protection {
         margin: -2%!important;
     }
@@ -702,6 +709,13 @@ section#technology {
     }
     p.para1 {
         margin-top: 3px;
+    }
+    p.para4 {
+        padding: 4px;
+        margin-right: -65px;
+        margin-left: 20px;
+        margin-top: -3px!important;
+        line-height: 21pt;
     }
     section#protection {
         margin: -2%!important;
@@ -797,7 +811,7 @@ section#technology {
         margin-top: 9%;
     }
     body #fullscreen-hero #hero-content h1.title {
-        font-size: 69px;
+        font-size: 54px;
     }
     body #fullscreen-hero #hero-content p.description {
         font-size: 23px;
