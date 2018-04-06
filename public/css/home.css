@@ -23,6 +23,18 @@ body div.ex-quote1 {
     transform: translate(-1em,7em);
 }
 
+@media only screen and (min-width: 5051px) {
+
+}
+
+@media only screen and (min-width: 3352px) and (max-width: 5050px) {
+    body #fullscreen-hero #hero-content {
+        padding: 237px 0;
+        max-width: 100%;
+    }
+
+}
+
 @media all and (min-width: 2600px) {
     body .position-relative .embed-parent-wrap .embed-image.halfed {
         width: 76%;
@@ -464,12 +476,7 @@ body div.ex-quote1 {
     }
 
     body .position-relative .embed-parent-wrap > .ex-image1 {
-        background-position: -11% 12%!important;
-        background-repeat: no-repeat!important;
-        background-size: auto!important;
-        width: 100%!important;
         height: 28.4em!important;
-        min-height: 332px!important;
         margin-top: 4px!important;
     }
 
