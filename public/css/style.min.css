@@ -276,11 +276,11 @@ body .position-relative .embed-parent-wrap .embed-blue-wrap {
     box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.16), 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 }
 /*body #downloadables .brochures {*/
-    /*margin: 25px 0;*/
-    /*display: inline-block;*/
+/*margin: 25px 0;*/
+/*display: inline-block;*/
 /*}*/
 /*body #downloadables .brochures p {*/
-    /*margin: 0;*/
+/*margin: 0;*/
 /*}*/
 
 body .gradient-wrapper{
@@ -319,7 +319,6 @@ body .gradient-wrapper{
     }
     body #fullscreen-hero .navbar {
         margin-top: 8%;
-        z-index: 99;
     }
 }
 @media all and (min-width: 992px){
@@ -819,58 +818,6 @@ body{
         padding-bottom: 13%;
         padding-top: 30%;
         margin-top: -58px;
-<<<<<<< HEAD
-    }
-
-    #contact-section > div > div.row > ul.list-unstyled {
-        margin-bottom: 0.6rem;
-    }
-
-    #contact-section > div > div.row > div:nth-of-type(5) {
-        margin-top: -10px;
-    }
-    #contact-section > div > div.row > div:nth-of-type(6) {
-        margin-top: -10px;
-    }
-
-    .list-unstyled {
-        padding-left: 0.938em;
-    }
-
-    ul.list-unstyled li span.color {
-         margin-left: -18px;
-    }
-
-    footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot {
-        margin-top: 3px;
-    }
-
-    .d-xs-block{
-        display: block;
-        margin-left: -14px;
-    }
-
-    .align-self-center{
-        text-align: center;
-        padding-top: 73px;
-        padding-bottom: 45px;
-    }
-    body footer .pad-top{
-        padding-top: 67px;
-        padding-left: 3px;
-    }
-
-    footer p.pad-bot {
-        margin-top: -8px;
-        margin-left: -18px;
-        margin-bottom: 17px;
-        font-size: 14px;
-    }
-
-    body footer .column2{
-        padding-top: 35px;
-        padding-left: 16px;
-=======
         margin-bottom: 0;
     }
 
@@ -883,7 +830,6 @@ body{
     }
     #contact-section > div > div.row > div:nth-of-type(6) {
         margin-top: -10px;
->>>>>>> d56b28c748417aa6f9c561a418a8875a52c423a1
     }
 
     .list-unstyled {
@@ -1028,7 +974,7 @@ body{
     }
 }
 
-@media all and (min-width: 992px) and (max-width: 1198px){
+@media all and (min-width: 992px) and (max-width: 1199px){
     .d-md-block{
         display: block;
     }
@@ -1074,11 +1020,7 @@ body{
     }
 }
 
-
-@media all and (min-width: 1199px)and (max-width: 1919px){
-=======
 @media all and (min-width: 1200px) and (max-width: 1919px){
->>>>>>> d56b28c748417aa6f9c561a418a8875a52c423a1
 
     .d-xl-block{
         display: block;
