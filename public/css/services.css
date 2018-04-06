@@ -2048,16 +2048,30 @@ p.heading-margin-sm + p{
         font-size: 260%;
         margin-bottom: 0%;
     }
-
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content h1.title {
+            margin-top: -20%;
+        }
+    }
     body #fullscreen-hero #hero-content #hero-first-p{
         max-width: 60%;
         margin-left: 20%;
         font-size: 141%;
         padding-top: 11%;
     }
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content #hero-first-p {
+           
+        }
+    }
     body #fullscreen-hero #hero-content #hero-second-p{
         margin-top: -1%;
         font-size: 141%;
+    }
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content #hero-second-p {
+           margin-top: 1em;
+        }
     }
 
     #platform-text-container{
