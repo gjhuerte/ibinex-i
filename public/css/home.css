@@ -1,7 +1,3 @@
-body #fullscreen-hero {
-    /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
-}
-
 body.home-template {
     overflow: hidden;
     overflow-y: scroll;
@@ -36,10 +32,6 @@ body div.ex-quote1 {
 }
 
 @media all and (min-width: 1920px) {
-    body #fullscreen-hero {
-        /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
-    }
-
     body.home-template aside {
         padding-left: 0;
         padding-right: 0;
@@ -458,7 +450,7 @@ body div.ex-quote1 {
     }
 
     body .position-relative .embed-parent-wrap .ex-image2 {
-        background-image: url(../img/hN17jUY.webp) !important;
+        background-image: url(../img/hN17jUY.png) !important;
     }
 
     body .position-relative .embed-parent-wrap .embed-image.halfed {
