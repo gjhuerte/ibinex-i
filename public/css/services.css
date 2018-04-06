@@ -1717,6 +1717,10 @@ p.heading-margin-sm + p{
     body #fullscreen-hero {
         min-height: 0vh;
     }
+    body #fullscreen-hero #hero-content {
+        margin-top: 10%;
+        margin-bottom: -5%;
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
         margin-top: -13%;
