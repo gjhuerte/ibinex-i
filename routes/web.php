@@ -24,7 +24,7 @@ Route::get('pricing', function () {
 });
 
 Route::get('security', function () {
-    return view('security.security');
+    return view('base.security');
 });
 
 Route::get('why-ibinex', function () {
