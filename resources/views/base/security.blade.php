@@ -4,7 +4,7 @@
 
 
 @push('stylesheets')
-    <link href='{{ asset('css/security.css') }}' rel='stylesheet' />
+    <link href='{{ asset('css/security.min.css') }}' rel='stylesheet' />
 @endpush
 
 @section('header-content')
@@ -16,7 +16,7 @@
 
 @section('body-class','security')
 {{--@section('bg-img','security-banner-temp.png')--}}
-@section('bg-img','security.PNG')
+@section('bg-img','security/security.png')
 
 @section('content')
 
@@ -76,5 +76,5 @@
 @endsection
 
 @push('custom-scripts')
-    <script src={{ asset('js/security.js') }}></script>
+    {{-- <script src={{ asset('js/security.min.js') }}></script> --}}
 @endpush

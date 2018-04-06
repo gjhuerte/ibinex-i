@@ -63,7 +63,7 @@
 @endpush
 
 @section('body-class','contact')
-@section('bg-img','why-ibinex/bg.webp')
+@section('bg-img','why-ibinex/bg.png')
 @section('content')
     <div id="first-fold" class="container spacer">
         <div class="row max-width-none">
@@ -89,7 +89,7 @@
                     </div><!--col-->
 
 
-                    <img class="col-lg-5 {{--col-md-12--}}d-none d-lg-block pc" src="{{asset('img/why-ibinex/pc.webp')}}" alt="pc image">
+                    <img class="col-lg-5 {{--col-md-12--}}d-none d-lg-block pc" src="{{asset('img/why-ibinex/pc.png')}}" alt="pc image">
 
 
 
@@ -114,7 +114,7 @@
     <div id="second-fold" class="container-fluid remover">
         <div id="our-vision" class="row position-relative max-width-none overflow-remover">
             <div class="col-xs-12 blocktext-background"> <!--content--></div>
-            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/why-ibinex/hand.webp')}}" alt="typing hand">
+            <img class="d-none d-lg-block blocktext-background2" src="{{asset('img/why-ibinex/hand.png')}}" alt="typing hand">
             <div class="block">
                 <h2 class="blocktext">We fuse innovation with accessibility as blockchain technology evolves.</h2>
                 <p class="blocktext blocktext-p1">

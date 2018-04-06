@@ -7,7 +7,7 @@
 @endpush
 
 @section('header-content')
-    <section id="hero-content" class="col-xl-12 max-width-none expand-8k" style="">
+    <section id="hero-content" class="col-xl-12 col-xl-12 col-xl-12 max-width-none expand-8k" style="">
         <h1 class="title text-left text-sm-center">Services</h1>
         <p id="hero-first-p" class="description text-xl-center" style="margin-top: -7%; margin-bottom: 3.5%;">Ibinex services are all characterised by high-level innovation made practical for your personalised exchange integration.</p>
         <p id="hero-second-p" class="description text-xl-center" style="margin-bottom: 3%;">Our ecosystem of services comprises of the following units.</p>
