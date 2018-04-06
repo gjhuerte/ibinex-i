@@ -100,21 +100,21 @@ body p {
         line-height: 21pt;
     }
     h1.subtitle.blackinf {
-        margin-left: -21px;
-        margin-top: 6px;
+        margin-left: -24px;
+        margin-top: 3px;
         font-size: 35px!important;
         word-spacing: -5px;
     }
     p.para6 {
         margin-left: -20px;
         word-spacing: 0px;
-        margin-top: 18px;
-        line-height: 23pt;
+        margin-top: 17px;
+        line-height: 21pt;
     }
     h1#privacy {
-        margin-left: -20px;
+        margin-left: -23px;
         font-size: 35px!important;
-        margin-top: 33px;
+        margin-top: 42px;
     }
     p.para7 {
         margin-left: -20px;
@@ -219,7 +219,7 @@ body p {
     }
     h1.subtitle.blackinf {
         margin-left: -4px;
-        margin-top: 1px;
+        margin-top: 3px;
         font-size: 34px;
     }
     p.para6 {
@@ -230,6 +230,7 @@ body p {
     }
     h1#privacy {
         margin-left: -4px;
+        margin-top: 6px;
     }
     p.para7 {
         margin-top: 6px;
@@ -239,8 +240,8 @@ body p {
     }
     .second-section{
         background-color: rgb(231,251,248);
-        height: 650px;
-        margin-top: 4px;
+        height: 601px;
+        margin-top: 0px;
     }
     h1#security_title {
         margin-top: -35px;
@@ -366,24 +367,30 @@ body p {
     }
 }
 
-/* 874px */
-@media only screen and (width: 874px){
-    body #fullscreen-hero #hero-content p.description {
-    font-size: 23px;
-    line-height: 1.4em;
-    hyphens: manual;
+/* 801px-918px */
+@media only screen and (min-width: 801px) and (max-width:918px){
+    body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 23px;
+        border: 0px solid black;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+        margin-left: 7px;
     }
     section#protection {
-        margin-top: 5%;
+    margin-top: 32px;
+    margin-left: 41px;
+    margin-right: 38px;
     }
-    section#technology {
-        margin-top: 13%;
+section#technology {
+    margin-top: 9%;
     }
     p.para1 {
-        margin-top: 47px;
+    margin-top: 46px;
     }
     .second-section {
-        padding-bottom: 27px;
+    padding-bottom: 170px;
+    padding-left: 40px;
     }
     .security-section {
         display: block;
@@ -397,82 +404,283 @@ body p {
     }
 }
 
-
-/* 1024px */
-@media only screen and (width: 1024px){
-    body #fullscreen-hero #hero-content {
-        max-width: 100%
-    }
-    body .container-fluid > .row, body .container > .row {
-        max-width: 1550px;
-        margin: 0 auto;
-    }
-    body #fullscreen-hero #hero-content h1.title {
-        font-size: 45px;
-        font-weight: 600;
-    }
-    body #fullscreen-hero #hero-content p.description {
+/* 919px-997px */
+@media only screen and (min-width: 919px) and (max-width: 997px){
+    body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 23px;
+        border: 0px solid black;
+        margin-bottom: 0.25em;
         margin-top: 0.5em;
+        margin-left: 7px;
     }
     section#protection {
-        margin-top: 5%;
+        margin-top: 32px;
+        margin-left: 41px;
+        margin-right: 38px;
+    }
+    p.para1 {
+        margin-top: 46px;
     }
     section#technology {
         margin-top: 9%;
     }
     .second-section {
-        background-color: rgb(231,251,248);
-        padding-top: 23px;
-        padding-bottom: 40px;
+        padding-bottom: 170px;
+        padding-left: 40px;
     }
     .security-section {
         display: block;
         position:absolute;
-        height: 113%;
+        height: 108%;
         width: 52%;
         right: 2px;
-        top: -16%;
+        top: -10%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
 }
 
-/* 1280px */
-@media only screen and (width: 1280px){
-    body #fullscreen-hero #hero-content {
-        max-width: 100%
-    }
-    body .container-fluid > .row, body .container > .row {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-    section#protection {
-        margin-top: -5%!important;
-    }
-    section#technology {
-        margin-top: 2%!important;
-    }
-    body #fullscreen-hero #hero-content p.description {
+/* 998px-1037px */
+@media only screen and (min-width: 998px) and (max-width:1037px){
+    body #fullscreen-hero #hero-content p.description{
         width: 100%;
-        font-size: 22px!important;
+        font-size: 23px;
+        padding: -20px;
         border: 0px solid black;
+        padding: 0em 5em;
         margin-bottom: 0.25em;
         margin-top: 0.5em;
+        margin-left: 7px;
+    }
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section#protection {
+        margin-top: 32px;
+        margin-left: 28px;
+        margin-right: 38px;
+    }
+    p.para1 {
+        margin-top: 44px;
+    }
+    section#technology {
+        margin-top: 9%;
+    }
+    .second-section {
+        padding-bottom: 170px;
+        padding-left: 40px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 108%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+/* 1038px-1199px */
+@media only screen and (min-width: 1038px) and (max-width: 1199px){
+    body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 23px;
+        padding: -20px;
+        border: 0px solid black;
+        padding: 0em 5em;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+        margin-left: 7px;
+    }
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section#protection {
+        margin-top: 32px;
+        margin-left: 41px;
+        margin-right: 38px;
+    }
+    p.para1 {
+        margin-top: 6px;
+    }
+    section#technology {
+        margin-top: 9%;
+    }
+    .second-section {
+        padding-bottom: 170px;
+        padding-left: 40px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 108%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+/* 1200px-1278px */
+@media only screen and (min-width: 1200px) and (max-width: 1278px){
+    body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 25px;
+        padding: -20px;
+        border: 0px solid black;
+        padding: 0em 5em;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+        margin-left: 7px;
+    }
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section#protection {
+        margin-top: 32px;
+        margin-left: 71px;
+        margin-right: 102px;
+    }
+    p.para1 {
+        margin-top: 18px;
+    }
+    section#technology {
+        margin-top: 9%;
+    }
+    .second-section {
+        padding-bottom: 170px;
+        padding-left: 71px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 127%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+ 
+/* 1279px */
+@media only screen and (width: 1279px){
+     body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 27px;
+        padding: -20px;
+        border: 0px solid black;
+        padding: 0em 5em;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+        margin-left: 7px;
+    }
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section#protection {
+        margin-top: 32px;
+        margin-left: 71px;
+        margin-right: 102px;
+    }
+    p.para1 {
+        margin-top: 3px;
+    }
+    section#protection {
+        margin: -2%!important;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 127%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+
+
+/* 1280px */
+@media only screen and (width: 1280px){
+    body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 27px;
+        padding: -20px;
+        border: 0px solid black;
+        padding: 0em 5em;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+        margin-left: 7px;
+    }
+    body .container-fluid > .row, body .container > .row {
+        max-width: 999px;
+        margin: 0 auto;
+    }
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section#protection {
+        margin-top: 32px;
+        margin-left: 71px;
+        margin-right: 102px;
+    }
+    p.para1 {
+        margin-top: 3px;
+    }
+    section#protection {
+        margin: -2%!important;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 127%;
+        width: 52%;
+        right: 2px;
+        top: -10%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
     }
 }
 
     /* Larger than iPad */
-@media only screen and (min-width: 1279px) and (max-width: 3839px) {
+@media only screen and (min-width: 1281px) and (max-width: 3839px) {
     body .gradient-wrapper {
         padding-bottom: 14px;
     }
     .security-section {
         display: block;
         position:absolute;
-        height: 128%;
+        height: 129%;
         width: 49%;
-        right: 3px;
-        top: -26%;
+        right: 5px;
+        top: -27%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
@@ -497,7 +705,8 @@ body p {
     }
     body #fullscreen-hero #hero-content h1.title{
         font-size: 40px;
-        margin-top: 2px;
+        margin-top: 0px;
+        margin-left: -1px;
     }
     body #fullscreen-hero #hero-content p.description{
         width: 100%;
