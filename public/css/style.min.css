@@ -1005,6 +1005,10 @@ body{
         margin-top: 1px;
     }
 
+    body footer .column2 {
+        padding-top: 13px;
+    }
+
 
     .property {
         padding-top: 7px;
