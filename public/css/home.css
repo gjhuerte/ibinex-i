@@ -23,392 +23,14 @@ body div.ex-quote1 {
     transform: translate(-1em,7em);
 }
 
+@media only screen and (min-width: 5051px) {
+
+}
+
 @media only screen and (min-width: 3352px) and (max-width: 5050px) {
     body #fullscreen-hero #hero-content {
-        padding: 30.5em 25em !important;
-        max-width: 90% !important;
-    }
-
-    body .gradient-wrapper {
-        height: 106em !important;
-    }
-
-    body #fullscreen-hero #hero-content h1.title {
-        margin-left: -5.2em !important;
-        letter-spacing: 2.4px !important;
-        font-size: 5em !important;
-        margin-top: -2.5em !important;
-    }
-
-    body #fullscreen-hero #hero-content p.description1 {
-        font-size: 2.8em !important;
-        line-height: 1.6em !important;
-        hyphens: manual !important;
-        margin-top: 1.4em !important;
-        margin-left: -9.4em !important;
-        padding-right: 0 !important;
-    }
-
-    body #fullscreen-hero #hero-content p.description2 {
-        font-size: 2.8em !important;
-        line-height: 1.55em !important;
-        hyphens: manual !important;
-        margin-left: -9.4em !important;
-        margin-top: 1.5em !important;
-        padding-right: 0 !important;
-    }
-
-    body #fullscreen-hero .semi-circle.green {
-        transform: translate(-12em, 2.4em) !important;
-        font-size: 2.2em !important;
-        padding: 45px 100px !important;
-    }
-
-    body .lap-text1 {
-        font-size: 4.2em !important;
-        margin-top: 1.45em !important;
-        line-height: 1.8em !important;
-        margin-left: 0.15em !important;
-        letter-spacing: .1px !important;
-    }
-
-    body .lap-text2 {
-        font-size: 4.2em !important;
-        margin-top: .6em !important;
-        margin-left: 0.15em !important;
-        line-height: 1.8em !important;
-        letter-spacing: .1px !important;
-    }
-
-    body .lap-p1 {
-        font-size: 1.83em !important;
-        line-height: 1.95em !important;
-        margin-top: 1.15em !important;
-        letter-spacing: 1.1px !important;
-        margin-left: 0.5em !important;
-        padding-right: 5.6em !important;
-    }
-
-    body .lap-right {
-        height: 74em !important;
-        margin-left: -4em !important;
-        margin-top: 2em;
-    }
-
-    body .fixed-height {
-        height: 78.3em !important;
-    }
-
-    body .position-relative .raise-image {
-        position: relative !important;
-        top: -13.8em !important;
-        right: 32.4em !important;
-        width: 93.3em !important;
-        height: 97em !important;
-    }
-
-    body .container-fluid > .row, body .container > .row {
-        max-width: 60%;
-        margin: 0 auto;
-    }
-
-    body .lap-text3 {
-        font-size: 1.6em !important;
-        line-height: 1.8em !important;
-        margin-left: 0.45em !important;
-        margin-top: 1em !important;
-        letter-spacing: 0.4px !important;
-    }
-
-    body .lap-text4 {
-        font-size: 1.6em !important;
-        line-height: 1.8em !important;
-        margin-left: 0.6em;
-        margin-top: 0.1em;
-        letter-spacing: 0.4px;
-    }
-
-    body h2.lap-text5 {
-        font-size: 2em !important;
-        margin-top: 0.7em;
-        margin-left: 1em;
-        letter-spacing: 1.8px;
-    }
-
-    body .lap-text6 {
-        font-size: 1.8em !important;
-        line-height: 1.95em !important;
-        margin-top: 1.3em;
-        letter-spacing: .05em !important;
-        margin-left: 1em;
-    }
-
-    body h2.lap-text7 {
-        font-size: 2.2em !important;
-        margin-left: 0.8em;
-        margin-top: 1.5em;
-        letter-spacing: 0.4px;
-    }
-
-    body .lap-text8 {
-        font-size: 1.8em !important;
-        letter-spacing: 1.23px !important;
-        margin-top: 1.3em;
-        margin-left: 1.3em;
-        line-height: 2em !important;
-    }
-
-    body .pt3 {
-        margin-left: -9.1em !important;
-    }
-
-    body h2.title-1 {
-        font-size: 2em !important;
-        margin-top: 0.9em !important;
-        margin-left: 5em;
-        letter-spacing: 0.055em;
-    }
-
-    body .ex-p1 {
-        margin-top: 1.75em !important;
-        font-size: 1.9em !important;
-        line-height: 1.9em !important;
-        letter-spacing: 0.5px !important;
-        margin-left: 5.2em;
-        margin-right: -4.3em;
-    }
-
-    body h2.title-2 {
-        font-size: 2em !important;
-        margin-top: 2.3em !important;
-        margin-left: 5em;
-        letter-spacing: 0.05em;
-    }
-
-    body .ex-p2 {
-        margin-top: 1.7em !important;
-        line-height: 1.8em !important;
-        font-size: 1.9em !important;
-        margin-left: 5.2em;
-        margin-right: -4.5em !important;
-        letter-spacing: 0.2px;
-    }
-
-    body .position-relative .embed-parent-wrap > .ex-image1 {
-        height: 56.8em !important;
-        margin-top: 4em !important;
-    }
-
-    body .faButton.ex-quote {
-        position: absolute !important;
-        top: calc(-60% / 2) !important;
-        left: 4.3em !important;
-        height: 11em !important;
-        width: 10em !important;
-    }
-
-    body .quote-wrapper p.ex-p3 {
-        margin-left: 2.8em !important;
-        margin-top: 2.3em !important;
-        padding-right: 2em !important;
-        padding-bottom: 1em !important;
-        letter-spacing: 3.6px;
-        line-height: 1.7em !important;
-        font-size: 2.2em !important;
-    }
-
-    body .quote-wrapper span.ex-p4 {
-        margin-left: 3.2em !important;
-        font-size: 1.9em !important;
-    }
-
-    body .quote-wrapper {
-        padding: 5.5em 1em 7.3em 1em !important;
-    }
-
-    body .position-relative .embed-parent-wrap .embed-image.halfed {
-        min-height: 71vh !important;
-        margin-top: -12em;
-    }
-
-    body div.ex-quote1 {
-        transform: translate(10em, 54em) !important;
-        height: 20.2em !important;
-        width: 20em !important;
-    }
-
-    body .ex-sec2 {
-        margin-top: -2.5em !important;
-    }
-
-    body .ex-col {
-        margin-top: -5em !important;
-        transform: translate(1em, 0.1em) !important;
-    }
-
-    body h2.ex-h2-3 {
-        font-size: 2.2em !important;
-        margin-right: -4em;
-        margin-left: 0.9em;
-        margin-top: -3.3em;
-        letter-spacing: 0.35px;
-    }
-
-    body p.ex-p5 {
-        font-size: 1.9em !important;
-        margin-top: 1.5em !important;
-        line-height: 1.85em !important;
-        margin-left: 1.1em;
-        margin-right: -20em !important;
-        letter-spacing: 0.4px !important;
-    }
-
-    body h2.ex-h2-4 {
-        font-size: 2em !important;
-        margin-top: 0.3em !important;
-        margin-left: 1em;
-        margin-right: -7em;
-        letter-spacing: 1.4px;
-    }
-
-    body p.ex-p6 {
-        font-size: 1.9em !important;
-        margin-top: 1.6em !important;
-        margin-left: 1.1em;
-        margin-right: -21em;
-        line-height: 1.85em !important;
-        letter-spacing: .4px !important;
-        padding-right: 1em !important;
-    }
-
-    body h2.ex-h2-5 {
-        font-size: 4em !important;
-        margin-top: 0.5em;
-        margin-left: 0.5em;
-
-    body h2.ex-h2-6 {
-        margin-top: 5.8em !important;
-        font-size: 2.8em !important;
-    }
-
-    body h1.ex-h1 {
-        font-size: 3.5em !important;
-        margin-top: 0.3em !important;
-        margin-left: 0.1em !important;
-    }
-
-    body img.bro-img1 {
-        margin-left: -52em !important;
-        margin-top: 2.8em;
-        height: 52em !important;
-    }
-
-    body img.bro-img2 {
-        height: 52em !important;
-        margin-left: -5em !important;
-    }
-
-    body img.bro-img3 {
-        margin-left: 25.9em !important;
-        height: 52em !important;
-    }
-
-    body img.bro-img4 {
-        height: 52em !important;
-        margin-top: -0.1em !important;
-        margin-left: -55em !important;
-    }
-
-    body img.bro-img5 {
-        margin-top: -0.1em !important;
-        margin-left: -5em !important;
-        height: 52em !important;
-    }
-
-    body img.bro-img6 {
-        margin-top: -0.1em !important;
-        margin-left: 25.9em !important;
-        height: 52em !important;
-    }
-
-    body h2.bro-h2-1 {
-        font-size: 1.8em !important;
-        margin-top: -0.35em !important;
-        margin-left: -28.2em !important;
-    }
-
-    body p.bro-p-1 {
-        font-size: 1.2em !important;
-        margin-left: -43em !important;
-    }
-
-    body button.bro-btn-1 {
-        margin-top: 0.35em !important;
-        padding: 15px 30px !important;
-        margin-left: -43.1em !important;
-        font-size: 1.2em;
-    }
-
-    body h2.bro-h2-4 {
-        font-size: 1.8em !important;
-        margin-top: -0.35em !important;
-        margin-left: -28.2em !important;
-    }
-
-    body p.bro-p-4 {
-        font-size: 1.2em !important;
-        margin-left: -43em !important;
-    }
-
-    body button.bro-btn-4 {
-        margin-top: 0.35em !important;
-        padding: 15px 30px !important;
-        margin-left: -43.1em !important;
-        font-size: 1.2em !important;
-    }
-
-    body h2.bro-h2-2 {
-        font-size: 1.8em;
-        margin-top: -0.35em;
-        margin-left: 3.3em;
-        letter-spacing: .9px;
-    }
-
-    body p.bro-p-2 {
-        font-size: 1.2em;
-        margin-left: 4em;
-    }
-
-    body button.bro-btn-2 {
-        margin-top: 0.35em !important;
-        padding: 15px 30px !important;
-        margin-left: 5em;
-        font-size: 1.2em;
-    }
-
-    body h2.bro-h2-5 {
-        font-size: 1.8em;
-        margin-top: -0.35em;
-        margin-left: 3.3em;
-        letter-spacing: .9px;
-    }
-
-    body p.bro-p-5 {
-        font-size: 1.2em;
-        margin-left: 4em;
-    }
-
-    body button.bro-btn-5 {
-        margin-top: 0.35em !important;
-        padding: 15px 30px !important;
-        margin-left: 5em;
-        font-size: 1.2em;
-    }
-
-    body .ex-div1 {
-        margin-left: -11.7em !important;
-        margin-top: -.7em !important;
-        padding-right: 0em !important;
+        padding: 237px 0;
+        max-width: 100%;
     }
 
 }
@@ -727,69 +349,69 @@ body div.ex-quote1 {
     }
 
     body p.bro-p-1 {
-        margin-left: 2em;
-        margin-top: -.6em;
+        margin-left: 2em!important;
+        margin-top: -.6em!important;
     }
 
     body p.bro-p-2 {
-        margin-left: 5em;
-        margin-top: -.5em;
+        margin-left: 5em!important;
+        margin-top: -.5em!important;
     }
 
     body p.bro-p-3 {
-        margin-left: 10.5em;
-        margin-top: -0.6em;
+        margin-left: 10.5em!important;
+        margin-top: -0.6em!important;
     }
 
     body p.bro-p-4 {
-        margin-left: 2em;
-        margin-top: -0.5em;
+        margin-left: 2em!important;
+        margin-top: -0.5em!important;
     }
 
     body p.bro-p-5 {
-        margin-left: 5em;
-        margin-top: -0.6em;
+        margin-left: 5em!important;
+        margin-top: -0.6em!important;
     }
 
     body p.bro-p-6 {
-        margin-left: 10.5em;
-        margin-top: -0.6em;
+        margin-left: 10.5em!important;
+        margin-top: -0.6em!important;
     }
 
     body button.bro-btn-1 {
-        margin-top: 0.35em;
-        padding: 10px 25px;
-        margin-left: 1.9em;
+        margin-top: 0.35em !important;
+        padding: 10px 25px!important;
+        margin-left: 1.9em!important;
     }
 
     body button.bro-btn-2 {
-        margin-top: 0.25em;
-        padding: 10px 25px;
-        margin-left: 5em;
+        margin-top: 0.25em !important;
+        padding: 10px 25px!important;
+        margin-left: 5em!important;
     }
 
     body button.bro-btn-3 {
-        margin-top: 0.35em;
-        padding: 10px 25px;
-        margin-left: 10.3em;
+        margin-top: 0.35em !important;
+        padding: 10px 25px!important;
+        margin-left: 10.3em!important;
     }
 
     body button.bro-btn-4 {
-        margin-top: 0.35em;
-        padding: 10px 25px;
-        margin-left: 1.9em;
+        margin-top: 0.35em !important;
+        padding: 10px 25px!important;
+        margin-left: 1.9em!important;
     }
 
     body button.bro-btn-5 {
-        margin-top: 0.35em;
-        padding: 10px 25px;
-        margin-left: 5em;
+        margin-top: 0.35em !important;
+        padding: 10px 25px!important;
+        margin-left: 5em!important;
     }
 
     body button.bro-btn-6 {
-        margin-top: 0.35em;
-        padding: 10px 25px;
-        margin-left: 10.3em;
+        margin-top: 0.35em !important;
+        padding: 10px 25px!important;
+        margin-left: 10.3em!important;
     }
 
     body h1.cov-h1-1 {
@@ -885,16 +507,16 @@ body div.ex-quote1 {
     }
 
     body .position-relative .embed-parent-wrap > .ex-image1 {
-        height: 28.4em;
-        margin-top: 4px;
+        height: 28.4em!important;
+        margin-top: 4px!important;
     }
 
     body div.ex-quote1 {
-        background-color: rgba(39, 112, 246, 1);
+        background-color: rgba(39,112,246,1)!important;
         opacity: 1;
         transform: translate(5em,27em);
-        height: 10.2em;
-        width: 10em;
+        height: 10.2em!important;
+        width: 10em!important;
         border-radius: 50%;
         top: 0!important;
         right: 0!important;
@@ -922,7 +544,7 @@ body div.ex-quote1 {
     }
 
     body .quote-wrapper {
-        padding: 5.5em 1em 3.3em 1em;
+        padding: 5.5em 1em 3.3em 1em!important;
     }
 }
 
@@ -1139,7 +761,7 @@ body div.ex-quote1 {
     }
 
     body .quote-wrapper {
-        padding: 0 0 0.9em 1em !important;
+        padding: 0em 0em 0.9em 1em!important;
     }
 
     body .quote-wrapper  p.ex-p3 {
