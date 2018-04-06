@@ -432,17 +432,17 @@ section#technology {
     .security-section {
         display: block;
         position:absolute;
-        height: 108%;
+        height: 120%;
         width: 52%;
         right: 2px;
-        top: -10%;
+        top: -16%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
 }
 
 /* 998px-1037px */
-@media only screen and (min-width: 998px) and (max-width:1037px){
+@media only screen and (min-width: 998px) and (max-width:1024px){
     body #fullscreen-hero #hero-content p.description{
         width: 100%;
         font-size: 23px;
@@ -478,10 +478,56 @@ section#technology {
     .security-section {
         display: block;
         position:absolute;
-        height: 108%;
+        height: 130%;
         width: 52%;
         right: 2px;
-        top: -10%;
+        top: -19%;
+        background: url('../img/security-section.png'), no-repeat, center center;
+        background-size: cover;
+    }
+}
+
+/* 1025px-1037px */
+@media only screen and (min-width: 1025px) and (max-width:1037px){
+    body #fullscreen-hero #hero-content p.description{
+        width: 100%;
+        font-size: 23px;
+        padding: -20px;
+        border: 0px solid black;
+        padding: 0em 5em;
+        margin-bottom: 0.25em;
+        margin-top: 0.5em;
+        margin-left: 7px;
+    }
+    .container-fluid {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 55px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    section#protection {
+        margin-top: 32px;
+        margin-left: 28px;
+        margin-right: 38px;
+    }
+    p.para1 {
+        margin-top: 7px;
+    }
+    section#technology {
+        margin-top: 9%;
+    }
+    .second-section {
+        padding-bottom: 170px;
+        padding-left: 40px;
+    }
+    .security-section {
+        display: block;
+        position:absolute;
+        height: 130%;
+        width: 52%;
+        right: 2px;
+        top: -19%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
@@ -524,10 +570,10 @@ section#technology {
     .security-section {
         display: block;
         position:absolute;
-        height: 108%;
+        height: 134%;
         width: 52%;
         right: 2px;
-        top: -10%;
+        top: -22%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
@@ -570,10 +616,10 @@ section#technology {
     .security-section {
         display: block;
         position:absolute;
-        height: 127%;
+        height: 135%;
         width: 52%;
         right: 2px;
-        top: -10%;
+        top: -26%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
@@ -609,13 +655,16 @@ section#technology {
     section#protection {
         margin: -2%!important;
     }
+    section#technology {
+        margin-top: 12%;
+    }
     .security-section {
         display: block;
         position:absolute;
-        height: 127%;
-        width: 52%;
+        height: 142%;
+        width: 48%;
         right: 2px;
-        top: -10%;
+        top: -23%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
@@ -657,13 +706,16 @@ section#technology {
     section#protection {
         margin: -2%!important;
     }
+    section#technology {
+        margin-top: 17%;
+    }
     .security-section {
         display: block;
         position:absolute;
-        height: 127%;
-        width: 52%;
+        height: 141%;
+        width: 49%;
         right: 2px;
-        top: -10%;
+        top: -31%;
         background: url('../img/security-section.png'), no-repeat, center center;
         background-size: cover;
     }
