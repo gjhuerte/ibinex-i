@@ -890,10 +890,14 @@ body{
         padding-left: 5px;
     }
 
+    body footer .height-foot {
+        margin-top: 21px;
+    }
+
 
 }
 
-@media all and (min-width: 320px)(max-width: 400px){
+@media all and (min-width: 321px)(max-width: 400px){
 
     section#contact-section.bg-color-grey.py-5.contact-height {
         padding-top: 0.625em !important;
@@ -996,10 +1000,11 @@ body{
     }
     .align-self-center {
         text-align: center;
-        margin-top: 35px;
-        padding-top: 47px;
+        padding-top: 42px;
         margin-right: 5px;
+        margin-top: 1px;
     }
+
 
     .property {
         padding-top: 7px;
@@ -1010,6 +1015,12 @@ body{
     }
     body footer .pad-top {
         padding-top: 83px;
+    }
+
+    body footer .height-foot {
+        left: 0;
+        padding-left: 16px;
+        margin-top: 21px;
     }
 
 
