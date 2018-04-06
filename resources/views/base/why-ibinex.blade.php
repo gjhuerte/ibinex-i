@@ -71,7 +71,7 @@
                 <span class="d-lg-block">Ibinex</span>
             </h2>
             <p class="col-sm-12 text-center first-fold-p">Our strategy is underpinned by the 4 core strengths of Ibinex:</p>
-            <div class="container overflow-remover">png
+            <div class="container overflow-remover">
                 <div class="row row-core">
                      <div class="col-lg-3 {{--col-md-5--}}col-s-12 core-left">
                         <div class="core-div">
