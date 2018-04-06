@@ -1,7 +1,3 @@
-body #fullscreen-hero {
-    /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
-}
-
 body.home-template {
     overflow: hidden;
     overflow-y: scroll;
@@ -22,19 +18,63 @@ body.home-template aside{
     display: none !important;
 }
 
+body div.ex-quote1 {
+    opacity: 1 !important;
+    transform: translate(-1em,7em);
+}
+
+@media only screen and (min-width: 5051px) {
+
+}
+
+@media only screen and (min-width: 3352px) and (max-width: 5050px) {
+    body #fullscreen-hero #hero-content {
+        padding: 237px 0;
+        max-width: 100%;
+    }
+
+}
+
 @media all and (min-width: 2600px) {
     body .position-relative .embed-parent-wrap .embed-image.halfed {
         width: 76%;
         position: relative;
         min-height: 62.3vh;
     }
+    /* additional by ricky*/
+    body .gradient-wrapper {
+        height: 70.5em;
+    }
+    .gradient-wrapper > div:first-of-type > section:first-of-type {
+        max-width: 96%;
+    }
+    body #fullscreen-hero #hero-content h1.title {
+        margin-left: -0.2em;
+        margin-top: -2.2em;
+        font-size: 3.55em;
+    }
+    body #fullscreen-hero #hero-content p.description1 {
+        font-size: 30px;
+        line-height: 1.55em;
+        margin-left: -.4em;
+        padding-right: 1.3em;
+    }
+    body #fullscreen-hero #hero-content p.description2 {
+        font-size: 1.875em;
+        line-height: 1.55em;
+        margin-left: -.4em;
+        padding-right: 1.4em;
+    }
+    body #fullscreen-hero .semi-circle.green {
+        transform: translate(-.9em, 3em);
+        letter-spacing: 2px;
+        margin-top: -3px;
+        font-weight: bold;
+        padding: 27px 69px;
+    }
 }
 
 @media all and (min-width: 1920px) {
-    body #fullscreen-hero {
-        /*background-image: url("https://i.imgur.com/JM0qNPw.png");*/
-    }
-
     body.home-template aside {
         padding-left: 0;
         padding-right: 0;
@@ -158,7 +198,6 @@ body.home-template aside{
 
     body .lap-text6 {
         font-size: 1em;
-        font-weight: 100;
         transform: translate(0.1em, -0.7em);
         letter-spacing: .009em;
     }
@@ -449,14 +488,12 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent-wrap .embed-image {
-        background-size: auto 100%;
-        background-position: top;
         min-height: 332px;
         margin-top: -8.3em;
     }
 
     body .position-relative .embed-parent-wrap .ex-image2 {
-        background-image: url(../img/hN17jUY.webp) !important;
+        background-image: url(../img/hN17jUY.png) !important;
     }
 
     body .position-relative .embed-parent-wrap .embed-image.halfed {
@@ -470,12 +507,7 @@ body.home-template aside{
     }
 
     body .position-relative .embed-parent-wrap > .ex-image1 {
-        background-position: -11% 12%!important;
-        background-repeat: no-repeat!important;
-        background-size: auto!important;
-        width: 100%!important;
         height: 28.4em!important;
-        min-height: 332px!important;
         margin-top: 4px!important;
     }
 
@@ -516,7 +548,7 @@ body.home-template aside{
     }
 }
 
-@media (min-width: 1280px) and (max-width: 1440px) {
+@media (min-width: 1200px) and (max-width: 1440px) {
     body #fullscreen-hero {
         background-repeat: no-repeat!important;
         background-size: 91em!important;
@@ -714,6 +746,10 @@ body.home-template aside{
         letter-spacing: -0.4px!important;
     }
 
+    body div.ex-quote1 {
+        transform: none;
+    }
+
     body .position-relative .embed-parent-wrap .ex-image1 {
         background-size: 100% 89.2%!important;
         background-position: 1.2em 8.7em!important;
@@ -744,7 +780,11 @@ body.home-template aside{
     }
 
     body h2.ex-h2-3 {
-        display: none!important;
+        font-size: 0.75em!important;
+        margin-left: 0.6em!important;
+        margin-top: -3.2em!important;
+        letter-spacing: 0.3px!important;
+        line-height: 1.7em!important;
     }
 
     body div.ex-col {
@@ -1087,7 +1127,6 @@ body.home-template aside{
         margin-bottom: 3.2em!important;
     }
 
-
 }
 
 /*=========================MEDIA QUERIES FOR MEDIUM DEVICES AND SMALLER===========================*/
@@ -1166,6 +1205,9 @@ body.home-template aside{
     }
     body div.header-pad {
         padding-right: 0;
+    }
+    body #fullscreen-hero{
+        background-position: 38% bottom;
     }
     #hero-content {
         padding: 4.5em 0 !important;
@@ -1256,8 +1298,8 @@ body.home-template aside{
         padding-top: 5.8em;
     }
     p.quote {
-        font-size: 20px !important;
-        line-height: 1.5em;
+        font-size: 22px !important;
+        line-height: 1.4em;
         margin-bottom: 4px !important;
     }
     #fifth-inner-2 p.sub-description {

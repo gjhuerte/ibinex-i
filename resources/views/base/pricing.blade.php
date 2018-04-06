@@ -10,7 +10,7 @@
 
 {{--@section('header-height', 'full-height')--}}
 
-@section('bg-img','pricing/pricing-bg.webp')
+@section('bg-img','pricing/pricing-bg.png')
 
 @section('header-content')
     <section id="hero-content" class="col-xl-7 col-sm-12 mx-auto">

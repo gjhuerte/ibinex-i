@@ -20,7 +20,7 @@
 
 @section('body-class','home')
 {{--@section('header-height','full-height')--}}
-@section('bg-img','home-cover.webp')
+@section('bg-img','home-cover.png')
 
 @push('custom-scripts')
     <script src="http://hammerjs.github.io/dist/hammer.min.js"></script>
@@ -130,7 +130,7 @@
 
 
             <aside class="col-xl-6 order-xl-12 embed-parent-wrap top right ex-image">
-                <div class="embed-image ex-image1" style="background-image: url('{{ asset("img/home-card.webp") }}');">&nbsp;</div>
+                <div class="embed-image ex-image1" style="background-image: url('{{ asset("img/home-card.png") }}');">&nbsp;</div>
                 <div class="embed-blue-wrap shadow">
                     <div class="faButton top-half red-button shadow d-flex justify-content-center ex-quote">
                         <img src="{{ asset('img/quote-mark.png') }}" alt="Quotation Mark" class="quote-mark">
@@ -170,14 +170,14 @@
                     <a href="#" class="round-button">
                         <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
                     </a>
-                    <img id="vision-img" src="{{asset('img/pogi.webp')}}" alt="our-vision"/>
+                    <img id="vision-img" src="{{asset('img/pogi.png')}}" alt="our-vision"/>
                 </div>
 
                 <div class="col-xl-6 order-xl-1 d-none d-lg-block d-xl-block" style=""></div>
             </section>
 
             <aside class="hide-on-sml col-xl-6 order-xl-1 embed-parent-wrap left ex-wrap">
-                <div class="embed-image halfed shadow ex-image2" style="background-image: url('{{ asset("img/pogi.webp") }}');">
+                <div class="embed-image halfed shadow ex-image2" style="background-image: url('{{ asset("img/pogi.png") }}');">
                     <div class="playButton faButton raise-half blue-button shadow d-flex justify-content-center ex-quote1">
                         <svg class="svg-1" xmlns="http://www.w3.org/2000/svg" width="13" viewBox="0 0 448 512" fill="white"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
                     </div>
@@ -200,7 +200,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img1" src="{{ asset('img/b1.webp')}}" alt="Brochure"/>
+                    <img class="bro-img1" src="{{ asset('img/b1.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85)">Business Model</h2>
                     <p class="bro-p-1">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-1">Download</button>
@@ -208,7 +208,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img2" src="{{ asset('img/b2.webp')}}" alt="Brochure"/>
+                    <img class="bro-img2" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54)">One Page Brochure</h2>
                     <p class="bro-p-2">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-2">Download</button>
@@ -216,7 +216,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img3" src="{{ asset('img/b3.webp')}}" alt="Brochure"/>
+                    <img class="bro-img3" src="{{ asset('img/b3.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74)">Custodian Guidelines</h2>
                     <p class="bro-p-3">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-3">Download</button>
@@ -226,7 +226,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img4" src="{{ asset('img/b4.webp')}}" alt="Brochure"/>
+                    <img class="bro-img4" src="{{ asset('img/b4.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92)">Pricing Model</h2>
                     <p class="bro-p-4">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-4">Download</button>
@@ -234,7 +234,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img5" src="{{ asset('img/b5.webp')}}" alt="Brochure"/>
+                    <img class="bro-img5" src="{{ asset('img/b5.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129)">Terms & Conditions</h2>
                     <p class="bro-p-5">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-5">Download</button>
@@ -242,7 +242,7 @@
 
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
-                    <img class="bro-img6" src="{{ asset('img/b6.webp')}}" alt="Brochure"/>
+                    <img class="bro-img6" src="{{ asset('img/b6.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134)">KYC & AML Requirements</h2>
                     <p class="bro-p-6">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-6">Download</button>
@@ -260,7 +260,7 @@
 
                 <div class="carousel-item text-center active">
                     <!-- 1 -->
-                    <img class="carousel-img bro-img1" src="{{ asset('img/b1.webp')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img1" src="{{ asset('img/b1.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-1" style="color: rgb(36, 53, 85);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Business Model</h2>
                     <p class="bro-p-1" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
                     <button class="carousel-btn semi-circle green-brochure bro-btn-1">Download</button>
@@ -268,7 +268,7 @@
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="carousel-img bro-img2" src="{{ asset('img/b2.webp')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img2" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">One Page Brochure</h2>
                     <p class="bro-p-2" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
                     <button class="carousel-btn semi-circle green-brochure bro-btn-2">Download</button>
@@ -276,7 +276,7 @@
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="carousel-img bro-img3" src="{{ asset('img/b3.webp')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img3" src="{{ asset('img/b3.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-3" style="color: rgb(157, 80, 74);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Custodian Guidelines</h2>
                     <p class="bro-p-3" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
                     <button class="carousel-btn semi-circle green-brochure bro-btn-3">Download</button>
@@ -286,7 +286,7 @@
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="carousel-img bro-img4" src="{{ asset('img/b4.webp')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img4" src="{{ asset('img/b4.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-4" style="color: rgb(116, 133, 92);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Pricing Model</h2>
                     <p class="bro-p-4" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
                     <button class="carousel-btn semi-circle green-brochure bro-btn-4">Download</button>
@@ -294,7 +294,7 @@
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="carousel-img bro-img5" src="{{ asset('img/b5.webp')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img5" src="{{ asset('img/b5.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-5" style="color: rgb(102, 70, 129);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">Terms & Conditions</h2>
                     <p class="bro-p-5" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
                     <button class="carousel-btn semi-circle green-brochure bro-btn-5">Download</button>
@@ -302,7 +302,7 @@
 
                 <div class="carousel-item text-center">
                     <!-- 1 -->
-                    <img class="carousel-img bro-img6" src="{{ asset('img/b6.webp')}}" alt="Brochure"/>
+                    <img class="carousel-img bro-img6" src="{{ asset('img/b6.png')}}" alt="Brochure"/>
                     <h2 class="grey bold bro-h2-6" style="color: rgb(74, 93, 134);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">KYC & AML Requirements</h2>
                     <p class="bro-p-6" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
                     <button class="carousel-btn semi-circle green-brochure bro-btn-6">Download</button>
