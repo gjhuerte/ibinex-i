@@ -1019,6 +1019,9 @@ body{
         padding-bottom: 13%;
         margin-bottom: 0;
     }
+    footer .semi-circle-dark-red {
+        right: 32%;
+    }
 }
 
 @media all and (min-width: 1200px) and (max-width: 1919px){
@@ -1029,10 +1032,11 @@ body{
 
     h6.text-uppercase.heads.fonts {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 14px;
-        margin-top: 10px;
+        font-size: 12px;
+        margin-top: 8px;
         margin-left: -24px;
         white-space: nowrap;
+        padding-bottom: 0!important;
     }
 
     .list-unstyled {
@@ -1042,32 +1046,32 @@ body{
 
     ul.list-unstyled li span.color {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 11px;
+        font-size: 10px;
         font-weight: 600;
         margin-left: -25px;
     }
 
     footer h6.text-uppercase.font-weight-light.fonts.grey, footer p.pad-bot {
-        font-size: 13px;
-        margin-left: -18px;
+        font-size: 10px;
+        margin-left: -8px;
     }
 
     .property{
-        padding-top: 2%;
-        font-size: 10px;
+        padding-top: 0;
+        font-size: 9px;
         padding-bottom: 6.2em;
         margin-bottom: 0
     }
 
     ul.list-unstyled li span.color {
         font-family: "Proxima Nova", sans-serif;
-        font-size: 13px;
+        font-size: 10px;
         font-weight: 600;
         margin-left: -20px;
     }
 
     img.padding.img-size {
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 
@@ -1153,6 +1157,22 @@ body{
     .contact-height{
         height: auto;
         width: 100%;
+    }
+    #contact-section h2.title {
+        font-size: 21px;
+        padding-bottom: 0!important;
+    }
+
+    footer p.pad-bot {
+        margin: 8px 0;
+    }
+
+    section#contact-section.bg-color-grey.py-5.contact-height {
+        padding-bottom: 0 !important;
+    }
+    footer .semi-circle::placeholder {
+        font-size: 12px;
+        padding-left: 10px;
     }
 
 }
