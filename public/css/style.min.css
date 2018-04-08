@@ -1084,6 +1084,14 @@ body{
         padding: 45px ;
     }
 
+    img.padding.img-size {
+        width: 90%;
+        height: auto;
+        margin-left: 0.938em;
+        margin-top: 2.1em;
+    }
+    
+
     .property {
         padding-bottom: 13%;
         margin-bottom: 0;
@@ -1125,6 +1133,15 @@ body{
         text-align: center;
         padding: 45px ;
     }
+
+    img.padding.img-size {
+    width: 118%;
+    height: auto;
+    margin-left: -0.062em;
+    margin-top: 0.1em;
+    }
+
+
     body footer .pad-top{
         padding-top: 80px;
         padding-left: 4px;
