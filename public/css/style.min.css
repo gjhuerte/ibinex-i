@@ -1071,6 +1071,7 @@ body{
     .property {
         padding-bottom: 13%;
         margin-bottom: 0;
+        font-size: 10px;
     }
 }
 
@@ -1086,6 +1087,7 @@ body{
     .property {
         padding-bottom: 13%;
         margin-bottom: 0;
+         font-size: 10px;
     }
     
 
@@ -1112,10 +1114,7 @@ body{
     body footer .position-absolute.pt-lg-3.height-foot{
         padding-top: 25px;
     }
-    .property {
-        padding-bottom: 13%;
-        margin-bottom: 0;
-    }
+   
 }
 
 @media all and (min-width: 992px) and (max-width: 1199px){
@@ -1161,6 +1160,7 @@ body{
     .property {
         padding-bottom: 13%;
         margin-bottom: 0;
+         font-size: 10px;
     }
     footer .semi-circle-dark-red {
         right: 32%;
@@ -1216,6 +1216,8 @@ body{
     img.padding.img-size {
         width: 80%;
         height: auto;
+        margin-left: 2.938em;
+        margin-top: 2.1em;
     }
 
     footer .semi-circle {
@@ -1292,11 +1294,7 @@ body{
         width: 100%;
     }
 
-    .footer{
-        height: auto;
-
-    }
-
+ 
     .contact-height{
         height: auto;
         width: 100%;
