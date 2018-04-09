@@ -749,6 +749,7 @@ body footer .column2 {
     font-family: "Proxima Nova", sans-serif;
     font-size: 23px;
     color: #0b1b28;
+    letter-spacing: 4.4px;
 }
 
 section#contact-section.bg-color-grey.py-5.contact-height{
@@ -2053,4 +2054,45 @@ Back to top
         padding: .5rem 0;
     }
 
+}
+
+/*BANDAID - April 9 2018  */
+
+@media only screen and (max-width: 320px){
+
+    section#contact-section.bg-color-grey.py-5.contact-height{
+        padding-bottom: 4.1em !important;
+    }
+
+    #contact-section h2.title{
+        padding-top: 1.3em !important;
+        line-height: 1em;
+    }
+
+    #contact-section h6.text-uppercase{
+        margin: 0.5em 0 0.2em 0.15em;
+    }
+
+    footer.footer .align-self-center{
+        padding-top: 0.15em;
+    }
+
+    body footer .pad-top{
+        padding-top: 95px;
+        line-height: initial;
+    }
+    footer p.pad-bot {
+        margin-top: initial; 
+        padding-bottom: 7px;
+        line-height: 1.2em;
+    }
+
+    #office-title {
+        margin-top: 2em;
+        font-size: 0.9em;
+    }
+
+    #office-2nd-col{
+        padding-top: 1.5em;
+    }
 }

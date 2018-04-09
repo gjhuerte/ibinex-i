@@ -128,9 +128,9 @@
             <!--/.First column-->
 
             <!--Second column-->
-            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2">
+            <div id="office-1st-col" class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2">
                 <div class="position-absolute pt-lg-3 height-foot">
-                    <h6 class="text-uppercase font-weight-light fonts grey" style="color: #646781">Ibinex Offices</h6>
+                    <h6 id="office-title" class="text-uppercase font-weight-light fonts grey" style="color: #646781">Ibinex Offices</h6>
                 </div>
                 <div class="pad-top">
                     <ul class="list-unstyled">
@@ -157,7 +157,7 @@
             <!--/.Second column-->
 
             <!--Third column-->
-            <div class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 column2">
+            <div id="office-2nd-col" class="col-xs-4 col-sm-3 col-md-3 col-lg-2 col-xl-2 column2">
 
                 <div>
                     <ul class="list-unstyled">
@@ -207,7 +207,7 @@
             </div>
             <!--/.Fourth column-->
         </div>
-        <div>
+        <div id="office-risk-p">
             <p class="property text-justify color-copy" style="color: #646781; line-height: 1.2">Risk Disclosure: Ibinex Financials (ibinex.com)
                 will not accept any liability for loss or damage as a result of reliance on the
                 information contained within this website including data, quotes,
