@@ -1547,7 +1547,12 @@ p.heading-margin-sm + p{
         height: 517px;
     }
     .cb-text {
-        
+        padding-top: 55%;
+    }
+    @-moz-document url-prefix() {
+        .cb-text {
+      
+        }
     }
     .cb {
         margin-bottom: -4%;
@@ -1621,13 +1626,17 @@ p.heading-margin-sm + p{
     .lorem{
         padding-top: 50px;
     }
-
+    
     .lorem-ipsum{
         z-index: 5;
         position: absolute;
         top: 89.5%;
     }
-
+    @-moz-document url-prefix() {
+        .lorem-ipsum {
+            top: 88.7%;
+        }
+    }
     .lorem-ipsum{
         margin-left: 5rem;
     }
@@ -1650,7 +1659,12 @@ p.heading-margin-sm + p{
         margin-bottom: -4%;
         margin-top: -12%;
     }
-
+    @-moz-document url-prefix() {
+        .cb {
+        margin-bottom: -4%;
+        margin-top: -12%;
+    }
+    }
     #crm-left-container {
         padding-top: 110px;
     }
@@ -1708,6 +1722,12 @@ p.heading-margin-sm + p{
     body #fullscreen-hero #hero-content {
         margin-top: 10%;
         margin-bottom: -15%;
+    }
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        }
     }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
@@ -1776,10 +1796,21 @@ p.heading-margin-sm + p{
         margin-top: 10%;
         margin-bottom: -15%;
     }
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        }
+    }
     body #fullscreen-hero #hero-content h1.title {
         margin-left: 0%;
         /*margin-top: -20%;*/
         /*padding-top: 8%;*/
+    }
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content h1.title {
+            
+        }
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         /*padding-top: 0%;
@@ -1840,10 +1871,21 @@ p.heading-margin-sm + p{
         margin-top: 10%;
         margin-bottom: -5%;
     }
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content {
+        margin-top: 0%;
+        margin-bottom: 0%;
+        }
+    }
     body #fullscreen-hero #hero-content h1.title {
         /*margin-left: 0%;*/
         margin-top: -15%;
         /* padding-top: 8%; */
+    }
+    @-moz-document url-prefix() {
+        body #fullscreen-hero #hero-content h1.title {
+            margin-top: -20%;
+        }
     }
     .m-bot-30{
         margin: 20px 0;
