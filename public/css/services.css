@@ -1321,8 +1321,8 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 5%;
-        max-width: 50%;
-        margin-left: 25%;
+        /*max-width: 50%;
+        margin-left: 25%;*/
     }
     body #fullscreen-hero #hero-content #hero-second-p {
         padding-top: 0%;
@@ -1407,8 +1407,8 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 5%;
-        max-width: 50%;
-        margin-left: 25%;
+        /*max-width: 50%;
+        margin-left: 25%;*/
     }
     body #fullscreen-hero #hero-content #hero-second-p {
         padding-top: 0%;
@@ -1459,8 +1459,8 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 5%;
-        max-width: 50%;
-        margin-left: 25%;
+        /*max-width: 50%;
+        margin-left: 25%;*/
     }
     body #fullscreen-hero #hero-content #hero-second-p {
         padding-top: 0%;
@@ -1514,8 +1514,8 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
-        max-width: 50%;
-        margin-left: 25%;
+        /*max-width: 50%;
+        margin-left: 25%;*/
     }
     body #fullscreen-hero #hero-content #hero-second-p {
         padding-top: 0%;
@@ -1736,8 +1736,8 @@ p.heading-margin-sm + p{
     }
     body #fullscreen-hero #hero-content #hero-first-p {
         padding-top: 0%;
-        max-width: 50%;
-        margin-left: 25%;
+        /*max-width: 50%;
+        margin-left: 25%;*/
         font-size: 1.38em;
     }
     body #fullscreen-hero #hero-content #hero-second-p {
@@ -2791,7 +2791,7 @@ p.heading-margin-sm + p{
         font-size: 420%;
     }
     body #fullscreen-hero #hero-content #hero-second-p {
-        max-width: 75%;
+        max-width: 76%;
         margin-left: 12%;
         font-size: 420%;
     }
