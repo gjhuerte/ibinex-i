@@ -576,7 +576,6 @@ body div.ex-quote1 {
         display: flex!important;
         flex-wrap: wrap!important;
         background: linear-gradient(to right,rgba(57,28,255,.6) ,rgba(255,59,48,.6))!important;
-        padding-bottom: 6.5em!important;
     }
 
     body h1.head-h1 {
