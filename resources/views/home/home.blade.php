@@ -209,7 +209,7 @@
                 <div class="col-md-6 col-lg-4 brochures text-center">
                     <!-- 1 -->
                     <img class="bro-img2" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54)">One Page Brochure</h2>
+                    <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54)">One Pager Brochure</h2>
                     <p class="bro-p-2">PDF - 1.3 MB</p>
                     <button class="semi-circle green-brochure bro-btn-2">Download</button>
                 </div>
@@ -269,7 +269,9 @@
                 <div class="carousel-item text-center">
                     <!-- 1 -->
                     <img class="carousel-img bro-img2" src="{{ asset('img/b2.png')}}" alt="Brochure"/>
-                    <h2 class="grey bold bro-h2-2" style="color: rgb(139, 81, 54);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">One Page Brochure</h2>
+                    <h2 class="grey bold bro-h2-2"
+                        style="color: rgb(139, 81, 54);font-size:  1.23em;margin-top:  1.3em;margin-left: -0.2em;letter-spacing: -0.3px;">
+                        One Pager Brochure</h2>
                     <p class="bro-p-2" style="margin-top: -0.55em; letter-spacing: -0.2px; margin-left: -0.1em;">PDF - 1.3 MB</p>
                     <button class="carousel-btn semi-circle green-brochure bro-btn-2">Download</button>
                 </div>
