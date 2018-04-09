@@ -654,7 +654,8 @@ body footer .centered .footer-contact {
     width: 10%;
 }
 footer .semi-circle{
-    color: rgb(184, 22, 31);
+    outline: none;
+    /*color: rgb(184, 22, 31);*/
 }
 footer .semi-circle-dark-red{
     background: rgba(184,22,31,1);
@@ -1239,7 +1240,7 @@ body{
     }
 
     footer .semi-circle {
-        color: rgb(184, 22, 31);
+        /*color: rgb(184, 22, 31);*/
         width: 76%;
         height: 36px;
         margin-left: 0px;
@@ -1499,7 +1500,7 @@ body{
     }
 
     footer .semi-circle {
-        color: rgb(184, 22, 31);
+        /*color: rgb(184, 22, 31);*/
         width: 76%;
         height: 51px;
         margin-left: -0.188em;
