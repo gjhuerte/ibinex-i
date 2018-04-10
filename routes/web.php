@@ -12,11 +12,11 @@
 */
 
 Route::get('/', function () {
-    return view('home.home');
+    return view('base.home');
 });
 
 Route::get('contact-us', function () {
-    return view('contact-us.contact-us');
+    return view('base.contact-us');
 });
 
 Route::get('pricing', function () {
@@ -32,7 +32,7 @@ Route::get('why-ibinex', function () {
 });
 
 Route::get('services', function () {
-    return view('services.services');
+    return view('base.services');
 });
 
 Route::get('about-us', function () {

@@ -156,5 +156,4 @@ $(document).ready(function() {
     ibinex.animate('body #fullscreen-hero #hero-content h1.title, body #fullscreen-hero #hero-content p.description','fadeInUp');
     ibinex.reveal_btn_top();
     ibinex.smooth_scroll();
-    // ibinex.hero_shinker();
 });
